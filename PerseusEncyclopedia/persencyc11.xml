@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tei.2>
+  <teiHeader type="text" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>Perseus Encyclopedia</title> 
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <resp>Prepared under the supervision of</resp>
+          <name>Lisa Cerrato</name>
+          <name>William Merrill</name>
+          <name>Elli Mylonas</name>
+          <name>David Smith</name>
+        </respStmt>
+        <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc default="NO">
+        <p>Created in electronic form.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl doctype="TEI.2">
+        <state unit="id"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state n="chunk" unit="entry"/>
+        <state unit="subentry"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state unit="alphabetic letter"/>
+        <state unit="entry"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage default="NO">
+        <language id="en">English</language>
+        <language id="greek">Greek</language>
+        <language id="xgreek">Transliterated Greek</language>
+        <language id="la">Latin</language>
+        <language id="fr">Latin</language>
+      </langUsage>
+      <textClass id="gen.architecture" default="NO">
+        <keywords>
+          <term>Architecture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.art-terminology" default="NO">
+        <keywords>
+          <term>Art terminology</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.artist" default="NO">
+        <keywords>
+          <term>Artist</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.biography" default="NO">
+        <keywords>
+          <term>Biography</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.clothing" default="NO">
+        <keywords>
+          <term>Clothing</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.furniture" default="NO">
+        <keywords>
+          <term>Furniture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.inscription" default="NO">
+        <keywords>
+          <term>Inscription</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.literature" default="NO">
+        <keywords>
+          <term>Literature</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.miscellaneous" default="NO">
+        <keywords>
+          <term>Miscellaneous</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.music" default="NO">
+        <keywords>
+          <term>Music</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.region" default="NO">
+        <keywords>
+          <term>Region</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.theater-and-drama" default="NO">
+        <keywords>
+          <term>Theater and drama</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.vase-shape" default="NO">
+        <keywords>
+          <term>Vase shape</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>23 September 1999</date>
+        <respStmt>
+          <name>DAS</name>
+          <resp>ed.</resp>
+        </respStmt>
+        <li>$Log: encyclopedia.xml,v $ Revision 1.28 2006/03/27 14:02:23 gcrane more refinements Revision 1.27 2006/03/26 04:13:20 gcrane more fixes Revision 1.26 2006/03/25 19:26:47 gcrane more fixes Revision 1.25 2006/03/25 16:38:06 gcrane Did a lot of work to clean up the base headers for subentries. These should more often now only include global descriptions, e.g, PERSON, son of A stays, but PERSON, fought at Troy goes. --&gt; "Fought at Troy" can be one of many events and is not a global identifier Revision 1.24 2006/03/20 19:15:42 gcrane cleaned up the formatting Revision 1.23 2006/03/20 14:15:22 gcrane small changes Revision 1.20 2006/03/18 15:34:36 gcrane small fixes Revision 1.19 2006/03/18 01:14:23 gcrane small fixes Revision 1.18 2006/03/17 23:55:18 gaweaver small fixes Revision 1.17 2006/03/17 21:56:39 gaweaver Calliopi From Antiphon until Chilon Revision 1.16 2006/03/17 15:39:04 gaweaver no message Revision 1.15 2006/03/10 00:01:20 gaweaver changes made by GRC while over the atlantic Revision 1.14 2006/03/05 03:47:42 gcrane base file Revision 1.13 2006/03/04 13:13:03 gcrane small fixes Revision 1.12 2006/03/03 18:21:05 gaweaver Agenor (10) Revision 1.11 2006/02/15 16:24:46 gcrane small fixes Revision 1.10 2006/02/13 21:52:23 gcrane small fixes Revision 1.9 2006/02/13 01:57:42 gcrane small fixes Revision 1.8 2006/02/12 23:12:05 gcrane small fixes Revision 1.7 2006/02/12 15:30:08 gcrane major structural update: the descriptive info has now been moved up into the headers and id's added to div1 type="entry" Revision 1.6 2006/02/12 13:23:59 gcrane moved descriptions up into the header: the goal is to make the header more informative and thus to facilitate the mechanics of aligning entries in this list with those in Smith's etc Revision 1.5 2006/02/11 19:49:21 gcrane more small fixes to make the coding consistent Revision 1.4 2006/02/11 18:50:04 gcrane working towards moving identifiers for all entities up into the subentry HEAD Revision 1.3 2006/02/10 22:43:14 gcrane changed the structure so that every entry has a subentry -- this simplifies the structure (i hope) Revision 1.2 2005/08/18 13:53:45 packel item tags... Revision 1.1 2005/07/25 14:32:52 packel Converted to XML Revision 1.34 2003/07/01 22:16:05 yorkc Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.) Revision 1.33 2000/03/16 03:17:12 dasmith Gave homonym entries a top-level header. Revision 1.32 2000/03/16 02:52:18 dasmith Added alphabetic letter DIV0s. Made entries subordinate to alphabetic letters in refsDecl. Revision 1.31 2000/03/15 15:12:45 amahoney make homonyms sub-entries Revision 1.30 2000/03/14 18:11:05 amahoney several more random issues, but the Apollodorus refs really are right now Revision 1.27 2000/03/04 20:34:25 dasmith Added separate funder entity to TEI header. Revision 1.26 2000/02/22 17:17:30 amahoney fix bibl refs to known works Revision 1.25 2000/02/04 17:58:05 dasmith Primary lookup by ID (mostly useful for internal navigation). Revision 1.24 2000/01/10 21:09:41 acsmith trying again to change pilaster def. Revision 1.23 2000/01/10 20:16:54 dasmith Fixed sentence grammar. Revision 1.22 1999/10/01 14:11:04 acsmith Amy did away with dangling ref. to Type A2 cup, and turned all Type A1 cups into Type A cups, and lower cased type in Proto type A cup. Revision 1.21 1999/09/30 21:52:22 dasmith Fixed amphorae cross-refs. Revision 1.20 1999/09/30 21:08:38 acsmith ACS fixed (hopefully!) amphorae and pyxides Revision 1.19 1999/09/29 15:55:28 dasmith Converted to TEI2 tagging.</li>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div0 type="alphabetic letter" n="K" org="uniform" sample="complete">
+        <subhead>K</subhead>
+        <div1 decls="gen.vase-shape" type="entry" org="uniform" sample="complete">
+          <head>Kalathos</head>
+          <div2 type="subentry" id="kalathos-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A kind of small krater, the kalathos has slightly flaring sides, with a spout near the foot.</p>
+              <p>History: That it was used for wine is suggested by the decoration, which frequently pertains to Dionysos and maenads. The spout would be plugged until the wine was drawn.</p>
+              <p>Term: The Greek word kalathos has several meanings: wool basket, cup, and psykter.</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="krater-1" targOrder="U">Krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="psykter-1" targOrder="U">Psykter</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="handleless-cup-beaker-1" targOrder="U">Handleless cup-beaker</ref>
+                </li>
+              </ul>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0078"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.art-terminology" type="entry" org="uniform" sample="complete">
+          <head>Kalos</head>
+          <div2 type="subentry" id="kalos-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>"Kalos" is a Greek word meaning "beautiful."</p>
+              <p>Painters oftentimes painted kalos inscriptions on their vases. The inscriptions are usually composed of an individual's name accompanied by the word "kalos." In an example, "Leagros kalos," "Leagros" is considered the kalos name. It is not unusual to find the generic inscription, "ho pais kalos," which means "the boy is beautiful." The individual who is named, almost always a male, is one who is acknowledged by the painter for his 'beauty,' youthfulness, athleticism, and/or heroics. Some of the kalos names have been traced back to known historical figures, and this is a useful tool in dating many vases.</p>
+              <p>Beazley makes "a distinction...between straightforward kalos-inscriptions and those in which a 'kalos' is merely tagged on to the name of one of the person's represented: this is especially frequent when the name is feminine." [ARV (2), p. 1559] . Beazley records roughly 700 instances of male kalos names as opposed to roughly 25 instances of feminine kalos names.</p>
+              <p>Kalos inscriptions may refer to a figure on a vase, but this is not usually the case. Kalos inscriptions are almost always dipinto inscriptions, either painted on (in purple) or incised before firing, though some are graffito inscriptions added later and generally not by the painter or potter. There are noticeable patterns for kalos inscriptions - certain kalos names were popular during certain time periods and also popular within groups of painters. For example, "Leagros" was a popular kalos name during the last quarter of the sixth century B.C., particularly amongst the Pioneer Group.</p>
+              <p>The accompanying illustration is from a vase in the catalog, ARV (2) 879, no. 2 by the Penthesilea Painter. The inscription reads, "ho pais kalos" (the "sigmas" at the end of both lines are turned on their sides). For examples of other kalos inscriptions in the catalog, see: ARV (2) 16, no. 17; ARV (2) 61, no. 74; ARV (2) 167, no. 5; ARV (2) 328, no. 114; ARV (2) 879, no. 2.</p>
+              <div4 type="bibliography" org="uniform" sample="complete">
+                <listBibl default="NO">
+                  <bibl default="NO">ARV (2), p. 1559-1616</bibl>
+                  <bibl default="NO">J. Boardman 1974 200-203</bibl>
+                  <bibl default="NO">J. Boardman 1975 213</bibl>
+                </listBibl>
+              </div4>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="dipinto-1" targOrder="U">Dipinto</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="graffito-1" targOrder="U">Graffito</ref>
+                </li>
+              </ul>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0079"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.vase-shape" type="entry" org="uniform" sample="complete">
+          <head>Kalpis</head>
+          <div2 type="subentry" id="kalpis-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A three-handled vase similar to the hydria.</p>
+              <p>Shape: The neck is comparatively smaller (than the neck hydria), and the belly passes into the shoulder, and the shoulder into the neck, in a continuous curve; it has a rolled lip.</p>
+              <p>History: The kalpis is introduced by about 520 B.C. and is the preferred style of the red-figure painters. This form survives down to Hellenistic times.</p>
+              <p>Term: Kalpis is said to be the Thessalian word for hydria.</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="hydria-1" targOrder="U">Hydria</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="kanephoros" org="uniform" sample="complete">
+          <head>kanephoros</head>
+          <subhead type="alt">canephorus</subhead>
+          <subhead type="plural">kanephoroi</subhead>
+          <subhead type="alt" lang="greek">κανήφορος</subhead>
+          <div2 type="subentry" id="kanephoros-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>(female) basket bearer, who took part in religious processions at Athens</p>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.vase-shape" type="entry" org="uniform" sample="complete">
+          <head>Kantharos</head>
+          <div2 type="subentry" id="kantharos-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A footed bowl with two high-curving vertical handles set on each side.</p>
+              <p>Shape: The handles usually curve above the level of the lip and sometimes with an inward curl towards the lip. The lip and the bowl form a continuous curve, and the bowl is usually set off from the tall-stemmed foot. Of the four major types, type A is has been illustrated (see Illustration).</p>
+              <p>History: The shape is not common in Athenian black-figure, and is more often seen held by Dionysos in representations on vases. There are several variations within this type of cup. The immediate origin of the kantharos is not clear, but it has a long and early history in Boeotia. In its early development it is closely related to the cup. The Protogeometric kantharos has low handles and a conical foot. During the Geometric period this foot is rejected in favor of a tall stem. At this time the handles rise above the lip. The characteristic shape first appears in Etruscan bucchero in the late seventh or early sixth century B.C. It is then adopted by Attic and Boeotian potters and undergoes refinements in their hands. Its shape continues to be popular down to the period of the later Apulian wares, as well as the black-painted wares of the fourth and third century.</p>
+              <p>Term: The word kantharos means "dung beetle"; it also was the name used to describe a cup of this shape in ancient times: Athenaios, 11.473d lists the kantharos among the drinking cups and describes it as resting on "a thin-stemmed, broad-based foot."</p>
+              <ul style="list-style-type:none;">
+                <li>Athenaios, 11.473d</li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="type-a-kantharos-1" targOrder="U">Type A Kantharos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="type-b-kantharos-1" targOrder="U">Type B Kantharos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="type-c-kantharos-1" targOrder="U">Type C Kantharos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kylix-1" targOrder="U">Kylix</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kotyle-1" targOrder="U">Kotyle</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="skyphos-1" targOrder="U">Skyphos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kyathos-cup-1" targOrder="U">Kyathos cup</ref>
+                </li>
+              </ul>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0080"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="katoiades" org="uniform" sample="complete">
+          <head>Katoiades</head>
+          <div2 type="subentry" id="katoiades-1" org="uniform" sample="complete">
+            <subhead>Katoiades, goats which accompany Spartan kings to war</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 9.13.4" default="NO" valid="yes">Paus. 9.13.4</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.theater-and-drama" type="entry" org="uniform" sample="complete">
+          <head>Kerkis</head>
+          <subhead type="plural">Kerkides</subhead>
+          <div2 type="subentry" id="kerkis-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>Wedge-shaped section formed by the series of radial staircases placed at intervals, which rose from the orchestra to the outside boundary of the theater building.</p>
+              <p>Description: Kerkides were crossed latitudinally by the diazomata. It is the front row in each kerkis that contained the seats of honor for the priests and the officials, the prohedria.</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="diazomata-1" targOrder="U">Diazomata</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="orchestra-1" targOrder="U">Orchestra</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="prohedria-1" targOrder="U">Prohedria</ref>
+                </li>
+              </ul>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0081"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="kettles" org="uniform" sample="complete">
+          <head>Kettles</head>
+          <div2 type="subentry" id="kettles-1" org="uniform" sample="complete">
+            <subhead>kettles, gilt kettles on roof of temple of Zeus</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 5.10.4" default="NO" valid="yes">Paus. 5.10.4</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="key" org="uniform" sample="complete">
+          <head>key</head>
+          <div2 type="subentry" id="key-1" org="uniform" sample="complete">
+            <subhead>Key</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>in hand of Pluto: <bibl n="Paus. 5.20.3" default="NO" valid="yes">Paus. 5.20.3</bibl></li>
+                <li>three cities called keys of Greece: <bibl n="Paus. 7.7.6" default="NO" valid="yes">Paus. 7.7.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="kibisis" org="uniform" sample="complete">
+          <head>Kibisis</head>
+          <div2 type="subentry" id="kibisis-1" org="uniform" sample="complete">
+            <subhead>Kibisis, a wallet given to Perseus by the nymphs</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 2.4.2" default="NO" valid="yes">Apollod. 2.4.2</bibl>
+                </li>
+                <li>Medusa's head put in it: <bibl n="Apollod. 2.4.2" default="NO" valid="yes">Apollod. 2.4.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="kids" org="uniform" sample="complete">
+          <head>Kids</head>
+          <div2 type="subentry" id="kids-1" org="uniform" sample="complete">
+            <subhead>Kids</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>used in divination: <bibl n="Paus. 6.2.5" default="NO" valid="yes">Paus. 6.2.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="kine" org="uniform" sample="complete">
+          <head>Kine</head>
+          <div2 type="subentry" id="kine-1" org="uniform" sample="complete">
+            <subhead>Kine, (cows) of the Sun in <placeName>Erythia</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 1.5.3" default="NO" valid="yes">Apollod. 1.5.3</bibl>
+                </li>
+                <li>in Thrinacia: <bibl n="Apollod. 1.9.24" default="NO" valid="yes">Apollod. 1.9.24</bibl></li>
+                <li>tribute of, paid by Thebes to Orchomenus: <bibl n="Apollod. 2.4.10" default="NO" valid="yes">Apollod. 2.4.10</bibl></li>
+                <li>of Hades: <bibl n="Apollod. 2.5.10" default="NO" valid="yes">Apollod. 2.5.10</bibl>, <bibl n="Apollod. 2.5.12" default="NO" valid="yes">Apollod. 2.5.12</bibl></li>
+                <li>of Geryon: <bibl n="Apollod. 2.5.9" default="NO" valid="yes">Apollod. 2.5.9</bibl></li>
+                <li>driven away by Herakles: <bibl n="Apollod. 2.5.10" default="NO" valid="yes">Apollod. 2.5.10</bibl></li>
+                <li>sacrificed by Eurystheus to Hera: <bibl n="Apollod. 2.5.10" default="NO" valid="yes">Apollod. 2.5.10</bibl></li>
+                <li>of the Sun killed and eaten by the comrades of Ulysses: <bibl n="Apollod. E.7.21" default="NO" valid="yes">Apollod. E.7.21</bibl></li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="cow-1" targOrder="U">Cow</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="king" org="uniform" sample="complete">
+          <head>King</head>
+          <subhead type="alt">Kings</subhead>
+          <div2 type="subentry" id="king-1" org="uniform" sample="complete">
+            <subhead>kings of Athens</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 1.3.3" default="NO" valid="yes">Paus. 1.3.3</bibl>, <bibl n="Paus. 1.5.3" default="NO" valid="yes">Paus. 1.5.3</bibl></li>
+                <li>kings of Athens changed into responsible magistrates: <bibl n="Paus. 4.5.10" default="NO" valid="yes">Paus. 4.5.10</bibl></li>
+                <li>annual king at Athens sits in Royal Colonnade: <bibl n="Paus. 1.3.1" default="NO" valid="yes">Paus. 1.3.1</bibl></li>
+                <li>three lines of kings at Argos: <bibl n="Paus. 2.18.4" default="NO" valid="yes">Paus. 2.18.4</bibl></li>
+                <li>kings of Lacedaemon, by whom tried: <bibl n="Paus. 3.5.2" default="NO" valid="yes">Paus. 3.5.2</bibl></li>
+                <li>Spartan kings followed by sheep on a campaign: <bibl n="Paus. 9.13.4" default="NO" valid="yes">Paus. 9.13.4</bibl></li>
+                <li>funerals of Spartan kings: <bibl n="Paus. 4.14.4" default="NO" valid="yes">Paus. 4.14.4</bibl></li>
+                <li>history of Spartan kings: <bibl n="Paus. 3.1.5" default="NO" valid="yes">Paus. 3.1.5</bibl>-<bibl n="Paus. 3.10.5" default="NO" valid="yes">Paus. 3.10.5</bibl></li>
+                <li>kings of Messenia annually sacrifice to river Pamisus: <bibl n="Paus. 4.3.10" default="NO" valid="yes">Paus. 4.3.10</bibl></li>
+                <li>kingdoms everywhere established in Greece of old: <bibl n="Paus. 9.1.2" default="NO" valid="yes">Paus. 9.1.2</bibl></li>
+                <li>kingly power reduced to a name at Argos: <bibl n="Paus. 2.19.2" default="NO" valid="yes">Paus. 2.19.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="kiphos" org="uniform" sample="complete">
+          <head>Kiphos</head>
+          <div2 type="subentry" id="kiphos-1" org="uniform" sample="complete">
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Messenian word meaning 'wreath,' <bibl n="Paus. 3.26.9" default="NO" valid="yes">Paus. 3.26.9</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="kites" org="uniform" sample="complete">
+          <head>Kites</head>
+          <div2 type="subentry" id="kites-1" org="uniform" sample="complete">
+            <subhead>Kites</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>do not molest people sacrificing at Olympia: <bibl n="Paus. 5.14.1" default="NO" valid="yes">Paus. 5.14.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.music" type="entry" org="uniform" sample="complete">
+          <head>Kithara</head>
+          <subhead type="alt" lang="greek">κίθαρις</subhead>
+          <subhead type="alt" lang="greek">κιθάρα</subhead>
+          <div2 type="subentry" id="kithara-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>An ancient Greek stringed instrument [see Lyre] The name is derived from Homeric "kitharis," meaning "string-playing" in general (see "Phorminx" for Homer's use of terms). First mentioned as a specific instrument in Theognis of Megara (640-579 BC?), the kithara is played much like other lyre-types. Its soundbox is a hollow wooden triangular or trapezoidal shape with hollow wooden arms curving gracefully upward. The cross bar, on which the tuning pegs were attached, is made of bone or ivory. If we can believe in vase paintings, the kithara had seven strings in the classical period (<bibl n="Eur. Ion 881 ff." default="NO" valid="yes">Eur. Ion 881 ff.</bibl>), which are stretched down from the cross bar to the center of the soundbox. The instrument is pictured in mythological scenes, associated especially with Apollo, and is played by satyrs before Dionysos and Herakles. It is often depicted in an ensemble with players of the aulos.</p>
+              <p>Kithara: Tuning and Performance (see "Lyre"). The instrument is held close to the chest vertically in front of the player and the strings are sounded with a plectrum, held in the right hand. The left hand dampens or stops the strings. It is most often played standing and had a loud powerful sound (<bibl n="Eur. Ion 882" default="NO" valid="yes">Eur. Ion 882</bibl>), in contrast to the phorminx, which is a smaller and probably a much softer instrument.</p>
+              <p>Plato and Aristotle seem to disagree on whether the kithara is a proper instrument for use in educating the youth of ancient Greece. We do have scenes on vases depicting music lessons given on the kithara. The instrument was played during religious festivals, and soloists (<foreign lang="greek">κιθαρῳδόι κιθαρισταί</foreign>) competed for recognition and prizes in music competition (<foreign lang="greek">αγών</foreign>) during the 5th-4th centuries BC. It was also played to accompany the chorus' song and dance performances in Tragedy-- Sophocles himself was a player of some fame in his Thamyras.</p>
+              <p>Plutarch (de Musica 1141C:30; 1142C:31) often mentions the two most well known kithara virtuosos Philoxenus of Kythera (c. 436-380 BC) and Timotheus of Miltetus (c. 450-360 BC). In his nomos the Persae, Timotheus claims to have invented "eleven-stroke meters and rhythms" on the kithara (Timotheus fr. 15, 229-33). The meaning is rather obscure, and some scholars believe that Timotheus added four more strings; it seems more likely, however, that Timotheus was an innovative player who embellished the melody with intricate rhythmic ornamentation. The great kithara soloists were sometimes ridiculed in comedies (e.g. <bibl n="Aristoph. Wasps 1275 f." default="NO" valid="yes">Aristoph. Wasps 1275 f.</bibl>).</p>
+              <div4 type="bibliography" org="uniform" sample="complete">
+                <listBibl default="NO">
+                  <bibl default="NO">Maas, Martha and Jane Snyder, Stringed Instruments of Ancient Greece, New Haven, Yale University Press, 1989</bibl>
+                  <bibl default="NO">New Grove Dictionary of Musical Instruments, 3 vols., ed. Stanley Sadic, London, 1984</bibl>
+                  <bibl default="NO">"Music.9. Instruments," Oxford Classical Dictionary (second ed.), Oxford, 1978</bibl>
+                </listBibl>
+              </div4>
+              <byline>Nancy Sultan</byline>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="lyre-1" targOrder="U">Lyre</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="barbitos-1" targOrder="U">Barbitos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="chelys-lyra-1" targOrder="U">Chelys-Lyra</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="phorminx-1" targOrder="U">Phorminx</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.miscellaneous" type="entry" org="uniform" sample="complete">
+          <head>Klepsydra</head>
+          <div2 type="subentry" id="klepsydra-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A water-clock.</p>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0082"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.furniture" type="entry" org="uniform" sample="complete">
+          <head>kline</head>
+          <subhead type="alt" lang="greek">κλίνη</subhead>
+          <div2 type="subentry" id="kline-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>bed or lounge-chair</p>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.furniture" type="entry" org="uniform" sample="complete">
+          <head>klismos</head>
+          <subhead type="alt" lang="greek">κλισμός</subhead>
+          <div2 type="subentry" id="klismos-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>backed chair, particularly popular in Classical grave reliefs</p>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.art-terminology" type="entry" org="uniform" sample="complete">
+          <head>Knielaufender</head>
+          <div2 type="subentry" id="knielaufender-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>term referring to the "running" posture in Archaic art, whereby both legs are bent, with one knee on the ground and the other in the air (used especially for gorgons, Nike, and Perseus)</p>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="kokkos" org="uniform" sample="complete">
+          <head>Kokkos</head>
+          <div2 type="subentry" id="kokkos-1" org="uniform" sample="complete">
+            <subhead>Kokkos, shrub</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 10.36.1" default="NO" valid="yes">Paus. 10.36.1</bibl>ff.</li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.clothing" type="entry" org="uniform" sample="complete">
+          <head>kolpos</head>
+          <subhead type="alt" lang="greek">κόλπος</subhead>
+          <div2 type="subentry" id="kolpos-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>a gathering of fabric (usually on a belted chiton) that spills over the belt, often obscuring it</p>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.vase-shape" type="entry" org="uniform" sample="complete">
+          <head>komast cup</head>
+          <div2 type="subentry" id="komast-cup-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A cup with a flaring foot; low conical stem meeting the rounded bowl at a sharp angle; short, offset lip.</p>
+              <p>Decoration is as follows: handle, black; stem, black; foot, black with reserved edge; interior decoration, plain black.</p>
+              <p>History: It has been suggested that the cups of the komast group might have a forerunner in the earlier Attic Geometric shape (a shallow cup with an offset lip and without a stem), but this type seems to have died out long before. It seems more likely that Attic potters borrowed and adapted the shape from Corinth. The decoration, too, is different. The dancing Komasts, which decorate this cup and give the cup its name, are a Corinthian feature; they appear on the Corinthian skyphoi, but not on the Corinthian cup; often the Corinthian cup has a gorgoneion inside, whereas the Komast cup is always painted black on the interior. The "komasts," or revellers, decorating the cups are the earliest of the countless revellers depicted on Attic vases. Usually in groups of three, at first they are shown wearing a padded chiton; later they appear naked and sometimes are joined by short-skirted females.</p>
+              <p>Term: The cup takes its name from the decoration, which usually consists of "komasts," or revellers. The Komast cup is the earliest Attic cup to which the term "Kylix" can properly be applied.</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="kylix-1" targOrder="U">Kylix</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="skyphos-1" targOrder="U">Skyphos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="band-cup-1" targOrder="U">Band cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="cassel-cup-1" targOrder="U">Cassel cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="droop-cup-1" targOrder="U">Droop cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="head-cup-1" targOrder="U">Head cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kyathos-cup-1" targOrder="U">Kyathos cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="lip-cup-1" targOrder="U">Lip cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="mastos-cup-1" targOrder="U">Mastos cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="merrythought-cup-1" targOrder="U">Merrythought cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="proto-type-a-cup-1" targOrder="U">Proto type A cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="siana-cup-1" targOrder="U">Siana cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="stemless-cup-1" targOrder="U">Stemless cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="type-a-cup-1" targOrder="U">Type A cup</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.vase-shape" type="entry" org="uniform" sample="complete">
+          <head>Kotyle</head>
+          <div2 type="subentry" id="kotyle-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A deep cup with horizontal handles.</p>
+              <p>Term: This term cannot be unquestioningly applied to any one fixed shape (see literary references below). It appears to have been used to identify cups in general, though it is frequently used as another name for the skyphos.</p>
+              <ul style="list-style-type:none;">
+                <li>Athenaios, 11.478e: the Greek word for cup is kotyle.</li>
+                <li>Athenaios, 11.478b,f: as having one handle.</li>
+                <li>Athenaios, 11.478e: as having no handles.</li>
+                <li>Athenaios, 11.478b: as sometimes having a handle.</li>
+                <li>Athenaios, 11.478b, e: as resembling a deep washbin.</li>
+                <li>Athenaios, 11.479a: as being high and hollow.</li>
+                <li>Athenaios, 11.479c: as resembling a krater.</li>
+                <li>Athenaios, 11.478c: as belonging specially to Dionysos.</li>
+                <li>Athenaios, 11.478c: as being used for libations.</li>
+                <li>Athenaios, 11.482a: used for ladling.</li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="kylix-1" targOrder="U">Kylix</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="skyphos-1" targOrder="U">Skyphos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kantharos-1" targOrder="U">Kantharos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="krater-1" targOrder="U">Krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kotyle-krater-1" targOrder="U">Kotyle krater</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.vase-shape" type="entry" org="uniform" sample="complete">
+          <head>kotyle krater</head>
+          <div2 type="subentry" id="kotyle-krater-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A krater likened to a giant kotyle, or cup.</p>
+              <p>Shape: This vase type is usually set on a high flaring pedestal, and covered with a knobbed conical lid.</p>
+              <p>History: The kotyle krater, also known as a skyphos krater, is an Attic invention. It appears from the middle to the second half of the seventh century B.C. A remarkable number have been found at the site of Vari.</p>
+              <p>Term: Named in modern times for its likeness to a giant kotyle or cup.</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="krater-1" targOrder="U">Krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kotyle-1" targOrder="U">Kotyle</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kylix-1" targOrder="U">Kylix</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="bell-krater-1" targOrder="U">Bell krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="calyx-krater-1" targOrder="U">Calyx krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="column-krater-1" targOrder="U">Column krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="volute-krater-1" targOrder="U">Volute krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="lebes-gamikos-1" targOrder="U">Lebes gamikos</ref>
+                </li>
+              </ul>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0083"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="kordax" org="uniform" sample="complete">
+          <head>Kordax</head>
+          <div2 type="subentry" id="kordax-1" org="uniform" sample="complete">
+            <subhead>Kordax, dance</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 6.22.1" default="NO" valid="yes">Paus. 6.22.1</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.art-terminology" type="entry" org="uniform" sample="complete">
+          <head>kore</head>
+          <subhead type="plural">korai</subhead>
+          <subhead type="alt" lang="greek">κόρη</subhead>
+          <div2 type="subentry" id="kore-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>
+                <ul style="list-style-type:none;">
+                  <li>statue of a young woman (generally standing, sometimes seated)</li>
+                  <li>an alternate name for Persephone, daughter of <persName><surname full="yes">Demeter</surname></persName></li>
+                </ul>
+              </p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="demeter-1" targOrder="U">Demeter</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kouros-1" targOrder="U">kouros</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="persephone-1" targOrder="U">Persephone</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="kotinos" org="uniform" sample="complete">
+          <head>Kotinos</head>
+          <div2 type="subentry" id="kotinos-1" org="uniform" sample="complete">
+            <subhead>Kotinos, kind of olive that bears no fruit</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 2.32.10" default="NO" valid="yes">Paus. 2.32.10</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.art-terminology" type="entry" org="uniform" sample="complete">
+          <head>kouros</head>
+          <subhead type="plural">kouroi</subhead>
+          <subhead type="alt" lang="greek">κόρος</subhead>
+          <div2 type="subentry" id="kouros-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>statue of a standing youth, generally nude with his left leg advanced, perhaps in imitation of Egyptian tradition; most kouroi date from the Archaic period</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="kore-1" targOrder="U">kore</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.vase-shape" type="entry" org="uniform" sample="complete">
+          <head>Krater</head>
+          <div2 type="subentry" id="krater-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A vessel for mixing wine. The krater has a wide mouth and a deep, broad body, resting on a foot.</p>
+              <p>The Greeks rarely drank their wine "neat," and there are numerous representations on vases showing kraters serving as wine bowls.</p>
+              <p>Term: "krater" means "mixing bowl" in Greek. Although there are several forms of kraters, their ancient names have not been identified. The restriction of the term to footed vessels is a modern convention.</p>
+              <ul style="list-style-type:none;">
+                <li><bibl n="Hom. Od. 1.110" default="NO" valid="yes">Hom. Od. 1.110</bibl>: In Odysseus's house, attendants are "mixing wine and water in kraters" for the suitors."</li>
+                <li>"They are mixing kraters (of wine)," the herald says in <bibl n="Aristoph. Eccl. 841" default="NO" valid="yes">Aristoph. Eccl. 841</bibl>.</li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="bell-krater-1" targOrder="U">Bell krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="calyx-krater-1" targOrder="U">Calyx krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="column-krater-1" targOrder="U">Column krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kotyle-krater-1" targOrder="U">Kotyle krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="volute-krater-1" targOrder="U">Volute krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="dinos-1" targOrder="U">Dinos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kalathos-1" targOrder="U">Kalathos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="lebes-gamikos-1" targOrder="U">Lebes Gamikos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="psykter-1" targOrder="U">Psykter</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="stamnos-1" targOrder="U">Stamnos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kotyle-1" targOrder="U">Kotyle</ref>
+                </li>
+              </ul>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0084"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="kriophoros" org="uniform" sample="complete">
+          <head>kriophoros</head>
+          <subhead type="alt" lang="greek">κριοφόρος</subhead>
+          <div2 type="subentry" id="kriophoros-1" org="uniform" sample="complete">
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>(statue of) a man bearing a ram</li>
+                <li>an epithet of Hermes</li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="hermes-1" targOrder="U">Hermes</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="krobylos" org="uniform" sample="complete">
+          <head>krobylos</head>
+          <subhead type="alt" lang="greek">κρώβυλος</subhead>
+          <div2 type="subentry" id="krobylos-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>a hairstyle for men and women, popular in the late Archaic and early Classical periods, whereby the hair is gathered together at the base of the neck, twisted up and bound under the back of the taenia, or hairband</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="taenia-1" targOrder="U">taenia</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="kupselai" org="uniform" sample="complete">
+          <head>Kupselai</head>
+          <div2 type="subentry" id="kupselai-1" org="uniform" sample="complete">
+            <subhead><rs type="ethnic">Kupselai</rs>, Corinthian name for chests</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 5.17.5" default="NO" valid="yes">Paus. 5.17.5</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.vase-shape" type="entry" org="uniform" sample="complete">
+          <head>kyathos cup</head>
+          <div2 type="subentry" id="kyathos-cup-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>The kyathos is a dipper with a single long, upward-curving handle set on the side of the vessel, and having a low flat foot-disc.</p>
+              <p>History: The average height is about 5 inches. The earliest known examples of this vessel suggest that the shape was invented by the potter Nikosthenes, by about 530 B.C. This shape, and the similar kantharos, seem to have been inspired by related Etruscan bucchero shapes. Perhaps derived from bronze forms, as the high handle is not well adapted for ceramic. The terra cotta vessels date from the late sixth century B.C. to the first half of the fifth century, but far rarer in the later period than in the black-figure period.</p>
+              <ul style="list-style-type:none;">
+                <li>Xenophon mentions the kyathos in the Education of Cyrus, (<bibl n="Xen. Cyrop. I.3.9" default="NO" valid="yes">Xen. Cyrop. I.3.9</bibl>) : "Now it is a well-known fact that the king's cupbearers, when they proffer the phiale, draw off some of it with the kyathos, pour it into their left hand, and swallow it down- so that if they should put poison in they may not profit by it."</li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="kylix-1" targOrder="U">Kylix</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="nikosthenic-amphora-1" targOrder="U">Nikosthenic amphora</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kantharos-1" targOrder="U">Kantharos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="phiale-1" targOrder="U">Phiale</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="band-cup-1" targOrder="U">Band cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="cassel-cup-1" targOrder="U">Cassel cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="droop-cup-1" targOrder="U">Droop cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="head-cup-1" targOrder="U">Head cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="komast-cup-1" targOrder="U">Komast cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kyathos-cup-1" targOrder="U">Kyathos cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="komast-cup-1" targOrder="U">Komast cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="lip-cup-1" targOrder="U">Lip cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="mastos-cup-1" targOrder="U">Mastos cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="merrythought-cup-1" targOrder="U">Merrythought cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="proto-type-a-cup-1" targOrder="U">Proto type A cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="siana-cup-1" targOrder="U">Siana cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="stemless-cup-1" targOrder="U">Stemless cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="type-a-cup-1" targOrder="U">Type A cup</ref>
+                </li>
+              </ul>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0085"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.vase-shape" type="entry" org="uniform" sample="complete">
+          <head>Kylix</head>
+          <div2 type="subentry" id="kylix-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A two-handled drinking cup with a stemmed foot.</p>
+              <p>History: The kylix was especially popular from the end of the sixth century down to the fourth century B.C., when the kantharos overtakes it as the favoured vessel. Perhaps the type was derived from a rather heavier Protogeometric shape, with a deeper bowl and a high conical foot. The shape persists through the seventh century B.C. One of the innovations during the late Proto Attic is a slightly taller stem. The kylix takes its standard shape during the second quarter of the sixth century B.C. There are several types of Kylix: 1) lip and foot set off from the bowl, 2) lip forms a continuous curve with the bowl and the foot offset, 3) lip, bowl, and stem form a continuous curve. (Type B illustrated.)</p>
+              <p>Term: Of the many Greek words for cups, four are now most commonly used: skyphos, kotyle, kylix, and kantharos. There is no ancient authority for limiting these names to a particular shape of cup, but the word "kylix" appears as an inscription on a vessel of a particular shape, and literary evidence mentions the kylix as a drinking cup; on this basis, the name kylix has been applied to the shape.</p>
+              <ul style="list-style-type:none;">
+                <li><bibl n="Aristoph. Pl. 1132" default="NO" valid="yes">Aristoph. Pl. 1132</bibl>: "a kylix of wine mixed half and half with water."</li>
+                <li>Pindar, quoted in Athenaios 11.480c mentions Athenian kylikes</li>
+                <li>Athenaios 1.470e</li>
+                <li>Athenaios 1.478e refers to kylikes as having two handles.</li>
+                <li>Attic black-glaze kylix in Odessa inscribed: "I am a kylix with a pleasant drink dear to him who drinks the wine." Von Stern, Philologus 72 (1913) 547.</li>
+                <li>Late black-figure kylix in the British Museum (British Museum B450) incised: "I am the decorated kylix of lovely Philto." JHS 7 (1885) 373.</li>
+                <li>Pherekrates 108.30: "They were drawing full kylikes of wine."</li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="kantharos-1" targOrder="U">Kantharos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="type-a-cup-1" targOrder="U">Type A cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="skyphos-1" targOrder="U">Skyphos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kotyle-1" targOrder="U">Kotyle</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="band-cup-1" targOrder="U">Band cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="cassel-cup-1" targOrder="U">Cassel cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="droop-cup-1" targOrder="U">Droop cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="head-cup-1" targOrder="U">Head cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="komast-cup-1" targOrder="U">Komast cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kyathos-cup-1" targOrder="U">Kyathos cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="lip-cup-1" targOrder="U">Lip cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="mastos-cup-1" targOrder="U">Mastos cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="merrythought-cup-1" targOrder="U">Merrythought cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="proto-type-a-cup-1" targOrder="U">Proto type A cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="siana-cup-1" targOrder="U">Siana cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="stemless-cup-1" targOrder="U">Stemless cup</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="handleless-cup-beaker-1" targOrder="U">Handleless cup-beaker</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kalathos-1" targOrder="U">Kalathos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="pelike-1" targOrder="U">Pelike</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="kotyle-krater-1" targOrder="U">Kotyle krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="krater-1" targOrder="U">Krater</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="lekythos-1" targOrder="U">Lekythos</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="phiale-1" targOrder="U">Phiale</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="dinos-1" targOrder="U">Dinos</ref>
+                </li>
+              </ul>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0086"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+      </div0>
+    </body>
+  </text>
+</tei.2>

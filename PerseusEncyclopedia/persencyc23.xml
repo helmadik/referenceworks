@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tei.2>
+  <teiHeader type="text" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>Perseus Encyclopedia</title> 
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <resp>Prepared under the supervision of</resp>
+          <name>Lisa Cerrato</name>
+          <name>William Merrill</name>
+          <name>Elli Mylonas</name>
+          <name>David Smith</name>
+        </respStmt>
+        <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc default="NO">
+        <p>Created in electronic form.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl doctype="TEI.2">
+        <state unit="id"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state n="chunk" unit="entry"/>
+        <state unit="subentry"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state unit="alphabetic letter"/>
+        <state unit="entry"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage default="NO">
+        <language id="en">English</language>
+        <language id="greek">Greek</language>
+        <language id="xgreek">Transliterated Greek</language>
+        <language id="la">Latin</language>
+        <language id="fr">Latin</language>
+      </langUsage>
+      <textClass id="gen.architecture" default="NO">
+        <keywords>
+          <term>Architecture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.art-terminology" default="NO">
+        <keywords>
+          <term>Art terminology</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.artist" default="NO">
+        <keywords>
+          <term>Artist</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.biography" default="NO">
+        <keywords>
+          <term>Biography</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.clothing" default="NO">
+        <keywords>
+          <term>Clothing</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.furniture" default="NO">
+        <keywords>
+          <term>Furniture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.inscription" default="NO">
+        <keywords>
+          <term>Inscription</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.literature" default="NO">
+        <keywords>
+          <term>Literature</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.miscellaneous" default="NO">
+        <keywords>
+          <term>Miscellaneous</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.music" default="NO">
+        <keywords>
+          <term>Music</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.region" default="NO">
+        <keywords>
+          <term>Region</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.theater-and-drama" default="NO">
+        <keywords>
+          <term>Theater and drama</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.vase-shape" default="NO">
+        <keywords>
+          <term>Vase shape</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>23 September 1999</date>
+        <respStmt>
+          <name>DAS</name>
+          <resp>ed.</resp>
+        </respStmt>
+        <li>$Log: encyclopedia.xml,v $ Revision 1.28 2006/03/27 14:02:23 gcrane more refinements Revision 1.27 2006/03/26 04:13:20 gcrane more fixes Revision 1.26 2006/03/25 19:26:47 gcrane more fixes Revision 1.25 2006/03/25 16:38:06 gcrane Did a lot of work to clean up the base headers for subentries. These should more often now only include global descriptions, e.g, PERSON, son of A stays, but PERSON, fought at Troy goes. --&gt; "Fought at Troy" can be one of many events and is not a global identifier Revision 1.24 2006/03/20 19:15:42 gcrane cleaned up the formatting Revision 1.23 2006/03/20 14:15:22 gcrane small changes Revision 1.20 2006/03/18 15:34:36 gcrane small fixes Revision 1.19 2006/03/18 01:14:23 gcrane small fixes Revision 1.18 2006/03/17 23:55:18 gaweaver small fixes Revision 1.17 2006/03/17 21:56:39 gaweaver Calliopi From Antiphon until Chilon Revision 1.16 2006/03/17 15:39:04 gaweaver no message Revision 1.15 2006/03/10 00:01:20 gaweaver changes made by GRC while over the atlantic Revision 1.14 2006/03/05 03:47:42 gcrane base file Revision 1.13 2006/03/04 13:13:03 gcrane small fixes Revision 1.12 2006/03/03 18:21:05 gaweaver Agenor (10) Revision 1.11 2006/02/15 16:24:46 gcrane small fixes Revision 1.10 2006/02/13 21:52:23 gcrane small fixes Revision 1.9 2006/02/13 01:57:42 gcrane small fixes Revision 1.8 2006/02/12 23:12:05 gcrane small fixes Revision 1.7 2006/02/12 15:30:08 gcrane major structural update: the descriptive info has now been moved up into the headers and id's added to div1 type="entry" Revision 1.6 2006/02/12 13:23:59 gcrane moved descriptions up into the header: the goal is to make the header more informative and thus to facilitate the mechanics of aligning entries in this list with those in Smith's etc Revision 1.5 2006/02/11 19:49:21 gcrane more small fixes to make the coding consistent Revision 1.4 2006/02/11 18:50:04 gcrane working towards moving identifiers for all entities up into the subentry HEAD Revision 1.3 2006/02/10 22:43:14 gcrane changed the structure so that every entry has a subentry -- this simplifies the structure (i hope) Revision 1.2 2005/08/18 13:53:45 packel item tags... Revision 1.1 2005/07/25 14:32:52 packel Converted to XML Revision 1.34 2003/07/01 22:16:05 yorkc Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.) Revision 1.33 2000/03/16 03:17:12 dasmith Gave homonym entries a top-level header. Revision 1.32 2000/03/16 02:52:18 dasmith Added alphabetic letter DIV0s. Made entries subordinate to alphabetic letters in refsDecl. Revision 1.31 2000/03/15 15:12:45 amahoney make homonyms sub-entries Revision 1.30 2000/03/14 18:11:05 amahoney several more random issues, but the Apollodorus refs really are right now Revision 1.27 2000/03/04 20:34:25 dasmith Added separate funder entity to TEI header. Revision 1.26 2000/02/22 17:17:30 amahoney fix bibl refs to known works Revision 1.25 2000/02/04 17:58:05 dasmith Primary lookup by ID (mostly useful for internal navigation). Revision 1.24 2000/01/10 21:09:41 acsmith trying again to change pilaster def. Revision 1.23 2000/01/10 20:16:54 dasmith Fixed sentence grammar. Revision 1.22 1999/10/01 14:11:04 acsmith Amy did away with dangling ref. to Type A2 cup, and turned all Type A1 cups into Type A cups, and lower cased type in Proto type A cup. Revision 1.21 1999/09/30 21:52:22 dasmith Fixed amphorae cross-refs. Revision 1.20 1999/09/30 21:08:38 acsmith ACS fixed (hopefully!) amphorae and pyxides Revision 1.19 1999/09/29 15:55:28 dasmith Converted to TEI2 tagging.</li>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div0 type="alphabetic letter" n="W" org="uniform" sample="complete">
+        <subhead>W</subhead>
+        <div1 type="entry" id="wain" org="uniform" sample="complete">
+          <head>Wain</head>
+          <div2 type="subentry" id="wain-1" org="uniform" sample="complete">
+            <subhead>Wain, constellation</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 8.3.7" default="NO" valid="yes">Paus. 8.3.7</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="walls" org="uniform" sample="complete">
+          <head>Walls</head>
+          <div2 type="subentry" id="walls-1" org="uniform" sample="complete">
+            <subhead>Walls</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>brick walls more secure against siege engines than stone walls: <bibl n="Paus. 8.8.8" default="NO" valid="yes">Paus. 8.8.8</bibl></li>
+                <li>wooden wall: <bibl n="Paus. 1.18.2" default="NO" valid="yes">Paus. 1.18.2</bibl></li>
+                <li>walls of Tiryns built of huge unwrought stones with small stones in crevices: <bibl n="Paus. 2.25.8" default="NO" valid="yes">Paus. 2.25.8</bibl></li>
+                <li>`to paint both walls,' Ionian proverb: <bibl n="Paus. 6.3.15" default="NO" valid="yes">Paus. 6.3.15</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wand" org="uniform" sample="complete">
+          <head>Wand</head>
+          <div2 type="subentry" id="wand-1" org="uniform" sample="complete">
+            <subhead>Wand</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>golden: given by Apollo to Hermes: <bibl n="Apollod. 3.10.2" default="NO" valid="yes">Apollod. 3.10.2</bibl></li>
+                <li>of Circe: <bibl n="Apollod. E.7.12" default="NO" valid="yes">Apollod. E.7.12</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wandering-rocks" org="uniform" sample="complete">
+          <head>Wandering Rocks</head>
+          <div2 type="subentry" id="wandering-rocks-1" org="uniform" sample="complete">
+            <subhead>Wandering Rocks</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>the Argo at the: <bibl n="Apollod. 1.9.24" default="NO" valid="yes">Apollod. 1.9.24</bibl></li>
+                <li>Odysseus at the: <bibl n="Apollod. E.7.19" default="NO" valid="yes">Apollod. E.7.19</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="war" org="uniform" sample="complete">
+          <head>War</head>
+          <div2 type="subentry" id="war-1" org="uniform" sample="complete">
+            <subhead>War</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Corinthian: <bibl n="Paus. 3.9.12" default="NO" valid="yes">Paus. 3.9.12</bibl>, <bibl n="Paus. 4.17.5" default="NO" valid="yes">Paus. 4.17.5</bibl></li>
+                <li>Lamian: <bibl n="Paus. 7.6.5" default="NO" valid="yes">Paus. 7.6.5</bibl>, <foreign lang="la">cf.</foreign><bibl n="Paus. 10.3.4" default="NO" valid="yes">Paus. 10.3.4</bibl></li>
+                <li>Median: <bibl n="Paus. 4.6.1" default="NO" valid="yes">Paus. 4.6.1</bibl></li>
+                <li>Messenian: <bibl n="Paus. 4.6.1" default="NO" valid="yes">Paus. 4.6.1</bibl></li>
+                <li>Peloponnesian: <bibl n="Paus. 4.6.1" default="NO" valid="yes">Paus. 4.6.1</bibl></li>
+                <li>Phocian or Sacred: <bibl n="Paus. 8.27.9" default="NO" valid="yes">Paus. 8.27.9</bibl>, <bibl n="Paus. 9.6.4" default="NO" valid="yes">Paus. 9.6.4</bibl>, <bibl n="Paus. 10.3.1" default="NO" valid="yes">Paus. 10.3.1</bibl>, <bibl n="Paus. 10.13.6" default="NO" valid="yes">Paus. 10.13.6</bibl></li>
+                <li>Trojan: <bibl n="Paus. 3.4.7" default="NO" valid="yes">Paus. 3.4.7</bibl>, <bibl n="Paus. 4.6.1" default="NO" valid="yes">Paus. 4.6.1</bibl>, <bibl n="Paus. 4.35.1" default="NO" valid="yes">Paus. 4.35.1</bibl>, <bibl n="Paus. 5.4.7" default="NO" valid="yes">Paus. 5.4.7</bibl>, <bibl n="Paus. 5.13.4" default="NO" valid="yes">Paus. 5.13.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="warrior" org="uniform" sample="complete">
+          <head>Warrior</head>
+          <div2 type="subentry" id="warrior-1" org="uniform" sample="complete">
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="war-1" targOrder="U">War</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="washing" org="uniform" sample="complete">
+          <head>Washing</head>
+          <div2 type="subentry" id="washing-1" org="uniform" sample="complete">
+            <subhead>Washing</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>of children after birth: <bibl n="Paus. 1.38.9" default="NO" valid="yes">Paus. 1.38.9</bibl>, <bibl n="Paus. 8.16.1" default="NO" valid="yes">Paus. 8.16.1</bibl>, <bibl n="Paus. 8.28.2" default="NO" valid="yes">Paus. 8.28.2</bibl></li>
+                <li>of deities: <bibl n="Paus. 2.38.2" default="NO" valid="yes">Paus. 2.38.2</bibl>, <bibl n="Paus. 6.20.2" default="NO" valid="yes">Paus. 6.20.2</bibl></li>
+                <li>of leper in river: <bibl n="Paus. 5.5.11" default="NO" valid="yes">Paus. 5.5.11</bibl></li>
+                <li>of persons about to consult oracle of Trophonius: <bibl n="Paus. 9.39.7" default="NO" valid="yes">Paus. 9.39.7</bibl></li>
+                <li>of priests and priestesses: <bibl n="Paus. 8.13.1" default="NO" valid="yes">Paus. 8.13.1</bibl>, <bibl n="Paus. 10.34.8" default="NO" valid="yes">Paus. 10.34.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="watchword" org="uniform" sample="complete">
+          <head>Watchword</head>
+          <div2 type="subentry" id="watchword-1" org="uniform" sample="complete">
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 4.21.4" default="NO" valid="yes">Paus. 4.21.4</bibl>, <bibl n="Paus. 9.27.4" default="NO" valid="yes">Paus. 9.27.4</bibl>, <bibl n="Paus. 10.1.10" default="NO" valid="yes">Paus. 10.1.10</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="water" org="uniform" sample="complete">
+          <head>Water</head>
+          <div2 type="subentry" id="water-1" org="uniform" sample="complete">
+            <subhead>Water</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>poured on image of Virgin at Athens: <bibl n="Paus. 5.11.10" default="NO" valid="yes">Paus. 5.11.10</bibl></li>
+                <li>remarkable waters: <bibl n="Paus. 4.35.8-12" default="NO" valid="yes">Paus. 4.35.8-12</bibl></li>
+                <li>boiling water in Maeander: <bibl n="Paus. 8.7.3" default="NO" valid="yes">Paus. 8.7.3</bibl></li>
+                <li>waters with poisonous exhalations: <bibl n="Paus. 5.5.9" default="NO" valid="yes">Paus. 5.5.9</bibl></li>
+                <li>in which fish cannot live: <bibl n="Paus. 5.5.8" default="NO" valid="yes">Paus. 5.5.8</bibl>, <bibl n="Paus. 5.7.5" default="NO" valid="yes">Paus. 5.7.5</bibl></li>
+                <li>Water of Freedom used for purifications and secret sacrifices: <bibl n="Paus. 2.17.1" default="NO" valid="yes">Paus. 2.17.1</bibl></li>
+                <li>fresh water rising in sea: <bibl n="Paus. 8.7.2" default="NO" valid="yes">Paus. 8.7.2</bibl></li>
+                <li>healing waters: <bibl n="Paus. 5.5.11" default="NO" valid="yes">Paus. 5.5.11</bibl>, <bibl n="Paus. 6.22.7" default="NO" valid="yes">Paus. 6.22.7</bibl>, <bibl n="Paus. 8.19.3" default="NO" valid="yes">Paus. 8.19.3</bibl></li>
+                <li>natural baths of hot water: <bibl n="Paus. 2.34.1" default="NO" valid="yes">Paus. 2.34.1</bibl>, <bibl n="Paus. 10.11.4" default="NO" valid="yes">Paus. 10.11.4</bibl></li>
+                <li>water that makes men forget love: <bibl n="Paus. 7.23.3" default="NO" valid="yes">Paus. 7.23.3</bibl></li>
+                <li>that gives omens: <bibl n="Paus. 3.23.8" default="NO" valid="yes">Paus. 3.23.8</bibl>, <bibl n="Paus. 7.21.12" default="NO" valid="yes">Paus. 7.21.12</bibl></li>
+                <li>that inspires women with spirit of prophecy: <bibl n="Paus. 10.24.7" default="NO" valid="yes">Paus. 10.24.7</bibl></li>
+                <li>divination by drinking water of well: <bibl n="Paus. 9.2.1" default="NO" valid="yes">Paus. 9.2.1</bibl></li>
+                <li>sea-water on Acropolis at Athens: <bibl n="Paus. 1.26.5" default="NO" valid="yes">Paus. 1.26.5</bibl>, <bibl n="Paus. 8.10.4" default="NO" valid="yes">Paus. 8.10.4</bibl></li>
+                <li>gushing from ground at stroke of spear or wand: <bibl n="Paus. 3.24.2" default="NO" valid="yes">Paus. 3.24.2</bibl>, <bibl n="Paus. 4.36.7" default="NO" valid="yes">Paus. 4.36.7</bibl></li>
+                <li>stinking water of Anigrus: <bibl n="Paus. 5.5.8" default="NO" valid="yes">Paus. 5.5.8</bibl></li>
+                <li>water that sucks down into its depths: <bibl n="Paus. 2.37.6" default="NO" valid="yes">Paus. 2.37.6</bibl></li>
+                <li>water in which living creatures float and dead ones go to the bottom: <bibl n="Paus. 5.7.5" default="NO" valid="yes">Paus. 5.7.5</bibl></li>
+                <li>water-basins: <bibl n="Paus. 1.40.1" default="NO" valid="yes">Paus. 1.40.1</bibl>, <bibl n="Paus. 2.2.8" default="NO" valid="yes">Paus. 2.2.8</bibl>, <bibl n="Paus. 2.3.5" default="NO" valid="yes">Paus. 2.3.5</bibl>, 6, <bibl n="Paus. 2.27.5" default="NO" valid="yes">Paus. 2.27.5</bibl>, <bibl n="Paus. 4.31.6" default="NO" valid="yes">Paus. 4.31.6</bibl></li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="springs-1" targOrder="U">Springs</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="well-1" targOrder="U">Well</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.architecture" type="entry" org="uniform" sample="complete">
+          <head>Wattle-and-daub</head>
+          <div2 type="subentry" id="wattle-and-daub-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A form of early construction, the technique involved planting posts in the ground through which were intertwined branches, twigs, grass, etc. which was then "daubed" or covered with mud to hold the intertwined materials in place.</p>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wave" org="uniform" sample="complete">
+          <head>Wave</head>
+          <div2 type="subentry" id="wave-1" org="uniform" sample="complete">
+            <subhead><placeName>Wave</placeName>, on <placeName>Acropolis</placeName> at Athens</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>in sanctuary of Osogoa at Mylasa, and in sanctuary of Poseidon at Mantinea: <bibl n="Paus. 8.10.4" default="NO" valid="yes">Paus. 8.10.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="sacred-way" org="uniform" sample="complete">
+          <head>Sacred Way</head>
+          <div2 type="subentry" id="sacred-way-1" org="uniform" sample="complete">
+            <subhead>Sacred War</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 1.36.3" default="NO" valid="yes">Paus. 1.36.3</bibl>, <bibl n="Paus. 5.25.7" default="NO" valid="yes">Paus. 5.25.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wayside-goddess" org="uniform" sample="complete">
+          <head>Wayside Goddess</head>
+          <div2 type="subentry" id="wayside-goddess-1" org="uniform" sample="complete">
+            <subhead>Wayside Goddess</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>black female puppies sacrificed to her by <persName><surname full="yes">Colophonians</surname></persName>: <bibl n="Paus. 3.14.9" default="NO" valid="yes">Paus. 3.14.9</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="ploutos" org="uniform" sample="complete">
+          <head>Ploutos</head>
+          <subhead type="alt">Wealth</subhead>
+          <div2 type="subentry" id="ploutos-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Ploutos</surname></persName>, as child in arms of <placeName>Peace</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>statue by Cephisodotus at Athens: <bibl n="Paus. 1.8.2" default="NO" valid="yes">Paus. 1.8.2</bibl>, <bibl n="Paus. 9.16.2" default="NO" valid="yes">Paus. 9.16.2</bibl></li>
+                <li>Wealth as child carried by Fortune, statue at Thebes: <bibl n="Paus. 9.16.2" default="NO" valid="yes">Paus. 9.16.2</bibl></li>
+                <li>image of Wealth standing beside that of Worker Athena: <bibl n="Paus. 9.26.8" default="NO" valid="yes">Paus. 9.26.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="weaving" org="uniform" sample="complete">
+          <head>Weaving</head>
+          <div2 type="subentry" id="weaving-1" org="uniform" sample="complete">
+            <subhead>Weaving</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>art of weaving taught by <persName><surname full="yes">Arcas</surname></persName>: <bibl n="Paus. 8.4.1" default="NO" valid="yes">Paus. 8.4.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wedge" org="uniform" sample="complete">
+          <head>Wedge</head>
+          <div2 type="subentry" id="wedge-1" org="uniform" sample="complete">
+            <subhead><placeName>Wedge</placeName>, place so called in hippodrome at Olympia</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 5.15.6" default="NO" valid="yes">Paus. 5.15.6</bibl>, <foreign lang="la">cf.</foreign><bibl n="Paus. 6.20.10" default="NO" valid="yes">Paus. 6.20.10</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="well" org="uniform" sample="complete">
+          <head>Well</head>
+          <div2 type="subentry" id="well-1" org="uniform" sample="complete">
+            <subhead>Well</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>called Callichorum where Eleusinian women first danced in honour of Demeter: <bibl n="Paus. 1.38.6" default="NO" valid="yes">Paus. 1.38.6</bibl>, <bibl n="Apollod. 1.5.1" default="NO" valid="yes">Apollod. 1.5.1</bibl></li>
+                <li>the Flowery Well where Demeter sat: <bibl n="Paus. 1.39.1" default="NO" valid="yes">Paus. 1.39.1</bibl></li>
+                <li>well of which the water makes mares mad: <bibl n="Paus. 9.8.2" default="NO" valid="yes">Paus. 9.8.2</bibl></li>
+                <li>well roofed over: <bibl n="Paus. 10.36.10" default="NO" valid="yes">Paus. 10.36.10</bibl></li>
+                <li>sacred well by drinking of which people used to divine: <bibl n="Paus. 9.2.1" default="NO" valid="yes">Paus. 9.2.1</bibl></li>
+                <li>salt well in Erechtheum: <bibl n="Paus. 1.26.5" default="NO" valid="yes">Paus. 1.26.5</bibl>, <foreign lang="la">cf.</foreign><bibl n="Paus. 8.10.4" default="NO" valid="yes">Paus. 8.10.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wheat" org="uniform" sample="complete">
+          <head>Wheat</head>
+          <div2 type="subentry" id="wheat-1" org="uniform" sample="complete">
+            <subhead>Wheat</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>given by Demeter to Triptolemus and sown by him over the whole earth: <bibl n="Apollod. 1.5.2" default="NO" valid="yes">Apollod. 1.5.2</bibl></li>
+                <li>parched by women at instigation of Ino: <bibl n="Apollod. 1.8.6" default="NO" valid="yes">Apollod. 1.8.6</bibl></li>
+                <li>kneaded with honey burnt in sacrifices: <bibl n="Paus. 5.15.10" default="NO" valid="yes">Paus. 5.15.10</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wheel" org="uniform" sample="complete">
+          <head>Wheel</head>
+          <div2 type="subentry" id="wheel-1" org="uniform" sample="complete">
+            <subhead><placeName>Wheel</placeName>, place in <placeName>Argolis</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 2.24.7" default="NO" valid="yes">Paus. 2.24.7</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="white-isle" org="uniform" sample="complete">
+          <head>White Isle</head>
+          <div2 type="subentry" id="white-isle-1" org="uniform" sample="complete">
+            <subhead>White Isle</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Achilles and Patroclus buried together in the: <bibl n="Apollod. E.5.5" default="NO" valid="yes">Apollod. E.5.5</bibl></li>
+                <li>in the Euxine Sea, containing temple of Achilles: <bibl n="Paus. 3.19.11" default="NO" valid="yes">Paus. 3.19.11</bibl>, 13</li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="white-plain" org="uniform" sample="complete">
+          <head>White Plain</head>
+          <div2 type="subentry" id="white-plain-1" org="uniform" sample="complete">
+            <subhead><placeName>White Plain</placeName>, in <placeName>Caria</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 4.35.11" default="NO" valid="yes">Paus. 4.35.11</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="white-poplar" org="uniform" sample="complete">
+          <head>White Poplar</head>
+          <div2 type="subentry" id="white-poplar-1" org="uniform" sample="complete">
+            <subhead>White Poplar</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>brought to Greece from Thesprotis by <persName><surname full="yes">Herakles</surname></persName>: <bibl n="Paus. 5.14.2" default="NO" valid="yes">Paus. 5.14.2</bibl></li>
+                <li>only wood used in sacrificing to Zeus at Olympia: <bibl n="Paus. 5.13.3" default="NO" valid="yes">Paus. 5.13.3</bibl>, <bibl n="Paus. 5.14.2" default="NO" valid="yes">Paus. 5.14.2</bibl></li>
+                <li>colour of its leaves: <bibl n="Paus. 2.10.6" default="NO" valid="yes">Paus. 2.10.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="white-raiment" org="uniform" sample="complete">
+          <head>white raiment</head>
+          <div2 type="subentry" id="white-raiment-1" org="uniform" sample="complete">
+            <subhead>white raiment, worn by illustrious dead in Messenia</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 4.13.3" default="NO" valid="yes">Paus. 4.13.3</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="widows" org="uniform" sample="complete">
+          <head>Widows</head>
+          <div2 type="subentry" id="widows-1" org="uniform" sample="complete">
+            <subhead>Widows</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>formerly did not marry again: <bibl n="Paus. 2.21.7" default="NO" valid="yes">Paus. 2.21.7</bibl></li>
+                <li>pray to Aphrodite for husbands: <bibl n="Paus. 10.38.12" default="NO" valid="yes">Paus. 10.38.12</bibl></li>
+                <li>sacrifice to Aphrodite before marrying again: <bibl n="Paus. 2.34.12" default="NO" valid="yes">Paus. 2.34.12</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wife" org="uniform" sample="complete">
+          <head>Wife</head>
+          <div2 type="subentry" id="wife-1" org="uniform" sample="complete">
+            <subhead>Wife</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>buried with her husband: <bibl n="Paus. 7.22.7" default="NO" valid="yes">Paus. 7.22.7</bibl></li>
+                <li>wife of <persName><surname full="yes">Aristo</surname></persName>, king of Sparta, made beautiful by Helen: <bibl n="Paus. 3.7.7" default="NO" valid="yes">Paus. 3.7.7</bibl></li>
+                <li>two wives of Anaxandrides, king of Sparta: <bibl n="Paus. 3.3.9" default="NO" valid="yes">Paus. 3.3.9</bibl></li>
+                <li>libations offered to wives of heroes: <bibl n="Paus. 5.15.12" default="NO" valid="yes">Paus. 5.15.12</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="willow" org="uniform" sample="complete">
+          <head>Willow</head>
+          <div2 type="subentry" id="willow-1" org="uniform" sample="complete">
+            <subhead>Willow</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>in sanctuary of Hera at Samos: <bibl n="Paus. 7.4.4" default="NO" valid="yes">Paus. 7.4.4</bibl>, <bibl n="Paus. 8.23.5" default="NO" valid="yes">Paus. 8.23.5</bibl></li>
+                <li>image of Artemis Orthia found among willows: <bibl n="Paus. 3.16.10" default="NO" valid="yes">Paus. 3.16.10</bibl></li>
+                <li>willows in grove of Proserpine: <bibl n="Paus. 10.30.6" default="NO" valid="yes">Paus. 10.30.6</bibl></li>
+                <li>Orpheus painted by Polygnotus touching willow-branches: <bibl n="Paus. 10.30.6" default="NO" valid="yes">Paus. 10.30.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="winds" org="uniform" sample="complete">
+          <head>Winds</head>
+          <div2 type="subentry" id="winds-1" org="uniform" sample="complete">
+            <subhead>Winds</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>altars of: <bibl n="Paus. 2.12.1" default="NO" valid="yes">Paus. 2.12.1</bibl>, <bibl n="Paus. 9.34.3" default="NO" valid="yes">Paus. 9.34.3</bibl></li>
+                <li>annual sacrifice to: <bibl n="Paus. 2.12.1" default="NO" valid="yes">Paus. 2.12.1</bibl>, <foreign lang="la">cf.</foreign><bibl n="Paus. 8.29.1" default="NO" valid="yes">Paus. 8.29.1</bibl></li>
+                <li>mode of averting a south-west wind practised at Methana: <bibl n="Paus. 2.34.2" default="NO" valid="yes">Paus. 2.34.2</bibl></li>
+                <li>Athena of the Winds: <bibl n="Paus. 4.35.8" default="NO" valid="yes">Paus. 4.35.8</bibl>, <foreign lang="la">cf.</foreign>North Wind, Sirocco</li>
+                <li>born of Astraeus and Dawn: <bibl n="Apollod. 1.2.2" default="NO" valid="yes">Apollod. 1.2.2</bibl></li>
+                <li>Aeolus keeper of the: <bibl n="Apollod. E.7.8" default="NO" valid="yes">Apollod. E.7.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wine" org="uniform" sample="complete">
+          <head>Wine</head>
+          <div2 type="subentry" id="wine-1" org="uniform" sample="complete">
+            <subhead>wine</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>bowls of wine set up and down city at festival of Dionysus: <bibl n="Paus. 7.27.3" default="NO" valid="yes">Paus. 7.27.3</bibl></li>
+                <li>miracles of wine at festivals of Dionysus: <bibl n="Paus. 6.26.2" default="NO" valid="yes">Paus. 6.26.2</bibl></li>
+                <li>libations of wine poured on altars at Olympia: <bibl n="Paus. 5.15.10" default="NO" valid="yes">Paus. 5.15.10</bibl>, but not offered to Nymphs and Mistresses nor poured on common altar of gods: <bibl n="Paus. 5.15.10" default="NO" valid="yes">Paus. 5.15.10</bibl></li>
+                <li>not offered to Sosipolis: <bibl n="Paus. 6.20.3" default="NO" valid="yes">Paus. 6.20.3</bibl></li>
+                <li>not used in sacrificing to Supreme Zeus: <bibl n="Paus. 1.26.5" default="NO" valid="yes">Paus. 1.26.5</bibl></li>
+                <li>victims filled with wine and incense: <bibl n="Paus. 9.3.8" default="NO" valid="yes">Paus. 9.3.8</bibl></li>
+                <li>Triton lured by bowl of: <bibl n="Paus. 9.20.5" default="NO" valid="yes">Paus. 9.20.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="winebrewing" org="uniform" sample="complete">
+          <head>Winebrewing</head>
+          <div2 type="subentry" id="winebrewing-1" org="uniform" sample="complete">
+            <subhead>Winebrewing</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>taught by Dionysus to Icarius: <bibl n="Apollod. 3.14.7" default="NO" valid="yes">Apollod. 3.14.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="winejar" org="uniform" sample="complete">
+          <head>Winejar</head>
+          <div2 type="subentry" id="winejar-1" org="uniform" sample="complete">
+            <subhead>Winejar</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>of the centaurs: <bibl n="Apollod. 2.5.4" default="NO" valid="yes">Apollod. 2.5.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="winged-sandals" org="uniform" sample="complete">
+          <head>winged sandals</head>
+          <div2 type="subentry" id="winged-sandals-1" org="uniform" sample="complete">
+            <subhead>winged sandals, worn by <persName><surname full="yes">Perseus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 2.4.2" default="NO" valid="yes">Apollod. 2.4.2</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="winnowingfan" org="uniform" sample="complete">
+          <head>Winnowingfan</head>
+          <div2 type="subentry" id="winnowingfan-1" org="uniform" sample="complete">
+            <subhead>winnowingfan, Hermes at birth placed in a</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 3.10.1" default="NO" valid="yes">Apollod. 3.10.1</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="winter" org="uniform" sample="complete">
+          <head>Winter</head>
+          <div2 type="subentry" id="winter-1" org="uniform" sample="complete">
+            <subhead>Winter</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>climate of Lilaea severe: <bibl n="Paus. 10.33.5" default="NO" valid="yes">Paus. 10.33.5</bibl></li>
+                <li>earthquakes in: <bibl n="Paus. 7.24.7" default="NO" valid="yes">Paus. 7.24.7</bibl>, 12</li>
+                <li>winter festivals: <bibl n="Paus. 2.15.3" default="NO" valid="yes">Paus. 2.15.3</bibl>, <bibl n="Paus. 6.16.4" default="NO" valid="yes">Paus. 6.16.4</bibl>, <bibl n="Paus. 8.19.2" default="NO" valid="yes">Paus. 8.19.2</bibl></li>
+                <li>winter floods: <bibl n="Paus. 3.26.5" default="NO" valid="yes">Paus. 3.26.5</bibl>, <bibl n="Paus. 8.22.3" default="NO" valid="yes">Paus. 8.22.3</bibl>, <bibl n="Paus. 9.24.2" default="NO" valid="yes">Paus. 9.24.2</bibl></li>
+                <li>rivers that freeze in winter: <bibl n="Paus. 8.28.2" default="NO" valid="yes">Paus. 8.28.2</bibl></li>
+                <li>Danube flows equally summer and winter: <bibl n="Paus. 8.38.3" default="NO" valid="yes">Paus. 8.38.3</bibl></li>
+                <li>winter storm: <bibl n="Paus. 3.26.3" default="NO" valid="yes">Paus. 3.26.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="witches" org="uniform" sample="complete">
+          <head>Witches</head>
+          <div2 type="subentry" id="witches-1" org="uniform" sample="complete">
+            <subhead>witches, sent by Hera to hinder travail of Alcmena</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 9.11.3" default="NO" valid="yes">Paus. 9.11.3</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wizards" org="uniform" sample="complete">
+          <head>Wizards</head>
+          <div2 type="subentry" id="wizards-1" org="uniform" sample="complete">
+            <subhead>Wizards</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>at Phigalia consulted by <persName><surname full="yes">Pausanias</surname></persName>: <bibl n="Paus. 3.17.9" default="NO" valid="yes">Paus. 3.17.9</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wolf" org="uniform" sample="complete">
+          <head>Wolf</head>
+          <div2 type="subentry" id="wolf-1" org="uniform" sample="complete">
+            <subhead>Wolf</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>bronze wolf dedicated by Delphians at Delphi: <bibl n="Paus. 10.14.7" default="NO" valid="yes">Paus. 10.14.7</bibl></li>
+                <li>combat of wolf and bull: <bibl n="Paus. 2.19.4" default="NO" valid="yes">Paus. 2.19.4</bibl>, 7</li>
+                <li>man turned into wolf at sacrifice of Lycaean Zeus: <bibl n="Paus. 6.8.2" default="NO" valid="yes">Paus. 6.8.2</bibl>, <bibl n="Paus. 8.2.3" default="NO" valid="yes">Paus. 8.2.3</bibl>, 6</li>
+                <li>one wolf fiercer than his fellows, proverb: <bibl n="Paus. 7.12.2" default="NO" valid="yes">Paus. 7.12.2</bibl></li>
+                <li>serpent guards child from wolf: <bibl n="Paus. 10.33.9" default="NO" valid="yes">Paus. 10.33.9</bibl></li>
+                <li>wolves guide settlers to site of Lycorea: <bibl n="Paus. 10.6.2" default="NO" valid="yes">Paus. 10.6.2</bibl></li>
+                <li>will not live in Sardinia: <bibl n="Paus. 10.17.12" default="NO" valid="yes">Paus. 10.17.12</bibl></li>
+                <li>poisoned by direction of Wolfish Apollo: <bibl n="Paus. 2.9.7" default="NO" valid="yes">Paus. 2.9.7</bibl></li>
+                <li>prowl in packs in territory of Crotona: <bibl n="Paus. 6.14.8" default="NO" valid="yes">Paus. 6.14.8</bibl></li>
+                <li>wolves' cubs burnt in honour of Artemis: <bibl n="Paus. 7.18.12" default="NO" valid="yes">Paus. 7.18.12</bibl></li>
+                <li>wolfskins worn by Arcadians: <bibl n="Paus. 4.11.3" default="NO" valid="yes">Paus. 4.11.3</bibl></li>
+                <li>wolfskin worn by ghost Lycas in picture: <bibl n="Paus. 6.6.11" default="NO" valid="yes">Paus. 6.6.11</bibl></li>
+                <li>Athamas entertained by: <bibl n="Apollod. 1.9.1" default="NO" valid="yes">Apollod. 1.9.1</bibl></li>
+                <li>feared by the Stymphalian birds: <bibl n="Apollod. 2.5.6" default="NO" valid="yes">Apollod. 2.5.6</bibl></li>
+                <li>companions of Odysseus turned into: <bibl n="Apollod. E.7.12" default="NO" valid="yes">Apollod. E.7.12</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="woman" org="uniform" sample="complete">
+          <head>Woman</head>
+          <subhead type="alt">Women</subhead>
+          <div2 type="subentry" id="woman-1" org="uniform" sample="complete">
+            <subhead>Woman</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>women of Patrae twice as many as men: <bibl n="Paus. 7.21.14" default="NO" valid="yes">Paus. 7.21.14</bibl></li>
+                <li>jeer at men at festival of Demeter: <bibl n="Paus. 7.27.10" default="NO" valid="yes">Paus. 7.27.10</bibl></li>
+                <li>scourged at festival of Dionysus: <bibl n="Paus. 8.23.1" default="NO" valid="yes">Paus. 8.23.1</bibl></li>
+                <li>not admitted to grove of Ares during annual festival: <bibl n="Paus. 3.22.7" default="NO" valid="yes">Paus. 3.22.7</bibl></li>
+                <li>not allowed to witness Olympic games: <bibl n="Paus. 5.6.7" default="NO" valid="yes">Paus. 5.6.7</bibl></li>
+                <li>formerly not allowed to bring forth under shelter in sanctuary of Aesculapius: <bibl n="Paus. 2.27.6" default="NO" valid="yes">Paus. 2.27.6</bibl></li>
+                <li>poll their hair in honour of Health: <bibl n="Paus. 2.11.6" default="NO" valid="yes">Paus. 2.11.6</bibl></li>
+                <li>sacrifice to Aphrodite before marriage: <bibl n="Paus. 2.34.12" default="NO" valid="yes">Paus. 2.34.12</bibl></li>
+                <li>other sacrifices offered by women: <bibl n="Paus. 2.35.7" default="NO" valid="yes">Paus. 2.35.7</bibl>, <bibl n="Paus. 4.17.1" default="NO" valid="yes">Paus. 4.17.1</bibl>, <bibl n="Paus. 8.48.5" default="NO" valid="yes">Paus. 8.48.5</bibl></li>
+                <li>women formerly remained single after their husbands' death: <bibl n="Paus. 2.21.7" default="NO" valid="yes">Paus. 2.21.7</bibl></li>
+                <li>old women as ministrants at temples: <bibl n="Paus. 2.35.7" default="NO" valid="yes">Paus. 2.35.7</bibl>ff., <bibl n="Paus. 6.20.2" default="NO" valid="yes">Paus. 6.20.2</bibl>, 3</li>
+                <li>prophetic women: <bibl n="Paus. 2.24.1" default="NO" valid="yes">Paus. 2.24.1</bibl>, <bibl n="Paus. 10.12" default="NO" valid="yes">Paus. 10.12</bibl></li>
+                <li>women proved by drinking bull's blood: <bibl n="Paus. 7.25.13" default="NO" valid="yes">Paus. 7.25.13</bibl></li>
+                <li>Sixteen Women weave robe of Hera and hold games called Heraea at Olympia: <bibl n="Paus. 5.16.2-8" default="NO" valid="yes">Paus. 5.16.2-8</bibl></li>
+                <li>Thracian women only women admitted to sanctuary of Herakles at Erythrae: <bibl n="Paus. 7.5.8" default="NO" valid="yes">Paus. 7.5.8</bibl></li>
+                <li>image covered with women's hair: <bibl n="Paus. 2.11.6" default="NO" valid="yes">Paus. 2.11.6</bibl></li>
+                <li>rope of women's hair: <bibl n="Paus. 7.5.7" default="NO" valid="yes">Paus. 7.5.7</bibl>ff.</li>
+                <li>Women's Pots, swimming-bath at Thermopylae: <bibl n="Paus. 4.35.9" default="NO" valid="yes">Paus. 4.35.9</bibl></li>
+                <li>bravery of Aetolian women: <bibl n="Paus. 10.22.5" default="NO" valid="yes">Paus. 10.22.5</bibl>, of Argive women: <bibl n="Paus. 2.20.9" default="NO" valid="yes">Paus. 2.20.9</bibl>ff., of Laconian women: <bibl n="Paus. 4.17.1" default="NO" valid="yes">Paus. 4.17.1</bibl>, of Messenian women: <bibl n="Paus. 4.21.6" default="NO" valid="yes">Paus. 4.21.6</bibl>, of Tegean women: <bibl n="Paus. 8.5.9" default="NO" valid="yes">Paus. 8.5.9</bibl>, <bibl n="Paus. 8.48.4" default="NO" valid="yes">Paus. 8.48.4</bibl>ff.</li>
+                <li>image of woman with horse's head and mane: <bibl n="Paus. 8.42.4" default="NO" valid="yes">Paus. 8.42.4</bibl></li>
+                <li>image of woman with fish's tail: <bibl n="Paus. 8.41.6" default="NO" valid="yes">Paus. 8.41.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wood" org="uniform" sample="complete">
+          <head>Wood</head>
+          <div2 type="subentry" id="wood-1" org="uniform" sample="complete">
+            <subhead>Wood</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>altar made of: <bibl n="Paus. 9.3.6" default="NO" valid="yes">Paus. 9.3.6</bibl>ff.</li>
+                <li>kinds of wood of which images are made: <bibl n="Paus. 8.17.2" default="NO" valid="yes">Paus. 8.17.2</bibl></li>
+                <li>used in making image of gold and ivory: <bibl n="Paus. 1.40.4" default="NO" valid="yes">Paus. 1.40.4</bibl></li>
+                <li>burnt in sacrifice: <bibl n="Paus. 5.13.3" default="NO" valid="yes">Paus. 5.13.3</bibl>, <bibl n="Paus. 5.14.2" default="NO" valid="yes">Paus. 5.14.2</bibl>, <bibl n="Paus. 7.18.11" default="NO" valid="yes">Paus. 7.18.11</bibl>, 13</li>
+                <li>kindling of itself: <bibl n="Paus. 1.16.1" default="NO" valid="yes">Paus. 1.16.1</bibl>, <bibl n="Paus. 5.27.6" default="NO" valid="yes">Paus. 5.27.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wooden-horse" org="uniform" sample="complete">
+          <head>Wooden Horse</head>
+          <div2 type="subentry" id="wooden-horse-1" org="uniform" sample="complete">
+            <subhead>Wooden Horse</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>invented by <persName><surname full="yes">Odysseus</surname></persName>: <bibl n="Apollod. E.5.13" default="NO" valid="yes">Apollod. E.5.13</bibl></li>
+                <li>constructed by Epeus: <bibl n="Apollod. E.5.13" default="NO" valid="yes">Apollod. E.5.13</bibl>, <bibl n="Apollod. E.5.14" default="NO" valid="yes">Apollod. E.5.14</bibl>, <bibl n="Paus. 1.23.8" default="NO" valid="yes">Paus. 1.23.8</bibl>, <bibl n="Paus. 2.29.4" default="NO" valid="yes">Paus. 2.29.4</bibl></li>
+                <li>constructed of cornel trees cut in grove of Apollo: <bibl n="Paus. 3.13.5" default="NO" valid="yes">Paus. 3.13.5</bibl></li>
+                <li>dragged by the Trojans into Troy: <bibl n="Apollod. E.5.15" default="NO" valid="yes">Apollod. E.5.15</bibl></li>
+                <li>opened to let out the Greeks: <bibl n="Apollod. E.5.19" default="NO" valid="yes">Apollod. E.5.19</bibl></li>
+                <li>bronze images of Wooden Horse at Athens and Delphi: <bibl n="Paus. 1.23.8" default="NO" valid="yes">Paus. 1.23.8</bibl>, <bibl n="Paus. 10.9.12" default="NO" valid="yes">Paus. 10.9.12</bibl>, <bibl n="Paus. 10.10.1" default="NO" valid="yes">Paus. 10.10.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="woodman" org="uniform" sample="complete">
+          <head>Woodman</head>
+          <div2 type="subentry" id="woodman-1" org="uniform" sample="complete">
+            <subhead>Woodman</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>at Olympia supplies wood for sacrifice: <bibl n="Paus. 5.13.2" default="NO" valid="yes">Paus. 5.13.2</bibl>ff.</li>
+                <li>receives neck of ram sacrificed to Pelops: <bibl n="Paus. 5.13.2" default="NO" valid="yes">Paus. 5.13.2</bibl></li>
+                <li>superintends sacrifices: <bibl n="Paus. 5.15.10" default="NO" valid="yes">Paus. 5.15.10</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wool" org="uniform" sample="complete">
+          <head>Wool</head>
+          <div2 type="subentry" id="wool-1" org="uniform" sample="complete">
+            <subhead>Wool</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>unspun wool offered to Demeter: <bibl n="Paus. 8.42.11" default="NO" valid="yes">Paus. 8.42.11</bibl>, and placed on stone of Cronus at festivals: <bibl n="Paus. 10.24.6" default="NO" valid="yes">Paus. 10.24.6</bibl></li>
+                <li>spinning of wool learned by Arcas from Adristas: <bibl n="Paus. 8.4.1" default="NO" valid="yes">Paus. 8.4.1</bibl></li>
+                <li>woollen curtain: <bibl n="Paus. 5.12.4" default="NO" valid="yes">Paus. 5.12.4</bibl></li>
+                <li>woollen garment placed on bronze image: <bibl n="Paus. 6.25.5" default="NO" valid="yes">Paus. 6.25.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="workers" org="uniform" sample="complete">
+          <head>Workers</head>
+          <div2 type="subentry" id="workers-1" org="uniform" sample="complete">
+            <subhead>Workers</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>square images of gods called: <bibl n="Paus. 8.32.4" default="NO" valid="yes">Paus. 8.32.4</bibl></li>
+                <li>sacrifices offered to Worker Goddess: <bibl n="Paus. 5.14.5" default="NO" valid="yes">Paus. 5.14.5</bibl></li>
+                <li>Worker, title of Athena: <bibl n="Paus. 1.24.3" default="NO" valid="yes">Paus. 1.24.3</bibl>, <bibl n="Paus. 3.17.4" default="NO" valid="yes">Paus. 3.17.4</bibl>, <bibl n="Paus. 6.26.3" default="NO" valid="yes">Paus. 6.26.3</bibl>, <bibl n="Paus. 8.32.4" default="NO" valid="yes">Paus. 8.32.4</bibl>, <bibl n="Paus. 9.26.8" default="NO" valid="yes">Paus. 9.26.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="works-and-days" org="uniform" sample="complete">
+          <head>works and Days</head>
+          <div2 type="subentry" id="works-and-days-1" org="uniform" sample="complete">
+            <subhead>works and Days, only genuine work of Hesiod according to Boeotians of Helicon</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 9.31.4" default="NO" valid="yes">Paus. 9.31.4</bibl>, 5</li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.art-terminology" type="entry" org="uniform" sample="complete">
+          <head>workshop and group</head>
+          <div2 type="subentry" id="workshop-and-group-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>In one sense, group refers to a list of vases which have common elements, yet cannot be assigned to a specific vase painter. In the sense we use group, it refers to a group of painters whose work/style is similar, and in this respect, group is almost synonymous to workshop. These painters may have worked side-by-side or may have simply been contemporaries. The question that arises is how directly one painter influenced another. Workshop is used to define a direct working relationship between painters and can be used with certainty when it is known that two painters collaborated on painting a single vase. It is probable that many groups actually represented workshops, but it is very difficult to prove.</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="circle-or-neighborhood-1" targOrder="U">Circle or neighborhood</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="companion-1" targOrder="U">Companion</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="follower-or-succession-1" targOrder="U">Follower or succession</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="imitation-and-copy-1" targOrder="U">Imitation and copy</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="manner-of-1" targOrder="U">Manner of</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="near-or-close-to-1" targOrder="U">Near or close to</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="pupil-and-teacher-1" targOrder="U">Pupil and teacher</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="school-1" targOrder="U">School</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wreaths" org="uniform" sample="complete">
+          <head>Wreaths</head>
+          <div2 type="subentry" id="wreaths-1" org="uniform" sample="complete">
+            <subhead>wreaths, of corn worn by children and afterwards laid up in sanctuary of Artemis</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 7.20.1" default="NO" valid="yes">Paus. 7.20.1</bibl>ff.</li>
+                <li>wreaths of ivy worn at festival: <bibl n="Paus. 7.20.2" default="NO" valid="yes">Paus. 7.20.2</bibl></li>
+                <li>wreath of olive on image of Zeus at Olympia: <bibl n="Paus. 5.11.1" default="NO" valid="yes">Paus. 5.11.1</bibl></li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="crown-1" targOrder="U">Crowns</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wrestler" org="uniform" sample="complete">
+          <head>Wrestler</head>
+          <div2 type="subentry" id="wrestler-1" org="uniform" sample="complete">
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="wrestling-1" targOrder="U">Wrestling</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="wrestling" org="uniform" sample="complete">
+          <head>Wrestling</head>
+          <div2 type="subentry" id="wrestling-1" org="uniform" sample="complete">
+            <subhead>Wrestling</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>art of: invented by Theseus: <bibl n="Paus. 1.39.3" default="NO" valid="yes">Paus. 1.39.3</bibl></li>
+                <li>wrestling-ground of Cercyon: <bibl n="Paus. 1.39.3" default="NO" valid="yes">Paus. 1.39.3</bibl></li>
+                <li>deities honoured in wrestling-schools: <bibl n="Paus. 4.32.1" default="NO" valid="yes">Paus. 4.32.1</bibl></li>
+                <li>wrestling-match instituted Ol. 18 at Olympia: <bibl n="Paus. 5.8.7" default="NO" valid="yes">Paus. 5.8.7</bibl></li>
+                <li>wrestling-match for boys instituted Ol. 37 at Olympia: <bibl n="Paus. 5.8.9" default="NO" valid="yes">Paus. 5.8.9</bibl></li>
+                <li>Olympic victors in both wrestling and pancratium: <bibl n="Paus. 5.21.9-12" default="NO" valid="yes">Paus. 5.21.9-12</bibl></li>
+                <li>gymnasiums in which athletes practise wrestling at Olympia and Elis: <bibl n="Paus. 6.21.2" default="NO" valid="yes">Paus. 6.21.2</bibl>, <bibl n="Paus. 6.23.4" default="NO" valid="yes">Paus. 6.23.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+      </div0>
+    </body>
+  </text>
+</tei.2>

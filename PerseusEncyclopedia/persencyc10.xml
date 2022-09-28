@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tei.2>
+  <teiHeader type="text" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>Perseus Encyclopedia</title> 
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <resp>Prepared under the supervision of</resp>
+          <name>Lisa Cerrato</name>
+          <name>William Merrill</name>
+          <name>Elli Mylonas</name>
+          <name>David Smith</name>
+        </respStmt>
+        <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc default="NO">
+        <p>Created in electronic form.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl doctype="TEI.2">
+        <state unit="id"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state n="chunk" unit="entry"/>
+        <state unit="subentry"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state unit="alphabetic letter"/>
+        <state unit="entry"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage default="NO">
+        <language id="en">English</language>
+        <language id="greek">Greek</language>
+        <language id="xgreek">Transliterated Greek</language>
+        <language id="la">Latin</language>
+        <language id="fr">Latin</language>
+      </langUsage>
+      <textClass id="gen.architecture" default="NO">
+        <keywords>
+          <term>Architecture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.art-terminology" default="NO">
+        <keywords>
+          <term>Art terminology</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.artist" default="NO">
+        <keywords>
+          <term>Artist</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.biography" default="NO">
+        <keywords>
+          <term>Biography</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.clothing" default="NO">
+        <keywords>
+          <term>Clothing</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.furniture" default="NO">
+        <keywords>
+          <term>Furniture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.inscription" default="NO">
+        <keywords>
+          <term>Inscription</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.literature" default="NO">
+        <keywords>
+          <term>Literature</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.miscellaneous" default="NO">
+        <keywords>
+          <term>Miscellaneous</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.music" default="NO">
+        <keywords>
+          <term>Music</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.region" default="NO">
+        <keywords>
+          <term>Region</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.theater-and-drama" default="NO">
+        <keywords>
+          <term>Theater and drama</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.vase-shape" default="NO">
+        <keywords>
+          <term>Vase shape</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>23 September 1999</date>
+        <respStmt>
+          <name>DAS</name>
+          <resp>ed.</resp>
+        </respStmt>
+        <li>$Log: encyclopedia.xml,v $ Revision 1.28 2006/03/27 14:02:23 gcrane more refinements Revision 1.27 2006/03/26 04:13:20 gcrane more fixes Revision 1.26 2006/03/25 19:26:47 gcrane more fixes Revision 1.25 2006/03/25 16:38:06 gcrane Did a lot of work to clean up the base headers for subentries. These should more often now only include global descriptions, e.g, PERSON, son of A stays, but PERSON, fought at Troy goes. --&gt; "Fought at Troy" can be one of many events and is not a global identifier Revision 1.24 2006/03/20 19:15:42 gcrane cleaned up the formatting Revision 1.23 2006/03/20 14:15:22 gcrane small changes Revision 1.20 2006/03/18 15:34:36 gcrane small fixes Revision 1.19 2006/03/18 01:14:23 gcrane small fixes Revision 1.18 2006/03/17 23:55:18 gaweaver small fixes Revision 1.17 2006/03/17 21:56:39 gaweaver Calliopi From Antiphon until Chilon Revision 1.16 2006/03/17 15:39:04 gaweaver no message Revision 1.15 2006/03/10 00:01:20 gaweaver changes made by GRC while over the atlantic Revision 1.14 2006/03/05 03:47:42 gcrane base file Revision 1.13 2006/03/04 13:13:03 gcrane small fixes Revision 1.12 2006/03/03 18:21:05 gaweaver Agenor (10) Revision 1.11 2006/02/15 16:24:46 gcrane small fixes Revision 1.10 2006/02/13 21:52:23 gcrane small fixes Revision 1.9 2006/02/13 01:57:42 gcrane small fixes Revision 1.8 2006/02/12 23:12:05 gcrane small fixes Revision 1.7 2006/02/12 15:30:08 gcrane major structural update: the descriptive info has now been moved up into the headers and id's added to div1 type="entry" Revision 1.6 2006/02/12 13:23:59 gcrane moved descriptions up into the header: the goal is to make the header more informative and thus to facilitate the mechanics of aligning entries in this list with those in Smith's etc Revision 1.5 2006/02/11 19:49:21 gcrane more small fixes to make the coding consistent Revision 1.4 2006/02/11 18:50:04 gcrane working towards moving identifiers for all entities up into the subentry HEAD Revision 1.3 2006/02/10 22:43:14 gcrane changed the structure so that every entry has a subentry -- this simplifies the structure (i hope) Revision 1.2 2005/08/18 13:53:45 packel item tags... Revision 1.1 2005/07/25 14:32:52 packel Converted to XML Revision 1.34 2003/07/01 22:16:05 yorkc Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.) Revision 1.33 2000/03/16 03:17:12 dasmith Gave homonym entries a top-level header. Revision 1.32 2000/03/16 02:52:18 dasmith Added alphabetic letter DIV0s. Made entries subordinate to alphabetic letters in refsDecl. Revision 1.31 2000/03/15 15:12:45 amahoney make homonyms sub-entries Revision 1.30 2000/03/14 18:11:05 amahoney several more random issues, but the Apollodorus refs really are right now Revision 1.27 2000/03/04 20:34:25 dasmith Added separate funder entity to TEI header. Revision 1.26 2000/02/22 17:17:30 amahoney fix bibl refs to known works Revision 1.25 2000/02/04 17:58:05 dasmith Primary lookup by ID (mostly useful for internal navigation). Revision 1.24 2000/01/10 21:09:41 acsmith trying again to change pilaster def. Revision 1.23 2000/01/10 20:16:54 dasmith Fixed sentence grammar. Revision 1.22 1999/10/01 14:11:04 acsmith Amy did away with dangling ref. to Type A2 cup, and turned all Type A1 cups into Type A cups, and lower cased type in Proto type A cup. Revision 1.21 1999/09/30 21:52:22 dasmith Fixed amphorae cross-refs. Revision 1.20 1999/09/30 21:08:38 acsmith ACS fixed (hopefully!) amphorae and pyxides Revision 1.19 1999/09/29 15:55:28 dasmith Converted to TEI2 tagging.</li>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div0 type="alphabetic letter" n="J" org="uniform" sample="complete">
+        <subhead>J</subhead>
+        <div1 decls="gen.architecture" type="entry" org="uniform" sample="complete">
+          <head>Jamb</head>
+          <div2 type="subentry" id="jamb-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A vertical side piece of a door or window frame which supports the lintel.</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="lintel-1" targOrder="U">Lintel</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="jar" org="uniform" sample="complete">
+          <head>Jar</head>
+          <div2 type="subentry" id="jar-1" org="uniform" sample="complete">
+            <subhead>Jar</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>of blessing and jar of woes beside Zeus: <bibl n="Paus. 7.24.14" default="NO" valid="yes">Paus. 7.24.14</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="jardanus" org="uniform" sample="complete">
+          <head>Jardanus</head>
+          <div2 type="subentry" id="jardanus-1" org="uniform" sample="complete">
+            <subhead><placeName>Jardanus</placeName>, river</subhead>
+            <subhead type="alt">Iardanus</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 5.18.6" default="NO" valid="yes">Paus. 5.18.6</bibl>
+                </li>
+                <li>old name of river Acidas: <bibl n="Paus. 5.5.9" default="NO" valid="yes">Paus. 5.5.9</bibl></li>
+                <li>river in Crete: <bibl n="Paus. 6.21.6" default="NO" valid="yes">Paus. 6.21.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="jason" org="uniform" sample="complete">
+          <head>Jason</head>
+          <div2 type="subentry" id="jason-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Jason</surname></persName>, his voyage in the Argo</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Hdt. 4.179" default="NO" valid="yes">Hdt. 4.179</bibl>, <bibl n="Hdt. 7.193" default="NO" valid="yes">Hdt. 7.193</bibl></li>
+                <li>son of <persName><surname full="yes">Aeson</surname></persName>, hunts the Calydonian boar: <bibl n="Apollod. 1.8.2" default="NO" valid="yes">Apollod. 1.8.2</bibl></li>
+                <li>son of <persName><surname full="yes">Aeson</surname></persName>: <bibl n="Apollod. 1.9.15" default="NO" valid="yes">Apollod. 1.9.15</bibl></li>
+                <li>dwells in Iolcus: <bibl n="Apollod. 1.9.15" default="NO" valid="yes">Apollod. 1.9.15</bibl>, <bibl n="Apollod. 1.9.16" default="NO" valid="yes">Apollod. 1.9.16</bibl></li>
+                <li>sails to Colchis: <bibl n="Paus. 1.1.4" default="NO" valid="yes">Paus. 1.1.4</bibl>, <bibl n="Paus. 1.18.1" default="NO" valid="yes">Paus. 1.18.1</bibl>, <bibl n="Paus. 5.17.9" default="NO" valid="yes">Paus. 5.17.9</bibl>, <bibl n="Paus. 8.4.10" default="NO" valid="yes">Paus. 8.4.10</bibl></li>
+                <li>sent by Pelias to fetch the Golden Fleece: <bibl n="Apollod. 1.9.16" default="NO" valid="yes">Apollod. 1.9.16</bibl></li>
+                <li>admiral of the Argo: <bibl n="Apollod. 1.9.17" default="NO" valid="yes">Apollod. 1.9.17</bibl></li>
+                <li>bedded with Hypsipyle, queen of Lemnos: <bibl n="Apollod. 1.9.17" default="NO" valid="yes">Apollod. 1.9.17</bibl></li>
+                <li>demands the Golden Fleece from Aeetes: <bibl n="Apollod. 1.9.22" default="NO" valid="yes">Apollod. 1.9.22</bibl></li>
+                <li>yokes the brazenfooted bulls: <bibl n="Apollod. 1.9.22" default="NO" valid="yes">Apollod. 1.9.22</bibl>, <bibl n="Apollod. 1.9.23" default="NO" valid="yes">Apollod. 1.9.23</bibl></li>
+                <li>swears to make Medea his wife: <bibl n="Apollod. 1.9.23" default="NO" valid="yes">Apollod. 1.9.23</bibl></li>
+                <li>sows the dragon's teeth: <bibl n="Apollod. 1.9.23" default="NO" valid="yes">Apollod. 1.9.23</bibl></li>
+                <li>wins the Golden Fleece and flees with Medea: <bibl n="Apollod. 1.9.23" default="NO" valid="yes">Apollod. 1.9.23</bibl></li>
+                <li>weds Medea: <bibl n="Paus. 5.18.3" default="NO" valid="yes">Paus. 5.18.3</bibl></li>
+                <li>marries Medea in Corcyra: <bibl n="Apollod. 1.9.25" default="NO" valid="yes">Apollod. 1.9.25</bibl></li>
+                <li>on returning to Iolcus surrenders the Golden Fleece to Pelias: <bibl n="Apollod. 1.9.26" default="NO" valid="yes">Apollod. 1.9.26</bibl></li>
+                <li>dedicates the Argo to Poseidon at Corinth: <bibl n="Apollod. 1.9.26" default="NO" valid="yes">Apollod. 1.9.26</bibl></li>
+                <li>expelled with Medea from Iolcus: <bibl n="Apollod. 1.9.27" default="NO" valid="yes">Apollod. 1.9.27</bibl></li>
+                <li>goes to Corinth: <bibl n="Apollod. 1.9.27" default="NO" valid="yes">Apollod. 1.9.27</bibl></li>
+                <li>father of <persName><surname full="yes">Mermerus</surname></persName>, Medeus, and Eriopis: <bibl n="Paus. 2.3.9" default="NO" valid="yes">Paus. 2.3.9</bibl></li>
+                <li>reigns in Corinth: <bibl n="Paus. 2.3.11" default="NO" valid="yes">Paus. 2.3.11</bibl></li>
+                <li>departs to Iolcus, <bibl n="Paus. 2.3.11" default="NO" valid="yes">Paus. 2.3.11</bibl></li>
+                <li>wrestles with Peleus: <bibl n="Paus. 5.17.10" default="NO" valid="yes">Paus. 5.17.10</bibl></li>
+                <li>migrate to Corcyra: <bibl n="Paus. 2.3.9" default="NO" valid="yes">Paus. 2.3.9</bibl></li>
+                <li>his altar: <bibl n="Paus. 1.34.3" default="NO" valid="yes">Paus. 1.34.3</bibl></li>
+                <li>marries Glauce and divorces Medea: <bibl n="Apollod. 1.9.27" default="NO" valid="yes">Apollod. 1.9.27</bibl></li>
+                <li>helps Peleus to lay waste Iolcus: <bibl n="Apollod. 3.13.6" default="NO" valid="yes">Apollod. 3.13.6</bibl>, <bibl n="Apollod. 3.13.7" default="NO" valid="yes">Apollod. 3.13.7</bibl></li>
+                <li>sails with Zetes and Calais: <bibl n="Apollod. 3.15.1" default="NO" valid="yes">Apollod. 3.15.1</bibl>, <bibl n="Apollod. 3.15.2" default="NO" valid="yes">Apollod. 3.15.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="jason-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Jason</surname></persName>(2), tyrant of <placeName>Thessaly</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>prefers Gorgias to Polycrates: <bibl n="Paus. 6.17.9" default="NO" valid="yes">Paus. 6.17.9</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="jay" org="uniform" sample="complete">
+          <head>Jay</head>
+          <div2 type="subentry" id="jay-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Jay</surname></persName>, imitates cry of infant and attracts attention of <placeName>Herakles</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 8.12.3" default="NO" valid="yes">Paus. 8.12.3</bibl>ff.</li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="jerusalem" org="uniform" sample="complete">
+          <head>Jerusalem</head>
+          <div2 type="subentry" id="jerusalem-1" org="uniform" sample="complete">
+            <subhead><placeName>Jerusalem</placeName>, city</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>razed to ground by Roman emperor: <bibl n="Paus. 8.16.5" default="NO" valid="yes">Paus. 8.16.5</bibl></li>
+                <li>remarkable grave in: <bibl n="Paus. 8.16.5" default="NO" valid="yes">Paus. 8.16.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="jesting" org="uniform" sample="complete">
+          <head>Jesting</head>
+          <div2 type="subentry" id="jesting-1" org="uniform" sample="complete">
+            <subhead>Jesting</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>of women customary at a sacrifice: <bibl n="Apollod. 1.9.25" default="NO" valid="yes">Apollod. 1.9.25</bibl></li>
+                <li>at the Thesmophoria: <bibl n="Apollod. 1.5.1" default="NO" valid="yes">Apollod. 1.5.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="jocasta" org="uniform" sample="complete">
+          <head>Jocasta</head>
+          <div2 type="subentry" id="jocasta-1" org="uniform" sample="complete">
+            <subhead>Jocasta, or Epicasta</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>daughter of <persName><surname full="yes">Menoeceus</surname></persName>, wife of <persName><surname full="yes">Laius</surname></persName>: <bibl n="Apollod. 3.5.6" default="NO" valid="yes">Apollod. 3.5.6</bibl>, <bibl n="Paus. 9.5.10" default="NO" valid="yes">Paus. 9.5.10</bibl>ff., <bibl n="Paus. 9.26.3" default="NO" valid="yes">Paus. 9.26.3</bibl></li>
+                <li>mother of <persName><surname full="yes">Oedipus</surname></persName>: <bibl n="Apollod. 3.5.7" default="NO" valid="yes">Apollod. 3.5.7</bibl>, <bibl n="Paus. 9.5.10" default="NO" valid="yes">Paus. 9.5.10</bibl>ff.</li>
+                <li>called Epicaste by Homer: <bibl n="Paus. 9.5.11" default="NO" valid="yes">Paus. 9.5.11</bibl></li>
+                <li>had no children by Oedipus: <bibl n="Paus. 9.5.10" default="NO" valid="yes">Paus. 9.5.10</bibl>ff.</li>
+                <li>marries her son unwittingly, and hangs herself: <bibl n="Apollod. 3.5.8" default="NO" valid="yes">Apollod. 3.5.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="joppa" org="uniform" sample="complete">
+          <head>Joppa</head>
+          <div2 type="subentry" id="joppa-1" org="uniform" sample="complete">
+            <subhead><placeName>Joppa</placeName>, city in land of <placeName>Hebrews</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>its red water: <bibl n="Paus. 4.35.9" default="NO" valid="yes">Paus. 4.35.9</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="jordan" org="uniform" sample="complete">
+          <head>Jordan</head>
+          <div2 type="subentry" id="jordan-1" org="uniform" sample="complete">
+            <subhead><placeName>Jordan</placeName>, river in land of <placeName>Hebrews</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>flows through lake of Tiberias and falls into Dead Sea: <bibl n="Paus. 5.7.4" default="NO" valid="yes">Paus. 5.7.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="juba-the-libyan" org="uniform" sample="complete">
+          <head>juba the Libyan</head>
+          <div2 type="subentry" id="juba-the-libyan-1" org="uniform" sample="complete">
+            <subhead>juba the Libyan, statue of</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.17.2" default="NO" valid="yes">Paus. 1.17.2</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="judgment-place" org="uniform" sample="complete">
+          <head>Judgment Place</head>
+          <div2 type="subentry" id="judgment-place-1" org="uniform" sample="complete">
+            <subhead>Judgment Place</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>at Argos: <bibl n="Paus. 2.20.7" default="NO" valid="yes">Paus. 2.20.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="juniper" org="uniform" sample="complete">
+          <head>Juniper</head>
+          <div2 type="subentry" id="juniper-1" org="uniform" sample="complete">
+            <subhead>Juniper</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>image made of: <bibl n="Paus. 8.17.2" default="NO" valid="yes">Paus. 8.17.2</bibl></li>
+                <li>sacrifices to Aphrodite burnt with juniper wood: <bibl n="Paus. 2.10.5" default="NO" valid="yes">Paus. 2.10.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="justice" org="uniform" sample="complete">
+          <head>Justice</head>
+          <div2 type="subentry" id="justice-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Justice</surname></persName>, daughter of <persName><surname full="yes">Zeus</surname></persName> and <persName><surname full="yes">Themis</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 1.2.6" default="NO" valid="yes">Apollod. 1.2.6</bibl>
+                </li>
+                <li>punishing Injustice, figures on chest of Cypselus: <bibl n="Paus. 5.18.2" default="NO" valid="yes">Paus. 5.18.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+      </div0>
+    </body>
+  </text>
+</tei.2>

@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tei.2>
+  <teiHeader type="text" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>Perseus Encyclopedia</title> 
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <resp>Prepared under the supervision of</resp>
+          <name>Lisa Cerrato</name>
+          <name>William Merrill</name>
+          <name>Elli Mylonas</name>
+          <name>David Smith</name>
+        </respStmt>
+        <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc default="NO">
+        <p>Created in electronic form.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl doctype="TEI.2">
+        <state unit="id"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state n="chunk" unit="entry"/>
+        <state unit="subentry"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state unit="alphabetic letter"/>
+        <state unit="entry"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage default="NO">
+        <language id="en">English</language>
+        <language id="greek">Greek</language>
+        <language id="xgreek">Transliterated Greek</language>
+        <language id="la">Latin</language>
+        <language id="fr">Latin</language>
+      </langUsage>
+      <textClass id="gen.architecture" default="NO">
+        <keywords>
+          <term>Architecture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.art-terminology" default="NO">
+        <keywords>
+          <term>Art terminology</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.artist" default="NO">
+        <keywords>
+          <term>Artist</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.biography" default="NO">
+        <keywords>
+          <term>Biography</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.clothing" default="NO">
+        <keywords>
+          <term>Clothing</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.furniture" default="NO">
+        <keywords>
+          <term>Furniture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.inscription" default="NO">
+        <keywords>
+          <term>Inscription</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.literature" default="NO">
+        <keywords>
+          <term>Literature</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.miscellaneous" default="NO">
+        <keywords>
+          <term>Miscellaneous</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.music" default="NO">
+        <keywords>
+          <term>Music</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.region" default="NO">
+        <keywords>
+          <term>Region</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.theater-and-drama" default="NO">
+        <keywords>
+          <term>Theater and drama</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.vase-shape" default="NO">
+        <keywords>
+          <term>Vase shape</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>23 September 1999</date>
+        <respStmt>
+          <name>DAS</name>
+          <resp>ed.</resp>
+        </respStmt>
+        <li>$Log: encyclopedia.xml,v $ Revision 1.28 2006/03/27 14:02:23 gcrane more refinements Revision 1.27 2006/03/26 04:13:20 gcrane more fixes Revision 1.26 2006/03/25 19:26:47 gcrane more fixes Revision 1.25 2006/03/25 16:38:06 gcrane Did a lot of work to clean up the base headers for subentries. These should more often now only include global descriptions, e.g, PERSON, son of A stays, but PERSON, fought at Troy goes. --&gt; "Fought at Troy" can be one of many events and is not a global identifier Revision 1.24 2006/03/20 19:15:42 gcrane cleaned up the formatting Revision 1.23 2006/03/20 14:15:22 gcrane small changes Revision 1.20 2006/03/18 15:34:36 gcrane small fixes Revision 1.19 2006/03/18 01:14:23 gcrane small fixes Revision 1.18 2006/03/17 23:55:18 gaweaver small fixes Revision 1.17 2006/03/17 21:56:39 gaweaver Calliopi From Antiphon until Chilon Revision 1.16 2006/03/17 15:39:04 gaweaver no message Revision 1.15 2006/03/10 00:01:20 gaweaver changes made by GRC while over the atlantic Revision 1.14 2006/03/05 03:47:42 gcrane base file Revision 1.13 2006/03/04 13:13:03 gcrane small fixes Revision 1.12 2006/03/03 18:21:05 gaweaver Agenor (10) Revision 1.11 2006/02/15 16:24:46 gcrane small fixes Revision 1.10 2006/02/13 21:52:23 gcrane small fixes Revision 1.9 2006/02/13 01:57:42 gcrane small fixes Revision 1.8 2006/02/12 23:12:05 gcrane small fixes Revision 1.7 2006/02/12 15:30:08 gcrane major structural update: the descriptive info has now been moved up into the headers and id's added to div1 type="entry" Revision 1.6 2006/02/12 13:23:59 gcrane moved descriptions up into the header: the goal is to make the header more informative and thus to facilitate the mechanics of aligning entries in this list with those in Smith's etc Revision 1.5 2006/02/11 19:49:21 gcrane more small fixes to make the coding consistent Revision 1.4 2006/02/11 18:50:04 gcrane working towards moving identifiers for all entities up into the subentry HEAD Revision 1.3 2006/02/10 22:43:14 gcrane changed the structure so that every entry has a subentry -- this simplifies the structure (i hope) Revision 1.2 2005/08/18 13:53:45 packel item tags... Revision 1.1 2005/07/25 14:32:52 packel Converted to XML Revision 1.34 2003/07/01 22:16:05 yorkc Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.) Revision 1.33 2000/03/16 03:17:12 dasmith Gave homonym entries a top-level header. Revision 1.32 2000/03/16 02:52:18 dasmith Added alphabetic letter DIV0s. Made entries subordinate to alphabetic letters in refsDecl. Revision 1.31 2000/03/15 15:12:45 amahoney make homonyms sub-entries Revision 1.30 2000/03/14 18:11:05 amahoney several more random issues, but the Apollodorus refs really are right now Revision 1.27 2000/03/04 20:34:25 dasmith Added separate funder entity to TEI header. Revision 1.26 2000/02/22 17:17:30 amahoney fix bibl refs to known works Revision 1.25 2000/02/04 17:58:05 dasmith Primary lookup by ID (mostly useful for internal navigation). Revision 1.24 2000/01/10 21:09:41 acsmith trying again to change pilaster def. Revision 1.23 2000/01/10 20:16:54 dasmith Fixed sentence grammar. Revision 1.22 1999/10/01 14:11:04 acsmith Amy did away with dangling ref. to Type A2 cup, and turned all Type A1 cups into Type A cups, and lower cased type in Proto type A cup. Revision 1.21 1999/09/30 21:52:22 dasmith Fixed amphorae cross-refs. Revision 1.20 1999/09/30 21:08:38 acsmith ACS fixed (hopefully!) amphorae and pyxides Revision 1.19 1999/09/29 15:55:28 dasmith Converted to TEI2 tagging.</li>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div0 type="alphabetic letter" n="Z" org="uniform" sample="complete">
+        <subhead>Z</subhead>
+        <div1 type="entry" id="zacynthus" org="uniform" sample="complete">
+          <head>Zacynthus</head>
+          <div2 type="subentry" id="zacynthus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zacynthus</surname></persName>, son of <persName><surname full="yes">Dardanus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 8.24.3" default="NO" valid="yes">Paus. 8.24.3</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zakynthos" org="uniform" sample="complete">
+          <head>Zakynthos</head>
+          <subhead type="alt">Zacynthus</subhead>
+          <div2 type="subentry" id="zakynthos-1" org="uniform" sample="complete">
+            <subhead><placeName>Zakynthos</placeName>, island</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 4.23.5" default="NO" valid="yes">Paus. 4.23.5</bibl>
+                </li>
+                <li>its acropolis called Psophis: <bibl n="Paus. 8.24.3" default="NO" valid="yes">Paus. 8.24.3</bibl></li>
+                <li>suitors of Penelope from: <bibl n="Apollod. E.7.25" default="NO" valid="yes">Apollod. E.7.25</bibl>, <bibl n="Apollod. E.7.29" default="NO" valid="yes">Apollod. E.7.29</bibl></li>
+                <li>west of Greece, description of a pool there: <bibl n="Hdt. 4.195" default="NO" valid="yes">Hdt. 4.195</bibl></li>
+                <li>Demaratus' escape there: <bibl n="Hdt. 6.70" default="NO" valid="yes">Hdt. 6.70</bibl></li>
+                <li>intended expulsion of Zacynthians by Samians: <bibl n="Hdt. 3.59" default="NO" valid="yes">Hdt. 3.59</bibl></li>
+                <li>death of Hegesistratus in Zacynthus: <bibl n="Hdt. 9.37" default="NO" valid="yes">Hdt. 9.37</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zancle" org="uniform" sample="complete">
+          <head>Zancle</head>
+          <div2 type="subentry" id="zancle-1" org="uniform" sample="complete">
+            <subhead><placeName>Zancle</placeName>, city of <placeName>Sicily</placeName> captured by Anaxilas and Messenians</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 4.23.6-9" default="NO" valid="yes">Paus. 4.23.6-9</bibl>
+                </li>
+                <li>its name altered to Messene: <bibl n="Paus. 4.23.9" default="NO" valid="yes">Paus. 4.23.9</bibl>, <bibl n="Paus. 5.25.11" default="NO" valid="yes">Paus. 5.25.11</bibl></li>
+                <li>its seizure by Samians (later Messene, modern Messina): <bibl n="Hdt. 6.23" default="NO" valid="yes">Hdt. 6.23</bibl>, <bibl n="Hdt. 7.164" default="NO" valid="yes">Hdt. 7.164</bibl></li>
+                <li>attack by Hippocrates of Gela: <bibl n="Hdt. 7.154" default="NO" valid="yes">Hdt. 7.154</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zanes" org="uniform" sample="complete">
+          <head>Zanes</head>
+          <div2 type="subentry" id="zanes-1" org="uniform" sample="complete">
+            <subhead>Zanes, images of Zeus at Olympia made from fines</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 5.21.2" default="NO" valid="yes">Paus. 5.21.2</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zarax" org="uniform" sample="complete">
+          <head>Zarax</head>
+          <div2 type="subentry" id="zarax-1" org="uniform" sample="complete">
+            <subhead><placeName>Zarax</placeName>, maritime city of <placeName>Laconia</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.38.4" default="NO" valid="yes">Paus. 1.38.4</bibl>
+                </li>
+                <li>belongs to Free Laconians: <bibl n="Paus. 3.21.7" default="NO" valid="yes">Paus. 3.21.7</bibl>, <bibl n="Paus. 3.24.1" default="NO" valid="yes">Paus. 3.24.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zarex" org="uniform" sample="complete">
+          <head>Zarex</head>
+          <div2 type="subentry" id="zarex-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zarex</surname></persName>, a hero</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>his shrine: <bibl n="Paus. 1.38.4" default="NO" valid="yes">Paus. 1.38.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zaueces" org="uniform" sample="complete">
+          <head>Zaueces</head>
+          <div2 type="subentry" id="zaueces-1" org="uniform" sample="complete">
+            <subhead><rs type="ethnic">Zaueces</rs>, a tribe in western Libya</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Hdt. 4.193" default="NO" valid="yes">Hdt. 4.193</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zealous" org="uniform" sample="complete">
+          <head>Zealous</head>
+          <div2 type="subentry" id="zealous-1" org="uniform" sample="complete">
+            <subhead>Zealous</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Spirit of the: <bibl n="Paus. 1.24.3" default="NO" valid="yes">Paus. 1.24.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zelia" org="uniform" sample="complete">
+          <head>Zelia</head>
+          <div2 type="subentry" id="zelia-1" org="uniform" sample="complete">
+            <subhead><placeName>Zelia</placeName>, city allied with Troy</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. E.3.34" default="NO" valid="yes">Apollod. E.3.34</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zeno" org="uniform" sample="complete">
+          <head>Zeno</head>
+          <div2 type="subentry" id="zeno-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zeno</surname></persName>, son of <persName><surname full="yes">Mnaseas</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>philosopher: <bibl n="Paus. 1.29.15" default="NO" valid="yes">Paus. 1.29.15</bibl>, <bibl n="Paus. 2.8.4" default="NO" valid="yes">Paus. 2.8.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zephyr" org="uniform" sample="complete">
+          <head>Zephyr</head>
+          <div2 type="subentry" id="zephyr-1" org="uniform" sample="complete">
+            <subhead>Zephyr, wind</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 3.19.5" default="NO" valid="yes">Paus. 3.19.5</bibl>
+                </li>
+                <li>altar of: <bibl n="Paus. 1.37.2" default="NO" valid="yes">Paus. 1.37.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zephyrium" org="uniform" sample="complete">
+          <head>Zephyrium</head>
+          <div2 type="subentry" id="zephyrium-1" org="uniform" sample="complete">
+            <subhead><placeName>Zephyrium</placeName>, cape in <placeName>Italy</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 3.3.1" default="NO" valid="yes">Paus. 3.3.1</bibl>, <bibl n="Paus. 6.6.4" default="NO" valid="yes">Paus. 6.6.4</bibl>, <bibl n="Paus. 6.19.6" default="NO" valid="yes">Paus. 6.19.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zethus" org="uniform" sample="complete">
+          <head>Zethus</head>
+          <div2 type="subentry" id="zethus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zethus</surname></persName>, son of <persName><surname full="yes">Epopeus</surname></persName> and <persName><surname full="yes">Antiope</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 2.6.4" default="NO" valid="yes">Paus. 2.6.4</bibl>
+                </li>
+                <li>son of <persName><surname full="yes">Zeus</surname></persName> by Antiope, twin brother of <persName><surname full="yes">Amphion</surname></persName>: <bibl n="Apollod. 3.5.5" default="NO" valid="yes">Apollod. 3.5.5</bibl>, Apollod. vol. 1. 339</li>
+                <li>with his brother Amphion founds Thebes: <bibl n="Paus. 2.6.4" default="NO" valid="yes">Paus. 2.6.4</bibl></li>
+                <li>pays attention to cattlebreeding: <bibl n="Apollod. 3.5.5" default="NO" valid="yes">Apollod. 3.5.5</bibl></li>
+                <li>marries Thebe: <bibl n="Apollod. 3.5.5" default="NO" valid="yes">Apollod. 3.5.5</bibl></li>
+                <li>father of <persName><surname full="yes">Neis</surname></persName>: <bibl n="Paus. 9.8.4" default="NO" valid="yes">Paus. 9.8.4</bibl></li>
+                <li>son of <persName><surname full="yes">Zethus</surname></persName> slain by his mother: <bibl n="Paus. 9.5.9" default="NO" valid="yes">Paus. 9.5.9</bibl></li>
+                <li>Zethus dies brokenhearted: <bibl n="Paus. 9.5.9" default="NO" valid="yes">Paus. 9.5.9</bibl></li>
+                <li>common tomb of Amphion and Zethus at Thebes: <bibl n="Paus. 9.17.4" default="NO" valid="yes">Paus. 9.17.4</bibl>, <bibl n="Paus. 10.32.11" default="NO" valid="yes">Paus. 10.32.11</bibl></li>
+                <li>Tithoreans steal earth from the tomb to fertilise their land: <bibl n="Paus. 9.17.4" default="NO" valid="yes">Paus. 9.17.4</bibl></li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="amphion-and-zethus-1" targOrder="U">Amphion and Zethus</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zeugma" org="uniform" sample="complete">
+          <head>Zeugma</head>
+          <div2 type="subentry" id="zeugma-1" org="uniform" sample="complete">
+            <subhead><placeName>Zeugma</placeName>, city on <placeName>Euphrates</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 10.29.4" default="NO" valid="yes">Paus. 10.29.4</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zeus" org="uniform" sample="complete">
+          <head>Zeus</head>
+          <div2 type="subentry" id="zeus-1" org="uniform" sample="complete">
+            <subhead>Zeus, the supreme god</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 8.36.5" default="NO" valid="yes">Paus. 8.36.5</bibl>
+                </li>
+                <li>son of <persName><surname full="yes">Cronus</surname></persName> and Rhea: <bibl n="Apollod. 1.1.4" default="NO" valid="yes">Apollod. 1.1.4</bibl></li>
+                <li>child of Cronus and Rhea, saved from his father's maw by ruse of Rhea: <bibl n="Paus. 8.8.2" default="NO" valid="yes">Paus. 8.8.2</bibl>, <bibl n="Paus. 8.36.3" default="NO" valid="yes">Paus. 8.36.3</bibl>, <bibl n="Paus. 9.2.7" default="NO" valid="yes">Paus. 9.2.7</bibl>, <bibl n="Paus. 9.41.6" default="NO" valid="yes">Paus. 9.41.6</bibl>, <bibl n="Paus. 10.24.6" default="NO" valid="yes">Paus. 10.24.6</bibl></li>
+                <li>born in a cave of Dicte in Crete: <bibl n="Apollod. 1.1.4" default="NO" valid="yes">Apollod. 1.1.4</bibl></li>
+                <li>born and brought up in Messenia on <placeName>Mount Lycaeus</placeName>: <bibl n="Paus. 4.33.1" default="NO" valid="yes">Paus. 4.33.1</bibl>, <bibl n="Paus. 8.36.3" default="NO" valid="yes">Paus. 8.36.3</bibl>, <bibl n="Paus. 8.38.2" default="NO" valid="yes">Paus. 8.38.2</bibl></li>
+                <li>at birth washed in Gortynius river: <bibl n="Paus. 8.28.2" default="NO" valid="yes">Paus. 8.28.2</bibl></li>
+                <li>fed by nymphs: <bibl n="Apollod. 1.1.4" default="NO" valid="yes">Apollod. 1.1.4</bibl></li>
+                <li>guarded by Curetes: <bibl n="Apollod. 1.1.4" default="NO" valid="yes">Apollod. 1.1.4</bibl>, <bibl n="Apollod. 1.1.7" default="NO" valid="yes">Apollod. 1.1.7</bibl></li>
+                <li>entrusted for safety at birth to Idaean Dactyls or Curetes by Rhea: <bibl n="Paus. 4.33.1" default="NO" valid="yes">Paus. 4.33.1</bibl>, <bibl n="Paus. 5.7.6" default="NO" valid="yes">Paus. 5.7.6</bibl></li>
+                <li>makes war on the Titans: <bibl n="Apollod. 1.1.7" default="NO" valid="yes">Apollod. 1.1.7</bibl>, <bibl n="Apollod. 1.2.1" default="NO" valid="yes">Apollod. 1.2.1</bibl></li>
+                <li>releases the Cyclopes from Tartarus and receives thunder and lightning from them: <bibl n="Apollod. 1.2.1" default="NO" valid="yes">Apollod. 1.2.1</bibl></li>
+                <li>smites the giants with a thunderbolt: <bibl n="Apollod. 1.6.1" default="NO" valid="yes">Apollod. 1.6.1</bibl>, <bibl n="Apollod. 1.6.2" default="NO" valid="yes">Apollod. 1.6.2</bibl></li>
+                <li>shuts up the Titans in Tartarus: <bibl n="Apollod. 1.2.1" default="NO" valid="yes">Apollod. 1.2.1</bibl></li>
+                <li>wrestles at Olympia with Cronus for kingdom: <bibl n="Paus. 5.7.10" default="NO" valid="yes">Paus. 5.7.10</bibl>, <bibl n="Paus. 8.2.2" default="NO" valid="yes">Paus. 8.2.2</bibl></li>
+                <li>casts lots with his brothers Poseidon and Pluto for the sovereignty: <bibl n="Apollod. 1.2.1" default="NO" valid="yes">Apollod. 1.2.1</bibl></li>
+                <li>allotted the dominion of the sky: <bibl n="Apollod. 1.2.1" default="NO" valid="yes">Apollod. 1.2.1</bibl></li>
+                <li>reigns in the three realms of nature -- sky, earth, and sea: <bibl n="Paus. 2.24.4" default="NO" valid="yes">Paus. 2.24.4</bibl></li>
+                <li>and Poseidon rivals for the hand of Thetis: <bibl n="Apollod. 3.13.4" default="NO" valid="yes">Apollod. 3.13.4</bibl></li>
+                <li>ordains oaths by the water of Styx: <bibl n="Apollod. 1.2.2" default="NO" valid="yes">Apollod. 1.2.2</bibl></li>
+                <li>Hermes servant of Zeus: <bibl n="Paus. 8.32.4" default="NO" valid="yes">Paus. 8.32.4</bibl></li>
+                <li>prayed to for rain: <bibl n="Paus. 1.24.3" default="NO" valid="yes">Paus. 1.24.3</bibl>, <bibl n="Paus. 2.29.8" default="NO" valid="yes">Paus. 2.29.8</bibl></li>
+                <li>jar of blessings and jar of woes at his side: <bibl n="Paus. 8.24.14" default="NO" valid="yes">Paus. 8.24.14</bibl></li>
+                <li>in love with maiden Hera: <bibl n="Paus. 2.17.4" default="NO" valid="yes">Paus. 2.17.4</bibl></li>
+                <li>changes himself into a cuckoo: <bibl n="Paus. 2.17.4" default="NO" valid="yes">Paus. 2.17.4</bibl>, <bibl n="Paus. 2.36.1" default="NO" valid="yes">Paus. 2.36.1</bibl></li>
+                <li>reconciled to Hera by stratagem: <bibl n="Paus. 9.3.1" default="NO" valid="yes">Paus. 9.3.1</bibl>ff.</li>
+                <li>marries Hera: <bibl n="Apollod. 1.2.6" default="NO" valid="yes">Apollod. 1.2.6</bibl></li>
+                <li>on his marriage receives the apples of the Hesperides from Earth: <bibl n="Apollod. 2.5.11" default="NO" valid="yes">Apollod. 2.5.11</bibl></li>
+                <li>and Hera refer their dispute to Tiresias as arbiter: <bibl n="Apollod. 3.10.167" default="NO" valid="yes">Apollod. 3.10.167</bibl></li>
+                <li>grants Tiresias the art of soothsaying: <bibl n="Apollod. 3.10.167" default="NO" valid="yes">Apollod. 3.10.167</bibl></li>
+                <li>hangs Hera from Olympus: <bibl n="Apollod. 1.3.5" default="NO" valid="yes">Apollod. 1.3.5</bibl>, <bibl n="Apollod. 2.6.4" default="NO" valid="yes">Apollod. 2.6.4</bibl></li>
+                <li>casts Hephaestus out of heaven: <bibl n="Apollod. 1.3.5" default="NO" valid="yes">Apollod. 1.3.5</bibl></li>
+                <li>his intrigues with Callisto: <bibl n="Paus. 1.25.1" default="NO" valid="yes">Paus. 1.25.1</bibl>, <bibl n="Paus. 8.3.6" default="NO" valid="yes">Paus. 8.3.6</bibl>, with Carme: <bibl n="Paus. 2.30.3" default="NO" valid="yes">Paus. 2.30.3</bibl>, with Io: <bibl n="Paus. 1.25.1" default="NO" valid="yes">Paus. 1.25.1</bibl>, with Lamia: <bibl n="Paus. 10.12.1" default="NO" valid="yes">Paus. 10.12.1</bibl>, with Niobe: <bibl n="Paus. 2.22.5" default="NO" valid="yes">Paus. 2.22.5</bibl>, with Pluto: <bibl n="Paus. 2.22.3" default="NO" valid="yes">Paus. 2.22.3</bibl>, with Semele: <bibl n="Paus. 3.24.3" default="NO" valid="yes">Paus. 3.24.3</bibl>, with Taygete: <bibl n="Paus. 3.1.2" default="NO" valid="yes">Paus. 3.1.2</bibl>, with Thebe: <bibl n="Paus. 5.22.6" default="NO" valid="yes">Paus. 5.22.6</bibl></li>
+                <li>his offspring: <bibl n="Apollod. 1.2.6" default="NO" valid="yes">Apollod. 1.2.6</bibl>, <bibl n="Apollod. 1.3.1" default="NO" valid="yes">Apollod. 1.3.1</bibl></li>
+                <li>father of <persName><surname full="yes">Aethlius</surname></persName>: <bibl n="Paus. 5.1.3" default="NO" valid="yes">Paus. 5.1.3</bibl>, of Agdistis: <bibl n="Paus. 7.17.10" default="NO" valid="yes">Paus. 7.17.10</bibl>, of Argus: <bibl n="Paus. 2.22.5" default="NO" valid="yes">Paus. 2.22.5</bibl>, <bibl n="Paus. 2.26.2" default="NO" valid="yes">Paus. 2.26.2</bibl>, of Britomartis: <bibl n="Paus. 2.30.3" default="NO" valid="yes">Paus. 2.30.3</bibl>, of Dionysus: <bibl n="Paus. 3.24.3" default="NO" valid="yes">Paus. 3.24.3</bibl>, of Graces: <bibl n="Paus. 9.35.5" default="NO" valid="yes">Paus. 9.35.5</bibl>, of Helen: <bibl n="Paus. 1.33.7" default="NO" valid="yes">Paus. 1.33.7</bibl>, of Lacedaemon: <bibl n="Paus. 3.1.2" default="NO" valid="yes">Paus. 3.1.2</bibl>, of Megareus: <bibl n="Paus. 1.40.1" default="NO" valid="yes">Paus. 1.40.1</bibl>, of younger Muses: <bibl n="Paus. 9.29.4" default="NO" valid="yes">Paus. 9.29.4</bibl>, of Opportunity: <bibl n="Paus. 5.14.9" default="NO" valid="yes">Paus. 5.14.9</bibl>, of Pirithous: <bibl n="Paus. 5.10.8" default="NO" valid="yes">Paus. 5.10.8</bibl>, of the Seasons: <bibl n="Paus. 5.11.7" default="NO" valid="yes">Paus. 5.11.7</bibl>, of Tantalus: <bibl n="Paus. 2.22.3" default="NO" valid="yes">Paus. 2.22.3</bibl></li>
+                <li>father of <persName><surname full="yes">Hellen</surname></persName> by Pyrrha: <bibl n="Apollod. 1.7.2" default="NO" valid="yes">Apollod. 1.7.2</bibl>, <bibl n="Apollod. 1.7.3" default="NO" valid="yes">Apollod. 1.7.3</bibl></li>
+                <li>of Aethlius by Protogenia: <bibl n="Apollod. 1.7.3" default="NO" valid="yes">Apollod. 1.7.3</bibl></li>
+                <li>father of <persName><surname full="yes">Castor</surname></persName> and Pollux by Leda: <bibl n="Apollod. 1.8.2" default="NO" valid="yes">Apollod. 1.8.2</bibl>, <bibl n="Apollod. 1.9.17" default="NO" valid="yes">Apollod. 1.9.17</bibl></li>
+                <li>has intercourse with Metis: <bibl n="Apollod. 1.3.5" default="NO" valid="yes">Apollod. 1.3.5</bibl></li>
+                <li>swallows the pregnant Metis: <bibl n="Apollod. 1.3.5" default="NO" valid="yes">Apollod. 1.3.5</bibl>, <bibl n="Apollod. 1.3.6" default="NO" valid="yes">Apollod. 1.3.6</bibl></li>
+                <li>Athena born from his head: <bibl n="Apollod. 1.3.6" default="NO" valid="yes">Apollod. 1.3.6</bibl>, <bibl n="Paus. 1.24.2" default="NO" valid="yes">Paus. 1.24.2</bibl></li>
+                <li>makes love to Asteria: <bibl n="Apollod. 1.3.6" default="NO" valid="yes">Apollod. 1.3.6</bibl></li>
+                <li>father of <persName><surname full="yes">Pan</surname></persName> by Hybris: <bibl n="Apollod. 1.4.1" default="NO" valid="yes">Apollod. 1.4.1</bibl></li>
+                <li>father of <persName><surname full="yes">Tityus</surname></persName> by Elare: <bibl n="Apollod. 1.4.1" default="NO" valid="yes">Apollod. 1.4.1</bibl>, <bibl n="Apollod. 1.4.1" default="NO" valid="yes">Apollod. 1.4.1</bibl></li>
+                <li>father of <persName><surname full="yes">Iasion</surname></persName> and Dardanus by Electra: <bibl n="Apollod. 1.4.5" default="NO" valid="yes">Apollod. 1.4.5</bibl></li>
+                <li>carries off Aegina, daughter of <persName><surname full="yes">Asopus</surname></persName>: <bibl n="Apollod. 1.9.2" default="NO" valid="yes">Apollod. 1.9.2</bibl>, <bibl n="Paus. 2.5.1" default="NO" valid="yes">Paus. 2.5.1</bibl>, <bibl n="Paus. 2.29.2" default="NO" valid="yes">Paus. 2.29.2</bibl></li>
+                <li>carries off Aegina and has a son Aeacus by her: <bibl n="Apollod. 3.12.5" default="NO" valid="yes">Apollod. 3.12.5</bibl>, <bibl n="Apollod. 3.12.6" default="NO" valid="yes">Apollod. 3.12.6</bibl></li>
+                <li>hurls thunderbolts at Asopus: <bibl n="Apollod. 3.12.6" default="NO" valid="yes">Apollod. 3.12.6</bibl></li>
+                <li>seduces Io and turns her into a white cow: <bibl n="Apollod. 2.1.3" default="NO" valid="yes">Apollod. 2.1.3</bibl></li>
+                <li>orders Hermes to steal Io: <bibl n="Apollod. 2.1.3" default="NO" valid="yes">Apollod. 2.1.3</bibl></li>
+                <li>father of <persName><surname full="yes">Argus</surname></persName> and Pelasgus by Niobe: <bibl n="Apollod. 1.9.28" default="NO" valid="yes">Apollod. 1.9.28</bibl>, <bibl n="Apollod. 2.1.1" default="NO" valid="yes">Apollod. 2.1.1</bibl>, <bibl n="Apollod. 3.7.7" default="NO" valid="yes">Apollod. 3.7.7</bibl></li>
+                <li>in shape of stream of gold impregnates Danae: <bibl n="Apollod. 2.4.1" default="NO" valid="yes">Apollod. 2.4.1</bibl></li>
+                <li>his prediction concerning the descendant of <persName><surname full="yes">Perseus</surname></persName>: <bibl n="Apollod. 2.4.5" default="NO" valid="yes">Apollod. 2.4.5</bibl></li>
+                <li>in likeness of Amphitryo lies with Alcmena: <bibl n="Paus. 5.18.3" default="NO" valid="yes">Paus. 5.18.3</bibl></li>
+                <li>in likeness of Amphitryon begets Herakles on Alcmena: <bibl n="Apollod. 2.4.7" default="NO" valid="yes">Apollod. 2.4.7</bibl>, <bibl n="Apollod. 2.4.8" default="NO" valid="yes">Apollod. 2.4.8</bibl></li>
+                <li>father of <persName><surname full="yes">Rhadamanthys</surname></persName>: <bibl n="Apollod. 2.4.11" default="NO" valid="yes">Apollod. 2.4.11</bibl></li>
+                <li>Prometheus offers himself to Zeus to be immortal instead of Chiron: <bibl n="Apollod. 2.5.4" default="NO" valid="yes">Apollod. 2.5.4</bibl>, <bibl n="Apollod. 2.5.11" default="NO" valid="yes">Apollod. 2.5.11</bibl>, <bibl n="Apollod. 1.3.51" default="NO" valid="yes">Apollod. 1.3.51</bibl></li>
+                <li>Europa ferried by bull for: <bibl n="Apollod. 2.5.6" default="NO" valid="yes">Apollod. 2.5.6</bibl></li>
+                <li>parts Apollo and Herakles: <bibl n="Apollod. 2.6.2" default="NO" valid="yes">Apollod. 2.6.2</bibl></li>
+                <li>rescues wounded Herakles: <bibl n="Apollod. 2.6.4" default="NO" valid="yes">Apollod. 2.6.4</bibl></li>
+                <li>Cenaean, altar of: <bibl n="Apollod. 2.7.7" default="NO" valid="yes">Apollod. 2.7.7</bibl></li>
+                <li>Paternal, altars of: <bibl n="Apollod. 2.8.3" default="NO" valid="yes">Apollod. 2.8.3</bibl></li>
+                <li>as a bull, carries Europa to Crete: <bibl n="Apollod. 3.1.1" default="NO" valid="yes">Apollod. 3.1.1</bibl></li>
+                <li>begets Minos, Sarpedon, and Rhadamanthys by Europa: <bibl n="Apollod. 3.1.1" default="NO" valid="yes">Apollod. 3.1.1</bibl></li>
+                <li>grants Sarpedon to live for three generations: <bibl n="Apollod. 3.1.2" default="NO" valid="yes">Apollod. 3.1.2</bibl></li>
+                <li>father of <persName><surname full="yes">Atymnius</surname></persName> by Cassiepea: <bibl n="Apollod. 3.1.2" default="NO" valid="yes">Apollod. 3.1.2</bibl></li>
+                <li>Atabyrian, altar of: <bibl n="Apollod. 3.1.4" default="NO" valid="yes">Apollod. 3.1.4</bibl></li>
+                <li>gives Harmonia in marriage to Cadmus : <bibl n="Apollod. 3.4.2" default="NO" valid="yes">Apollod. 3.4.2</bibl></li>
+                <li>gives necklace to Europa: <bibl n="Apollod. 3.4.2" default="NO" valid="yes">Apollod. 3.4.2</bibl></li>
+                <li>loves Semele: <bibl n="Apollod. 3.4.2" default="NO" valid="yes">Apollod. 3.4.2</bibl></li>
+                <li>visits her with thunder and lightning: <bibl n="Apollod. 3.4.3" default="NO" valid="yes">Apollod. 3.4.3</bibl></li>
+                <li>sews up the abortive infant Dionysus in his thigh: <bibl n="Apollod. 3.4.3" default="NO" valid="yes">Apollod. 3.4.3</bibl></li>
+                <li>gives birth to Dionysus in due time and entrusts him to Hermes: <bibl n="Apollod. 3.4.3" default="NO" valid="yes">Apollod. 3.4.3</bibl></li>
+                <li>turns Dionysus into a kid: <bibl n="Apollod. 3.4.3" default="NO" valid="yes">Apollod. 3.4.3</bibl></li>
+                <li>father of <persName><surname full="yes">Amphion</surname></persName> and Zethus by Antiope: <bibl n="Apollod. 3.5.5" default="NO" valid="yes">Apollod. 3.5.5</bibl>, <bibl n="Apollod. 3.5.5" default="NO" valid="yes">Apollod. 3.5.5</bibl>, <bibl n="Apollod. 1.1.2" default="NO" valid="yes">Apollod. 1.1.2</bibl></li>
+                <li>Niobe prays to: <bibl n="Apollod. 3.5.6" default="NO" valid="yes">Apollod. 3.5.6</bibl></li>
+                <li>kills Capaneus with a thunderbolt: <bibl n="Apollod. 3.10.167" default="NO" valid="yes">Apollod. 3.10.167</bibl></li>
+                <li>cleaves the earth by a thunderbolt: <bibl n="Apollod. 3.12.21" default="NO" valid="yes">Apollod. 3.12.21</bibl></li>
+                <li>makes Amphiaraus immortal: <bibl n="Apollod. 3.12.21" default="NO" valid="yes">Apollod. 3.12.21</bibl></li>
+                <li>consorts with Callirrhoe and grants that her sons should be suddenly full grown: <bibl n="Apollod. 3.10.185" default="NO" valid="yes">Apollod. 3.10.185</bibl></li>
+                <li>in disguise visits Lycaon and his sons, is tempted by them with human sacrifices, and blasts them by thunderbolts: <bibl n="Apollod. 3.12.31" default="NO" valid="yes">Apollod. 3.12.31</bibl>, <bibl n="Apollod. 3.12.33" default="NO" valid="yes">Apollod. 3.12.33</bibl></li>
+                <li>in the likeness of Artemis or Apollo forces Callisto, turns her into a bear, then into the constellation called the Bear: <bibl n="Apollod. 3.12.35" default="NO" valid="yes">Apollod. 3.12.35</bibl>, <bibl n="Apollod. 3.12.37" default="NO" valid="yes">Apollod. 3.12.37</bibl></li>
+                <li>gives her child Arcas to Maia to bring up: <bibl n="Apollod. 3.12.37" default="NO" valid="yes">Apollod. 3.12.37</bibl></li>
+                <li>Melanion and Atalanta have intercourse in a precinct of: <bibl n="Apollod. vol. 2.401" default="NO" valid="yes">Apollod. vol. 2.401</bibl></li>
+                <li>consorts with the daughters of Atlas: <bibl n="Apollod. 3.10.1" default="NO" valid="yes">Apollod. 3.10.1</bibl></li>
+                <li>father of <persName><surname full="yes">Hermes</surname></persName> by Maia: <bibl n="Apollod. 3.10.1" default="NO" valid="yes">Apollod. 3.10.1</bibl></li>
+                <li>orders Hermes to restore the stolen kine to Apollo: <bibl n="Apollod. 3.10.2" default="NO" valid="yes">Apollod. 3.10.2</bibl></li>
+                <li>father of <persName><surname full="yes">Lacedaemon</surname></persName> by Taygete: <bibl n="Apollod. 3.10.2" default="NO" valid="yes">Apollod. 3.10.2</bibl></li>
+                <li>smites Aesculapius with a thunderbolt to prevent men from learning the healing art: <bibl n="Apollod. 3.10.3" default="NO" valid="yes">Apollod. 3.10.3</bibl></li>
+                <li>Cyclopes forge thunderbolts for: <bibl n="Apollod. 3.10.3" default="NO" valid="yes">Apollod. 3.10.3</bibl></li>
+                <li>orders Apollo to serve a man for a year as expiation for the slaughter of the Cyclopes: <bibl n="Apollod. 3.10.3" default="NO" valid="yes">Apollod. 3.10.3</bibl>, <bibl n="Apollod. 3.10.4" default="NO" valid="yes">Apollod. 3.10.4</bibl></li>
+                <li>as a swan consorts with Leda and begets Pollux and Helen: <bibl n="Apollod. 3.10.5" default="NO" valid="yes">Apollod. 3.10.5</bibl></li>
+                <li>according to others, he got Helen on Nemesis: <bibl n="Apollod. 3.10.7" default="NO" valid="yes">Apollod. 3.10.7</bibl></li>
+                <li>smites Idas with a thunderbolt: <bibl n="Apollod. 3.11.2" default="NO" valid="yes">Apollod. 3.11.2</bibl></li>
+                <li>raises Pollux to heaven: <bibl n="Apollod. 3.11.2" default="NO" valid="yes">Apollod. 3.11.2</bibl></li>
+                <li>allows Castor and Pollux to be among gods and mortals on alternate days: <bibl n="Apollod. 3.11.2" default="NO" valid="yes">Apollod. 3.11.2</bibl></li>
+                <li>Ganymede carried off to be cup-bearer to Zeus: <bibl n="Paus. 5.24.5" default="NO" valid="yes">Paus. 5.24.5</bibl></li>
+                <li>carries off Ganymede on an eagle and makes him cupbearer to the gods: <bibl n="Apollod. 3.12.2" default="NO" valid="yes">Apollod. 3.12.2</bibl></li>
+                <li>gives the Palladium as a sign to Ilus: <bibl n="Apollod. 3.12.3" default="NO" valid="yes">Apollod. 3.12.3</bibl></li>
+                <li>interposes the aegis between Athena and Pallas: <bibl n="Apollod. 3.12.3" default="NO" valid="yes">Apollod. 3.12.3</bibl></li>
+                <li>throws the Palladium into the Ilian country: <bibl n="Apollod. 3.12.3" default="NO" valid="yes">Apollod. 3.12.3</bibl></li>
+                <li>father of <persName><surname full="yes">Asopus</surname></persName> by Eurynome: <bibl n="Apollod. 3.12.5" default="NO" valid="yes">Apollod. 3.12.5</bibl></li>
+                <li>helps Pluto to carry off Persephone: <bibl n="Apollod. 1.4.5" default="NO" valid="yes">Apollod. 1.4.5</bibl></li>
+                <li>culls a magic simple: <bibl n="Apollod. 1.6.1" default="NO" valid="yes">Apollod. 1.6.1</bibl></li>
+                <li>inspires Porphyrion with lust for Hera: <bibl n="Apollod. 1.6.1" default="NO" valid="yes">Apollod. 1.6.1</bibl></li>
+                <li>his combat with Typhon: <bibl n="Apollod. 1.6.3" default="NO" valid="yes">Apollod. 1.6.3</bibl>, <bibl n="Apollod. 1.6.3" default="NO" valid="yes">Apollod. 1.6.3</bibl></li>
+                <li>his sinews cut by Typhon and restored by Hermes and Aegipan: <bibl n="Apollod. 1.6.3" default="NO" valid="yes">Apollod. 1.6.3</bibl>, <bibl n="Apollod. 1.6.3" default="NO" valid="yes">Apollod. 1.6.3</bibl></li>
+                <li>casts Etna on Typhon: <bibl n="Apollod. 1.6.3" default="NO" valid="yes">Apollod. 1.6.3</bibl></li>
+                <li>orders Hephaestus to nail Prometheus to the Caucasus: <bibl n="Apollod. 1.7.1" default="NO" valid="yes">Apollod. 1.7.1</bibl></li>
+                <li>resolves to destroy the men of the Bronze Age and causes the great flood: <bibl n="Apollod. 1.7.1" default="NO" valid="yes">Apollod. 1.7.1</bibl>, <bibl n="Apollod. 1.7.2" default="NO" valid="yes">Apollod. 1.7.2</bibl></li>
+                <li>Deucalion sacrifices to Zeus, God of Escape: <bibl n="Apollod. 1.7.2" default="NO" valid="yes">Apollod. 1.7.2</bibl></li>
+                <li>sends Hermes to Deucalion: <bibl n="Apollod. 1.7.2" default="NO" valid="yes">Apollod. 1.7.2</bibl></li>
+                <li>bids Deucalion throw stones over his head: <bibl n="Apollod. 1.7.2" default="NO" valid="yes">Apollod. 1.7.2</bibl></li>
+                <li>turns Ceyx and Alcyone into birds for their presumption: <bibl n="Apollod. 1.7.4" default="NO" valid="yes">Apollod. 1.7.4</bibl></li>
+                <li>claim of Ceyx to be: <bibl n="Apollod. 1.7.4" default="NO" valid="yes">Apollod. 1.7.4</bibl></li>
+                <li>gives Endymion his choice: <bibl n="Apollod. 1.7.5" default="NO" valid="yes">Apollod. 1.7.5</bibl></li>
+                <li>parts Apollo and Idas: <bibl n="Apollod. 1.7.7" default="NO" valid="yes">Apollod. 1.7.7</bibl></li>
+                <li>makes Oeneus fall in love with his own daughter: <bibl n="Apollod. 1.8.3" default="NO" valid="yes">Apollod. 1.8.3</bibl></li>
+                <li>Phrixus ordered to be sacrificed to: <bibl n="Apollod. 1.8.6" default="NO" valid="yes">Apollod. 1.8.6</bibl></li>
+                <li>Zeus, God of Escape, the ram with the golden fleece sacrificed to: <bibl n="Apollod. 1.9.1" default="NO" valid="yes">Apollod. 1.9.1</bibl></li>
+                <li>Salmoneus's mimickry of: <bibl n="Apollod. 1.9.5" default="NO" valid="yes">Apollod. 1.9.5</bibl>, <bibl n="Apollod. 1.9.5" default="NO" valid="yes">Apollod. 1.9.5</bibl></li>
+                <li>kills Salmoneus by a thunderbolt: <bibl n="Apollod. 1.9.5" default="NO" valid="yes">Apollod. 1.9.5</bibl>, <bibl n="Apollod. 1.9.5" default="NO" valid="yes">Apollod. 1.9.5</bibl></li>
+                <li>kills Salmoneus by a thunderbolt: <bibl n="Apollod. 1.9.5" default="NO" valid="yes">Apollod. 1.9.5</bibl></li>
+                <li>angry with the Argonauts for the murder of Apsyrtus: <bibl n="Apollod. 1.9.23" default="NO" valid="yes">Apollod. 1.9.23</bibl>, <bibl n="Apollod. 1.9.24" default="NO" valid="yes">Apollod. 1.9.24</bibl></li>
+                <li>orders Athena and Hermes to purify the Danaids: <bibl n="Apollod. 2.1.5" default="NO" valid="yes">Apollod. 2.1.5</bibl></li>
+                <li>turns vixen and dog to stone: <bibl n="Apollod. 2.4.7" default="NO" valid="yes">Apollod. 2.4.7</bibl></li>
+                <li>turns ants into men for Aeacus: <bibl n="Apollod. 3.12.6" default="NO" valid="yes">Apollod. 3.12.6</bibl></li>
+                <li>changes the nymphs at Nysa into the Hyades: <bibl n="Apollod. 3.4.3" default="NO" valid="yes">Apollod. 3.4.3</bibl></li>
+                <li>angry with Actaeon for wooing Semele: <bibl n="Apollod. 3.4.3" default="NO" valid="yes">Apollod. 3.4.3</bibl></li>
+                <li>instigates Actaeon's dogs to devour him: <bibl n="Apollod. 3.4.4" default="NO" valid="yes">Apollod. 3.4.4</bibl></li>
+                <li>sends Cadmus and Harmonia to the Elysian Fields: <bibl n="Apollod. 3.5.4" default="NO" valid="yes">Apollod. 3.5.4</bibl></li>
+                <li>appoints arbiters between Poseidon and Athena in the dispute for the possession of Attica: <bibl n="Apollod. 3.14.1" default="NO" valid="yes">Apollod. 3.14.1</bibl>, <bibl n="Apollod. 3.14.1" default="NO" valid="yes">Apollod. 3.14.1</bibl></li>
+                <li>decides the dispute between Aphrodite and Persephone about Adonis: <bibl n="Apollod. 3.14.4" default="NO" valid="yes">Apollod. 3.14.4</bibl></li>
+                <li>Minos prays for vengeance on Athens to: <bibl n="Apollod. 3.15.8" default="NO" valid="yes">Apollod. 3.15.8</bibl></li>
+                <li>makes a cloud in the likeness of Hera and lays it beside Ixion: <bibl n="Apollod. E.1.20" default="NO" valid="yes">Apollod. E.1.20</bibl></li>
+                <li>binds Ixion to a wheel: <bibl n="Apollod. E.1.20" default="NO" valid="yes">Apollod. E.1.20</bibl></li>
+                <li>compact of Theseus and Pirithous to marry daughters of: <bibl n="Apollod. E.1.22" default="NO" valid="yes">Apollod. E.1.22</bibl></li>
+                <li>sends Hermes to Atreus with a message: <bibl n="Apollod. E.2.10" default="NO" valid="yes">Apollod. E.2.10</bibl></li>
+                <li>sons of <persName><surname full="yes">Thyestes</surname></persName> slaughtered by Atreus on an altar of: <bibl n="Apollod. E.2.13" default="NO" valid="yes">Apollod. E.2.13</bibl></li>
+                <li>wills that Europe and Asia should be embroiled: <bibl n="Apollod. E.2.15" default="NO" valid="yes">Apollod. E.2.15</bibl></li>
+                <li>wills that Hermes should carry Helen to Egypt: <bibl n="Apollod. E.3.3" default="NO" valid="yes">Apollod. E.3.3</bibl></li>
+                <li>sign of the serpent and the sparrows given at Aulis by: <bibl n="Apollod. E.3.13" default="NO" valid="yes">Apollod. E.3.13</bibl></li>
+                <li>Zeus of the Courtyard, Priam slain at the altar of: <bibl n="Apollod. E.5.21" default="NO" valid="yes">Apollod. E.5.21</bibl></li>
+                <li>asked by Athena to send a storm on the Greeks: <bibl n="Apollod. E.6.4" default="NO" valid="yes">Apollod. E.6.4</bibl></li>
+                <li>appoints Aeolus keeper of the winds: <bibl n="Apollod. E.7.8" default="NO" valid="yes">Apollod. E.7.8</bibl></li>
+                <li>the Sun reports the slaughter of his kine to: <bibl n="Apollod. E.7.21" default="NO" valid="yes">Apollod. E.7.21</bibl></li>
+                <li>strikes Odysseus with a thunderbolt: <bibl n="Apollod. E.7.21" default="NO" valid="yes">Apollod. E.7.21</bibl></li>
+                <li>strangers sacrificed to, by Busiris: <bibl n="Apollod. 2.5.11" default="NO" valid="yes">Apollod. 2.5.11</bibl>, <bibl n="Apollod. 2.5.11" default="NO" valid="yes">Apollod. 2.5.11</bibl></li>
+                <li>gives Phidias a sign of his approbation: <bibl n="Paus. 5.11.9" default="NO" valid="yes">Paus. 5.11.9</bibl></li>
+                <li>sends oracle to Athenians from Dodona: <bibl n="Paus. 7.25.1" default="NO" valid="yes">Paus. 7.25.1</bibl></li>
+                <li>Lycurgus the Spartan dear to Zeus, in an oracle, etc.: <bibl n="Hdt. 1.65" default="NO" valid="yes">Hdt. 1.65</bibl>, <bibl n="Hdt. 1.89" default="NO" valid="yes">Hdt. 1.89</bibl>, <bibl n="Hdt. 1.131" default="NO" valid="yes">Hdt. 1.131</bibl>, <bibl n="Hdt. 1.174" default="NO" valid="yes">Hdt. 1.174</bibl>, <bibl n="Hdt. 1.207" default="NO" valid="yes">Hdt. 1.207</bibl>, <bibl n="Hdt. 2.13" default="NO" valid="yes">Hdt. 2.13</bibl>, <bibl n="Hdt. 2.116" default="NO" valid="yes">Hdt. 2.116</bibl>, <bibl n="Hdt. 2.136" default="NO" valid="yes">Hdt. 2.136</bibl>, <bibl n="Hdt. 2.146" default="NO" valid="yes">Hdt. 2.146</bibl>, <bibl n="Hdt. 3.124" default="NO" valid="yes">Hdt. 3.124</bibl>, <bibl n="Hdt. 6.67" default="NO" valid="yes">Hdt. 6.67</bibl>, <bibl n="Hdt. 7.56" default="NO" valid="yes">Hdt. 7.56</bibl>, <bibl n="Hdt. 7.61" default="NO" valid="yes">Hdt. 7.61</bibl>, <bibl n="Hdt. 7.141" default="NO" valid="yes">Hdt. 7.141</bibl>, <bibl n="Hdt. 7.221" default="NO" valid="yes">Hdt. 7.221</bibl>, <bibl n="Hdt. 8.77" default="NO" valid="yes">Hdt. 8.77</bibl>, <bibl n="Hdt. 9.122" default="NO" valid="yes">Hdt. 9.122</bibl></li>
+                <li>colonnade of Zeus: <bibl n="Paus. 10.21.6" default="NO" valid="yes">Paus. 10.21.6</bibl>, games: <bibl n="Paus. 2.24.2" default="NO" valid="yes">Paus. 2.24.2</bibl></li>
+                <li>precinct of Lycaean Zeus within which neither man nor beast casts a shadow: <bibl n="Paus. 8.38.6" default="NO" valid="yes">Paus. 8.38.6</bibl></li>
+                <li>priests: <bibl n="Paus. 1.24.4" default="NO" valid="yes">Paus. 1.24.4</bibl>, <bibl n="Paus. 2.15.3" default="NO" valid="yes">Paus. 2.15.3</bibl>, <bibl n="Paus. 4.33.2" default="NO" valid="yes">Paus. 4.33.2</bibl>, <bibl n="Paus. 5.15.10" default="NO" valid="yes">Paus. 5.15.10</bibl>, <bibl n="Paus. 8.38.4" default="NO" valid="yes">Paus. 8.38.4</bibl></li>
+                <li>sacrifices to: <bibl n="Paus. 1.16.1" default="NO" valid="yes">Paus. 1.16.1</bibl>, <bibl n="Paus. 1.24.4" default="NO" valid="yes">Paus. 1.24.4</bibl>, <bibl n="Paus. 1.28.10" default="NO" valid="yes">Paus. 1.28.10</bibl>, <bibl n="Paus. 2.15.3" default="NO" valid="yes">Paus. 2.15.3</bibl>, <bibl n="Paus. 5.13.10" default="NO" valid="yes">Paus. 5.13.10</bibl>, <bibl n="Paus. 5.14.1" default="NO" valid="yes">Paus. 5.14.1</bibl>, 4, <bibl n="Paus. 6.8.2" default="NO" valid="yes">Paus. 6.8.2</bibl>, <bibl n="Paus. 8.2.3" default="NO" valid="yes">Paus. 8.2.3</bibl>, <bibl n="Paus. 8.38.7" default="NO" valid="yes">Paus. 8.38.7</bibl>, <bibl n="Paus. 9.39.5" default="NO" valid="yes">Paus. 9.39.5</bibl></li>
+                <li>shield dedicated to: <bibl n="Paus. 10.21.5" default="NO" valid="yes">Paus. 10.21.5</bibl></li>
+                <li>stone called Zeus Cappotas: <bibl n="Paus. 3.22.1" default="NO" valid="yes">Paus. 3.22.1</bibl></li>
+                <li>represented beardless: <bibl n="Paus. 5.24.6" default="NO" valid="yes">Paus. 5.24.6</bibl>, as a child: <bibl n="Paus. 7.24.4" default="NO" valid="yes">Paus. 7.24.4</bibl>, with three eyes: <bibl n="Paus. 2.24.3" default="NO" valid="yes">Paus. 2.24.3</bibl>ff.</li>
+                <li>Altars-<bibl n="Paus. 1.24.4" default="NO" valid="yes">Paus. 1.24.4</bibl>, <bibl n="Paus. 1.26.5" default="NO" valid="yes">Paus. 1.26.5</bibl>, <bibl n="Paus. 1.31.4" default="NO" valid="yes">Paus. 1.31.4</bibl>, <bibl n="Paus. 1.32.2" default="NO" valid="yes">Paus. 1.32.2</bibl>, <bibl n="Paus. 1.34.3" default="NO" valid="yes">Paus. 1.34.3</bibl>, <bibl n="Paus. 1.37.4" default="NO" valid="yes">Paus. 1.37.4</bibl>, <bibl n="Paus. 2.19.8" default="NO" valid="yes">Paus. 2.19.8</bibl>, <bibl n="Paus. 2.21.2" default="NO" valid="yes">Paus. 2.21.2</bibl>, <bibl n="Paus. 2.25.10" default="NO" valid="yes">Paus. 2.25.10</bibl>, <bibl n="Paus. 2.32.7" default="NO" valid="yes">Paus. 2.32.7</bibl>, <bibl n="Paus. 2.34.6" default="NO" valid="yes">Paus. 2.34.6</bibl>, <bibl n="Paus. 3.13.6" default="NO" valid="yes">Paus. 3.13.6</bibl>, <bibl n="Paus. 3.25.1" default="NO" valid="yes">Paus. 3.25.1</bibl>, <bibl n="Paus. 5.5.1" default="NO" valid="yes">Paus. 5.5.1</bibl>, <bibl n="Paus. 5.13.8-11" default="NO" valid="yes">Paus. 5.13.8-11</bibl>, <bibl n="Paus. 5.14.6" default="NO" valid="yes">Paus. 5.14.6</bibl>, 7, 8, 10, <bibl n="Paus. 5.15.4" default="NO" valid="yes">Paus. 5.15.4</bibl>, 5, <bibl n="Paus. 5.24.1" default="NO" valid="yes">Paus. 5.24.1</bibl>, <bibl n="Paus. 6.24.3" default="NO" valid="yes">Paus. 6.24.3</bibl>, <bibl n="Paus. 7.24.5" default="NO" valid="yes">Paus. 7.24.5</bibl>, <bibl n="Paus. 8.2.3" default="NO" valid="yes">Paus. 8.2.3</bibl>, <bibl n="Paus. 8.26.6" default="NO" valid="yes">Paus. 8.26.6</bibl>, <bibl n="Paus. 8.38.7" default="NO" valid="yes">Paus. 8.38.7</bibl>, <bibl n="Paus. 8.48.6" default="NO" valid="yes">Paus. 8.48.6</bibl>, <bibl n="Paus. 8.53.11" default="NO" valid="yes">Paus. 8.53.11</bibl>, <bibl n="Paus. 9.2.5" default="NO" valid="yes">Paus. 9.2.5</bibl>, 7</li>
+                <li>Images and other representations in art-<bibl n="Paus. 1.1.3" default="NO" valid="yes">Paus. 1.1.3</bibl>, <bibl n="Paus. 1.2.5" default="NO" valid="yes">Paus. 1.2.5</bibl>, <bibl n="Paus. 1.3.2" default="NO" valid="yes">Paus. 1.3.2</bibl>, <bibl n="Paus. 1.17.2" default="NO" valid="yes">Paus. 1.17.2</bibl>, <bibl n="Paus. 1.18.6" default="NO" valid="yes">Paus. 1.18.6</bibl>, 7, <bibl n="Paus. 1.24.4" default="NO" valid="yes">Paus. 1.24.4</bibl>, <bibl n="Paus. 1.32.2" default="NO" valid="yes">Paus. 1.32.2</bibl>, <bibl n="Paus. 1.40.4" default="NO" valid="yes">Paus. 1.40.4</bibl>, <bibl n="Paus. 1.43.6" default="NO" valid="yes">Paus. 1.43.6</bibl>, <bibl n="Paus. 2.2.8" default="NO" valid="yes">Paus. 2.2.8</bibl>, <bibl n="Paus. 2.4.5" default="NO" valid="yes">Paus. 2.4.5</bibl>, <bibl n="Paus. 2.9.6" default="NO" valid="yes">Paus. 2.9.6</bibl>, <bibl n="Paus. 2.17.3" default="NO" valid="yes">Paus. 2.17.3</bibl>, <bibl n="Paus. 2.20.1" default="NO" valid="yes">Paus. 2.20.1</bibl>ff., <bibl n="Paus. 2.22.2" default="NO" valid="yes">Paus. 2.22.2</bibl>, <bibl n="Paus. 2.24.3" default="NO" valid="yes">Paus. 2.24.3</bibl>, <bibl n="Paus. 2.27.2" default="NO" valid="yes">Paus. 2.27.2</bibl>, <bibl n="Paus. 3.11.11" default="NO" valid="yes">Paus. 3.11.11</bibl>, <bibl n="Paus. 3.12.11" default="NO" valid="yes">Paus. 3.12.11</bibl>, <bibl n="Paus. 3.17.6" default="NO" valid="yes">Paus. 3.17.6</bibl>, <bibl n="Paus. 3.18.10" default="NO" valid="yes">Paus. 3.18.10</bibl>, <bibl n="Paus. 3.19.3" default="NO" valid="yes">Paus. 3.19.3</bibl>, <bibl n="Paus. 3.21.4" default="NO" valid="yes">Paus. 3.21.4</bibl>, <bibl n="Paus. 3.26.6" default="NO" valid="yes">Paus. 3.26.6</bibl>, <bibl n="Paus. 4.31.6" default="NO" valid="yes">Paus. 4.31.6</bibl>, <bibl n="Paus. 4.33.2" default="NO" valid="yes">Paus. 4.33.2</bibl>, <bibl n="Paus. 4.34.6" default="NO" valid="yes">Paus. 4.34.6</bibl>, <bibl n="Paus. 5.2.3" default="NO" valid="yes">Paus. 5.2.3</bibl>, <bibl n="Paus. 5.10.2" default="NO" valid="yes">Paus. 5.10.2</bibl>, 6, <bibl n="Paus. 5.11.1-10" default="NO" valid="yes">Paus. 5.11.1-10</bibl>, <bibl n="Paus. 5.17.1" default="NO" valid="yes">Paus. 5.17.1</bibl>, <bibl n="Paus. 5.20.2" default="NO" valid="yes">Paus. 5.20.2</bibl>, <bibl n="Paus. 5.21.2-4" default="NO" valid="yes">Paus. 5.21.2-4</bibl>, 6, 8, 15, 17, <bibl n="Paus. 5.22.1" default="NO" valid="yes">Paus. 5.22.1</bibl>, 2, 3, 5, 6, 7, <bibl n="Paus. 5.23.1" default="NO" valid="yes">Paus. 5.23.1</bibl>, 4, <bibl n="Paus. 5.24.9" default="NO" valid="yes">Paus. 5.24.9</bibl>, 11, <bibl n="Paus. 5.25.1" default="NO" valid="yes">Paus. 5.25.1</bibl>, <bibl n="Paus. 6.7.2" default="NO" valid="yes">Paus. 6.7.2</bibl>, <bibl n="Paus. 6.10.6" default="NO" valid="yes">Paus. 6.10.6</bibl>, <bibl n="Paus. 6.19.7" default="NO" valid="yes">Paus. 6.19.7</bibl>, 12, <bibl n="Paus. 6.23.4" default="NO" valid="yes">Paus. 6.23.4</bibl>, <bibl n="Paus. 7.20.3" default="NO" valid="yes">Paus. 7.20.3</bibl>, <bibl n="Paus. 7.23.9" default="NO" valid="yes">Paus. 7.23.9</bibl>, 10, <bibl n="Paus. 7.24.2" default="NO" valid="yes">Paus. 7.24.2</bibl>, 4, <bibl n="Paus. 7.26.4" default="NO" valid="yes">Paus. 7.26.4</bibl>, <bibl n="Paus. 8.14.7" default="NO" valid="yes">Paus. 8.14.7</bibl>, <bibl n="Paus. 8.31.4" default="NO" valid="yes">Paus. 8.31.4</bibl>, <bibl n="Paus. 8.37.1" default="NO" valid="yes">Paus. 8.37.1</bibl>, <bibl n="Paus. 8.46.2" default="NO" valid="yes">Paus. 8.46.2</bibl>, <bibl n="Paus. 8.47.3" default="NO" valid="yes">Paus. 8.47.3</bibl>, <bibl n="Paus. 9.2.5" default="NO" valid="yes">Paus. 9.2.5</bibl>, 7, <bibl n="Paus. 9.19.3" default="NO" valid="yes">Paus. 9.19.3</bibl>, <bibl n="Paus. 9.25.4" default="NO" valid="yes">Paus. 9.25.4</bibl>, <bibl n="Paus. 9.26.7" default="NO" valid="yes">Paus. 9.26.7</bibl>, <bibl n="Paus. 9.34.1" default="NO" valid="yes">Paus. 9.34.1</bibl>, 5, <bibl n="Paus. 9.39.4" default="NO" valid="yes">Paus. 9.39.4</bibl>, <bibl n="Paus. 9.41.6" default="NO" valid="yes">Paus. 9.41.6</bibl>, <bibl n="Paus. 10.5.2" default="NO" valid="yes">Paus. 10.5.2</bibl>, <bibl n="Paus. 10.9.7" default="NO" valid="yes">Paus. 10.9.7</bibl>, <bibl n="Paus. 10.13.6" default="NO" valid="yes">Paus. 10.13.6</bibl>, <bibl n="Paus. 10.24.4" default="NO" valid="yes">Paus. 10.24.4</bibl></li>
+                <li>Temples and sanctuaries-<bibl n="Paus. 1.1.4" default="NO" valid="yes">Paus. 1.1.4</bibl>, <bibl n="Paus. 1.4.5" default="NO" valid="yes">Paus. 1.4.5</bibl>, <bibl n="Paus. 1.17.5" default="NO" valid="yes">Paus. 1.17.5</bibl>, <bibl n="Paus. 1.18.6-8" default="NO" valid="yes">Paus. 1.18.6-8</bibl>, 9, <bibl n="Paus. 1.40.4" default="NO" valid="yes">Paus. 1.40.4</bibl>, 6, <bibl n="Paus. 1.44.9" default="NO" valid="yes">Paus. 1.44.9</bibl>, <bibl n="Paus. 2.4.5" default="NO" valid="yes">Paus. 2.4.5</bibl>, <bibl n="Paus. 2.15.2" default="NO" valid="yes">Paus. 2.15.2</bibl>, <bibl n="Paus. 2.20.3" default="NO" valid="yes">Paus. 2.20.3</bibl>, <bibl n="Paus. 2.24.3" default="NO" valid="yes">Paus. 2.24.3</bibl>, <bibl n="Paus. 2.30.3" default="NO" valid="yes">Paus. 2.30.3</bibl>, 4, <bibl n="Paus. 2.31.10" default="NO" valid="yes">Paus. 2.31.10</bibl>, <bibl n="Paus. 2.36.2" default="NO" valid="yes">Paus. 2.36.2</bibl>, <bibl n="Paus. 3.9.2" default="NO" valid="yes">Paus. 3.9.2</bibl>, <bibl n="Paus. 3.10.6" default="NO" valid="yes">Paus. 3.10.6</bibl>, <bibl n="Paus. 3.11.9" default="NO" valid="yes">Paus. 3.11.9</bibl>, <bibl n="Paus. 3.12.9" default="NO" valid="yes">Paus. 3.12.9</bibl>, <bibl n="Paus. 3.13.8" default="NO" valid="yes">Paus. 3.13.8</bibl>, <bibl n="Paus. 3.14.5" default="NO" valid="yes">Paus. 3.14.5</bibl>, <bibl n="Paus. 3.19.7" default="NO" valid="yes">Paus. 3.19.7</bibl>, <bibl n="Paus. 4.33.1" default="NO" valid="yes">Paus. 4.33.1</bibl>, <bibl n="Paus. 5.5.5" default="NO" valid="yes">Paus. 5.5.5</bibl>, <bibl n="Paus. 5.10.2" default="NO" valid="yes">Paus. 5.10.2</bibl>-<bibl n="Paus. 5.11.10" default="NO" valid="yes">Paus. 5.11.10</bibl>, <bibl n="Paus. 5.12.8" default="NO" valid="yes">Paus. 5.12.8</bibl>, <bibl n="Paus. 7.20.3" default="NO" valid="yes">Paus. 7.20.3</bibl>, <bibl n="Paus. 7.23.9" default="NO" valid="yes">Paus. 7.23.9</bibl>, <bibl n="Paus. 7.24.2" default="NO" valid="yes">Paus. 7.24.2</bibl>, <bibl n="Paus. 7.26.4" default="NO" valid="yes">Paus. 7.26.4</bibl>, <bibl n="Paus. 8.9.2" default="NO" valid="yes">Paus. 8.9.2</bibl>, <bibl n="Paus. 8.12.1" default="NO" valid="yes">Paus. 8.12.1</bibl>, <bibl n="Paus. 8.30.2" default="NO" valid="yes">Paus. 8.30.2</bibl>, 8, 10, <bibl n="Paus. 8.31.4" default="NO" valid="yes">Paus. 8.31.4</bibl>, <bibl n="Paus. 9.19.3" default="NO" valid="yes">Paus. 9.19.3</bibl>, <bibl n="Paus. 9.25.4" default="NO" valid="yes">Paus. 9.25.4</bibl>, <bibl n="Paus. 9.34.5" default="NO" valid="yes">Paus. 9.34.5</bibl>, <bibl n="Paus. 9.39.4" default="NO" valid="yes">Paus. 9.39.4</bibl>, <bibl n="Paus. 10.28.6" default="NO" valid="yes">Paus. 10.28.6</bibl></li>
+                <li>connected with some particular place or function (Zeus Lacedaemon, Zeus Catharsius, etc.): <bibl n="Hdt. 1.44" default="NO" valid="yes">Hdt. 1.44</bibl>, <bibl n="Hdt. 1.171" default="NO" valid="yes">Hdt. 1.171</bibl>, <bibl n="Hdt. 2.55" default="NO" valid="yes">Hdt. 2.55</bibl>, <bibl n="Hdt. 2.178" default="NO" valid="yes">Hdt. 2.178</bibl>, <bibl n="Hdt. 3.142" default="NO" valid="yes">Hdt. 3.142</bibl>, <bibl n="Hdt. 4.203" default="NO" valid="yes">Hdt. 4.203</bibl>, <bibl n="Hdt. 5.46" default="NO" valid="yes">Hdt. 5.46</bibl>, <bibl n="Hdt. 5.66" default="NO" valid="yes">Hdt. 5.66</bibl>, <bibl n="Hdt. 5.119" default="NO" valid="yes">Hdt. 5.119</bibl>, <bibl n="Hdt. 6.56" default="NO" valid="yes">Hdt. 6.56</bibl>, <bibl n="Hdt. 6.68" default="NO" valid="yes">Hdt. 6.68</bibl>, <bibl n="Hdt. 7.141" default="NO" valid="yes">Hdt. 7.141</bibl>, <bibl n="Hdt. 7.197" default="NO" valid="yes">Hdt. 7.197</bibl>, <bibl n="Hdt. 9.7" default="NO" valid="yes">Hdt. 9.7</bibl>, <bibl n="Hdt. 9.81" default="NO" valid="yes">Hdt. 9.81</bibl></li>
+                <li>Titles-Ambulian: <bibl n="Paus. 3.13.6" default="NO" valid="yes">Paus. 3.13.6</bibl></li>
+                <li>Anchesmian: <bibl n="Paus. 1.32.2" default="NO" valid="yes">Paus. 1.32.2</bibl>, Apesantian: <bibl n="Paus. 2.15.3" default="NO" valid="yes">Paus. 2.15.3</bibl></li>
+                <li>Aqueous: <bibl n="Paus. 1.13.3" default="NO" valid="yes">Paus. 1.13.3</bibl></li>
+                <li>Averter of Flies: <bibl n="Paus. 5.14.1" default="NO" valid="yes">Paus. 5.14.1</bibl></li>
+                <li>Averter of ills: <bibl n="Paus. 1.32.2" default="NO" valid="yes">Paus. 1.32.2</bibl></li>
+                <li>Bountiful: <bibl n="Paus. 8.9.2" default="NO" valid="yes">Paus. 8.9.2</bibl></li>
+                <li>Capitolian: <bibl n="Paus. 2.4.5" default="NO" valid="yes">Paus. 2.4.5</bibl></li>
+                <li>Cappotas: <bibl n="Paus. 3.22.1" default="NO" valid="yes">Paus. 3.22.1</bibl></li>
+                <li>Charmon: <bibl n="Paus. 8.12.1" default="NO" valid="yes">Paus. 8.12.1</bibl></li>
+                <li>Cithaeronian: <bibl n="Paus. 9.2.4" default="NO" valid="yes">Paus. 9.2.4</bibl></li>
+                <li>Clarian: <bibl n="Paus. 8.53.9" default="NO" valid="yes">Paus. 8.53.9</bibl></li>
+                <li>Contriver: <bibl n="Paus. 2.22.2" default="NO" valid="yes">Paus. 2.22.2</bibl></li>
+                <li>Counsellor: <bibl n="Paus. 1.3.5" default="NO" valid="yes">Paus. 1.3.5</bibl></li>
+                <li>of the Courtyard: <bibl n="Paus. 4.17.4" default="NO" valid="yes">Paus. 4.17.4</bibl>, <bibl n="Paus. 5.14.7" default="NO" valid="yes">Paus. 5.14.7</bibl>, <bibl n="Paus. 8.46.2" default="NO" valid="yes">Paus. 8.46.2</bibl>, <foreign lang="la">cf.</foreign><bibl n="Paus. 2.24.3" default="NO" valid="yes">Paus. 2.24.3</bibl></li>
+                <li>Croceatian: <bibl n="Paus. 3.21.4" default="NO" valid="yes">Paus. 3.21.4</bibl></li>
+                <li>Descender: <bibl n="Paus. 5.14.10" default="NO" valid="yes">Paus. 5.14.10</bibl></li>
+                <li>Dusty: <bibl n="Paus. 1.40.6" default="NO" valid="yes">Paus. 1.40.6</bibl></li>
+                <li>of the Fair Wind: <bibl n="Paus. 3.13.8" default="NO" valid="yes">Paus. 3.13.8</bibl></li>
+                <li>of Freedom: <bibl n="Paus. 1.3.2" default="NO" valid="yes">Paus. 1.3.2</bibl>, <bibl n="Paus. 9.2.5" default="NO" valid="yes">Paus. 9.2.5</bibl>, 7, <bibl n="Paus. 10.21.5" default="NO" valid="yes">Paus. 10.21.5</bibl>, 6</li>
+                <li>Friendly: <bibl n="Paus. 8.31.4" default="NO" valid="yes">Paus. 8.31.4</bibl></li>
+                <li>Full-grown: <bibl n="Paus. 8.48.6" default="NO" valid="yes">Paus. 8.48.6</bibl></li>
+                <li>God of Acquisition: <bibl n="Paus. 1.31.4" default="NO" valid="yes">Paus. 1.31.4</bibl></li>
+                <li>God of Flight: <bibl n="Paus. 2.21.2" default="NO" valid="yes">Paus. 2.21.2</bibl>, <bibl n="Paus. 3.17.9" default="NO" valid="yes">Paus. 3.17.9</bibl></li>
+                <li>God of Oaths: <bibl n="Paus. 5.24.9" default="NO" valid="yes">Paus. 5.24.9</bibl></li>
+                <li>Gracious: <bibl n="Paus. 1.37.4" default="NO" valid="yes">Paus. 1.37.4</bibl>, <bibl n="Paus. 2.9.6" default="NO" valid="yes">Paus. 2.9.6</bibl>, <bibl n="Paus. 2.20.1" default="NO" valid="yes">Paus. 2.20.1</bibl>, 2</li>
+                <li>Guide of Fate: <bibl n="Paus. 5.15.5" default="NO" valid="yes">Paus. 5.15.5</bibl>, <bibl n="Paus. 8.37.1" default="NO" valid="yes">Paus. 8.37.1</bibl>, <bibl n="Paus. 10.24.4" default="NO" valid="yes">Paus. 10.24.4</bibl></li>
+                <li>Heliconian: <bibl n="Paus. 7.24.5" default="NO" valid="yes">Paus. 7.24.5</bibl></li>
+                <li>Highest: <bibl n="Paus. 2.2.8" default="NO" valid="yes">Paus. 2.2.8</bibl>, <bibl n="Paus. 5.15.5" default="NO" valid="yes">Paus. 5.15.5</bibl>, <bibl n="Paus. 9.8.5" default="NO" valid="yes">Paus. 9.8.5</bibl></li>
+                <li>Homagyrian: <bibl n="Paus. 7.24.2" default="NO" valid="yes">Paus. 7.24.2</bibl></li>
+                <li>Hospitable: <bibl n="Paus. 3.11.11" default="NO" valid="yes">Paus. 3.11.11</bibl></li>
+                <li>Hurler: <bibl n="Paus. 1.44.9" default="NO" valid="yes">Paus. 1.44.9</bibl></li>
+                <li>Hymettian: <bibl n="Paus. 1.32.2" default="NO" valid="yes">Paus. 1.32.2</bibl></li>
+                <li>Hypsistus: <bibl n="Paus. 9.8.5" default="NO" valid="yes">Paus. 9.8.5</bibl></li>
+                <li>Ithomatian or of Ithome: <bibl n="Paus. 3.26.7" default="NO" valid="yes">Paus. 3.26.7</bibl>, <bibl n="Paus. 4.3.9" default="NO" valid="yes">Paus. 4.3.9</bibl>, <bibl n="Paus. 4.12.7" default="NO" valid="yes">Paus. 4.12.7</bibl>, <bibl n="Paus. 4.13.1" default="NO" valid="yes">Paus. 4.13.1</bibl>, <bibl n="Paus. 4.20.4" default="NO" valid="yes">Paus. 4.20.4</bibl>, <bibl n="Paus. 4.24.7" default="NO" valid="yes">Paus. 4.24.7</bibl>, <bibl n="Paus. 4.27.6" default="NO" valid="yes">Paus. 4.27.6</bibl>, <bibl n="Paus. 4.33.1" default="NO" valid="yes">Paus. 4.33.1</bibl></li>
+                <li>King: <bibl n="Paus. 9.39.4" default="NO" valid="yes">Paus. 9.39.4</bibl>, 5</li>
+                <li>Laoetas: <bibl n="Paus. 5.24.1" default="NO" valid="yes">Paus. 5.24.1</bibl></li>
+                <li>Laphystian: <bibl n="Paus. 1.24.2" default="NO" valid="yes">Paus. 1.24.2</bibl>, <bibl n="Paus. 9.34.5" default="NO" valid="yes">Paus. 9.34.5</bibl></li>
+                <li>Larisian: <bibl n="Paus. 2.24.3" default="NO" valid="yes">Paus. 2.24.3</bibl></li>
+                <li>Lecheates: <bibl n="Paus. 8.26.6" default="NO" valid="yes">Paus. 8.26.6</bibl></li>
+                <li>Leucaeus: <bibl n="Paus. 5.5.5" default="NO" valid="yes">Paus. 5.5.5</bibl></li>
+                <li>Lycaean: <bibl n="Paus. 4.22.7" default="NO" valid="yes">Paus. 4.22.7</bibl>, <bibl n="Paus. 6.8.2" default="NO" valid="yes">Paus. 6.8.2</bibl>, <bibl n="Paus. 8.2.1" default="NO" valid="yes">Paus. 8.2.1</bibl>, 3, <bibl n="Paus. 8.30.2" default="NO" valid="yes">Paus. 8.30.2</bibl>, 8, <bibl n="Paus. 8.38.4" default="NO" valid="yes">Paus. 8.38.4</bibl>, 6, 7, <bibl n="Paus. 8.53.11" default="NO" valid="yes">Paus. 8.53.11</bibl></li>
+                <li>Market: <bibl n="Paus. 3.11.9" default="NO" valid="yes">Paus. 3.11.9</bibl>, <bibl n="Paus. 5.15.4" default="NO" valid="yes">Paus. 5.15.4</bibl>, <bibl n="Paus. 9.25.4" default="NO" valid="yes">Paus. 9.25.4</bibl></li>
+                <li>Messapian: <bibl n="Paus. 3.20.3" default="NO" valid="yes">Paus. 3.20.3</bibl></li>
+                <li>Nemean: <bibl n="Paus. 2.15.2" default="NO" valid="yes">Paus. 2.15.2</bibl>, <bibl n="Paus. 2.20.3" default="NO" valid="yes">Paus. 2.20.3</bibl>, <bibl n="Paus. 2.24.2" default="NO" valid="yes">Paus. 2.24.2</bibl>, <bibl n="Paus. 4.27.6" default="NO" valid="yes">Paus. 4.27.6</bibl></li>
+                <li>Olympian: <bibl n="Paus. 1.18.6" default="NO" valid="yes">Paus. 1.18.6</bibl>, 8, <bibl n="Paus. 2.5.5" default="NO" valid="yes">Paus. 2.5.5</bibl>, <bibl n="Paus. 2.27.2" default="NO" valid="yes">Paus. 2.27.2</bibl>, <bibl n="Paus. 3.9.2" default="NO" valid="yes">Paus. 3.9.2</bibl>, <bibl n="Paus. 3.12.11" default="NO" valid="yes">Paus. 3.12.11</bibl>, <bibl n="Paus. 3.14.5" default="NO" valid="yes">Paus. 3.14.5</bibl>, <bibl n="Paus. 4.31.6" default="NO" valid="yes">Paus. 4.31.6</bibl>, <bibl n="Paus. 5.13.8" default="NO" valid="yes">Paus. 5.13.8</bibl>, <bibl n="Paus. 5.14.4" default="NO" valid="yes">Paus. 5.14.4</bibl>, 8, <bibl n="Paus. 7.20.3" default="NO" valid="yes">Paus. 7.20.3</bibl>, <bibl n="Paus. 10.28.6" default="NO" valid="yes">Paus. 10.28.6</bibl>, <foreign lang="la">cf.</foreign><bibl n="Paus. 5.10.1" default="NO" valid="yes">Paus. 5.10.1</bibl>-<bibl n="Paus. 5.11.11" default="NO" valid="yes">Paus. 5.11.11</bibl></li>
+                <li>Orderer: <bibl n="Paus. 3.17.4" default="NO" valid="yes">Paus. 3.17.4</bibl></li>
+                <li>Panhellenian: <bibl n="Paus. 1.18.9" default="NO" valid="yes">Paus. 1.18.9</bibl>, <bibl n="Paus. 1.44.9" default="NO" valid="yes">Paus. 1.44.9</bibl>, <bibl n="Paus. 2.29.8" default="NO" valid="yes">Paus. 2.29.8</bibl>, <bibl n="Paus. 2.30.3" default="NO" valid="yes">Paus. 2.30.3</bibl></li>
+                <li>Parnethian: <bibl n="Paus. 1.32.2" default="NO" valid="yes">Paus. 1.32.2</bibl></li>
+                <li>Paternal: <bibl n="Paus. 2.24.3" default="NO" valid="yes">Paus. 2.24.3</bibl></li>
+                <li>Polieus: <bibl n="Paus. 1.24.4" default="NO" valid="yes">Paus. 1.24.4</bibl>, <bibl n="Paus. 1.28.10" default="NO" valid="yes">Paus. 1.28.10</bibl></li>
+                <li>Purifying: <bibl n="Paus. 5.14.8" default="NO" valid="yes">Paus. 5.14.8</bibl></li>
+                <li>Rainy: <bibl n="Paus. 2.19.8" default="NO" valid="yes">Paus. 2.19.8</bibl>, <bibl n="Paus. 9.39.4" default="NO" valid="yes">Paus. 9.39.4</bibl></li>
+                <li>Saviour: <bibl n="Paus. 2.20.6" default="NO" valid="yes">Paus. 2.20.6</bibl>, <bibl n="Paus. 2.31.10" default="NO" valid="yes">Paus. 2.31.10</bibl>, <bibl n="Paus. 3.23.10" default="NO" valid="yes">Paus. 3.23.10</bibl>, <bibl n="Paus. 4.31.6" default="NO" valid="yes">Paus. 4.31.6</bibl>, <bibl n="Paus. 4.34.6" default="NO" valid="yes">Paus. 4.34.6</bibl>, <bibl n="Paus. 5.5.1" default="NO" valid="yes">Paus. 5.5.1</bibl>, <bibl n="Paus. 7.23.9" default="NO" valid="yes">Paus. 7.23.9</bibl>, <bibl n="Paus. 8.9.2" default="NO" valid="yes">Paus. 8.9.2</bibl>, <bibl n="Paus. 8.30.10" default="NO" valid="yes">Paus. 8.30.10</bibl>, <bibl n="Paus. 9.26.7" default="NO" valid="yes">Paus. 9.26.7</bibl></li>
+                <li>Saviour, Herakles sacrifices to: <bibl n="Apollod. 2.5.1" default="NO" valid="yes">Apollod. 2.5.1</bibl>, <bibl n="Apollod. 2.4.12" default="NO" valid="yes">Apollod. 2.4.12</bibl></li>
+                <li>Scotitas: <bibl n="Paus. 3.10.6" default="NO" valid="yes">Paus. 3.10.6</bibl></li>
+                <li>Showery: <bibl n="Paus. 1.32.2" default="NO" valid="yes">Paus. 1.32.2</bibl></li>
+                <li>Sign-giving: <bibl n="Paus. 1.32.2" default="NO" valid="yes">Paus. 1.32.2</bibl></li>
+                <li>Strong: <bibl n="Paus. 2.32.7" default="NO" valid="yes">Paus. 2.32.7</bibl>, <bibl n="Paus. 2.34.6" default="NO" valid="yes">Paus. 2.34.6</bibl></li>
+                <li>Subterranean: <bibl n="Paus. 2.2.8" default="NO" valid="yes">Paus. 2.2.8</bibl>, <bibl n="Paus. 2.24.4" default="NO" valid="yes">Paus. 2.24.4</bibl>, <bibl n="Paus. 5.14.8" default="NO" valid="yes">Paus. 5.14.8</bibl></li>
+                <li>Supreme: <bibl n="Paus. 1.26.5" default="NO" valid="yes">Paus. 1.26.5</bibl>, <bibl n="Paus. 3.17.6" default="NO" valid="yes">Paus. 3.17.6</bibl>, <bibl n="Paus. 8.2.3" default="NO" valid="yes">Paus. 8.2.3</bibl>, <bibl n="Paus. 8.14.7" default="NO" valid="yes">Paus. 8.14.7</bibl>, <bibl n="Paus. 9.19.3" default="NO" valid="yes">Paus. 9.19.3</bibl></li>
+                <li>Thunderbolt: <bibl n="Paus. 5.14.7" default="NO" valid="yes">Paus. 5.14.7</bibl></li>
+                <li>Tropaean: <bibl n="Paus. 3.12.9" default="NO" valid="yes">Paus. 3.12.9</bibl></li>
+                <li>Underground: <bibl n="Paus. 2.24.4" default="NO" valid="yes">Paus. 2.24.4</bibl>(see Subterranean)</li>
+                <li>Warlike: <bibl n="Paus. 5.14.6" default="NO" valid="yes">Paus. 5.14.6</bibl></li>
+                <li>Wealthy: <bibl n="Paus. 3.19.7" default="NO" valid="yes">Paus. 3.19.7</bibl></li>
+                <li>identified with foreign deities: <bibl n="Hdt. 1.46" default="NO" valid="yes">Hdt. 1.46</bibl>, <bibl n="Hdt. 1.131" default="NO" valid="yes">Hdt. 1.131</bibl>, <bibl n="Hdt. 1.181-183" default="NO" valid="yes">Hdt. 1.181-183</bibl>, <bibl n="Hdt. 2.18" default="NO" valid="yes">Hdt. 2.18</bibl>, <bibl n="Hdt. 2.32" default="NO" valid="yes">Hdt. 2.32</bibl>, <bibl n="Hdt. 2.29" default="NO" valid="yes">Hdt. 2.29</bibl>, <bibl n="Hdt. 2.42" default="NO" valid="yes">Hdt. 2.42</bibl>, <bibl n="Hdt. 2.54" default="NO" valid="yes">Hdt. 2.54</bibl>, <bibl n="Hdt. 2.55" default="NO" valid="yes">Hdt. 2.55</bibl>, <bibl n="Hdt. 2.56" default="NO" valid="yes">Hdt. 2.56</bibl>, <bibl n="Hdt. 2.74" default="NO" valid="yes">Hdt. 2.74</bibl>, <bibl n="Hdt. 2.83" default="NO" valid="yes">Hdt. 2.83</bibl>, <bibl n="Hdt. 2.143" default="NO" valid="yes">Hdt. 2.143</bibl>, <bibl n="Hdt. 3.158" default="NO" valid="yes">Hdt. 3.158</bibl>, <bibl n="Hdt. 4.5" default="NO" valid="yes">Hdt. 4.5</bibl>, <bibl n="Hdt. 4.59" default="NO" valid="yes">Hdt. 4.59</bibl>, <bibl n="Hdt. 4.127" default="NO" valid="yes">Hdt. 4.127</bibl>, <bibl n="Hdt. 4.180" default="NO" valid="yes">Hdt. 4.180</bibl>, <bibl n="Hdt. 4.181" default="NO" valid="yes">Hdt. 4.181</bibl>, <bibl n="Hdt. 7.40" default="NO" valid="yes">Hdt. 7.40</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zeuxidamus" org="uniform" sample="complete">
+          <head>Zeuxidamus</head>
+          <div2 type="subentry" id="zeuxidamus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zeuxidamus</surname></persName>, son of <persName><surname full="yes">Archidamus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>king of Sparta: <bibl n="Paus. 3.7.6" default="NO" valid="yes">Paus. 3.7.6</bibl></li>
+                <li>father of <persName><surname full="yes">Anaxidamus</surname></persName>: <bibl n="Paus. 4.15.3" default="NO" valid="yes">Paus. 4.15.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zeuxidemus" org="uniform" sample="complete">
+          <head>Zeuxidemus</head>
+          <div2 type="subentry" id="zeuxidemus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zeuxidemus</surname></persName>, son of <persName><surname full="yes">Leutychides</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 3.7.10" default="NO" valid="yes">Paus. 3.7.10</bibl>
+                </li>
+                <li>king of Sparta, his early death: <bibl n="Hdt. 6.71" default="NO" valid="yes">Hdt. 6.71</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zeuxippe" org="uniform" sample="complete">
+          <head>Zeuxippe</head>
+          <div2 type="subentry" id="zeuxippe-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zeuxippe</surname></persName>, daughter of <persName><surname full="yes">Lamedon</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>wife of <persName><surname full="yes">Sicyon</surname></persName>: <bibl n="Paus. 2.6.5" default="NO" valid="yes">Paus. 2.6.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="zeuxippe-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zeuxippe</surname></persName>(2), mother's sister and wife of <persName><surname full="yes">Pandion</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>mother of <persName><surname full="yes">Procne</surname></persName> and Philomela: <bibl n="Apollod. 3.14.7" default="NO" valid="yes">Apollod. 3.14.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zeuxippus" org="uniform" sample="complete">
+          <head>Zeuxippus</head>
+          <div2 type="subentry" id="zeuxippus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zeuxippus</surname></persName>, son of <persName><surname full="yes">Apollo</surname></persName> and <persName><surname full="yes">Syllis</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>king of Sicyon: <bibl n="Paus. 2.6.7" default="NO" valid="yes">Paus. 2.6.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zoeteus" org="uniform" sample="complete">
+          <head>Zoeteus</head>
+          <div2 type="subentry" id="zoeteus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zoeteus</surname></persName>, son of <persName><surname full="yes">Tricolonus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 8.35.6" default="NO" valid="yes">Paus. 8.35.6</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zoetia" org="uniform" sample="complete">
+          <head>Zoetia</head>
+          <div2 type="subentry" id="zoetia-1" org="uniform" sample="complete">
+            <subhead><placeName>Zoetia</placeName>, city of <placeName>Arcadia</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 8.27.3" default="NO" valid="yes">Paus. 8.27.3</bibl>, <bibl n="Paus. 8.35.6" default="NO" valid="yes">Paus. 8.35.6</bibl>, 7</li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.architecture" type="entry" org="uniform" sample="complete">
+          <head>Zophorus</head>
+          <subhead type="alt">Zoophorus</subhead>
+          <div2 type="subentry" id="zophorus-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>Literally meaning "bearing animals"; a word applied to a panel or relief, and hence used to describe the continuous carved frieze of Ionic and Corinthian architecture, which represents the triglyphs and metopes of the Doric buildings.</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="frieze-1" targOrder="U">Frieze</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zopyrus" org="uniform" sample="complete">
+          <head>Zopyrus</head>
+          <div2 type="subentry" id="zopyrus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zopyrus</surname></persName>, a <name type="ethnic">Persian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>son of <persName><surname full="yes">Megabyzus</surname></persName>, his pretended desertion to the Babylonians, and delivery of Babylon to Darius: <bibl n="Hdt. 3.153-159" default="NO" valid="yes">Hdt. 3.153-159</bibl></li>
+                <li>Darius' esteem for him: <bibl n="Hdt. 3.160" default="NO" valid="yes">Hdt. 3.160</bibl></li>
+                <li>rape of his daughter: <bibl n="Hdt. 4.43" default="NO" valid="yes">Hdt. 4.43</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="zopyrus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zopyrus</surname></persName>(2), grandson of <ref type="cross" target="zopyrus-1" targOrder="U">Zopyrus</ref></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>his migration from Persia to Athens: <bibl n="Hdt. 3.160" default="NO" valid="yes">Hdt. 3.160</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zoster" org="uniform" sample="complete">
+          <head>Zoster</head>
+          <div2 type="subentry" id="zoster-1" org="uniform" sample="complete">
+            <subhead><placeName>Zoster</placeName>, deme of <placeName>Attica</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.31.1" default="NO" valid="yes">Paus. 1.31.1</bibl>
+                </li>
+                <li>"Girdle," a promontory on the coast of Attica, rocks near it taken for ships by the Persians: <bibl n="Hdt. 8.10" default="NO" valid="yes">Hdt. 8.10</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zotes" org="uniform" sample="complete">
+          <head>Zotes</head>
+          <div2 type="subentry" id="zotes-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zotes</surname></persName>, father of courier Philonides</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 6.16.5" default="NO" valid="yes">Paus. 6.16.5</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="zypoetes" org="uniform" sample="complete">
+          <head>Zypoetes</head>
+          <div2 type="subentry" id="zypoetes-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Zypoetes</surname></persName>, a <name type="ethnic">Thracian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>founds Astacus: <bibl n="Paus. 5.12.7" default="NO" valid="yes">Paus. 5.12.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+      </div0>
+    </body>
+  </text>
+</tei.2>

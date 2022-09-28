@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tei.2>
+  <teiHeader type="text" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>Perseus Encyclopedia</title> 
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <resp>Prepared under the supervision of</resp>
+          <name>Lisa Cerrato</name>
+          <name>William Merrill</name>
+          <name>Elli Mylonas</name>
+          <name>David Smith</name>
+        </respStmt>
+        <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc default="NO">
+        <p>Created in electronic form.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl doctype="TEI.2">
+        <state unit="id"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state n="chunk" unit="entry"/>
+        <state unit="subentry"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state unit="alphabetic letter"/>
+        <state unit="entry"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage default="NO">
+        <language id="en">English</language>
+        <language id="greek">Greek</language>
+        <language id="xgreek">Transliterated Greek</language>
+        <language id="la">Latin</language>
+        <language id="fr">Latin</language>
+      </langUsage>
+      <textClass id="gen.architecture" default="NO">
+        <keywords>
+          <term>Architecture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.art-terminology" default="NO">
+        <keywords>
+          <term>Art terminology</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.artist" default="NO">
+        <keywords>
+          <term>Artist</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.biography" default="NO">
+        <keywords>
+          <term>Biography</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.clothing" default="NO">
+        <keywords>
+          <term>Clothing</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.furniture" default="NO">
+        <keywords>
+          <term>Furniture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.inscription" default="NO">
+        <keywords>
+          <term>Inscription</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.literature" default="NO">
+        <keywords>
+          <term>Literature</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.miscellaneous" default="NO">
+        <keywords>
+          <term>Miscellaneous</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.music" default="NO">
+        <keywords>
+          <term>Music</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.region" default="NO">
+        <keywords>
+          <term>Region</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.theater-and-drama" default="NO">
+        <keywords>
+          <term>Theater and drama</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.vase-shape" default="NO">
+        <keywords>
+          <term>Vase shape</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>23 September 1999</date>
+        <respStmt>
+          <name>DAS</name>
+          <resp>ed.</resp>
+        </respStmt>
+        <li>$Log: encyclopedia.xml,v $ Revision 1.28 2006/03/27 14:02:23 gcrane more refinements Revision 1.27 2006/03/26 04:13:20 gcrane more fixes Revision 1.26 2006/03/25 19:26:47 gcrane more fixes Revision 1.25 2006/03/25 16:38:06 gcrane Did a lot of work to clean up the base headers for subentries. These should more often now only include global descriptions, e.g, PERSON, son of A stays, but PERSON, fought at Troy goes. --&gt; "Fought at Troy" can be one of many events and is not a global identifier Revision 1.24 2006/03/20 19:15:42 gcrane cleaned up the formatting Revision 1.23 2006/03/20 14:15:22 gcrane small changes Revision 1.20 2006/03/18 15:34:36 gcrane small fixes Revision 1.19 2006/03/18 01:14:23 gcrane small fixes Revision 1.18 2006/03/17 23:55:18 gaweaver small fixes Revision 1.17 2006/03/17 21:56:39 gaweaver Calliopi From Antiphon until Chilon Revision 1.16 2006/03/17 15:39:04 gaweaver no message Revision 1.15 2006/03/10 00:01:20 gaweaver changes made by GRC while over the atlantic Revision 1.14 2006/03/05 03:47:42 gcrane base file Revision 1.13 2006/03/04 13:13:03 gcrane small fixes Revision 1.12 2006/03/03 18:21:05 gaweaver Agenor (10) Revision 1.11 2006/02/15 16:24:46 gcrane small fixes Revision 1.10 2006/02/13 21:52:23 gcrane small fixes Revision 1.9 2006/02/13 01:57:42 gcrane small fixes Revision 1.8 2006/02/12 23:12:05 gcrane small fixes Revision 1.7 2006/02/12 15:30:08 gcrane major structural update: the descriptive info has now been moved up into the headers and id's added to div1 type="entry" Revision 1.6 2006/02/12 13:23:59 gcrane moved descriptions up into the header: the goal is to make the header more informative and thus to facilitate the mechanics of aligning entries in this list with those in Smith's etc Revision 1.5 2006/02/11 19:49:21 gcrane more small fixes to make the coding consistent Revision 1.4 2006/02/11 18:50:04 gcrane working towards moving identifiers for all entities up into the subentry HEAD Revision 1.3 2006/02/10 22:43:14 gcrane changed the structure so that every entry has a subentry -- this simplifies the structure (i hope) Revision 1.2 2005/08/18 13:53:45 packel item tags... Revision 1.1 2005/07/25 14:32:52 packel Converted to XML Revision 1.34 2003/07/01 22:16:05 yorkc Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.) Revision 1.33 2000/03/16 03:17:12 dasmith Gave homonym entries a top-level header. Revision 1.32 2000/03/16 02:52:18 dasmith Added alphabetic letter DIV0s. Made entries subordinate to alphabetic letters in refsDecl. Revision 1.31 2000/03/15 15:12:45 amahoney make homonyms sub-entries Revision 1.30 2000/03/14 18:11:05 amahoney several more random issues, but the Apollodorus refs really are right now Revision 1.27 2000/03/04 20:34:25 dasmith Added separate funder entity to TEI header. Revision 1.26 2000/02/22 17:17:30 amahoney fix bibl refs to known works Revision 1.25 2000/02/04 17:58:05 dasmith Primary lookup by ID (mostly useful for internal navigation). Revision 1.24 2000/01/10 21:09:41 acsmith trying again to change pilaster def. Revision 1.23 2000/01/10 20:16:54 dasmith Fixed sentence grammar. Revision 1.22 1999/10/01 14:11:04 acsmith Amy did away with dangling ref. to Type A2 cup, and turned all Type A1 cups into Type A cups, and lower cased type in Proto type A cup. Revision 1.21 1999/09/30 21:52:22 dasmith Fixed amphorae cross-refs. Revision 1.20 1999/09/30 21:08:38 acsmith ACS fixed (hopefully!) amphorae and pyxides Revision 1.19 1999/09/29 15:55:28 dasmith Converted to TEI2 tagging.</li>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div0 type="alphabetic letter" n="D" org="uniform" sample="complete">
+        <subhead>D</subhead>
+        <div1 type="entry" id="dactyls" org="uniform" sample="complete">
+          <head>Dactyls</head>
+          <div2 type="subentry" id="dactyls-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Dactyls</surname></persName>, <name type="ethnic">Idaean</name>D. or Curetes entrusted with care of infant Zeus</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 5.7.6" default="NO" valid="yes">Paus. 5.7.6</bibl>
+                </li>
+                <li>run race at Olympia: <bibl n="Paus. 5.7.6" default="NO" valid="yes">Paus. 5.7.6</bibl>ff.</li>
+                <li>Herakles one of them: <bibl n="Paus. 8.31.3" default="NO" valid="yes">Paus. 8.31.3</bibl>, <bibl n="Paus. 9.19.5" default="NO" valid="yes">Paus. 9.19.5</bibl>, <bibl n="Paus. 9.27.8" default="NO" valid="yes">Paus. 9.27.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dadicae" org="uniform" sample="complete">
+          <head>Dadicae</head>
+          <div2 type="subentry" id="dadicae-1" org="uniform" sample="complete">
+            <subhead><rs type="ethnic">Dadicae</rs>, a people in the N.E. of the Persian empire</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>their tribute: <bibl n="Hdt. 3.91" default="NO" valid="yes">Hdt. 3.91</bibl></li>
+                <li>in Xerxes' army: <bibl n="Hdt. 7.66" default="NO" valid="yes">Hdt. 7.66</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.architecture" type="entry" org="uniform" sample="complete">
+          <head>Dado</head>
+          <div2 type="subentry" id="dado-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>The lower portion of a wall, between the baseboard and any higher decorative moldings, which is frequently painted or sculpted.</p>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0044"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daedala" org="uniform" sample="complete">
+          <head>Daedala</head>
+          <div2 type="subentry" id="daedala-1" org="uniform" sample="complete">
+            <subhead><name type="festival">Daedala</name>, festival held by <persName><surname full="yes">Plataeans</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 9.3.2-5" default="NO" valid="yes">Paus. 9.3.2-5</bibl>
+                </li>
+                <li>Great D., festival held by Boeotians: <bibl n="Paus. 9.3.5-8" default="NO" valid="yes">Paus. 9.3.5-8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daedalion" org="uniform" sample="complete">
+          <head>Daedalion</head>
+          <div2 type="subentry" id="daedalion-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daedalion</surname></persName>, father of <persName><surname full="yes">Autolycus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 8.4.6" default="NO" valid="yes">Paus. 8.4.6</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daedalum" org="uniform" sample="complete">
+          <head>Daedalum</head>
+          <div2 type="subentry" id="daedalum-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daedalum</surname></persName>, image of oak-wood made for festival of <placeName>Daedala</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 9.3.4" default="NO" valid="yes">Paus. 9.3.4</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daedalus" org="uniform" sample="complete">
+          <head>Daedalus</head>
+          <div2 type="subentry" id="daedalus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daedalus</surname></persName>, son of <persName><surname full="yes">Palamaon</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>early Athenian sculptor: <bibl n="Paus. 9.3.2" default="NO" valid="yes">Paus. 9.3.2</bibl>, <bibl n="Paus. 5.25.13" default="NO" valid="yes">Paus. 5.25.13</bibl></li>
+                <li>belongs to royal house of Athens: <bibl n="Paus. 7.4.5" default="NO" valid="yes">Paus. 7.4.5</bibl></li>
+                <li>contemporary of Oedipus: <bibl n="Paus. 10.17.4" default="NO" valid="yes">Paus. 10.17.4</bibl></li>
+                <li>master of Scyllis and Dipoenus: <bibl n="Paus. 2.15.1" default="NO" valid="yes">Paus. 2.15.1</bibl>, and of Clearchus: <bibl n="Paus. 3.17.6" default="NO" valid="yes">Paus. 3.17.6</bibl></li>
+                <li>makes a statue of Herakles at Pisa: <bibl n="Apollod. 2.6.3" default="NO" valid="yes">Apollod. 2.6.3</bibl></li>
+                <li>architect, banished from Athens for murder of Calos: <bibl n="Apollod. 3.1.3" default="NO" valid="yes">Apollod. 3.1.3</bibl>; <bibl n="Paus. 1.21.4" default="NO" valid="yes">Paus. 1.21.4</bibl>, <bibl n="Paus. 1.26.4" default="NO" valid="yes">Paus. 1.26.4</bibl></li>
+                <li>resides with Minos at Cnosus: <bibl n="Paus. 7.4.5" default="NO" valid="yes">Paus. 7.4.5</bibl>, <bibl n="Paus. 8.53.8" default="NO" valid="yes">Paus. 8.53.8</bibl></li>
+                <li>makes an artificial cow for Pasiphae: <bibl n="Apollod. 3.1.3" default="NO" valid="yes">Apollod. 3.1.3</bibl></li>
+                <li>son of <persName><surname full="yes">Eupalamus</surname></persName>, architect and first inventor of images: <bibl n="Apollod. 3.15.8" default="NO" valid="yes">Apollod. 3.15.8</bibl></li>
+                <li>murders his nephew Talos: <bibl n="Apollod. 3.15.8" default="NO" valid="yes">Apollod. 3.15.8</bibl></li>
+                <li>tried and condemned in the Areopagus: <bibl n="Apollod. 3.15.8" default="NO" valid="yes">Apollod. 3.15.8</bibl></li>
+                <li>flees to Minos: <bibl n="Apollod. 1.9.27" default="NO" valid="yes">Apollod. 1.9.27</bibl></li>
+                <li>accomplice of Pasiphae: <bibl n="Apollod. 1.9.27" default="NO" valid="yes">Apollod. 1.9.27</bibl></li>
+                <li>constructs the Labyrinth: <bibl n="Apollod. 1.9.26" default="NO" valid="yes">Apollod. 1.9.26</bibl>, <bibl n="Apollod. 1.9.27" default="NO" valid="yes">Apollod. 1.9.27</bibl></li>
+                <li>besought by Ariadne to disclose the way out of the labyrinth: <bibl n="Apollod. 2.1.3" default="NO" valid="yes">Apollod. 2.1.3</bibl></li>
+                <li>shut up by Minos in the labyrinth: <bibl n="Apollod. 2.1.4" default="NO" valid="yes">Apollod. 2.1.4</bibl></li>
+                <li>makes wings for himself and flies to Camicus in Sicily: <bibl n="Apollod. 2.1.4" default="NO" valid="yes">Apollod. 2.1.4</bibl>, <bibl n="Apollod. 2.1.5" default="NO" valid="yes">Apollod. 2.1.5</bibl></li>
+                <li>pursued and detected by Minos: <bibl n="Apollod. 2.1.5" default="NO" valid="yes">Apollod. 2.1.5</bibl></li>
+                <li>sought by Minos: <bibl n="Hdt. 7.170" default="NO" valid="yes">Hdt. 7.170</bibl></li>
+                <li>escapes from Crete to Cocalus in Sicily: <bibl n="Paus. 1.21.4" default="NO" valid="yes">Paus. 1.21.4</bibl>, <bibl n="Paus. 7.4.6" default="NO" valid="yes">Paus. 7.4.6</bibl>, <bibl n="Paus. 9.11.4" default="NO" valid="yes">Paus. 9.11.4</bibl>ff.</li>
+                <li>his fame spread over Sicily and Italy: <bibl n="Paus. 7.4.7" default="NO" valid="yes">Paus. 7.4.7</bibl></li>
+                <li>thought by some to have colonised Sardinia with Aristaeus: <bibl n="Paus. 10.17.4" default="NO" valid="yes">Paus. 10.17.4</bibl></li>
+                <li>his works uncouth but inspired: <bibl n="Paus. 2.4.5" default="NO" valid="yes">Paus. 2.4.5</bibl></li>
+                <li>list of his works: <bibl n="Paus. 1.27.1" default="NO" valid="yes">Paus. 1.27.1</bibl>, <bibl n="Paus. 2.4.5" default="NO" valid="yes">Paus. 2.4.5</bibl>, <bibl n="Paus. 8.16.3" default="NO" valid="yes">Paus. 8.16.3</bibl>, <bibl n="Paus. 8.35.2" default="NO" valid="yes">Paus. 8.35.2</bibl>, <bibl n="Paus. 8.46.2" default="NO" valid="yes">Paus. 8.46.2</bibl>, <bibl n="Paus. 9.11.4" default="NO" valid="yes">Paus. 9.11.4</bibl>, <bibl n="Paus. 9.39.8" default="NO" valid="yes">Paus. 9.39.8</bibl>, <bibl n="Paus. 9.40.3" default="NO" valid="yes">Paus. 9.40.3</bibl>ff.</li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="daedalus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daedalus</surname></persName>(2), son of <persName><surname full="yes">Patrocles</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>a Sicyonian sculptor: <bibl n="Paus. 6.2.8" default="NO" valid="yes">Paus. 6.2.8</bibl>, <bibl n="Paus. 6.3.4" default="NO" valid="yes">Paus. 6.3.4</bibl>, 7, <bibl n="Paus. 6.6.1" default="NO" valid="yes">Paus. 6.6.1</bibl>, <bibl n="Paus. 10.9.6" default="NO" valid="yes">Paus. 10.9.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daemon" org="uniform" sample="complete">
+          <head>Daemon</head>
+          <div2 type="subentry" id="daemon-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daemon</surname></persName>, suitor of <persName><surname full="yes">Penelope</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. E.7.29" default="NO" valid="yes">Apollod. E.7.29</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daesenor" org="uniform" sample="complete">
+          <head>Daesenor</head>
+          <div2 type="subentry" id="daesenor-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daesenor</surname></persName>, suitor of <persName><surname full="yes">Penelope</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. E.7.29" default="NO" valid="yes">Apollod. E.7.29</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daetondas" org="uniform" sample="complete">
+          <head>Daetondas</head>
+          <div2 type="subentry" id="daetondas-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daetondas</surname></persName>, a Sicyonian sculptor</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 6.17.5" default="NO" valid="yes">Paus. 6.17.5</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daetus" org="uniform" sample="complete">
+          <head>Daetus</head>
+          <div2 type="subentry" id="daetus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daetus</surname></persName>, descendant of <persName><surname full="yes">Cephalus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 1.37.6" default="NO" valid="yes">Paus. 1.37.6</bibl>ff.</li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dai" org="uniform" sample="complete">
+          <head>Dai</head>
+          <div2 type="subentry" id="dai-1" org="uniform" sample="complete">
+            <subhead><rs type="ethnic">Dai</rs>, a nomad Persian tribe</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Hdt. 1.125" default="NO" valid="yes">Hdt. 1.125</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daimenes" org="uniform" sample="complete">
+          <head>Daimenes</head>
+          <div2 type="subentry" id="daimenes-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daimenes</surname></persName>, son of <persName><surname full="yes">Tisamenus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 7.6.2" default="NO" valid="yes">Paus. 7.6.2</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daiphantes" org="uniform" sample="complete">
+          <head>Daiphantes</head>
+          <div2 type="subentry" id="daiphantes-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daiphantes</surname></persName>, of <placeName>Hyampolis</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Phocian general: <bibl n="Paus. 10.1.8" default="NO" valid="yes">Paus. 10.1.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daiphron" org="uniform" sample="complete">
+          <head>Daiphron</head>
+          <div2 type="subentry" id="daiphron-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daiphron</surname></persName>, son of <persName><surname full="yes">Egyptus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>husband of Adiante: <bibl n="Apollod. 2.1.5" default="NO" valid="yes">Apollod. 2.1.5</bibl></li>
+                <li>husband of Scaea: <bibl n="Apollod. 2.1.4" default="NO" valid="yes">Apollod. 2.1.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daippus" org="uniform" sample="complete">
+          <head>Daippus</head>
+          <div2 type="subentry" id="daippus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daippus</surname></persName>, sculptor</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 6.12.6" default="NO" valid="yes">Paus. 6.12.6</bibl>, <bibl n="Paus. 6.16.5" default="NO" valid="yes">Paus. 6.16.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daira" org="uniform" sample="complete">
+          <head>Daira</head>
+          <div2 type="subentry" id="daira-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daira</surname></persName>, daughter of <persName><surname full="yes">Ocean</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.38.7" default="NO" valid="yes">Paus. 1.38.7</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damagetus" org="uniform" sample="complete">
+          <head>Damagetus</head>
+          <div2 type="subentry" id="damagetus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damagetus</surname></persName>, king of <placeName>Ialysus</placeName> in Rhodes</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>marries daughter of <persName><surname full="yes">Aristomenes</surname></persName>: <bibl n="Paus. 4.24.2" default="NO" valid="yes">Paus. 4.24.2</bibl></li>
+                <li>buries Aristomenes: <bibl n="Paus. 4.24.3" default="NO" valid="yes">Paus. 4.24.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damagetus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damagetus</surname></persName>(2), son of <persName><surname full="yes">Diagoras</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>a Rhodian, Olympic victor: <bibl n="Paus. 6.7.1" default="NO" valid="yes">Paus. 6.7.1</bibl>, 3</li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damagetus-3" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damagetus</surname></persName>(3), son of <persName><surname full="yes">Dorieus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 4.24.3" default="NO" valid="yes">Paus. 4.24.3</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damarchus" org="uniform" sample="complete">
+          <head>Damarchus</head>
+          <div2 type="subentry" id="damarchus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damarchus</surname></persName>, son of <persName><surname full="yes">Dinnytas</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>a Parrhasian, Olympic victor, turned into wolf at sacrifice of Lycaean Zeus: <bibl n="Paus. 6.8.2" default="NO" valid="yes">Paus. 6.8.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damaretus" org="uniform" sample="complete">
+          <head>Damaretus</head>
+          <div2 type="subentry" id="damaretus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damaretus</surname></persName>, a <name type="ethnic">Heraean</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Olympic victor: <bibl n="Paus. 5.8.10" default="NO" valid="yes">Paus. 5.8.10</bibl>, <bibl n="Paus. 6.10.4" default="NO" valid="yes">Paus. 6.10.4</bibl>, <bibl n="Paus. 8.26.2" default="NO" valid="yes">Paus. 8.26.2</bibl></li>
+                <li>Pythian victor: <bibl n="Paus. 10.7.7" default="NO" valid="yes">Paus. 10.7.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damaretus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damaretus</surname></persName>(2), a <name type="ethnic">Messenian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Olympic victor: <bibl n="Paus. 6.14.11" default="NO" valid="yes">Paus. 6.14.11</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damaretus-3" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damaretus</surname></persName>(3), a <name type="ethnic">Phigalian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>father of wrestler Narycidas: <bibl n="Paus. 6.6.1" default="NO" valid="yes">Paus. 6.6.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damaretus-4" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damaretus</surname></persName>(4), son of <persName><surname full="yes">Etymon</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 5.5.1" default="NO" valid="yes">Paus. 5.5.1</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damarmenus" org="uniform" sample="complete">
+          <head>Damarmenus</head>
+          <div2 type="subentry" id="damarmenus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damarmenus</surname></persName>, fisherman of <placeName>Eretria</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>finds bone of Pelops: <bibl n="Paus. 5.13.5" default="NO" valid="yes">Paus. 5.13.5</bibl>ff.</li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damasias" org="uniform" sample="complete">
+          <head>Damasias</head>
+          <div2 type="subentry" id="damasias-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damasias</surname></persName>, son of <persName><surname full="yes">Penthilus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>an Achaean leader: <bibl n="Paus. 5.4.3" default="NO" valid="yes">Paus. 5.4.3</bibl>, <bibl n="Paus. 7.6.2" default="NO" valid="yes">Paus. 7.6.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damasichthon" org="uniform" sample="complete">
+          <head>Damasichthon</head>
+          <div2 type="subentry" id="damasichthon-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damasichthon</surname></persName>, son of <persName><surname full="yes">Amphion</surname></persName> and <persName><surname full="yes">Niobe</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 3.5.5" default="NO" valid="yes">Apollod. 3.5.5</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damasichthon-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damasichthon</surname></persName>(2), son of <persName><surname full="yes">Codrus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>king of Colophon: <bibl n="Paus. 7.3.3" default="NO" valid="yes">Paus. 7.3.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damasichthon-3" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damasichthon</surname></persName>(3), son of <persName><surname full="yes">Opheltes</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>king of Thebes: <bibl n="Paus. 9.5.16" default="NO" valid="yes">Paus. 9.5.16</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damasippus" org="uniform" sample="complete">
+          <head>Damasippus</head>
+          <div2 type="subentry" id="damasippus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damasippus</surname></persName>, son of <persName><surname full="yes">Icarius</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 3.10.5" default="NO" valid="yes">Apollod. 3.10.5</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damasistratus" org="uniform" sample="complete">
+          <head>Damasistratus</head>
+          <div2 type="subentry" id="damasistratus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damasistratus</surname></persName>, father of historian Theopompus</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 3.10.3" default="NO" valid="yes">Paus. 3.10.3</bibl>, <bibl n="Paus. 6.18.5" default="NO" valid="yes">Paus. 6.18.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damasistratus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damasistratus</surname></persName>(2), king of <placeName>Plataea</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>buries Laius: <bibl n="Apollod. 3.5.7" default="NO" valid="yes">Apollod. 3.5.7</bibl>; <bibl n="Paus. 10.5.4" default="NO" valid="yes">Paus. 10.5.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damasithymus" org="uniform" sample="complete">
+          <head>Damasithymus</head>
+          <div2 type="subentry" id="damasithymus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damasithymus</surname></persName>, a Carian officer in Xerxes' fleet</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>son of <persName><surname full="yes">Candaules</surname></persName>: <bibl n="Hdt. 7.98" default="NO" valid="yes">Hdt. 7.98</bibl></li>
+                <li>king of the Calyndians, in Xerxes' fleet at Salamis: <bibl n="Hdt. 8.87" default="NO" valid="yes">Hdt. 8.87</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damastes" org="uniform" sample="complete">
+          <head>Damastes</head>
+          <div2 type="subentry" id="damastes-1" org="uniform" sample="complete">
+            <subhead>Damastes, or Polypemon, a malefactor</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>slain by Theseus: <bibl n="Apollod. E.1.3" default="NO" valid="yes">Apollod. E.1.3</bibl>, <bibl n="Apollod. E.1.4" default="NO" valid="yes">Apollod. E.1.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damastor" org="uniform" sample="complete">
+          <head>Damastor</head>
+          <div2 type="subentry" id="damastor-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damastor</surname></persName>, suitor of <persName><surname full="yes">Penelope</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. E.7.25" default="NO" valid="yes">Apollod. E.7.25</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damasus" org="uniform" sample="complete">
+          <head>Damasus</head>
+          <div2 type="subentry" id="damasus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damasus</surname></persName>, of <placeName>Siris</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>a suitor for Cleisthenes' daughter: <bibl n="Hdt. 6.127" default="NO" valid="yes">Hdt. 6.127</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damasus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damasus</surname></persName>(2), son of <persName><surname full="yes">Codrus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 7.3.6" default="NO" valid="yes">Paus. 7.3.6</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damatrius" org="uniform" sample="complete">
+          <head>Damatrius</head>
+          <div2 type="subentry" id="damatrius-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damatrius</surname></persName>, an <name type="ethnic">Elean</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>father of wrestler Paeanius: <bibl n="Paus. 6.16.9" default="NO" valid="yes">Paus. 6.16.9</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dameas" org="uniform" sample="complete">
+          <head>Dameas</head>
+          <div2 type="subentry" id="dameas-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Dameas</surname></persName>, of <placeName>Crotona</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>sculptor: <bibl n="Paus. 6.14.5" default="NO" valid="yes">Paus. 6.14.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="dameas-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Dameas</surname></persName>(2), an Arcadian of <placeName>Clitor</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>sculptor: <bibl n="Paus. 10.9.8" default="NO" valid="yes">Paus. 10.9.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dameon" org="uniform" sample="complete">
+          <head>Dameon</head>
+          <div2 type="subentry" id="dameon-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Dameon</surname></persName>, son of <persName><surname full="yes">Phlius</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>marches with Herakles against Augeas: <bibl n="Paus. 6.20.16" default="NO" valid="yes">Paus. 6.20.16</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damia" org="uniform" sample="complete">
+          <head>Damia</head>
+          <div2 type="subentry" id="damia-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damia</surname></persName>, a deity worshipped in Aegina and Epidaurus</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Hdt. 5.82" default="NO" valid="yes">Hdt. 5.82</bibl>, <bibl n="Hdt. 5.83" default="NO" valid="yes">Hdt. 5.83</bibl></li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="auxesia-and-damia-1" targOrder="U">Auxesia and Damia</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damis" org="uniform" sample="complete">
+          <head>Damis</head>
+          <div2 type="subentry" id="damis-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damis</surname></persName>, a <name type="ethnic">Messenian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>disputes claim of Aristodemus to throne: <bibl n="Paus. 4.10.5" default="NO" valid="yes">Paus. 4.10.5</bibl></li>
+                <li>courted by Aristodemus: <bibl n="Paus. 4.10.6" default="NO" valid="yes">Paus. 4.10.6</bibl></li>
+                <li>commands Messenian troops: <bibl n="Paus. 4.11.3" default="NO" valid="yes">Paus. 4.11.3</bibl>, <bibl n="Paus. 4.13.5" default="NO" valid="yes">Paus. 4.13.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damiscus" org="uniform" sample="complete">
+          <head>Damiscus</head>
+          <div2 type="subentry" id="damiscus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damiscus</surname></persName>, a <name type="ethnic">Messenian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Olympic victor: <bibl n="Paus. 6.2.10" default="NO" valid="yes">Paus. 6.2.10</bibl>, 11</li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damithales" org="uniform" sample="complete">
+          <head>Damithales</head>
+          <div2 type="subentry" id="damithales-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damithales</surname></persName>, a <name type="ethnic">Pheneatian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>receives Demeter: <bibl n="Paus. 8.15.4" default="NO" valid="yes">Paus. 8.15.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damoclidas" org="uniform" sample="complete">
+          <head>Damoclidas</head>
+          <div2 type="subentry" id="damoclidas-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damoclidas</surname></persName>, Boeotarch</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 9.13.6" default="NO" valid="yes">Paus. 9.13.6</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damocratidas" org="uniform" sample="complete">
+          <head>Damocratidas</head>
+          <div2 type="subentry" id="damocratidas-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damocratidas</surname></persName>, king of <placeName>Argos</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 4.35.2" default="NO" valid="yes">Paus. 4.35.2</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damocritus" org="uniform" sample="complete">
+          <head>Damocritus</head>
+          <div2 type="subentry" id="damocritus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damocritus</surname></persName>, of <placeName>Clitor</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>a Sicyonian sculptor, pupil of Pison: <bibl n="Paus. 6.3.5" default="NO" valid="yes">Paus. 6.3.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damocritus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damocritus</surname></persName>(2), of <placeName>Clitor</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>general of Achaean League: <bibl n="Paus. 7.13.1" default="NO" valid="yes">Paus. 7.13.1</bibl></li>
+                <li>defeats Lacedaemonians: <bibl n="Paus. 7.13.3" default="NO" valid="yes">Paus. 7.13.3</bibl>ff.</li>
+                <li>condemned as traitor: <bibl n="Paus. 7.13.5" default="NO" valid="yes">Paus. 7.13.5</bibl></li>
+                <li>Olympic victor: <bibl n="Paus. 6.8.5" default="NO" valid="yes">Paus. 6.8.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damon" org="uniform" sample="complete">
+          <head>Damon</head>
+          <div2 type="subentry" id="damon-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damon</surname></persName>, of <placeName>Thurii</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Olympic victor: <bibl n="Paus. 4.27.9" default="NO" valid="yes">Paus. 4.27.9</bibl>, <bibl n="Paus. 6.5.3" default="NO" valid="yes">Paus. 6.5.3</bibl>, <bibl n="Paus. 7.25.4" default="NO" valid="yes">Paus. 7.25.4</bibl>, <bibl n="Paus. 8.27.8" default="NO" valid="yes">Paus. 8.27.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damon-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damon</surname></persName>(2), an <name type="ethnic">Athenian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>son of <persName><surname full="yes">Euctemon</surname></persName>, leads Phocians to Asia: <bibl n="Paus. 7.2.4" default="NO" valid="yes">Paus. 7.2.4</bibl>, <bibl n="Paus. 7.3.10" default="NO" valid="yes">Paus. 7.3.10</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damonicus" org="uniform" sample="complete">
+          <head>Damonicus</head>
+          <div2 type="subentry" id="damonicus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damonicus</surname></persName>, an <name type="ethnic">Elean</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 5.21.16" default="NO" valid="yes">Paus. 5.21.16</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damophilus" org="uniform" sample="complete">
+          <head>Damophilus</head>
+          <div2 type="subentry" id="damophilus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damophilus</surname></persName>, Boeotarch</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 9.13.6" default="NO" valid="yes">Paus. 9.13.6</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damophon" org="uniform" sample="complete">
+          <head>Damophon</head>
+          <div2 type="subentry" id="damophon-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damophon</surname></persName>, Messenian sculptor</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 4.31.6" default="NO" valid="yes">Paus. 4.31.6</bibl>, 7, 10, <bibl n="Paus. 7.23.6" default="NO" valid="yes">Paus. 7.23.6</bibl>, 7, <bibl n="Paus. 8.31.2" default="NO" valid="yes">Paus. 8.31.2</bibl>, 6, <bibl n="Paus. 8.37.3" default="NO" valid="yes">Paus. 8.37.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damophon-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damophon</surname></persName>(2), son of <persName><surname full="yes">Pantaleon</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>king of Pisa: <bibl n="Paus. 6.22.3" default="NO" valid="yes">Paus. 6.22.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damophon-3" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damophon</surname></persName>(3), son of <persName><surname full="yes">Thoas</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>king of Corinth: <bibl n="Paus. 2.4.3" default="NO" valid="yes">Paus. 2.4.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="damophon-4" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damophon</surname></persName>(4), tyrant of <placeName>Pisa</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 5.16.5" default="NO" valid="yes">Paus. 5.16.5</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damothoidas" org="uniform" sample="complete">
+          <head>Damothoidas</head>
+          <div2 type="subentry" id="damothoidas-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damothoidas</surname></persName>, of <placeName>Lepreus</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>son-in-law of Aristomenes: <bibl n="Paus. 4.24.1" default="NO" valid="yes">Paus. 4.24.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damoxenidas" org="uniform" sample="complete">
+          <head>Damoxenidas</head>
+          <div2 type="subentry" id="damoxenidas-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damoxenidas</surname></persName>, a Maenalian boxer</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Olympic victor: <bibl n="Paus. 6.6.3" default="NO" valid="yes">Paus. 6.6.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="damoxenus" org="uniform" sample="complete">
+          <head>Damoxenus</head>
+          <div2 type="subentry" id="damoxenus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Damoxenus</surname></persName>, a Syracusan boxer</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>kills his adversary at Nemean games: <bibl n="Paus. 8.40.3-5" default="NO" valid="yes">Paus. 8.40.3-5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="danae" org="uniform" sample="complete">
+          <head>Danae</head>
+          <div2 type="subentry" id="danae-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Danae</surname></persName>, daughter of <persName><surname full="yes">Acrisius</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 2.2.1" default="NO" valid="yes">Apollod. 2.2.1</bibl>
+                </li>
+                <li>shut up in a brazen chamber: <bibl n="Apollod. 2.3.2" default="NO" valid="yes">Apollod. 2.3.2</bibl>, <bibl n="Apollod. 2.4.1" default="NO" valid="yes">Apollod. 2.4.1</bibl></li>
+                <li>conceives Perseus by Zeus: <bibl n="Apollod. 2.4.1" default="NO" valid="yes">Apollod. 2.4.1</bibl></li>
+                <li>cast into sea and drifts with Perseus to Seriphus: <bibl n="Apollod. 2.4.1" default="NO" valid="yes">Apollod. 2.4.1</bibl></li>
+                <li>loved by Polydectes: <bibl n="Apollod. 2.4.1" default="NO" valid="yes">Apollod. 2.4.1</bibl></li>
+                <li>returns with Perseus to Argos: <bibl n="Apollod. 2.4.3" default="NO" valid="yes">Apollod. 2.4.3</bibl></li>
+                <li>mother of <persName><surname full="yes">Perseus</surname></persName>, daughter of <persName><surname full="yes">Acrisius</surname></persName>: <bibl n="Hdt. 2.1" default="NO" valid="yes">Hdt. 2.1</bibl>, <bibl n="Hdt. 6.53" default="NO" valid="yes">Hdt. 6.53</bibl>, <bibl n="Hdt. 7.61" default="NO" valid="yes">Hdt. 7.61</bibl>, <bibl n="Hdt. 7.150" default="NO" valid="yes">Hdt. 7.150</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="danai" org="uniform" sample="complete">
+          <head>Danai</head>
+          <div2 type="subentry" id="danai-1" org="uniform" sample="complete">
+            <subhead><rs type="ethnic">Danai</rs>, old name of the Argives</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Apollod. 2.1.4" default="NO" valid="yes">Apollod. 2.1.4</bibl>; <bibl n="Paus. 7.1.7" default="NO" valid="yes">Paus. 7.1.7</bibl>, <bibl n="Paus. 8.25.9" default="NO" valid="yes">Paus. 8.25.9</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="danaus" org="uniform" sample="complete">
+          <head>Danaus</head>
+          <div2 type="subentry" id="danaus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Danaus</surname></persName>, his legendary migration to Greece from Chemmis in Egypt</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Hdt. 2.91" default="NO" valid="yes">Hdt. 2.91</bibl>, <bibl n="Hdt. 7.94" default="NO" valid="yes">Hdt. 7.94</bibl></li>
+                <li>his daughters: <bibl n="Hdt. 2.171" default="NO" valid="yes">Hdt. 2.171</bibl>, <bibl n="Hdt. 2.182" default="NO" valid="yes">Hdt. 2.182</bibl></li>
+                <li>with his daughters lands in Argolis: <bibl n="Paus. 2.38.4" default="NO" valid="yes">Paus. 2.38.4</bibl>, <bibl n="Paus. 4.35.2" default="NO" valid="yes">Paus. 4.35.2</bibl></li>
+                <li>son of <persName><surname full="yes">Belus</surname></persName>: <bibl n="Apollod. 2.1.4" default="NO" valid="yes">Apollod. 2.1.4</bibl></li>
+                <li>settled in Libya: <bibl n="Apollod. 2.1.4" default="NO" valid="yes">Apollod. 2.1.4</bibl></li>
+                <li>has fifty daughters: <bibl n="Apollod. 2.1.4" default="NO" valid="yes">Apollod. 2.1.4</bibl></li>
+                <li>the first to build a ship: <bibl n="Apollod. 2.1.4" default="NO" valid="yes">Apollod. 2.1.4</bibl></li>
+                <li>flees with his daughters to Argos and obtains the kingdom from Gelanor: <bibl n="Apollod. 2.1.4" default="NO" valid="yes">Apollod. 2.1.4</bibl>; <bibl n="Paus. 2.16.1" default="NO" valid="yes">Paus. 2.16.1</bibl>, <bibl n="Paus. 2.19.3" default="NO" valid="yes">Paus. 2.19.3</bibl></li>
+                <li>feared by Aegyptus: <bibl n="Paus. 7.21.13" default="NO" valid="yes">Paus. 7.21.13</bibl></li>
+                <li>consents to marry his daughters to the sons of <persName><surname full="yes">Egyptus</surname></persName>: <bibl n="Apollod. 2.1.4" default="NO" valid="yes">Apollod. 2.1.4</bibl>, <bibl n="Apollod. 2.1.5" default="NO" valid="yes">Apollod. 2.1.5</bibl>, <bibl n="Apollod. 2.1.5" default="NO" valid="yes">Apollod. 2.1.5</bibl></li>
+                <li>his daughters murder their husband cousins: <bibl n="Apollod. 2.1.5" default="NO" valid="yes">Apollod. 2.1.5</bibl>; <bibl n="Paus. 2.16.1" default="NO" valid="yes">Paus. 2.16.1</bibl></li>
+                <li>gives his daughters to victors in an athletic contest: <bibl n="Apollod. 2.1.5" default="NO" valid="yes">Apollod. 2.1.5</bibl>; <bibl n="Paus. 3.12.2" default="NO" valid="yes">Paus. 3.12.2</bibl></li>
+                <li>dedicates sanctuary and image of Wolfish Apollo: <bibl n="Paus. 2.19.3" default="NO" valid="yes">Paus. 2.19.3</bibl>ff.</li>
+                <li>dedicates pedestal adorned with reliefs: <bibl n="Paus. 2.19.7" default="NO" valid="yes">Paus. 2.19.7</bibl></li>
+                <li>his daughters dedicate image of Aphrodite: <bibl n="Paus. 2.37.2" default="NO" valid="yes">Paus. 2.37.2</bibl></li>
+                <li>tomb of Danaus: <bibl n="Paus. 2.20.5" default="NO" valid="yes">Paus. 2.20.5</bibl></li>
+                <li>his throne: <bibl n="Paus. 2.19.5" default="NO" valid="yes">Paus. 2.19.5</bibl></li>
+                <li>statue at Delphi: <bibl n="Paus. 10.10.5" default="NO" valid="yes">Paus. 10.10.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dance" org="uniform" sample="complete">
+          <head>Dance</head>
+          <div2 type="subentry" id="dance-1" org="uniform" sample="complete">
+            <subhead>Dance</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>frenzied: of the mad daughters of Proetus: <bibl n="Apollod. 2.2.2" default="NO" valid="yes">Apollod. 2.2.2</bibl></li>
+                <li>of Ariadne: <bibl n="Paus. 9.40.3" default="NO" valid="yes">Paus. 9.40.3</bibl></li>
+                <li>of Lacedaemonian maidens at Caryae in honour of Artemis: <bibl n="Paus. 3.10.7" default="NO" valid="yes">Paus. 3.10.7</bibl>, <bibl n="Paus. 4.16.9" default="NO" valid="yes">Paus. 4.16.9</bibl></li>
+                <li>of Magnesians wrought on throne of Apollo: <bibl n="Paus. 3.18.14" default="NO" valid="yes">Paus. 3.18.14</bibl></li>
+                <li>of Spartan lads in honour of Apollo: <bibl n="Paus. 3.11.9" default="NO" valid="yes">Paus. 3.11.9</bibl></li>
+                <li>of Thyiads: <bibl n="Paus. 10.4.3" default="NO" valid="yes">Paus. 10.4.3</bibl></li>
+                <li>wrought on shield of Achilles: <bibl n="Paus. 8.16.3" default="NO" valid="yes">Paus. 8.16.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dancer" org="uniform" sample="complete">
+          <head>Dancer</head>
+          <div2 type="subentry" id="dancer-1" org="uniform" sample="complete">
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="dance-1" targOrder="U">Dance</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="danube" org="uniform" sample="complete">
+          <head>Danube</head>
+          <div2 type="subentry" id="danube-1" org="uniform" sample="complete">
+            <subhead><placeName>Danube</placeName>, river</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.9.6" default="NO" valid="yes">Paus. 1.9.6</bibl>
+                </li>
+                <li>flows with equal volume in summer and winter: <bibl n="Paus. 8.38.3" default="NO" valid="yes">Paus. 8.38.3</bibl></li>
+                <li>its cold water: <bibl n="Paus. 8.28.2" default="NO" valid="yes">Paus. 8.28.2</bibl></li>
+                <li>its deadly creatures: <bibl n="Paus. 4.34.2" default="NO" valid="yes">Paus. 4.34.2</bibl></li>
+                <li>its islands: <bibl n="Paus. 8.25.13" default="NO" valid="yes">Paus. 8.25.13</bibl></li>
+                <li>its mouths: <bibl n="Paus. 3.19.11" default="NO" valid="yes">Paus. 3.19.11</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daphnae" org="uniform" sample="complete">
+          <head>Daphnae</head>
+          <div2 type="subentry" id="daphnae-1" org="uniform" sample="complete">
+            <subhead><placeName>Daphnae</placeName>, near Pelusium</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>on the Egyptian frontier: <bibl n="Hdt. 2.30" default="NO" valid="yes">Hdt. 2.30</bibl>, <bibl n="Hdt. 2.107" default="NO" valid="yes">Hdt. 2.107</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daphne" org="uniform" sample="complete">
+          <head>Daphne</head>
+          <div2 type="subentry" id="daphne-1" org="uniform" sample="complete">
+            <subhead>Daphne</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>loved by <persName><surname full="yes">Leucippus</surname></persName>: <bibl n="Paus. 8.20.2-4" default="NO" valid="yes">Paus. 8.20.2-4</bibl></li>
+                <li>loved by Apollo: <bibl n="Paus. 8.20.4" default="NO" valid="yes">Paus. 8.20.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daphnis" org="uniform" sample="complete">
+          <head>Daphnis</head>
+          <div2 type="subentry" id="daphnis-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daphnis</surname></persName>, despot of <placeName>Abydos</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Hdt. 4.138" default="NO" valid="yes">Hdt. 4.138</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="daphnis-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daphnis</surname></persName>(2), nymph</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>prophetess of Earth at Delphi: <bibl n="Paus. 10.5.5" default="NO" valid="yes">Paus. 10.5.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dardania" org="uniform" sample="complete">
+          <head>Dardania</head>
+          <div2 type="subentry" id="dardania-1" org="uniform" sample="complete">
+            <subhead><placeName>Dardania</placeName>, country named after Dardanus</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 3.11.2" default="NO" valid="yes">Apollod. 3.11.2</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="dardania-2" org="uniform" sample="complete">
+            <subhead><placeName>Dardania</placeName>(2), old name of <placeName>Samothrace</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 7.4.3" default="NO" valid="yes">Paus. 7.4.3</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dardanians" org="uniform" sample="complete">
+          <head>Dardanians</head>
+          <div2 type="subentry" id="dardanians-1" org="uniform" sample="complete">
+            <subhead><rs type="ethnic">Dardanians</rs>, Trojan allies</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. E.3.34" default="NO" valid="yes">Apollod. E.3.34</bibl>
+                </li>
+                <li>an Assyrian people, apparently: <bibl n="Hdt. 1.189" default="NO" valid="yes">Hdt. 1.189</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dardanus" org="uniform" sample="complete">
+          <head>Dardanus</head>
+          <div2 type="subentry" id="dardanus-1" org="uniform" sample="complete">
+            <subhead><placeName>Dardanus</placeName>, a city built by <persName><surname full="yes">Dardanus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 1.4.5" default="NO" valid="yes">Apollod. 1.4.5</bibl>
+                </li>
+                <li>on the Hellespont: <bibl n="Hdt. 5.117" default="NO" valid="yes">Hdt. 5.117</bibl>, <bibl n="Hdt. 7.43" default="NO" valid="yes">Hdt. 7.43</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="dardanus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Dardanus</surname></persName>(2), son of <persName><surname full="yes">Zeus</surname></persName> and <persName><surname full="yes">Electra</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 3.11.2" default="NO" valid="yes">Apollod. 3.11.2</bibl>
+                </li>
+                <li>leaves Samothrace, marries the daughter of <persName><surname full="yes">King</surname></persName>Teucer, and calls the country Dardania: <bibl n="Apollod. 3.11.2" default="NO" valid="yes">Apollod. 3.11.2</bibl></li>
+                <li>father of <persName><surname full="yes">Idaea</surname></persName>: <bibl n="Apollod. 3.15.2" default="NO" valid="yes">Apollod. 3.15.2</bibl></li>
+                <li>receives image of Dionysus in chest from Zeus: <bibl n="Paus. 7.19.6" default="NO" valid="yes">Paus. 7.19.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="dardanus-3" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Dardanus</surname></persName>(3), a <name type="ethnic">Psophidian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>father of <persName><surname full="yes">Zacynthus</surname></persName>: <bibl n="Paus. 8.24.3" default="NO" valid="yes">Paus. 8.24.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daritae" org="uniform" sample="complete">
+          <head>Daritae</head>
+          <div2 type="subentry" id="daritae-1" org="uniform" sample="complete">
+            <subhead><rs type="ethnic">Daritae</rs>, a tribe in the Persian empire</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Hdt. 3.92" default="NO" valid="yes">Hdt. 3.92</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="darius" org="uniform" sample="complete">
+          <head>Darius</head>
+          <subhead type="alt">Dareius</subhead>
+          <subhead type="alt">Dareios</subhead>
+          <div2 type="subentry" id="darius-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Darius</surname></persName>, king of <placeName>Persia</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>son of <persName><surname full="yes">Hystaspes</surname></persName>: <bibl n="Paus. 3.4.2" default="NO" valid="yes">Paus. 3.4.2</bibl>, <bibl n="Paus. 7.10.1" default="NO" valid="yes">Paus. 7.10.1</bibl></li>
+                <li>suspected by Cymis: <bibl n="Hdt. 1.209" default="NO" valid="yes">Hdt. 1.209</bibl></li>
+                <li>story of his part in the conspiracy against the Magians, and his accession to the throne: <bibl n="Hdt. 3.73-87" default="NO" valid="yes">Hdt. 3.73-87</bibl></li>
+                <li>canal made by him in Egypt: <bibl n="Hdt. 2.158" default="NO" valid="yes">Hdt. 2.158</bibl>, <bibl n="Hdt. 4.39" default="NO" valid="yes">Hdt. 4.39</bibl></li>
+                <li>inquiry into varieties of custom: <bibl n="Hdt. 3.38" default="NO" valid="yes">Hdt. 3.38</bibl></li>
+                <li>tribute paid by his empire: <bibl n="Hdt. 3.89-97" default="NO" valid="yes">Hdt. 3.89-97</bibl></li>
+                <li>called "the huxter,": <bibl n="Hdt. 3.89" default="NO" valid="yes">Hdt. 3.89</bibl></li>
+                <li>severity of his rule: <bibl n="Hdt. 3.118" default="NO" valid="yes">Hdt. 3.118</bibl>, <bibl n="Hdt. 3.119" default="NO" valid="yes">Hdt. 3.119</bibl></li>
+                <li>punishment of Oroetes: <bibl n="Hdt. 3.127" default="NO" valid="yes">Hdt. 3.127</bibl>, <bibl n="Hdt. 3.128" default="NO" valid="yes">Hdt. 3.128</bibl></li>
+                <li>Democedes at Darius' court: <bibl n="Hdt. 3.129-132" default="NO" valid="yes">Hdt. 3.129-132</bibl></li>
+                <li>plans against Greece: <bibl n="Hdt. 3.134" default="NO" valid="yes">Hdt. 3.134</bibl>, <bibl n="Hdt. 3.135" default="NO" valid="yes">Hdt. 3.135</bibl></li>
+                <li>conquest of Samos: <bibl n="Hdt. 3.139-149" default="NO" valid="yes">Hdt. 3.139-149</bibl></li>
+                <li>reduction of Babylon: <bibl n="Hdt. 3.150-160" default="NO" valid="yes">Hdt. 3.150-160</bibl></li>
+                <li>Scythian expedition planned: <bibl n="Hdt. 4.1" default="NO" valid="yes">Hdt. 4.1</bibl></li>
+                <li>Darius' passage of the Bosporus, march to the Ister, and invasion of Scythia: <bibl n="Hdt. 4.83-98" default="NO" valid="yes">Hdt. 4.83-98</bibl>; <bibl n="Paus. 3.9.6" default="NO" valid="yes">Paus. 3.9.6</bibl></li>
+                <li>Scythian campaign and return to Asia: <bibl n="Hdt. 4.118-143" default="NO" valid="yes">Hdt. 4.118-143</bibl></li>
+                <li>Cyrenaean expedition: <bibl n="Hdt. 4.260-204" default="NO" valid="yes">Hdt. 4.260-204</bibl></li>
+                <li>transportation of Paeonians to Asia: <bibl n="Hdt. 5.12-15" default="NO" valid="yes">Hdt. 5.12-15</bibl></li>
+                <li>Histiaeus summoned by Darius to Susa: <bibl n="Hdt. 5.24" default="NO" valid="yes">Hdt. 5.24</bibl>; <bibl n="Paus. 10.33.2" default="NO" valid="yes">Paus. 10.33.2</bibl></li>
+                <li>Darius' anger against Athens for the burning of Sardis, and his dispatch of Histiaeus to Ionia: <bibl n="Hdt. 5.105-107" default="NO" valid="yes">Hdt. 5.105-107</bibl></li>
+                <li>reception of Scythes: <bibl n="Hdt. 6.24" default="NO" valid="yes">Hdt. 6.24</bibl></li>
+                <li>estimation of Histiaeus: <bibl n="Hdt. 6.30" default="NO" valid="yes">Hdt. 6.30</bibl></li>
+                <li>demand of earth and water from Greek states: <bibl n="Hdt. 6.48" default="NO" valid="yes">Hdt. 6.48</bibl>, <bibl n="Hdt. 6.49" default="NO" valid="yes">Hdt. 6.49</bibl>; <bibl n="Paus. 3.12.7" default="NO" valid="yes">Paus. 3.12.7</bibl></li>
+                <li>receives earth and water from Aeginetans: <bibl n="Paus. 3.4.2" default="NO" valid="yes">Paus. 3.4.2</bibl></li>
+                <li>Demaratus at Darius' court: <bibl n="Hdt. 6.70" default="NO" valid="yes">Hdt. 6.70</bibl>; <bibl n="Paus. 3.7.8" default="NO" valid="yes">Paus. 3.7.8</bibl></li>
+                <li>reasons for attack on Greece: <bibl n="Hdt. 6.94" default="NO" valid="yes">Hdt. 6.94</bibl>; <bibl n="Paus. 7.10.1" default="NO" valid="yes">Paus. 7.10.1</bibl></li>
+                <li>meaning of the name Darius: <bibl n="Hdt. 6.98" default="NO" valid="yes">Hdt. 6.98</bibl></li>
+                <li>Darius' clemency to the Eretrians: <bibl n="Hdt. 6.119" default="NO" valid="yes">Hdt. 6.119</bibl></li>
+                <li>his preparations for a Greek campaign: <bibl n="Hdt. 7.1" default="NO" valid="yes">Hdt. 7.1</bibl></li>
+                <li>appointment of a successor: <bibl n="Hdt. 7.2" default="NO" valid="yes">Hdt. 7.2</bibl>, <bibl n="Hdt. 7.3" default="NO" valid="yes">Hdt. 7.3</bibl></li>
+                <li>his death: <bibl n="Hdt. 7.4" default="NO" valid="yes">Hdt. 7.4</bibl></li>
+                <li>Darius' treatment of an unjust judge: <bibl n="Hdt. 7.194" default="NO" valid="yes">Hdt. 7.194</bibl></li>
+                <li>Gold coins called "Daric,": <bibl n="Hdt. 7.28" default="NO" valid="yes">Hdt. 7.28</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="darius-2" org="uniform" sample="complete">
+            <subhead>Darius (2), II</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>king of Persia, bastard of Artaxerxes: <bibl n="Paus. 6.5.7" default="NO" valid="yes">Paus. 6.5.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="darius-3" org="uniform" sample="complete">
+            <subhead>Darius (3), III</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>defeated by Alexander the Great: <bibl n="Paus. 1.25.5" default="NO" valid="yes">Paus. 1.25.5</bibl>, <bibl n="Paus. 6.17.5" default="NO" valid="yes">Paus. 6.17.5</bibl>, <bibl n="Paus. 9.40.9" default="NO" valid="yes">Paus. 9.40.9</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="darius-4" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Darius</surname></persName>(4), Xerxes' son</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Hdt. 9.108" default="NO" valid="yes">Hdt. 9.108</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dascyleum" org="uniform" sample="complete">
+          <head>Dascyleum</head>
+          <div2 type="subentry" id="dascyleum-1" org="uniform" sample="complete">
+            <subhead><placeName>Dascyleum</placeName>, in Mysia</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>on the Propontis, the seat of a Persian governor: <bibl n="Hdt. 3.120" default="NO" valid="yes">Hdt. 3.120</bibl>, <bibl n="Hdt. 3.126" default="NO" valid="yes">Hdt. 3.126</bibl>, <bibl n="Hdt. 6.33" default="NO" valid="yes">Hdt. 6.33</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dascylus" org="uniform" sample="complete">
+          <head>Dascylus</head>
+          <div2 type="subentry" id="dascylus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Dascylus</surname></persName>, a <name type="ethnic">Lydian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>father of <persName><surname full="yes">Gyges</surname></persName>: <bibl n="Hdt. 1.8" default="NO" valid="yes">Hdt. 1.8</bibl>; <bibl n="Paus. 4.21.5" default="NO" valid="yes">Paus. 4.21.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="dascylus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Dascylus</surname></persName>(2), father of <persName><surname full="yes">Lycus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 2.5.9" default="NO" valid="yes">Apollod. 2.5.9</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="dascylus-3" org="uniform" sample="complete">
+            <subhead><placeName>Dascylus</placeName>(3), village in <placeName>Caria</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 4.35.11" default="NO" valid="yes">Paus. 4.35.11</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dasea" org="uniform" sample="complete">
+          <head>Dasea</head>
+          <div2 type="subentry" id="dasea-1" org="uniform" sample="complete">
+            <subhead><placeName>Dasea</placeName>, city of <placeName>Arcadia</placeName></subhead>
+            <subhead type="alt">Daseae</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 8.3.3" default="NO" valid="yes">Paus. 8.3.3</bibl>, <bibl n="Paus. 8.27.4" default="NO" valid="yes">Paus. 8.27.4</bibl>, <bibl n="Paus. 8.36.9" default="NO" valid="yes">Paus. 8.36.9</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daseatas" org="uniform" sample="complete">
+          <head>Daseatas</head>
+          <div2 type="subentry" id="daseatas-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daseatas</surname></persName>, son of <persName><surname full="yes">Lycaon</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 8.3.2" default="NO" valid="yes">Paus. 8.3.2</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dasmon" org="uniform" sample="complete">
+          <head>Dasmon</head>
+          <div2 type="subentry" id="dasmon-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Dasmon</surname></persName>, a <name type="ethnic">Corinthian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Olympic victor: <bibl n="Paus. 4.13.7" default="NO" valid="yes">Paus. 4.13.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="dates" org="uniform" sample="complete">
+          <head>Dates</head>
+          <div2 type="subentry" id="dates-1" org="uniform" sample="complete">
+            <subhead>Dates</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>of Palestine and Ionia: <bibl n="Paus. 9.19.8" default="NO" valid="yes">Paus. 9.19.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="datis" org="uniform" sample="complete">
+          <head>Datis</head>
+          <div2 type="subentry" id="datis-1" org="uniform" sample="complete">
+            <subhead>Datis, a Mede</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>in command at Marathon with Artaphrenes of the expedition of 490 against Athens: <bibl n="Hdt. 6.94" default="NO" valid="yes">Hdt. 6.94</bibl>, <bibl n="Hdt. 6.97" default="NO" valid="yes">Hdt. 6.97</bibl>, <bibl n="Hdt. 6.118" default="NO" valid="yes">Hdt. 6.118</bibl>; <bibl n="Paus. 10.11.5" default="NO" valid="yes">Paus. 10.11.5</bibl></li>
+                <li>his sons in Xerxes, army: <bibl n="Hdt. 7.88" default="NO" valid="yes">Hdt. 7.88</bibl></li>
+                <li>his piety: <bibl n="Paus. 10.28.6" default="NO" valid="yes">Paus. 10.28.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="datum" org="uniform" sample="complete">
+          <head>Datum</head>
+          <div2 type="subentry" id="datum-1" org="uniform" sample="complete">
+            <subhead><placeName>Datum</placeName>, in Paeonia</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>battle there between Athenians and Edonians: <bibl n="Hdt. 9.75" default="NO" valid="yes">Hdt. 9.75</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daula" org="uniform" sample="complete">
+          <head>Daula</head>
+          <div2 type="subentry" id="daula-1" org="uniform" sample="complete">
+            <subhead><placeName>Daula</placeName>, ancient name for woody places</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 10.4.7" default="NO" valid="yes">Paus. 10.4.7</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daulians" org="uniform" sample="complete">
+          <head>Daulians</head>
+          <div2 type="subentry" id="daulians-1" org="uniform" sample="complete">
+            <subhead><rs type="ethnic">Daulians</rs>, in Phocis</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Hdt. 8.35" default="NO" valid="yes">Hdt. 8.35</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daulis" org="uniform" sample="complete">
+          <head>Daulis</head>
+          <div2 type="subentry" id="daulis-1" org="uniform" sample="complete">
+            <subhead><placeName>Daulis</placeName>, city of <placeName>Phocis</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 10.4.7-9" default="NO" valid="yes">Paus. 10.4.7-9</bibl>
+                </li>
+                <li>destroyed after Sacred War: <bibl n="Paus. 10.3.1" default="NO" valid="yes">Paus. 10.3.1</bibl></li>
+                <li>Tereus reigned at: <bibl n="Paus. 1.41.8" default="NO" valid="yes">Paus. 1.41.8</bibl></li>
+                <li>Procne and Philomela at: <bibl n="Apollod. 3.14.8" default="NO" valid="yes">Apollod. 3.14.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="daulis-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daulis</surname></persName>(2), nymph</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>daughter of <persName><surname full="yes">Cephisus</surname></persName>: <bibl n="Paus. 10.4.7" default="NO" valid="yes">Paus. 10.4.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="daurises" org="uniform" sample="complete">
+          <head>Daurises</head>
+          <div2 type="subentry" id="daurises-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Daurises</surname></persName>, a general employed by Darius against the insurgent Ionians</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Hdt. 5.116-118" default="NO" valid="yes">Hdt. 5.116-118</bibl>, <bibl n="Hdt. 5.121" default="NO" valid="yes">Hdt. 5.121</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+      </div0>
+    </body>
+  </text>
+</tei.2>

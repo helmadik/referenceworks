@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tei.2>
+  <teiHeader type="text" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>Perseus Encyclopedia</title> 
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <resp>Prepared under the supervision of</resp>
+          <name>Lisa Cerrato</name>
+          <name>William Merrill</name>
+          <name>Elli Mylonas</name>
+          <name>David Smith</name>
+        </respStmt>
+        <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc default="NO">
+        <p>Created in electronic form.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl doctype="TEI.2">
+        <state unit="id"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state n="chunk" unit="entry"/>
+        <state unit="subentry"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state unit="alphabetic letter"/>
+        <state unit="entry"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage default="NO">
+        <language id="en">English</language>
+        <language id="greek">Greek</language>
+        <language id="xgreek">Transliterated Greek</language>
+        <language id="la">Latin</language>
+        <language id="fr">Latin</language>
+      </langUsage>
+      <textClass id="gen.architecture" default="NO">
+        <keywords>
+          <term>Architecture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.art-terminology" default="NO">
+        <keywords>
+          <term>Art terminology</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.artist" default="NO">
+        <keywords>
+          <term>Artist</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.biography" default="NO">
+        <keywords>
+          <term>Biography</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.clothing" default="NO">
+        <keywords>
+          <term>Clothing</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.furniture" default="NO">
+        <keywords>
+          <term>Furniture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.inscription" default="NO">
+        <keywords>
+          <term>Inscription</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.literature" default="NO">
+        <keywords>
+          <term>Literature</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.miscellaneous" default="NO">
+        <keywords>
+          <term>Miscellaneous</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.music" default="NO">
+        <keywords>
+          <term>Music</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.region" default="NO">
+        <keywords>
+          <term>Region</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.theater-and-drama" default="NO">
+        <keywords>
+          <term>Theater and drama</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.vase-shape" default="NO">
+        <keywords>
+          <term>Vase shape</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>23 September 1999</date>
+        <respStmt>
+          <name>DAS</name>
+          <resp>ed.</resp>
+        </respStmt>
+        <li>$Log: encyclopedia.xml,v $ Revision 1.28 2006/03/27 14:02:23 gcrane more refinements Revision 1.27 2006/03/26 04:13:20 gcrane more fixes Revision 1.26 2006/03/25 19:26:47 gcrane more fixes Revision 1.25 2006/03/25 16:38:06 gcrane Did a lot of work to clean up the base headers for subentries. These should more often now only include global descriptions, e.g, PERSON, son of A stays, but PERSON, fought at Troy goes. --&gt; "Fought at Troy" can be one of many events and is not a global identifier Revision 1.24 2006/03/20 19:15:42 gcrane cleaned up the formatting Revision 1.23 2006/03/20 14:15:22 gcrane small changes Revision 1.20 2006/03/18 15:34:36 gcrane small fixes Revision 1.19 2006/03/18 01:14:23 gcrane small fixes Revision 1.18 2006/03/17 23:55:18 gaweaver small fixes Revision 1.17 2006/03/17 21:56:39 gaweaver Calliopi From Antiphon until Chilon Revision 1.16 2006/03/17 15:39:04 gaweaver no message Revision 1.15 2006/03/10 00:01:20 gaweaver changes made by GRC while over the atlantic Revision 1.14 2006/03/05 03:47:42 gcrane base file Revision 1.13 2006/03/04 13:13:03 gcrane small fixes Revision 1.12 2006/03/03 18:21:05 gaweaver Agenor (10) Revision 1.11 2006/02/15 16:24:46 gcrane small fixes Revision 1.10 2006/02/13 21:52:23 gcrane small fixes Revision 1.9 2006/02/13 01:57:42 gcrane small fixes Revision 1.8 2006/02/12 23:12:05 gcrane small fixes Revision 1.7 2006/02/12 15:30:08 gcrane major structural update: the descriptive info has now been moved up into the headers and id's added to div1 type="entry" Revision 1.6 2006/02/12 13:23:59 gcrane moved descriptions up into the header: the goal is to make the header more informative and thus to facilitate the mechanics of aligning entries in this list with those in Smith's etc Revision 1.5 2006/02/11 19:49:21 gcrane more small fixes to make the coding consistent Revision 1.4 2006/02/11 18:50:04 gcrane working towards moving identifiers for all entities up into the subentry HEAD Revision 1.3 2006/02/10 22:43:14 gcrane changed the structure so that every entry has a subentry -- this simplifies the structure (i hope) Revision 1.2 2005/08/18 13:53:45 packel item tags... Revision 1.1 2005/07/25 14:32:52 packel Converted to XML Revision 1.34 2003/07/01 22:16:05 yorkc Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.) Revision 1.33 2000/03/16 03:17:12 dasmith Gave homonym entries a top-level header. Revision 1.32 2000/03/16 02:52:18 dasmith Added alphabetic letter DIV0s. Made entries subordinate to alphabetic letters in refsDecl. Revision 1.31 2000/03/15 15:12:45 amahoney make homonyms sub-entries Revision 1.30 2000/03/14 18:11:05 amahoney several more random issues, but the Apollodorus refs really are right now Revision 1.27 2000/03/04 20:34:25 dasmith Added separate funder entity to TEI header. Revision 1.26 2000/02/22 17:17:30 amahoney fix bibl refs to known works Revision 1.25 2000/02/04 17:58:05 dasmith Primary lookup by ID (mostly useful for internal navigation). Revision 1.24 2000/01/10 21:09:41 acsmith trying again to change pilaster def. Revision 1.23 2000/01/10 20:16:54 dasmith Fixed sentence grammar. Revision 1.22 1999/10/01 14:11:04 acsmith Amy did away with dangling ref. to Type A2 cup, and turned all Type A1 cups into Type A cups, and lower cased type in Proto type A cup. Revision 1.21 1999/09/30 21:52:22 dasmith Fixed amphorae cross-refs. Revision 1.20 1999/09/30 21:08:38 acsmith ACS fixed (hopefully!) amphorae and pyxides Revision 1.19 1999/09/29 15:55:28 dasmith Converted to TEI2 tagging.</li>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div0 type="alphabetic letter" n="R" org="uniform" sample="complete">
+        <subhead>R</subhead>
+        <div1 type="entry" id="races" org="uniform" sample="complete">
+          <head>Races</head>
+          <div2 type="subentry" id="races-1" org="uniform" sample="complete">
+            <subhead>Races</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>of various sorts run at Olympia: <bibl n="Paus. 5.8.1" default="NO" valid="yes">Paus. 5.8.1</bibl>-<bibl n="Paus. 5.9.2" default="NO" valid="yes">Paus. 5.9.2</bibl>, and at Delphi: <bibl n="Paus. 10.7.5-8" default="NO" valid="yes">Paus. 10.7.5-8</bibl></li>
+                <li>Apollo and Hermes run race at Olympia: <bibl n="Paus. 5.7.10" default="NO" valid="yes">Paus. 5.7.10</bibl></li>
+                <li>Castor wins foot-race at Olympia: <bibl n="Paus. 5.8.4" default="NO" valid="yes">Paus. 5.8.4</bibl></li>
+                <li>Idaean Herakles sets his brothers to run race at Olympia: <bibl n="Paus. 5.7.7" default="NO" valid="yes">Paus. 5.7.7</bibl></li>
+                <li>chariot-race and foot-race at funeral games of Pelias: <bibl n="Paus. 5.17.9" default="NO" valid="yes">Paus. 5.17.9</bibl>, 10</li>
+                <li>race in armour at Olympia: <bibl n="Paus. 3.14.3" default="NO" valid="yes">Paus. 3.14.3</bibl>, <bibl n="Paus. 5.8.10" default="NO" valid="yes">Paus. 5.8.10</bibl>, <bibl n="Paus. 6.10.4" default="NO" valid="yes">Paus. 6.10.4</bibl>, <bibl n="Paus. 6.13.2" default="NO" valid="yes">Paus. 6.13.2</bibl>, and at Delphi: <bibl n="Paus. 10.7.7" default="NO" valid="yes">Paus. 10.7.7</bibl></li>
+                <li>boat-races and swimming-races in honour of Dionysus at Hermion: <bibl n="Paus. 2.35.1" default="NO" valid="yes">Paus. 2.35.1</bibl></li>
+                <li>mode of starting chariot-races and horse-races at Olympia: <bibl n="Paus. 6.20.10-14" default="NO" valid="yes">Paus. 6.20.10-14</bibl></li>
+                <li>double race-course: <bibl n="Paus. 5.17.6" default="NO" valid="yes">Paus. 5.17.6</bibl></li>
+                <li>race for kingdom: <bibl n="Paus. 5.1.4" default="NO" valid="yes">Paus. 5.1.4</bibl>, <bibl n="Paus. 5.8.1" default="NO" valid="yes">Paus. 5.8.1</bibl></li>
+                <li>for the hand of a bride (Atalanta): <bibl n="Apollod. 3.9.2" default="NO" valid="yes">Apollod. 3.9.2</bibl></li>
+                <li>(Hippodamia): <bibl n="Apollod. E.2.5" default="NO" valid="yes">Apollod. E.2.5</bibl></li>
+                <li>races for wives: <bibl n="Paus. 3.12.1" default="NO" valid="yes">Paus. 3.12.1</bibl>ff., <bibl n="Paus. 3.13.6" default="NO" valid="yes">Paus. 3.13.6</bibl>, <bibl n="Paus. 5.14.6" default="NO" valid="yes">Paus. 5.14.6</bibl></li>
+                <li>race between virgins at Olympia: <bibl n="Paus. 5.16.2-4" default="NO" valid="yes">Paus. 5.16.2-4</bibl></li>
+                <li>race run by women called Dionysiades at Sparta: <bibl n="Paus. 3.13.7" default="NO" valid="yes">Paus. 3.13.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rain" org="uniform" sample="complete">
+          <head>Rain</head>
+          <div2 type="subentry" id="rain-1" org="uniform" sample="complete">
+            <subhead>Rain</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>made by dipping oak-branch in spring: <bibl n="Paus. 8.38.4" default="NO" valid="yes">Paus. 8.38.4</bibl></li>
+                <li>procured by sacrifice and prayer to Panhellenian Zeus: <bibl n="Paus. 2.29.7" default="NO" valid="yes">Paus. 2.29.7</bibl>ff.</li>
+                <li>sacrifices for rain offered to Zeus and Hera: <bibl n="Paus. 2.25.10" default="NO" valid="yes">Paus. 2.25.10</bibl></li>
+                <li>images of Damia and Auxesia made because no rain fell: <bibl n="Paus. 2.30.4" default="NO" valid="yes">Paus. 2.30.4</bibl></li>
+                <li>image of Earth praying to Zeus for: <bibl n="Paus. 1.24.3" default="NO" valid="yes">Paus. 1.24.3</bibl></li>
+                <li>heavy rain precedes earthquake: <bibl n="Paus. 7.24.7" default="NO" valid="yes">Paus. 7.24.7</bibl></li>
+                <li>island on which rain does not fall: <bibl n="Paus. 2.34.3" default="NO" valid="yes">Paus. 2.34.3</bibl></li>
+                <li>Rainy Zeus: <bibl n="Paus. 2.19.8" default="NO" valid="yes">Paus. 2.19.8</bibl>, <bibl n="Paus. 9.39.4" default="NO" valid="yes">Paus. 9.39.4</bibl>, <foreign lang="la">cf.</foreign><bibl n="Paus. 1.32.2" default="NO" valid="yes">Paus. 1.32.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.architecture" type="entry" org="uniform" sample="complete">
+          <head>Raking Cornice</head>
+          <div2 type="subentry" id="raking-cornice-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>The molding which is slanted upward to follow the slope of the triangular pediment.</p>
+              <p>Description: In the earliest Doric architecture the raking cornice of the pediment usually differed in height and moldings from the horizontal cornice. In the Ionic order, the raking cornice was usually identical in form with the horizontal cornice. In the Ionic order it frequently is elaborated with ancillary moldings as well as brackets, modillions, and dentils.</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="cornice-1" targOrder="U">Cornice</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="dentil-1" targOrder="U">Dentil</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="pediment-1" targOrder="U">Pediment</ref>
+                </li>
+              </ul>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0139"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="ram" org="uniform" sample="complete">
+          <head>Ram</head>
+          <div2 type="subentry" id="ram-1" org="uniform" sample="complete">
+            <subhead>Ram</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>sacrificed to Zeus: <bibl n="Apollod. 1.9.1" default="NO" valid="yes">Apollod. 1.9.1</bibl></li>
+                <li>sacrificed to Agamedes: <bibl n="Paus. 9.39.6" default="NO" valid="yes">Paus. 9.39.6</bibl>, to Amphiaraus: <bibl n="Paus. 1.34.5" default="NO" valid="yes">Paus. 1.34.5</bibl>, and to Zeus of Ithome: <bibl n="Paus. 4.13.1" default="NO" valid="yes">Paus. 4.13.1</bibl></li>
+                <li>black ram sacrificed to Pelops: <bibl n="Paus. 5.13.2" default="NO" valid="yes">Paus. 5.13.2</bibl></li>
+                <li>black rams sacrificed by Odysseus: <bibl n="Paus. 10.29.1" default="NO" valid="yes">Paus. 10.29.1</bibl></li>
+                <li>persons consulting oracle of Amphiaraus sleep on skin of sacrificed ram: <bibl n="Paus. 1.34.5" default="NO" valid="yes">Paus. 1.34.5</bibl></li>
+                <li>ram with golden fleece: <bibl n="Paus. 9.34.5" default="NO" valid="yes">Paus. 9.34.5</bibl></li>
+                <li>with golden fleece carries Phrixus and Helle: <bibl n="Apollod. 1.8.6" default="NO" valid="yes">Apollod. 1.8.6</bibl></li>
+                <li>ram carries Phrixus to Colchis: <bibl n="Paus. 1.24.2" default="NO" valid="yes">Paus. 1.24.2</bibl></li>
+                <li>ram sacrificed by Phrixus: <bibl n="Paus. 1.24.2" default="NO" valid="yes">Paus. 1.24.2</bibl></li>
+                <li>ram carried round walls to avert plague: <bibl n="Paus. 9.22.1" default="NO" valid="yes">Paus. 9.22.1</bibl></li>
+                <li>images of Hermes carrying ram: <bibl n="Paus. 4.33.4" default="NO" valid="yes">Paus. 4.33.4</bibl>, <bibl n="Paus. 5.27.8" default="NO" valid="yes">Paus. 5.27.8</bibl>, <bibl n="Paus. 9.22.1" default="NO" valid="yes">Paus. 9.22.1</bibl></li>
+                <li>image of Hermes with ram: <bibl n="Paus. 2.3.4" default="NO" valid="yes">Paus. 2.3.4</bibl></li>
+                <li>mystic story of Hermes and ram: <bibl n="Paus. 2.3.4" default="NO" valid="yes">Paus. 2.3.4</bibl></li>
+                <li>old ram changed into lamb by Medea: <bibl n="Paus. 8.11.2" default="NO" valid="yes">Paus. 8.11.2</bibl></li>
+                <li>made into lamb by boiling: <bibl n="Apollod. 1.9.26" default="NO" valid="yes">Apollod. 1.9.26</bibl></li>
+                <li>Sardinian breed of rams: <bibl n="Paus. 10.17.12" default="NO" valid="yes">Paus. 10.17.12</bibl></li>
+                <li>ram carved on grave of Thyestes: <bibl n="Paus. 2.18.1" default="NO" valid="yes">Paus. 2.18.1</bibl></li>
+                <li>image of Ammon with ram's horns: <bibl n="Paus. 8.32.1" default="NO" valid="yes">Paus. 8.32.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.artist" type="entry" org="uniform" sample="complete">
+          <head>'Rampin Master'</head>
+          <div2 type="subentry" id="rampin-master-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>supposed Athenian sculptor (in the mid to late Archaic period) of the Rampin Rider and the Peplos Kore</p>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rarian-plain" org="uniform" sample="complete">
+          <head>Rarian plain</head>
+          <div2 type="subentry" id="rarian-plain-1" org="uniform" sample="complete">
+            <subhead><placeName>Rarian plain</placeName>, at Eleusis the first to be sown</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.38.6" default="NO" valid="yes">Paus. 1.38.6</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rarus" org="uniform" sample="complete">
+          <head>Rarus</head>
+          <div2 type="subentry" id="rarus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rarus</surname></persName>, father of <persName><surname full="yes">Triptolemus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.14.3" default="NO" valid="yes">Paus. 1.14.3</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="raven" org="uniform" sample="complete">
+          <head>Raven</head>
+          <div2 type="subentry" id="raven-1" org="uniform" sample="complete">
+            <subhead>Raven</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>cursed and made black instead of white by <persName><surname full="yes">Apollo</surname></persName>: <bibl n="Apollod. 3.10.3" default="NO" valid="yes">Apollod. 3.10.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="recitations" org="uniform" sample="complete">
+          <head>Recitations</head>
+          <div2 type="subentry" id="recitations-1" org="uniform" sample="complete">
+            <subhead><placeName>Recitations</placeName>, and speeches held in <placeName>Council House</placeName> at Elis</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 6.23.7" default="NO" valid="yes">Paus. 6.23.7</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="record-office" org="uniform" sample="complete">
+          <head>Record-office</head>
+          <div2 type="subentry" id="record-office-1" org="uniform" sample="complete">
+            <subhead>Record-office</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>at Megara: <bibl n="Paus. 1.43.4" default="NO" valid="yes">Paus. 1.43.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="red" org="uniform" sample="complete">
+          <head>Red</head>
+          <div2 type="subentry" id="red-1" org="uniform" sample="complete">
+            <subhead>Red</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>images painted: <bibl n="Paus. 2.2.6" default="NO" valid="yes">Paus. 2.2.6</bibl>, <bibl n="Paus. 7.26.11" default="NO" valid="yes">Paus. 7.26.11</bibl>, <bibl n="Paus. 8.39.6" default="NO" valid="yes">Paus. 8.39.6</bibl></li>
+                <li>red water at Joppa: <bibl n="Paus. 4.35.9" default="NO" valid="yes">Paus. 4.35.9</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="reeds" org="uniform" sample="complete">
+          <head>Reeds</head>
+          <div2 type="subentry" id="reeds-1" org="uniform" sample="complete">
+            <subhead>Reeds</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>grow tall beside Boeotian Asopus: <bibl n="Paus. 5.14.3" default="NO" valid="yes">Paus. 5.14.3</bibl></li>
+                <li>in Acheron: <bibl n="Paus. 10.28.1" default="NO" valid="yes">Paus. 10.28.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.architecture" type="entry" org="uniform" sample="complete">
+          <head>Refinements</head>
+          <div2 type="subentry" id="refinements-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>Refers to the series of adjustments in building design made by Classical Greek architects to overcome visual peculiarities.</p>
+              <p>Description: The Parthenon is often put forth as the culmination or epitome of refinements. The adjustments were made to compensate for what the architects thought a viewer would perceive when looking at a building of such monumental size.</p>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0140"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="register" org="uniform" sample="complete">
+          <head>Register</head>
+          <div2 type="subentry" id="register-1" org="uniform" sample="complete">
+            <subhead>Register</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>of Olympic victors: kept by Eleans: <bibl n="Paus. 3.21.1" default="NO" valid="yes">Paus. 3.21.1</bibl>, <bibl n="Paus. 5.21.9" default="NO" valid="yes">Paus. 5.21.9</bibl>, <bibl n="Paus. 6.2.3" default="NO" valid="yes">Paus. 6.2.3</bibl>, <bibl n="Paus. 6.13.10" default="NO" valid="yes">Paus. 6.13.10</bibl>, <bibl n="Paus. 10.36.9" default="NO" valid="yes">Paus. 10.36.9</bibl>, <foreign lang="la">cf.</foreign><bibl n="Paus. 6.6.3" default="NO" valid="yes">Paus. 6.6.3</bibl>, <bibl n="Paus. 6.8.1" default="NO" valid="yes">Paus. 6.8.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.architecture" type="entry" org="uniform" sample="complete">
+          <head>Regula</head>
+          <subhead type="plural">Regulae</subhead>
+          <div2 type="subentry" id="regula-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A narrow projecting band located beneath the taenia onto which are attached the guttae.</p>
+              <p>Description: Located just under each triglyph, the regulae should not be confused with the mutules, which also carry guttae, that appear in the Doric cornice.</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="guttae-1" targOrder="U">Guttae</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="taenia-1" targOrder="U">Taenia</ref>
+                </li>
+              </ul>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0141"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.architecture" type="entry" org="uniform" sample="complete">
+          <head>Relieving Triangle</head>
+          <div2 type="subentry" id="relieving-triangle-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>Generally triangular in shape (thus the name), a space left above the lintel to relieve the pressure being exerted, by the above layers, on the lentil, a feature unique to megalithic architecture.</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="megalithic-architecture-1" targOrder="U">Megalithic architecture</ref>
+                </li>
+              </ul>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0142"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="resurrection" org="uniform" sample="complete">
+          <head>Resurrection</head>
+          <div2 type="subentry" id="resurrection-1" org="uniform" sample="complete">
+            <subhead>Resurrection</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>of Alcestis, effected by Herakles: <bibl n="Apollod. 1.9.15" default="NO" valid="yes">Apollod. 1.9.15</bibl>, <bibl n="Apollod. 2.6.1" default="NO" valid="yes">Apollod. 2.6.1</bibl></li>
+                <li>of Glaucus, effected by Polyidus: <bibl n="Apollod. 3.2.2" default="NO" valid="yes">Apollod. 3.2.2</bibl>, <bibl n="Apollod. 3.3.1" default="NO" valid="yes">Apollod. 3.3.1</bibl></li>
+                <li>of Semele, effected by Dionysus: <bibl n="Apollod. 3.5.3" default="NO" valid="yes">Apollod. 3.5.3</bibl></li>
+                <li>from the dead wrought by Aesculapius: <bibl n="Apollod. 3.10.3" default="NO" valid="yes">Apollod. 3.10.3</bibl>, <bibl n="Apollod. 3.10.3" default="NO" valid="yes">Apollod. 3.10.3</bibl></li>
+                <li>of Pelops: <bibl n="Apollod. E.2.2" default="NO" valid="yes">Apollod. E.2.2</bibl></li>
+                <li>of Protesilaus: <bibl n="Apollod. E.3.29" default="NO" valid="yes">Apollod. E.3.29</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="returns" org="uniform" sample="complete">
+          <head>Returns</head>
+          <div2 type="subentry" id="returns-1" org="uniform" sample="complete">
+            <subhead>Returns, poem by <persName><surname full="yes">Stesichorus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 10.26.1" default="NO" valid="yes">Paus. 10.26.1</bibl>, <bibl n="Paus. 10.28.7" default="NO" valid="yes">Paus. 10.28.7</bibl>, <bibl n="Paus. 10.29.6" default="NO" valid="yes">Paus. 10.29.6</bibl>, <bibl n="Paus. 10.30.5" default="NO" valid="yes">Paus. 10.30.5</bibl></li>
+                <li>as to wife of <persName><surname full="yes">Nauplius</surname></persName>: <bibl n="Apollod. 2.1.5" default="NO" valid="yes">Apollod. 2.1.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhachos" org="uniform" sample="complete">
+          <head>Rhachos</head>
+          <div2 type="subentry" id="rhachos-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhachos</surname></persName>, <name type="ethnic">Troezenian</name>name for olives that do not bear fruit</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 2.32.10" default="NO" valid="yes">Paus. 2.32.10</bibl>
+                </li>
+                <li>the Twisted Rhachos: <bibl n="Paus. 2.32.10" default="NO" valid="yes">Paus. 2.32.10</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhacius" org="uniform" sample="complete">
+          <head>Rhacius</head>
+          <div2 type="subentry" id="rhacius-1" org="uniform" sample="complete">
+            <subhead>Rhacius</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>leads Cretan colony to Asia: <bibl n="Paus. 7.3.1" default="NO" valid="yes">Paus. 7.3.1</bibl></li>
+                <li>marries Manto, daughter of <persName><surname full="yes">Tiresias</surname></persName>: <bibl n="Paus. 7.3.2" default="NO" valid="yes">Paus. 7.3.2</bibl>, <bibl n="Paus. 9.33.2" default="NO" valid="yes">Paus. 9.33.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhacotis" org="uniform" sample="complete">
+          <head>Rhacotis</head>
+          <div2 type="subentry" id="rhacotis-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhacotis</placeName>, Egyptian town</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 5.21.9" default="NO" valid="yes">Paus. 5.21.9</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhadamanthys" org="uniform" sample="complete">
+          <head>Rhadamanthys</head>
+          <div2 type="subentry" id="rhadamanthys-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhadamanthys</surname></persName>, his law as to homicide</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 2.4.9" default="NO" valid="yes">Apollod. 2.4.9</bibl>
+                </li>
+                <li>son of <persName><surname full="yes">Zeus</surname></persName> and Europa: <bibl n="Apollod. 2.4.11" default="NO" valid="yes">Apollod. 2.4.11</bibl>, <bibl n="Apollod. 3.1.1" default="NO" valid="yes">Apollod. 3.1.1</bibl></li>
+                <li>son of <persName><surname full="yes">Hephaestus</surname></persName>: <bibl n="Paus. 8.53.5" default="NO" valid="yes">Paus. 8.53.5</bibl></li>
+                <li>legislates for the islanders: <bibl n="Apollod. 3.1.2" default="NO" valid="yes">Apollod. 3.1.2</bibl></li>
+                <li>flees to Boeotia and marries Alcmena: <bibl n="Apollod. 3.1.2" default="NO" valid="yes">Apollod. 3.1.2</bibl>, <bibl n="Apollod. 2.4.11" default="NO" valid="yes">Apollod. 2.4.11</bibl></li>
+                <li>father of <persName><surname full="yes">Erythrus</surname></persName>: <bibl n="Paus. 7.3.7" default="NO" valid="yes">Paus. 7.3.7</bibl>and of Gortys: <bibl n="Paus. 8.53.4" default="NO" valid="yes">Paus. 8.53.4</bibl></li>
+                <li>in Elysian plain: <bibl n="Paus. 8.53.5" default="NO" valid="yes">Paus. 8.53.5</bibl></li>
+                <li>judge in Hades: <bibl n="Apollod. 3.1.2" default="NO" valid="yes">Apollod. 3.1.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhadine-and-leontichus" org="uniform" sample="complete">
+          <head>rhadine and Leontichus</head>
+          <div2 type="subentry" id="rhadine-and-leontichus-1" org="uniform" sample="complete">
+            <subhead>rhadine and Leontichus, tomb of</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 7.5.13" default="NO" valid="yes">Paus. 7.5.13</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhaeteae" org="uniform" sample="complete">
+          <head>Rhaeteae</head>
+          <div2 type="subentry" id="rhaeteae-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhaeteae</placeName>, place in <placeName>Arcadia</placeName> where the Gortynius joins the Alpheus</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 8.28.4" default="NO" valid="yes">Paus. 8.28.4</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhamnos" org="uniform" sample="complete">
+          <head>Rhamnos</head>
+          <div2 type="subentry" id="rhamnos-1" org="uniform" sample="complete">
+            <subhead>Rhamnos, shrub</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 10.36.1" default="NO" valid="yes">Paus. 10.36.1</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhamnous" org="uniform" sample="complete">
+          <head>Rhamnous</head>
+          <subhead type="alt">Rhamnus</subhead>
+          <div2 type="subentry" id="rhamnous-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhamnous</placeName>, deme of <placeName>Attica</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.33.2-8" default="NO" valid="yes">Paus. 1.33.2-8</bibl>
+                </li>
+                <li>sanctuary and image of Nemesis at: <bibl n="Paus. 1.33.2-8" default="NO" valid="yes">Paus. 1.33.2-8</bibl>, <bibl n="Paus. 7.5.3" default="NO" valid="yes">Paus. 7.5.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhampsinitus" org="uniform" sample="complete">
+          <head>Rhampsinitus</head>
+          <div2 type="subentry" id="rhampsinitus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhampsinitus</surname></persName>, king of <placeName>Egypt</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>story of the theft of his treasure: <bibl n="Hdt. 2.121" default="NO" valid="yes">Hdt. 2.121</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhea" org="uniform" sample="complete">
+          <head>Rhea</head>
+          <div2 type="subentry" id="rhea-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhea</surname></persName>, a <name type="lineage">Titanid</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>daughter of <persName><surname full="yes">Sky</surname></persName> and Earth: <bibl n="Apollod. 1.1.2" default="NO" valid="yes">Apollod. 1.1.2</bibl></li>
+                <li>wanderings of: <bibl n="Paus. 8.10.1" default="NO" valid="yes">Paus. 8.10.1</bibl></li>
+                <li>defended by giants: <bibl n="Paus. 8.32.5" default="NO" valid="yes">Paus. 8.32.5</bibl>, <bibl n="Paus. 8.36.2" default="NO" valid="yes">Paus. 8.36.2</bibl></li>
+                <li>marries Cronus, mother of <persName><surname full="yes">Zeus</surname></persName>: <bibl n="Apollod. 1.1.4" default="NO" valid="yes">Apollod. 1.1.4</bibl></li>
+                <li>gives Cronus a foal to swallow instead of infant Poseidon: <bibl n="Paus. 8.8.2" default="NO" valid="yes">Paus. 8.8.2</bibl>, and a stone wrapt in swadding-clothes instead of infant Zeus: <bibl n="Paus. 8.8.2" default="NO" valid="yes">Paus. 8.8.2</bibl>, <bibl n="Paus. 8.36.3" default="NO" valid="yes">Paus. 8.36.3</bibl>, <bibl n="Paus. 9.2.7" default="NO" valid="yes">Paus. 9.2.7</bibl>, <bibl n="Paus. 9.41.6" default="NO" valid="yes">Paus. 9.41.6</bibl>, <foreign lang="la">cf.</foreign><bibl n="Paus. 10.24.6" default="NO" valid="yes">Paus. 10.24.6</bibl></li>
+                <li>gives Cronus a stone to swallow instead of the infant Zeus: <bibl n="Apollod. 1.1.7" default="NO" valid="yes">Apollod. 1.1.7</bibl></li>
+                <li>purified after birth of Zeus: <bibl n="Paus. 8.41.2" default="NO" valid="yes">Paus. 8.41.2</bibl></li>
+                <li>entrusts infant Zeus to Dactyls or Curetes: <bibl n="Paus. 5.7.6" default="NO" valid="yes">Paus. 5.7.6</bibl></li>
+                <li>purifies Dionysus, teaches him rites of initiation, and gives him his costume: <bibl n="Apollod. 3.5.1" default="NO" valid="yes">Apollod. 3.5.1</bibl></li>
+                <li>teaches Oenone the art of prophecy: <bibl n="Apollod. 3.12.5" default="NO" valid="yes">Apollod. 3.12.5</bibl></li>
+                <li>Mother, Phyllis gives Demophon a sacrament of: <bibl n="Apollod. E.6.15" default="NO" valid="yes">Apollod. E.6.15</bibl></li>
+                <li>grotto of: <bibl n="Paus. 8.36.3" default="NO" valid="yes">Paus. 8.36.3</bibl></li>
+                <li>women sacred to: <bibl n="Paus. 8.36.3" default="NO" valid="yes">Paus. 8.36.3</bibl></li>
+                <li>temple of Cronus and Rhea at Athens: <bibl n="Paus. 1.18.7" default="NO" valid="yes">Paus. 1.18.7</bibl></li>
+                <li>her seat at Cybela in Phrygia: <bibl n="Apollod. 3.5.1" default="NO" valid="yes">Apollod. 3.5.1</bibl></li>
+                <li>representations of Rhea in art: <bibl n="Paus. 8.47.3" default="NO" valid="yes">Paus. 8.47.3</bibl>, <bibl n="Paus. 9.2.7" default="NO" valid="yes">Paus. 9.2.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhegion" org="uniform" sample="complete">
+          <head>Rhegion</head>
+          <subhead type="alt">Rhegium</subhead>
+          <div2 type="subentry" id="rhegion-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhegion</placeName>, city of <placeName>Italy</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>borders on Locri: <bibl n="Paus. 6.6.4" default="NO" valid="yes">Paus. 6.6.4</bibl></li>
+                <li>in southern Italy: <bibl n="Hdt. 1.166" default="NO" valid="yes">Hdt. 1.166</bibl>, <bibl n="Hdt. 6.23" default="NO" valid="yes">Hdt. 6.23</bibl></li>
+                <li>Herakles at: <bibl n="Apollod. 2.5.10" default="NO" valid="yes">Apollod. 2.5.10</bibl></li>
+                <li>Anaxilas, tyrant of: <bibl n="Paus. 4.23.6" default="NO" valid="yes">Paus. 4.23.6</bibl>, <bibl n="Paus. 5.26.4" default="NO" valid="yes">Paus. 5.26.4</bibl></li>
+                <li>festival at: <bibl n="Paus. 5.25.2" default="NO" valid="yes">Paus. 5.25.2</bibl></li>
+                <li>Messenians driven from Naupactus go to: <bibl n="Paus. 4.26.2" default="NO" valid="yes">Paus. 4.26.2</bibl></li>
+                <li>home of Micythus: <bibl n="Paus. 5.26.5" default="NO" valid="yes">Paus. 5.26.5</bibl></li>
+                <li>its disaster in battle: <bibl n="Hdt. 7.170" default="NO" valid="yes">Hdt. 7.170</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhegnidas" org="uniform" sample="complete">
+          <head>Rhegnidas</head>
+          <div2 type="subentry" id="rhegnidas-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhegnidas</surname></persName>, a <name type="ethnic">Dorian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>son of <persName><surname full="yes">Phalces</surname></persName>, conquers Phlius: <bibl n="Paus. 2.13.1" default="NO" valid="yes">Paus. 2.13.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhenaea" org="uniform" sample="complete">
+          <head>Rhenaea</head>
+          <div2 type="subentry" id="rhenaea-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhenaea</placeName>, an island near <placeName>Delos</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Hdt. 6.97" default="NO" valid="yes">Hdt. 6.97</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhenea" org="uniform" sample="complete">
+          <head>Rhenea</head>
+          <div2 type="subentry" id="rhenea-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhenea</placeName>, island off Delos</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 4.36.6" default="NO" valid="yes">Paus. 4.36.6</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhesus" org="uniform" sample="complete">
+          <head>Rhesus</head>
+          <div2 type="subentry" id="rhesus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhesus</surname></persName>, son of <persName><surname full="yes">Strymon</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>killed by Diomedes at Troy: <bibl n="Apollod. 1.3.3" default="NO" valid="yes">Apollod. 1.3.3</bibl></li>
+                <li>a Thracian, killed by Odysseus and Diomedes: <bibl n="Apollod. E.4.1" default="NO" valid="yes">Apollod. E.4.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhetoric" org="uniform" sample="complete">
+          <head>Rhetoric</head>
+          <div2 type="subentry" id="rhetoric-1" org="uniform" sample="complete">
+            <subhead>Rhetoric</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>taught by <persName><surname full="yes">Pittheus</surname></persName>: <bibl n="Paus. 2.31.3" default="NO" valid="yes">Paus. 2.31.3</bibl></li>
+                <li>study of rhetoric revived by Gorgias: <bibl n="Paus. 6.17.8" default="NO" valid="yes">Paus. 6.17.8</bibl></li>
+                <li>Attic school of: <bibl n="Paus. 6.17.9" default="NO" valid="yes">Paus. 6.17.9</bibl></li>
+                <li>hollow rhetoric of flattery: <bibl n="Paus. 8.2.5" default="NO" valid="yes">Paus. 8.2.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rheunus" org="uniform" sample="complete">
+          <head>Rheunus</head>
+          <div2 type="subentry" id="rheunus-1" org="uniform" sample="complete">
+            <subhead><placeName>Rheunus</placeName>, place in <placeName>Arcadia</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 8.23.2" default="NO" valid="yes">Paus. 8.23.2</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhexenor" org="uniform" sample="complete">
+          <head>Rhexenor</head>
+          <div2 type="subentry" id="rhexenor-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhexenor</surname></persName>, father of <persName><surname full="yes">Chalciope</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 3.15.5" default="NO" valid="yes">Apollod. 3.15.5</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhexibius" org="uniform" sample="complete">
+          <head>Rhexibius</head>
+          <div2 type="subentry" id="rhexibius-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhexibius</surname></persName>, an <name type="ethnic">Opuntian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Olympic victor: <bibl n="Paus. 6.18.7" default="NO" valid="yes">Paus. 6.18.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhianus" org="uniform" sample="complete">
+          <head>Rhianus</head>
+          <div2 type="subentry" id="rhianus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhianus</surname></persName>, epic poet of Bene in Crete</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 4.1.6" default="NO" valid="yes">Paus. 4.1.6</bibl>, <bibl n="Paus. 4.6.1" default="NO" valid="yes">Paus. 4.6.1</bibl>, <bibl n="Paus. 4.15.2" default="NO" valid="yes">Paus. 4.15.2</bibl></li>
+                <li>wrote history of Messenian war in verse: <bibl n="Paus. 4.6.1-3" default="NO" valid="yes">Paus. 4.6.1-3</bibl></li>
+                <li>his verses quoted: <bibl n="Paus. 4.1.6" default="NO" valid="yes">Paus. 4.1.6</bibl>, <bibl n="Paus. 4.17.10" default="NO" valid="yes">Paus. 4.17.10</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhine" org="uniform" sample="complete">
+          <head>Rhine</head>
+          <div2 type="subentry" id="rhine-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhine</placeName>, flows through a cold country</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 8.28.2" default="NO" valid="yes">Paus. 8.28.2</bibl>
+                </li>
+                <li>fish ascend it in spring: <bibl n="Paus. 4.34.1" default="NO" valid="yes">Paus. 4.34.1</bibl></li>
+                <li>its deadly creatures: <bibl n="Paus. 4.34.2" default="NO" valid="yes">Paus. 4.34.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhinocerus" org="uniform" sample="complete">
+          <head>Rhinocerus</head>
+          <div2 type="subentry" id="rhinocerus-1" org="uniform" sample="complete">
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 9.21.2" default="NO" valid="yes">Paus. 9.21.2</bibl>, <foreign lang="la">cf.</foreign><bibl n="Paus. 5.12.1" default="NO" valid="yes">Paus. 5.12.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhipe" org="uniform" sample="complete">
+          <head>Rhipe</head>
+          <div2 type="subentry" id="rhipe-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhipe</placeName>, place in <placeName>Arcadia</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 8.25.12" default="NO" valid="yes">Paus. 8.25.12</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhiti" org="uniform" sample="complete">
+          <head>Rhiti</head>
+          <div2 type="subentry" id="rhiti-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhiti</placeName>, salt streams near <placeName>Eleusis</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.38.1" default="NO" valid="yes">Paus. 1.38.1</bibl>
+                </li>
+                <li>flow from Euripus: <bibl n="Paus. 2.24.6" default="NO" valid="yes">Paus. 2.24.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhium" org="uniform" sample="complete">
+          <head>Rhium</head>
+          <div2 type="subentry" id="rhium-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhium</placeName>, cape in <placeName>Achaia</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 7.22.10" default="NO" valid="yes">Paus. 7.22.10</bibl>
+                </li>
+                <li>Dorians cross to: <bibl n="Paus. 8.5.6" default="NO" valid="yes">Paus. 8.5.6</bibl></li>
+                <li>sacrifice to Poseidon at: <bibl n="Paus. 10.11.6" default="NO" valid="yes">Paus. 10.11.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhode" org="uniform" sample="complete">
+          <head>Rhode</head>
+          <div2 type="subentry" id="rhode-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhode</surname></persName>, daughter of <persName><surname full="yes">Danaus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>wife of <persName><surname full="yes">Hippolytus</surname></persName>: <bibl n="Apollod. 2.1.5" default="NO" valid="yes">Apollod. 2.1.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="rhode-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhode</surname></persName>(2), daughter of <persName><surname full="yes">Poseidon</surname></persName> and <persName><surname full="yes">Amphitrite</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>wife of the Sun: <bibl n="Apollod. 1.4.5" default="NO" valid="yes">Apollod. 1.4.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhodes" org="uniform" sample="complete">
+          <head>Rhodes</head>
+          <div2 type="subentry" id="rhodes-1" org="uniform" sample="complete">
+            <subhead>Rhodes</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>its part in the Greek settlement at Naucratis: <bibl n="Hdt. 2.178" default="NO" valid="yes">Hdt. 2.178</bibl></li>
+                <li>Rhodian colonists in Sicily: <bibl n="Hdt. 7.153" default="NO" valid="yes">Hdt. 7.153</bibl></li>
+                <li>Danaus touches at: <bibl n="Apollod. 2.1.4" default="NO" valid="yes">Apollod. 2.1.4</bibl></li>
+                <li>Tlepolemus flees to: <bibl n="Apollod. 2.8.2" default="NO" valid="yes">Apollod. 2.8.2</bibl></li>
+                <li>Althaemenes settles in: <bibl n="Apollod. 3.1.4" default="NO" valid="yes">Apollod. 3.1.4</bibl></li>
+                <li>Orestes driven to: <bibl n="Apollod. E.6.27" default="NO" valid="yes">Apollod. E.6.27</bibl></li>
+                <li>Aristomenes goes to: <bibl n="Paus. 4.24.2" default="NO" valid="yes">Paus. 4.24.2</bibl></li>
+                <li>Colossus of: <bibl n="Paus. 1.18.6" default="NO" valid="yes">Paus. 1.18.6</bibl></li>
+                <li>besieged unsuccessfully by Demetrius: <bibl n="Paus. 1.6.6" default="NO" valid="yes">Paus. 1.6.6</bibl>ff.</li>
+                <li>Diagorids of: <bibl n="Paus. 4.24.3" default="NO" valid="yes">Paus. 4.24.3</bibl></li>
+                <li>shaken by earthquake: <bibl n="Paus. 2.7.1" default="NO" valid="yes">Paus. 2.7.1</bibl>, <bibl n="Paus. 8.43.4" default="NO" valid="yes">Paus. 8.43.4</bibl></li>
+                <li>Helen hanged in: <bibl n="Paus. 3.19.10" default="NO" valid="yes">Paus. 3.19.10</bibl></li>
+                <li>sanctuary of Helen of the Tree in: <bibl n="Paus. 3.19.10" default="NO" valid="yes">Paus. 3.19.10</bibl></li>
+                <li>walls of: <bibl n="Paus. 4.31.5" default="NO" valid="yes">Paus. 4.31.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhodia" org="uniform" sample="complete">
+          <head>Rhodia</head>
+          <div2 type="subentry" id="rhodia-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhodia</surname></persName>, daughter of <persName><surname full="yes">Danaus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>wife of <persName><surname full="yes">Chalcodon</surname></persName>: <bibl n="Apollod. 2.1.5" default="NO" valid="yes">Apollod. 2.1.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhodians" org="uniform" sample="complete">
+          <head>Rhodians</head>
+          <div2 type="subentry" id="rhodians-1" org="uniform" sample="complete">
+            <subhead>
+              <rs type="ethnic">Rhodians</rs>
+            </subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>their muster for the Trojan war: <bibl n="Apollod. E.3.11" default="NO" valid="yes">Apollod. E.3.11</bibl></li>
+                <li>build tomb for Aristomenes: <bibl n="Paus. 4.24.3" default="NO" valid="yes">Paus. 4.24.3</bibl></li>
+                <li>allied with Athenians: <bibl n="Paus. 1.36.5" default="NO" valid="yes">Paus. 1.36.5</bibl>ff., <bibl n="Paus. 6.7.6" default="NO" valid="yes">Paus. 6.7.6</bibl></li>
+                <li>pay fine to Olympian Zeus: <bibl n="Paus. 5.21.8" default="NO" valid="yes">Paus. 5.21.8</bibl></li>
+                <li>Rhodians of Lindus dedicate image of Apollo at Delphi: <bibl n="Paus. 10.18.4" default="NO" valid="yes">Paus. 10.18.4</bibl></li>
+                <li>statues of Rhodian athletes: <bibl n="Paus. 6.7.1" default="NO" valid="yes">Paus. 6.7.1</bibl></li>
+                <li>Rhodian poet (Apollonius): <bibl n="Paus. 2.12.6" default="NO" valid="yes">Paus. 2.12.6</bibl></li>
+                <li>stately tomb of a Rhodian: <bibl n="Paus. 1.37.5" default="NO" valid="yes">Paus. 1.37.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhodope" org="uniform" sample="complete">
+          <head>Rhodope</head>
+          <div2 type="subentry" id="rhodope-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhodope</placeName>, a mountain range in <placeName>Thrace</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>source of a tributary of the Danube: <bibl n="Hdt. 4.49" default="NO" valid="yes">Hdt. 4.49</bibl></li>
+                <li>flight thither of a Bisaltian king: <bibl n="Hdt. 8.116" default="NO" valid="yes">Hdt. 8.116</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhodopis" org="uniform" sample="complete">
+          <head>Rhodopis</head>
+          <div2 type="subentry" id="rhodopis-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhodopis</surname></persName>, a Thracian courtesan in Egypt</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>her offerings at Delphi: <bibl n="Hdt. 2.134" default="NO" valid="yes">Hdt. 2.134</bibl>, <bibl n="Hdt. 2.135" default="NO" valid="yes">Hdt. 2.135</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhodus" org="uniform" sample="complete">
+          <head>Rhodus</head>
+          <div2 type="subentry" id="rhodus-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhodus</placeName>, place sacred to Machaon at Gerenia</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 3.26.9" default="NO" valid="yes">Paus. 3.26.9</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhoecus" org="uniform" sample="complete">
+          <head>Rhoecus</head>
+          <div2 type="subentry" id="rhoecus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhoecus</surname></persName>, a centaur</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>shot by Atalanta: <bibl n="Apollod. 3.9.1" default="NO" valid="yes">Apollod. 3.9.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="rhoecus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhoecus</surname></persName>(2), son of <persName><surname full="yes">Philaeus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>and Theodorus, son of <persName><surname full="yes">Telecles</surname></persName>, Samian artists, the first to found and cast bronze: <bibl n="Paus. 8.14.8" default="NO" valid="yes">Paus. 8.14.8</bibl>, <bibl n="Paus. 9.41.1" default="NO" valid="yes">Paus. 9.41.1</bibl>, <bibl n="Paus. 10.38.6" default="NO" valid="yes">Paus. 10.38.6</bibl></li>
+                <li>a Samian, builder of the Heraeum at Samos: <bibl n="Hdt. 3.60" default="NO" valid="yes">Hdt. 3.60</bibl></li>
+                <li>statue of Night by Rhoecus: <bibl n="Paus. 10.38.6" default="NO" valid="yes">Paus. 10.38.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhoeteum" org="uniform" sample="complete">
+          <head>Rhoeteum</head>
+          <div2 type="subentry" id="rhoeteum-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhoeteum</placeName>, a town in the Troad</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Hdt. 7.43" default="NO" valid="yes">Hdt. 7.43</bibl>
+                </li>
+                <li>grave of Ajax at: <bibl n="Apollod. E.5.6" default="NO" valid="yes">Apollod. E.5.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhoeus" org="uniform" sample="complete">
+          <head>Rhoeus</head>
+          <div2 type="subentry" id="rhoeus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhoeus</surname></persName>, of <placeName>Ambrosus</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Phocian general: <bibl n="Paus. 10.1.8" default="NO" valid="yes">Paus. 10.1.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhopalus" org="uniform" sample="complete">
+          <head>Rhopalus</head>
+          <div2 type="subentry" id="rhopalus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Rhopalus</surname></persName>, son of <persName><surname full="yes">Phaestus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 2.6.7" default="NO" valid="yes">Paus. 2.6.7</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhus" org="uniform" sample="complete">
+          <head>Rhus</head>
+          <div2 type="subentry" id="rhus-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhus</placeName>, place at Megara</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.41.2" default="NO" valid="yes">Paus. 1.41.2</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rhypes" org="uniform" sample="complete">
+          <head>Rhypes</head>
+          <div2 type="subentry" id="rhypes-1" org="uniform" sample="complete">
+            <subhead><placeName>Rhypes</placeName>, city of <placeName>Achaia</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Hdt. 1.145" default="NO" valid="yes">Hdt. 1.145</bibl>, <bibl n="Paus. 7.6.1" default="NO" valid="yes">Paus. 7.6.1</bibl></li>
+                <li>destroyed by Augustus: <bibl n="Paus. 7.18.7" default="NO" valid="yes">Paus. 7.18.7</bibl></li>
+                <li>its ruins: <bibl n="Paus. 7.23.4" default="NO" valid="yes">Paus. 7.23.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.vase-shape" type="entry" org="uniform" sample="complete">
+          <head>Rhyton</head>
+          <div2 type="subentry" id="rhyton-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>A drinking vessel shaped like a horn and usually in the form of an animal's head.</p>
+              <p>Term: From literary and artistic evidence, we know that the terms rhyton, rheon and protome were all used to identify drinking horns in the form of animal heads, during and following the fourth century B.C.</p>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="kylix-1" targOrder="U">Kylix</ref>
+                </li>
+                <li>
+                  <ref type="cross" target="head-cup-1" targOrder="U">Head cup</ref>
+                </li>
+              </ul>
+            </div3>
+            <div3 type="illustrations" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <figure n="1990.38.0143"/>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="ribbons" org="uniform" sample="complete">
+          <head>Ribbons</head>
+          <div2 type="subentry" id="ribbons-1" org="uniform" sample="complete">
+            <subhead>Ribbons</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>tied on victorious warriors and athletes: <bibl n="Paus. 4.16.6" default="NO" valid="yes">Paus. 4.16.6</bibl>, <bibl n="Paus. 6.1.7" default="NO" valid="yes">Paus. 6.1.7</bibl>, <bibl n="Paus. 6.2.2" default="NO" valid="yes">Paus. 6.2.2</bibl>, <bibl n="Paus. 6.20.19" default="NO" valid="yes">Paus. 6.20.19</bibl></li>
+                <li>tied on image: <bibl n="Paus. 10.35.10" default="NO" valid="yes">Paus. 10.35.10</bibl></li>
+                <li>image wearing ribbon: <bibl n="Paus. 5.11.1" default="NO" valid="yes">Paus. 5.11.1</bibl></li>
+                <li>pedestal of image covered with ribbons: <bibl n="Paus. 8.31.8" default="NO" valid="yes">Paus. 8.31.8</bibl></li>
+                <li>tunic girt with: <bibl n="Paus. 9.39.8" default="NO" valid="yes">Paus. 9.39.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="ribs" org="uniform" sample="complete">
+          <head>Ribs</head>
+          <div2 type="subentry" id="ribs-1" org="uniform" sample="complete">
+            <subhead>Ribs</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>of a skeleton all in one piece: <bibl n="Paus. 1.35.6" default="NO" valid="yes">Paus. 1.35.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="riddle" org="uniform" sample="complete">
+          <head>Riddle</head>
+          <div2 type="subentry" id="riddle-1" org="uniform" sample="complete">
+            <subhead>Riddle</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>of the Sphinx: <bibl n="Apollod. 3.5.7" default="NO" valid="yes">Apollod. 3.5.7</bibl>, <bibl n="Apollod. 3.5.8" default="NO" valid="yes">Apollod. 3.5.8</bibl>, <bibl n="Paus. 9.26.2" default="NO" valid="yes">Paus. 9.26.2</bibl></li>
+                <li>riddle of young children: <bibl n="Paus. 10.24.2" default="NO" valid="yes">Paus. 10.24.2</bibl></li>
+                <li>wise Greeks of old spoke in riddles: <bibl n="Paus. 8.8.3" default="NO" valid="yes">Paus. 8.8.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="ring" org="uniform" sample="complete">
+          <head>Ring</head>
+          <div2 type="subentry" id="ring-1" org="uniform" sample="complete">
+            <subhead>ring of Minos thrown into sea and fetched out by <persName><surname full="yes">Theseus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.17.3" default="NO" valid="yes">Paus. 1.17.3</bibl>
+                </li>
+                <li>ring as pledge of friendship: <bibl n="Paus. 10.30.4" default="NO" valid="yes">Paus. 10.30.4</bibl></li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="signet-1" targOrder="U">Signet</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rivers" org="uniform" sample="complete">
+          <head>Rivers</head>
+          <div2 type="subentry" id="rivers-1" org="uniform" sample="complete">
+            <subhead>Rivers</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>bringing down mud: <bibl n="Paus. 7.2.11" default="NO" valid="yes">Paus. 7.2.11</bibl>, <bibl n="Paus. 8.24.8" default="NO" valid="yes">Paus. 8.24.8</bibl>, 11</li>
+                <li>cold: <bibl n="Paus. 8.28.2" default="NO" valid="yes">Paus. 8.28.2</bibl>ff.</li>
+                <li>crooked: <bibl n="Paus. 8.41.3" default="NO" valid="yes">Paus. 8.41.3</bibl></li>
+                <li>flowing through seas and lakes: <bibl n="Paus. 5.7.3" default="NO" valid="yes">Paus. 5.7.3</bibl>ff., <bibl n="Paus. 8.54.3" default="NO" valid="yes">Paus. 8.54.3</bibl></li>
+                <li>flowing underground: <bibl n="Paus. 2.5.3" default="NO" valid="yes">Paus. 2.5.3</bibl>, <bibl n="Paus. 8.44.4" default="NO" valid="yes">Paus. 8.44.4</bibl>, <bibl n="Paus. 8.54.1" default="NO" valid="yes">Paus. 8.54.1</bibl>ff., <bibl n="Paus. 9.30.8" default="NO" valid="yes">Paus. 9.30.8</bibl></li>
+                <li>plants and trees peculiar to certain rivers: <bibl n="Paus. 5.14.3" default="NO" valid="yes">Paus. 5.14.3</bibl></li>
+                <li>rivers of Greece do not breed deadly creatures: <bibl n="Paus. 4.34.2" default="NO" valid="yes">Paus. 4.34.2</bibl>, 3</li>
+                <li>prince of rivers: <bibl n="Paus. 8.38.10" default="NO" valid="yes">Paus. 8.38.10</bibl></li>
+                <li>river that cures leprosy: <bibl n="Paus. 5.5.11" default="NO" valid="yes">Paus. 5.5.11</bibl></li>
+                <li>river that cures love: <bibl n="Paus. 7.23.3" default="NO" valid="yes">Paus. 7.23.3</bibl></li>
+                <li>river which causes flocks and herds to bring forth males: <bibl n="Paus. 7.22.11" default="NO" valid="yes">Paus. 7.22.11</bibl></li>
+                <li>cakes thrown into springs of river: <bibl n="Paus. 10.8.10" default="NO" valid="yes">Paus. 10.8.10</bibl></li>
+                <li>hair cut in honour of rivers: <bibl n="Paus. 1.37.3" default="NO" valid="yes">Paus. 1.37.3</bibl>, <bibl n="Paus. 8.41.3" default="NO" valid="yes">Paus. 8.41.3</bibl></li>
+                <li>hair kept long in honour of river: <bibl n="Paus. 8.20.3" default="NO" valid="yes">Paus. 8.20.3</bibl></li>
+                <li>sacrifice offered annually to river by king: <bibl n="Paus. 4.3.10" default="NO" valid="yes">Paus. 4.3.10</bibl></li>
+                <li>river shrinks from contact with blood: <bibl n="Paus. 9.30.8" default="NO" valid="yes">Paus. 9.30.8</bibl></li>
+                <li>river springs up where human blood is shed: <bibl n="Paus. 9.33.4" default="NO" valid="yes">Paus. 9.33.4</bibl></li>
+                <li>altars to rivers: <bibl n="Paus. 1.34.3" default="NO" valid="yes">Paus. 1.34.3</bibl>, <bibl n="Paus. 1.41.2" default="NO" valid="yes">Paus. 1.41.2</bibl></li>
+                <li>images of all rivers except the Nile made of white marble: <bibl n="Paus. 8.24.12" default="NO" valid="yes">Paus. 8.24.12</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="robe" org="uniform" sample="complete">
+          <head>Robe</head>
+          <div2 type="subentry" id="robe-1" org="uniform" sample="complete">
+            <subhead>Robe</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>steeped in poison given by Medea to Glauce: <bibl n="Apollod. 1.9.27" default="NO" valid="yes">Apollod. 1.9.27</bibl></li>
+                <li>given to Herakles by Athena: <bibl n="Apollod. 2.4.11" default="NO" valid="yes">Apollod. 2.4.11</bibl></li>
+                <li>poisoned tunic sent by Deianira to Herakles: <bibl n="Apollod. 2.7.7" default="NO" valid="yes">Apollod. 2.7.7</bibl></li>
+                <li>given by Cadmus to Harmonia at their marriage: <bibl n="Apollod. 3.4.2" default="NO" valid="yes">Apollod. 3.4.2</bibl></li>
+                <li>taken by Polynices to Argos: <bibl n="Apollod. 3.5.9" default="NO" valid="yes">Apollod. 3.5.9</bibl>, <bibl n="Apollod. 3.6.1" default="NO" valid="yes">Apollod. 3.6.1</bibl></li>
+                <li>given as a bribe to Eriphyle by Thersander, son of <persName><surname full="yes">Polynices</surname></persName>: <bibl n="Apollod. 3.7.2" default="NO" valid="yes">Apollod. 3.7.2</bibl></li>
+                <li>of Eriphyle preserved at Gabala: <bibl n="Paus. 2.1.8" default="NO" valid="yes">Paus. 2.1.8</bibl></li>
+                <li>given by Alcmaeon to his wife Arsinoe: <bibl n="Apollod. 3.7.5" default="NO" valid="yes">Apollod. 3.7.5</bibl></li>
+                <li>coveted by Callirrhoe: <bibl n="Apollod. 3.7.5" default="NO" valid="yes">Apollod. 3.7.5</bibl></li>
+                <li>dedicated at Delphi: <bibl n="Apollod. 3.7.5" default="NO" valid="yes">Apollod. 3.7.5</bibl>, <bibl n="Apollod. 3.7.6" default="NO" valid="yes">Apollod. 3.7.6</bibl></li>
+                <li>shirt without neck or sleeves given by Clytaemnestra to Agamemnon: <bibl n="Apollod. E.6.21" default="NO" valid="yes">Apollod. E.6.21</bibl></li>
+                <li>robe of Hera at Olympia woven every fourth year: <bibl n="Paus. 5.16.2" default="NO" valid="yes">Paus. 5.16.2</bibl>, <bibl n="Paus. 6.24.10" default="NO" valid="yes">Paus. 6.24.10</bibl></li>
+                <li>purple robe dedicated by Nero to Hera: <bibl n="Paus. 2.17.6" default="NO" valid="yes">Paus. 2.17.6</bibl></li>
+                <li>fine robe placed on image of Ilithyia at Aegium: <bibl n="Paus. 7.23.5" default="NO" valid="yes">Paus. 7.23.5</bibl></li>
+                <li>star-spangled robe: <bibl n="Paus. 6.25.4" default="NO" valid="yes">Paus. 6.25.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rock" org="uniform" sample="complete">
+          <head>Rock</head>
+          <div2 type="subentry" id="rock-1" org="uniform" sample="complete">
+            <subhead>Rock</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>called Actaeon's bed: <bibl n="Paus. 9.2.3" default="NO" valid="yes">Paus. 9.2.3</bibl></li>
+                <li>image of Actaeon clamped to rock: <bibl n="Paus. 9.38.5" default="NO" valid="yes">Paus. 9.38.5</bibl></li>
+                <li>rocks follow Amphion as he sings: <bibl n="Paus. 9.17.7" default="NO" valid="yes">Paus. 9.17.7</bibl></li>
+                <li>rock with arrows sticking in it: <bibl n="Paus. 1.44.4" default="NO" valid="yes">Paus. 1.44.4</bibl></li>
+                <li>sanctuary of Artemis on high rock: <bibl n="Paus. 10.37.1" default="NO" valid="yes">Paus. 10.37.1</bibl></li>
+                <li>Caphyatic rock: <bibl n="Paus. 8.13.6" default="NO" valid="yes">Paus. 8.13.6</bibl></li>
+                <li>rock of Coddinus at Magnesia: <bibl n="Paus. 3.22.4" default="NO" valid="yes">Paus. 3.22.4</bibl></li>
+                <li>portrait of Linus cut in rock: <bibl n="Paus. 9.29.6" default="NO" valid="yes">Paus. 9.29.6</bibl></li>
+                <li>Molurian rock sacred to Leucothoe and Palaemon: <bibl n="Paus. 1.44.8" default="NO" valid="yes">Paus. 1.44.8</bibl></li>
+                <li>rock at Nemea frightens horses in race-course: <bibl n="Paus. 6.20.19" default="NO" valid="yes">Paus. 6.20.19</bibl></li>
+                <li>Niobe's rock on <placeName>Mount Sipylus</placeName>: <bibl n="Paus. 1.21.3" default="NO" valid="yes">Paus. 1.21.3</bibl></li>
+                <li>Scironian rocks accursed: <bibl n="Paus. 1.44.8" default="NO" valid="yes">Paus. 1.44.8</bibl></li>
+                <li>Sepiad rocks: <bibl n="Paus. 8.27.14" default="NO" valid="yes">Paus. 8.27.14</bibl></li>
+                <li>Sibyl's rock: <bibl n="Paus. 10.12.1" default="NO" valid="yes">Paus. 10.12.1</bibl></li>
+                <li>rock yielding spring of water when struck by spear: <bibl n="Paus. 3.24.2" default="NO" valid="yes">Paus. 3.24.2</bibl></li>
+                <li>water of Styx falls on high rock: <bibl n="Paus. 8.18.4" default="NO" valid="yes">Paus. 8.18.4</bibl></li>
+                <li>rock of Theseus formerly called altar of Strong Zeus: <bibl n="Paus. 2.32.7" default="NO" valid="yes">Paus. 2.32.7</bibl>, <bibl n="Paus. 2.34.6" default="NO" valid="yes">Paus. 2.34.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="roes" org="uniform" sample="complete">
+          <head>Roes</head>
+          <div2 type="subentry" id="roes-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Roes</surname></persName>, burnt in honour of <placeName>Artemis</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 7.18.12" default="NO" valid="yes">Paus. 7.18.12</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="romans" org="uniform" sample="complete">
+          <head>Romans</head>
+          <div2 type="subentry" id="romans-1" org="uniform" sample="complete">
+            <subhead><rs type="ethnic">Romans</rs>, dwell in west of Europe</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 7.8.9" default="NO" valid="yes">Paus. 7.8.9</bibl>
+                </li>
+                <li>at war with Tarentum: <bibl n="Paus. 1.12.1" default="NO" valid="yes">Paus. 1.12.1</bibl></li>
+                <li>make war on Pyrrhus: <bibl n="Paus. 6.3.12" default="NO" valid="yes">Paus. 6.3.12</bibl></li>
+                <li>defeated by Pyrrhus: <bibl n="Paus. 1.12.2" default="NO" valid="yes">Paus. 1.12.2</bibl>ff.</li>
+                <li>defeat Pyrrhus at sea: <bibl n="Paus. 1.13.1" default="NO" valid="yes">Paus. 1.13.1</bibl></li>
+                <li>at war with Carthaginians: <bibl n="Paus. 1.29.14" default="NO" valid="yes">Paus. 1.29.14</bibl>, <bibl n="Paus. 6.12.3" default="NO" valid="yes">Paus. 6.12.3</bibl>, <bibl n="Paus. 8.30.8" default="NO" valid="yes">Paus. 8.30.8</bibl></li>
+                <li>aided by Athenians: <bibl n="Paus. 1.29.14" default="NO" valid="yes">Paus. 1.29.14</bibl></li>
+                <li>protect Athenians and Aetolians against Philip, king of Macedonia: <bibl n="Paus. 1.36.6" default="NO" valid="yes">Paus. 1.36.6</bibl>, <bibl n="Paus. 7.7.7-9" default="NO" valid="yes">Paus. 7.7.7-9</bibl></li>
+                <li>make war on Philip: <bibl n="Paus. 7.7.7" default="NO" valid="yes">Paus. 7.7.7</bibl>-<bibl n="Paus. 7.8.9" default="NO" valid="yes">Paus. 7.8.9</bibl></li>
+                <li>defeat Philip at Cynoscephalae and humble power of Macedonia: <bibl n="Paus. 1.36.6" default="NO" valid="yes">Paus. 1.36.6</bibl>, <bibl n="Paus. 7.8.7" default="NO" valid="yes">Paus. 7.8.7</bibl>, 9</li>
+                <li>make peace with Philip: <bibl n="Paus. 7.8.6" default="NO" valid="yes">Paus. 7.8.6</bibl>, 8</li>
+                <li>at war with Antiochus, king of Syria: <bibl n="Paus. 7.8.3" default="NO" valid="yes">Paus. 7.8.3</bibl></li>
+                <li>defeat Antiochus at Thermopylae: <bibl n="Paus. 8.51.4" default="NO" valid="yes">Paus. 8.51.4</bibl></li>
+                <li>conquer Perseus, king of Macedonia: <bibl n="Paus. 1.36.6" default="NO" valid="yes">Paus. 1.36.6</bibl>, <bibl n="Paus. 7.10.7" default="NO" valid="yes">Paus. 7.10.7</bibl></li>
+                <li>allies of Achaeans: <bibl n="Paus. 7.8.1-4" default="NO" valid="yes">Paus. 7.8.1-4</bibl>, and of Attalus: <bibl n="Paus. 7.8.9" default="NO" valid="yes">Paus. 7.8.9</bibl>, <bibl n="Paus. 7.16.1" default="NO" valid="yes">Paus. 7.16.1</bibl></li>
+                <li>send commissioners to arbitrate between Lacedaemonians and Achaeans: <bibl n="Paus. 7.9.5" default="NO" valid="yes">Paus. 7.9.5</bibl>, <bibl n="Paus. 7.11.1" default="NO" valid="yes">Paus. 7.11.1</bibl>, <bibl n="Paus. 7.12.9" default="NO" valid="yes">Paus. 7.12.9</bibl>, <bibl n="Paus. 7.14.1-5" default="NO" valid="yes">Paus. 7.14.1-5</bibl></li>
+                <li>retain Achaean exiles in Italy: <bibl n="Paus. 7.10.10-12" default="NO" valid="yes">Paus. 7.10.10-12</bibl></li>
+                <li>make war on Achaeans: <bibl n="Paus. 7.15.1" default="NO" valid="yes">Paus. 7.15.1</bibl>-<bibl n="Paus. 7.16.9" default="NO" valid="yes">Paus. 7.16.9</bibl></li>
+                <li>under Metellus defeat Achaeans at Scarphea: <bibl n="Paus. 7.15.4" default="NO" valid="yes">Paus. 7.15.4</bibl></li>
+                <li>sack Corinth: <bibl n="Paus. 2.1.2" default="NO" valid="yes">Paus. 2.1.2</bibl>, <bibl n="Paus. 7.16.7" default="NO" valid="yes">Paus. 7.16.7</bibl>ff.</li>
+                <li>conquer and disarm Greece: <bibl n="Paus. 2.1.2" default="NO" valid="yes">Paus. 2.1.2</bibl>, <bibl n="Paus. 7.16.9" default="NO" valid="yes">Paus. 7.16.9</bibl></li>
+                <li>dissolve Greek national confederacies, but afterwards restore them: <bibl n="Paus. 7.16.9" default="NO" valid="yes">Paus. 7.16.9</bibl>ff.</li>
+                <li>make war on Mithridates: <bibl n="Paus. 1.20.4-6" default="NO" valid="yes">Paus. 1.20.4-6</bibl>, <bibl n="Paus. 3.23.5" default="NO" valid="yes">Paus. 3.23.5</bibl>, <bibl n="Paus. 9.7.4" default="NO" valid="yes">Paus. 9.7.4</bibl>ff.</li>
+                <li>under Sulla defeat army of Mithridates at Chaeronea: <bibl n="Paus. 1.20.6" default="NO" valid="yes">Paus. 1.20.6</bibl>, <bibl n="Paus. 9.40.7" default="NO" valid="yes">Paus. 9.40.7</bibl></li>
+                <li>capture Athens: <bibl n="Paus. 1.20.4-7" default="NO" valid="yes">Paus. 1.20.4-7</bibl></li>
+                <li>grant freedom to Elatea: <bibl n="Paus. 10.34.2" default="NO" valid="yes">Paus. 10.34.2</bibl>, 4</li>
+                <li>leave Abae free: <bibl n="Paus. 10.35.2" default="NO" valid="yes">Paus. 10.35.2</bibl></li>
+                <li>rule all Thrace and most of Celtic territory: <bibl n="Paus. 1.9.5" default="NO" valid="yes">Paus. 1.9.5</bibl></li>
+                <li>Roman colonies: <bibl n="Paus. 2.1.2" default="NO" valid="yes">Paus. 2.1.2</bibl>, <bibl n="Paus. 7.18.7" default="NO" valid="yes">Paus. 7.18.7</bibl></li>
+                <li>Roman governors of Achaia or Greece: <bibl n="Paus. 5.15.2" default="NO" valid="yes">Paus. 5.15.2</bibl>, <bibl n="Paus. 7.16.10" default="NO" valid="yes">Paus. 7.16.10</bibl></li>
+                <li>Roman personal names: <bibl n="Paus. 7.7.8" default="NO" valid="yes">Paus. 7.7.8</bibl></li>
+                <li>Roman Senate: <bibl n="Paus. 7.7.9" default="NO" valid="yes">Paus. 7.7.9</bibl>, <bibl n="Paus. 7.9.1-6" default="NO" valid="yes">Paus. 7.9.1-6</bibl>, <bibl n="Paus. 7.11.3-5" default="NO" valid="yes">Paus. 7.11.3-5</bibl>, <bibl n="Paus. 7.12.4" default="NO" valid="yes">Paus. 7.12.4</bibl>, 5, 8, 9, <bibl n="Paus. 7.14.1" default="NO" valid="yes">Paus. 7.14.1</bibl></li>
+                <li>Roman senator Antoninus builds bath of Aesculapius at Epidaurus: <bibl n="Paus. 2.27.6" default="NO" valid="yes">Paus. 2.27.6</bibl></li>
+                <li>Roman senator wins Olympic victory: <bibl n="Paus. 5.20.8" default="NO" valid="yes">Paus. 5.20.8</bibl></li>
+                <li>Mummius the first Roman to dedicate an offering in a Greek sanctuary: <bibl n="Paus. 5.24.4" default="NO" valid="yes">Paus. 5.24.4</bibl></li>
+                <li>the Roman tongue: <bibl n="Paus. 2.4.5" default="NO" valid="yes">Paus. 2.4.5</bibl></li>
+              </ul>
+            </div3>
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="emperors-1" targOrder="U">Emperors</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rome" org="uniform" sample="complete">
+          <head>Rome</head>
+          <subhead type="alt">Roma</subhead>
+          <div2 type="subentry" id="rome-1" org="uniform" sample="complete">
+            <subhead><placeName>Rome</placeName>, founded by Evander from Pallantium in Arcadia</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 8.43.2" default="NO" valid="yes">Paus. 8.43.2</bibl>
+                </li>
+                <li>Forum of Augustus at: <bibl n="Paus. 8.46.4" default="NO" valid="yes">Paus. 8.46.4</bibl></li>
+                <li>Forum of Trajan with bronze roof at: <bibl n="Paus. 5.12.6" default="NO" valid="yes">Paus. 5.12.6</bibl>, <bibl n="Paus. 10.5.11" default="NO" valid="yes">Paus. 10.5.11</bibl></li>
+                <li>imperial gardens at: <bibl n="Paus. 8.46.5" default="NO" valid="yes">Paus. 8.46.5</bibl></li>
+                <li>marvels of: <bibl n="Paus. 9.21.1" default="NO" valid="yes">Paus. 9.21.1</bibl></li>
+                <li>sanctuary of Peace at: <bibl n="Paus. 6.9.3" default="NO" valid="yes">Paus. 6.9.3</bibl></li>
+                <li>statues taken from Greece to: <bibl n="Paus. 5.25.9" default="NO" valid="yes">Paus. 5.25.9</bibl>, <bibl n="Paus. 6.9.3" default="NO" valid="yes">Paus. 6.9.3</bibl>, <bibl n="Paus. 7.22.5" default="NO" valid="yes">Paus. 7.22.5</bibl>, 9, <bibl n="Paus. 8.46.1" default="NO" valid="yes">Paus. 8.46.1</bibl>, 4, <bibl n="Paus. 9.27.3" default="NO" valid="yes">Paus. 9.27.3</bibl></li>
+                <li>Roman theaters most splendid in world: <bibl n="Paus. 2.27.5" default="NO" valid="yes">Paus. 2.27.5</bibl></li>
+                <li>buildings of Trajan at: <bibl n="Paus. 5.12.6" default="NO" valid="yes">Paus. 5.12.6</bibl></li>
+                <li>Triton at: <bibl n="Paus. 9.21.1" default="NO" valid="yes">Paus. 9.21.1</bibl></li>
+                <li>white deer at: <bibl n="Paus. 8.17.4" default="NO" valid="yes">Paus. 8.17.4</bibl></li>
+                <li>white water near: <bibl n="Paus. 4.35.10" default="NO" valid="yes">Paus. 4.35.10</bibl></li>
+                <li>Achaean exiles at: <bibl n="Paus. 7.10.11" default="NO" valid="yes">Paus. 7.10.11</bibl></li>
+                <li>Pausanias at: <bibl n="Paus. 8.17.4" default="NO" valid="yes">Paus. 8.17.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rope" org="uniform" sample="complete">
+          <head>Rope</head>
+          <div2 type="subentry" id="rope-1" org="uniform" sample="complete">
+            <subhead>Rope</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>of women's hair: <bibl n="Paus. 7.5.7" default="NO" valid="yes">Paus. 7.5.7</bibl>ff.</li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rose" org="uniform" sample="complete">
+          <head>Rose</head>
+          <div2 type="subentry" id="rose-1" org="uniform" sample="complete">
+            <subhead>Rose</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>held by one of Graces: <bibl n="Paus. 6.24.6" default="NO" valid="yes">Paus. 6.24.6</bibl></li>
+                <li>sacred to Aphrodite: <bibl n="Paus. 6.24.7" default="NO" valid="yes">Paus. 6.24.7</bibl></li>
+                <li>unguent of roses made at Chaeronea: <bibl n="Paus. 9.41.7" default="NO" valid="yes">Paus. 9.41.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rotunda-at-athens" org="uniform" sample="complete">
+          <head>rotunda at Athens</head>
+          <div2 type="subentry" id="rotunda-at-athens-1" org="uniform" sample="complete">
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.5.1" default="NO" valid="yes">Paus. 1.5.1</bibl>
+                </li>
+                <li>in sanctuary of Aesculapius at Epidaurus: <bibl n="Paus. 2.27.3" default="NO" valid="yes">Paus. 2.27.3</bibl>, 5</li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="round-building-at-sparta" org="uniform" sample="complete">
+          <head>round building at Sparta</head>
+          <div2 type="subentry" id="round-building-at-sparta-1" org="uniform" sample="complete">
+            <subhead>round building at Sparta, said to have been built by <persName><surname full="yes">Epimenides</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 3.12.11" default="NO" valid="yes">Paus. 3.12.11</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="roxana" org="uniform" sample="complete">
+          <head>Roxana</head>
+          <div2 type="subentry" id="roxana-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Roxana</surname></persName>, daughter of <persName><surname full="yes">Oxyartes</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 1.6.3" default="NO" valid="yes">Paus. 1.6.3</bibl>
+                </li>
+                <li>wife of <persName><surname full="yes">Alexander</surname><addName full="yes">the Great</addName></persName>: <bibl n="Paus. 9.7.2" default="NO" valid="yes">Paus. 9.7.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="royal-colonnade" org="uniform" sample="complete">
+          <head>Royal Colonnade</head>
+          <div2 type="subentry" id="royal-colonnade-1" org="uniform" sample="complete">
+            <subhead>Royal Colonnade</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>at Athens: <bibl n="Paus. 1.14.6" default="NO" valid="yes">Paus. 1.14.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rumour" org="uniform" sample="complete">
+          <head>Rumour</head>
+          <div2 type="subentry" id="rumour-1" org="uniform" sample="complete">
+            <subhead>Rumour</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>altar of: <bibl n="Paus. 1.17.1" default="NO" valid="yes">Paus. 1.17.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="runner" org="uniform" sample="complete">
+          <head>Runner</head>
+          <div2 type="subentry" id="runner-1" org="uniform" sample="complete">
+            <div3 type="ref" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <ref type="cross" target="races-1" targOrder="U">Races</ref>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="running-path" org="uniform" sample="complete">
+          <head>Running-path</head>
+          <div2 type="subentry" id="running-path-1" org="uniform" sample="complete">
+            <subhead>Running-path, the Sacred</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 6.23.2" default="NO" valid="yes">Paus. 6.23.2</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="rust" org="uniform" sample="complete">
+          <head>Rust</head>
+          <div2 type="subentry" id="rust-1" org="uniform" sample="complete">
+            <subhead>Rust</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>of gelding knife restores virility: <bibl n="Apollod. 1.9.13" default="NO" valid="yes">Apollod. 1.9.13</bibl></li>
+                <li>of Achilles's spear heals the wound inflicted by the spear: <bibl n="Apollod. E.3.18" default="NO" valid="yes">Apollod. E.3.18</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="ruthlessness" org="uniform" sample="complete">
+          <head>Ruthlessness</head>
+          <div2 type="subentry" id="ruthlessness-1" org="uniform" sample="complete">
+            <subhead>Ruthlessness</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>stone of: <bibl n="Paus. 1.28.5" default="NO" valid="yes">Paus. 1.28.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+      </div0>
+    </body>
+  </text>
+</tei.2>

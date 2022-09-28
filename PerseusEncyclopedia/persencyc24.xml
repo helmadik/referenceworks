@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tei.2>
+  <teiHeader type="text" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>Perseus Encyclopedia</title> 
+        <sponsor>Perseus Project, Tufts University</sponsor>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <resp>Prepared under the supervision of</resp>
+          <name>Lisa Cerrato</name>
+          <name>William Merrill</name>
+          <name>Elli Mylonas</name>
+          <name>David Smith</name>
+        </respStmt>
+        <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Trustees of Tufts University</publisher>
+        <pubPlace>Medford, MA</pubPlace>
+        <authority>Perseus Project</authority>
+      </publicationStmt>
+      <sourceDesc default="NO">
+        <p>Created in electronic form.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl doctype="TEI.2">
+        <state unit="id"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state n="chunk" unit="entry"/>
+        <state unit="subentry"/>
+      </refsDecl>
+      <refsDecl doctype="TEI.2">
+        <state unit="alphabetic letter"/>
+        <state unit="entry"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage default="NO">
+        <language id="en">English</language>
+        <language id="greek">Greek</language>
+        <language id="xgreek">Transliterated Greek</language>
+        <language id="la">Latin</language>
+        <language id="fr">Latin</language>
+      </langUsage>
+      <textClass id="gen.architecture" default="NO">
+        <keywords>
+          <term>Architecture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.art-terminology" default="NO">
+        <keywords>
+          <term>Art terminology</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.artist" default="NO">
+        <keywords>
+          <term>Artist</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.biography" default="NO">
+        <keywords>
+          <term>Biography</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.clothing" default="NO">
+        <keywords>
+          <term>Clothing</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.furniture" default="NO">
+        <keywords>
+          <term>Furniture</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.inscription" default="NO">
+        <keywords>
+          <term>Inscription</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.literature" default="NO">
+        <keywords>
+          <term>Literature</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.miscellaneous" default="NO">
+        <keywords>
+          <term>Miscellaneous</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.music" default="NO">
+        <keywords>
+          <term>Music</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.region" default="NO">
+        <keywords>
+          <term>Region</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.theater-and-drama" default="NO">
+        <keywords>
+          <term>Theater and drama</term>
+        </keywords>
+      </textClass>
+      <textClass id="gen.vase-shape" default="NO">
+        <keywords>
+          <term>Vase shape</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>23 September 1999</date>
+        <respStmt>
+          <name>DAS</name>
+          <resp>ed.</resp>
+        </respStmt>
+        <li>$Log: encyclopedia.xml,v $ Revision 1.28 2006/03/27 14:02:23 gcrane more refinements Revision 1.27 2006/03/26 04:13:20 gcrane more fixes Revision 1.26 2006/03/25 19:26:47 gcrane more fixes Revision 1.25 2006/03/25 16:38:06 gcrane Did a lot of work to clean up the base headers for subentries. These should more often now only include global descriptions, e.g, PERSON, son of A stays, but PERSON, fought at Troy goes. --&gt; "Fought at Troy" can be one of many events and is not a global identifier Revision 1.24 2006/03/20 19:15:42 gcrane cleaned up the formatting Revision 1.23 2006/03/20 14:15:22 gcrane small changes Revision 1.20 2006/03/18 15:34:36 gcrane small fixes Revision 1.19 2006/03/18 01:14:23 gcrane small fixes Revision 1.18 2006/03/17 23:55:18 gaweaver small fixes Revision 1.17 2006/03/17 21:56:39 gaweaver Calliopi From Antiphon until Chilon Revision 1.16 2006/03/17 15:39:04 gaweaver no message Revision 1.15 2006/03/10 00:01:20 gaweaver changes made by GRC while over the atlantic Revision 1.14 2006/03/05 03:47:42 gcrane base file Revision 1.13 2006/03/04 13:13:03 gcrane small fixes Revision 1.12 2006/03/03 18:21:05 gaweaver Agenor (10) Revision 1.11 2006/02/15 16:24:46 gcrane small fixes Revision 1.10 2006/02/13 21:52:23 gcrane small fixes Revision 1.9 2006/02/13 01:57:42 gcrane small fixes Revision 1.8 2006/02/12 23:12:05 gcrane small fixes Revision 1.7 2006/02/12 15:30:08 gcrane major structural update: the descriptive info has now been moved up into the headers and id's added to div1 type="entry" Revision 1.6 2006/02/12 13:23:59 gcrane moved descriptions up into the header: the goal is to make the header more informative and thus to facilitate the mechanics of aligning entries in this list with those in Smith's etc Revision 1.5 2006/02/11 19:49:21 gcrane more small fixes to make the coding consistent Revision 1.4 2006/02/11 18:50:04 gcrane working towards moving identifiers for all entities up into the subentry HEAD Revision 1.3 2006/02/10 22:43:14 gcrane changed the structure so that every entry has a subentry -- this simplifies the structure (i hope) Revision 1.2 2005/08/18 13:53:45 packel item tags... Revision 1.1 2005/07/25 14:32:52 packel Converted to XML Revision 1.34 2003/07/01 22:16:05 yorkc Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.) Revision 1.33 2000/03/16 03:17:12 dasmith Gave homonym entries a top-level header. Revision 1.32 2000/03/16 02:52:18 dasmith Added alphabetic letter DIV0s. Made entries subordinate to alphabetic letters in refsDecl. Revision 1.31 2000/03/15 15:12:45 amahoney make homonyms sub-entries Revision 1.30 2000/03/14 18:11:05 amahoney several more random issues, but the Apollodorus refs really are right now Revision 1.27 2000/03/04 20:34:25 dasmith Added separate funder entity to TEI header. Revision 1.26 2000/02/22 17:17:30 amahoney fix bibl refs to known works Revision 1.25 2000/02/04 17:58:05 dasmith Primary lookup by ID (mostly useful for internal navigation). Revision 1.24 2000/01/10 21:09:41 acsmith trying again to change pilaster def. Revision 1.23 2000/01/10 20:16:54 dasmith Fixed sentence grammar. Revision 1.22 1999/10/01 14:11:04 acsmith Amy did away with dangling ref. to Type A2 cup, and turned all Type A1 cups into Type A cups, and lower cased type in Proto type A cup. Revision 1.21 1999/09/30 21:52:22 dasmith Fixed amphorae cross-refs. Revision 1.20 1999/09/30 21:08:38 acsmith ACS fixed (hopefully!) amphorae and pyxides Revision 1.19 1999/09/29 15:55:28 dasmith Converted to TEI2 tagging.</li>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div0 type="alphabetic letter" n="X" org="uniform" sample="complete">
+        <subhead>X</subhead>
+        <div1 type="entry" id="xanthes" org="uniform" sample="complete">
+          <head>Xanthes</head>
+          <div2 type="subentry" id="xanthes-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xanthes</surname></persName>, a <name type="ethnic">Samian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>his bringing of Rhodopis to Egypt: <bibl n="Hdt. 2.135" default="NO" valid="yes">Hdt. 2.135</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xanthippe" org="uniform" sample="complete">
+          <head>Xanthippe</head>
+          <div2 type="subentry" id="xanthippe-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xanthippe</surname></persName>, daughter of <persName><surname full="yes">Dorus</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>wife of <persName><surname full="yes">Pleuron</surname></persName>: <bibl n="Apollod. 1.7.5" default="NO" valid="yes">Apollod. 1.7.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xanthippus" org="uniform" sample="complete">
+          <head>Xanthippus</head>
+          <div2 type="subentry" id="xanthippus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xanthippus</surname></persName>, a <name type="ethnic">Phocian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 10.4.10" default="NO" valid="yes">Paus. 10.4.10</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xanthippus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xanthippus</surname></persName>(2), an <name type="ethnic">Athenian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>father of <persName><surname full="yes">Pericles</surname></persName>: <bibl n="Hdt. 6.131" default="NO" valid="yes">Hdt. 6.131</bibl>, <bibl n="Paus. 1.25.1" default="NO" valid="yes">Paus. 1.25.1</bibl></li>
+                <li>his impeachment of Miltiades: <bibl n="Hdt. 6.136" default="NO" valid="yes">Hdt. 6.136</bibl></li>
+                <li>Athenian general after Salamis: <bibl n="Hdt. 7.33" default="NO" valid="yes">Hdt. 7.33</bibl>, <bibl n="Hdt. 8.131" default="NO" valid="yes">Hdt. 8.131</bibl></li>
+                <li>son of <persName><surname full="yes">Ariphron</surname></persName>, defeats Persian fleet at Mycale: <bibl n="Paus. 1.25.1" default="NO" valid="yes">Paus. 1.25.1</bibl>, <bibl n="Paus. 3.7.9" default="NO" valid="yes">Paus. 3.7.9</bibl>, <bibl n="Paus. 8.52.3" default="NO" valid="yes">Paus. 8.52.3</bibl></li>
+                <li>in command on the Hellespont: <bibl n="Hdt. 2.114" default="NO" valid="yes">Hdt. 2.114</bibl>, <bibl n="Hdt. 2.120" default="NO" valid="yes">Hdt. 2.120</bibl></li>
+                <li>his statue on Acropolis at Athens: <bibl n="Paus. 1.25.1" default="NO" valid="yes">Paus. 1.25.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xanthippus-3" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xanthippus</surname></persName>(3), son of <persName><surname full="yes">Deiphontes</surname></persName> and <persName><surname full="yes">Hyrnetho</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 2.28.6" default="NO" valid="yes">Paus. 2.28.6</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xanthippus-4" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xanthippus</surname></persName>(4), son of <persName><surname full="yes">Melas</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>killed by Tydeus: <bibl n="Apollod. 1.8.3" default="NO" valid="yes">Apollod. 1.8.3</bibl>, <bibl n="Apollod. 1.8.5" default="NO" valid="yes">Apollod. 1.8.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xanthis" org="uniform" sample="complete">
+          <head>Xanthis</head>
+          <div2 type="subentry" id="xanthis-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xanthis</surname></persName>, daughter of <persName><surname full="yes">Thespius</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>mother of <persName><surname full="yes">Homolippus</surname></persName> by Herakles: <bibl n="Apollod. 2.7.7" default="NO" valid="yes">Apollod. 2.7.7</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xanthus" org="uniform" sample="complete">
+          <head>Xanthus</head>
+          <subhead type="alt">Xanthos</subhead>
+          <div2 type="subentry" id="xanthus-1" org="uniform" sample="complete">
+            <subhead type="alt">Xanthos, Lycia</subhead>
+            <subhead type="alt">Xanthus, Lycia</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>in Lycia: <bibl n="Paus. 6.13.3" default="NO" valid="yes">Paus. 6.13.3</bibl></li>
+                <li>a town in Lycia, resistance of the Xanthians to the Persians, and their defeat: <bibl n="Hdt. 1.176" default="NO" valid="yes">Hdt. 1.176</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xanthus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xanthus</surname></persName>(2), an immortal horse</subhead>
+            <subhead type="alt">Xanthos</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>given by Poseidon to Peleus: <bibl n="Apollod. 3.13.5" default="NO" valid="yes">Apollod. 3.13.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xanthus-3" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xanthus</surname></persName>(3), son of <persName><surname full="yes">Erymanthus</surname></persName></subhead>
+            <subhead type="alt">Xanthos</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 8.24.1" default="NO" valid="yes">Paus. 8.24.1</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xanthus-4" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xanthus</surname></persName>(4), son of <persName><surname full="yes">Ptolemy</surname></persName></subhead>
+            <subhead type="alt">Xanthos</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>king of Thebes, slain by Andropompus: <bibl n="Paus. 9.5.16" default="NO" valid="yes">Paus. 9.5.16</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenagoras" org="uniform" sample="complete">
+          <head>Xenagoras</head>
+          <div2 type="subentry" id="xenagoras-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenagoras</surname></persName>, of <placeName>Halicarnassus</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>made governor of Cilicia for saving the life of Masistes: <bibl n="Hdt. 9.107" default="NO" valid="yes">Hdt. 9.107</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenarches" org="uniform" sample="complete">
+          <head>Xenarches</head>
+          <div2 type="subentry" id="xenarches-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenarches</surname></persName>, a Spartan horse-breeder</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>victorious at Olympia, Delphi, Argos, and Corinth: <bibl n="Paus. 6.2.1" default="NO" valid="yes">Paus. 6.2.1</bibl>, 2</li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xenarches-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenarches</surname></persName>(2), son of <persName><surname full="yes">Philandrides</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>an Acarnanian, Olympia victor: <bibl n="Paus. 6.2.1" default="NO" valid="yes">Paus. 6.2.1</bibl>, 2</li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenias" org="uniform" sample="complete">
+          <head>Xenias</head>
+          <div2 type="subentry" id="xenias-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenias</surname></persName>, an <name type="ethnic">Elean</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>tries to betray Elis to Lacedaemonians: <bibl n="Paus. 3.8.4" default="NO" valid="yes">Paus. 3.8.4</bibl>, <bibl n="Paus. 5.4.8" default="NO" valid="yes">Paus. 5.4.8</bibl>, <bibl n="Paus. 7.10.2" default="NO" valid="yes">Paus. 7.10.2</bibl></li>
+                <li>defeated and expelled from Elis: <bibl n="Paus. 3.8.4" default="NO" valid="yes">Paus. 3.8.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenoclea" org="uniform" sample="complete">
+          <head>Xenoclea</head>
+          <div2 type="subentry" id="xenoclea-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenoclea</surname></persName>, Delphic prophetess</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>refuses to give response to Herakles: <bibl n="Paus. 10.13.8" default="NO" valid="yes">Paus. 10.13.8</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenocles" org="uniform" sample="complete">
+          <head>Xenocles</head>
+          <div2 type="subentry" id="xenocles-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenocles</surname></persName>, a <name type="ethnic">Maenalian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Olympic victor: <bibl n="Paus. 6.9.2" default="NO" valid="yes">Paus. 6.9.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xenocles-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenocles</surname></persName>(2), son of <persName><surname full="yes">Sophocles</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Torch bearer: <bibl n="Paus. 1.37.1" default="NO" valid="yes">Paus. 1.37.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenoclides" org="uniform" sample="complete">
+          <head>Xenoclides</head>
+          <div2 type="subentry" id="xenoclides-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenoclides</surname></persName>, a <name type="ethnic">Heraean</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>father of wrestler Nicostratus: <bibl n="Paus. 6.3.11" default="NO" valid="yes">Paus. 6.3.11</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenocrates" org="uniform" sample="complete">
+          <head>Xenocrates</head>
+          <div2 type="subentry" id="xenocrates-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenocrates</surname></persName>, Boeotarch</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 9.13.6" default="NO" valid="yes">Paus. 9.13.6</bibl>
+                </li>
+                <li>sends for shield of Aristomenes: <bibl n="Paus. 4.32.6" default="NO" valid="yes">Paus. 4.32.6</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenocritus" org="uniform" sample="complete">
+          <head>Xenocritus</head>
+          <div2 type="subentry" id="xenocritus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenocritus</surname></persName>, Theban sculptor</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 9.11.4" default="NO" valid="yes">Paus. 9.11.4</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenodamus" org="uniform" sample="complete">
+          <head>Xenodamus</head>
+          <div2 type="subentry" id="xenodamus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenodamus</surname></persName>, of <placeName>Anticyra</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Olympic victor: <bibl n="Paus. 10.36.9" default="NO" valid="yes">Paus. 10.36.9</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xenodamus-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenodamus</surname></persName>(2), son of <persName><surname full="yes">Menelaus</surname></persName> by a nymph Cnossia</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 3.11.1" default="NO" valid="yes">Apollod. 3.11.1</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenodice" org="uniform" sample="complete">
+          <head>Xenodice</head>
+          <div2 type="subentry" id="xenodice-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenodice</surname></persName>, daughter of <persName><surname full="yes">Minos</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. 3.1.2" default="NO" valid="yes">Apollod. 3.1.2</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xenodice-2" org="uniform" sample="complete">
+            <subhead>Xenodice (2), Trojan captive</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 10.26.1" default="NO" valid="yes">Paus. 10.26.1</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xenodice-3" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenodice</surname></persName>(3), woman who died in childbed</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>her tomb: <bibl n="Paus. 2.7.3" default="NO" valid="yes">Paus. 2.7.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenodicus" org="uniform" sample="complete">
+          <head>Xenodicus</head>
+          <div2 type="subentry" id="xenodicus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenodicus</surname></persName>, Olympic victor</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 6.14.12" default="NO" valid="yes">Paus. 6.14.12</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenodoce" org="uniform" sample="complete">
+          <head>Xenodoce</head>
+          <div2 type="subentry" id="xenodoce-1" org="uniform" sample="complete">
+            <subhead>Xenodoce, (not Xenodice)</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>daughter of <persName><surname full="yes">Syleus</surname></persName>, killed by Herakles: <bibl n="Apollod. 2.6.3" default="NO" valid="yes">Apollod. 2.6.3</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenodocus" org="uniform" sample="complete">
+          <head>Xenodocus</head>
+          <div2 type="subentry" id="xenodocus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenodocus</surname></persName>, a <name type="ethnic">Messenian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Olympic victor: <bibl n="Paus. 4.5.10" default="NO" valid="yes">Paus. 4.5.10</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenombrotus" org="uniform" sample="complete">
+          <head>Xenombrotus</head>
+          <div2 type="subentry" id="xenombrotus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenombrotus</surname></persName>, of <placeName>Cos</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Olympic victor: <bibl n="Paus. 6.14.12" default="NO" valid="yes">Paus. 6.14.12</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenon" org="uniform" sample="complete">
+          <head>Xenon</head>
+          <div2 type="subentry" id="xenon-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenon</surname></persName>, an <name type="ethnic">Achaean</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 7.10.9" default="NO" valid="yes">Paus. 7.10.9</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xenon-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenon</surname></persName>(2), son of <persName><surname full="yes">Calliteles</surname></persName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>a Leprean, Olympic victor: <bibl n="Paus. 6.15.1" default="NO" valid="yes">Paus. 6.15.1</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenophanes" org="uniform" sample="complete">
+          <head>Xenophanes</head>
+          <div2 type="subentry" id="xenophanes-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenophanes</surname></persName>, father of the Syracusan Antiochus</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 10.11.3" default="NO" valid="yes">Paus. 10.11.3</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenophilus-and-strato" org="uniform" sample="complete">
+          <head>xenophilus and Strato</head>
+          <div2 type="subentry" id="xenophilus-and-strato-1" org="uniform" sample="complete">
+            <subhead>xenophilus and Strato, sculptors</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>make images of Aesculapius and Health: <bibl n="Paus. 2.23.4" default="NO" valid="yes">Paus. 2.23.4</bibl></li>
+                <li>seated figures of X. and S.: <bibl n="Paus. 2.23.4" default="NO" valid="yes">Paus. 2.23.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xenophon" org="uniform" sample="complete">
+          <head>Xenophon</head>
+          <div2 type="subentry" id="xenophon-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenophon</surname></persName>, of <placeName>Aegium</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>son of <persName><surname full="yes">Menephylus</surname></persName>, Olympic victor: <bibl n="Paus. 6.3.13" default="NO" valid="yes">Paus. 6.3.13</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xenophon-2" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenophon</surname></persName>(2), a <name type="ethnic">Corinthian</name></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>Olympic victor: <bibl n="Paus. 4.24.5" default="NO" valid="yes">Paus. 4.24.5</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 type="subentry" id="xenophon-3" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenophon</surname></persName>(3), Athenian sculptor</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 8.30.10" default="NO" valid="yes">Paus. 8.30.10</bibl>, <bibl n="Paus. 9.16.2" default="NO" valid="yes">Paus. 9.16.2</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+          <div2 decls="gen.biography" type="subentry" id="xenophon-4" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xenophon</surname></persName>(4), son of <persName><surname full="yes">Grylus</surname></persName></subhead>
+            <div3 type="definition" org="uniform" sample="complete">
+              <subhead>Life</subhead>
+              <p>Xenophon, the son of <persName><surname full="yes">Gryllus</surname></persName>, was born at Athens during the early years of the Peloponnesian War into a family of knights; he died either in Athens or Corinth sometime after 355, making him about seventy-five at the time of his death. He may have been educated by the sophist Prodicus at Thebes, and in all likelihood established some type of connection with Socrates in the last decade of the fifth century. It also seems likely that he was knight under the rule of the Thirty Tyrants at Athens and may have even taken part in the battle of Munychia which brought an end to that regime. In 401 he accepted the invitation of his Theban guest-friend Proxenus to join the Greek mercenaries in the service of the Achaemenid prince Cyrus the Younger who was attempting to usurp the throne of Persia from his brother, Artaxerxes. Following the death of Cyrus at the battle of Cunaxa near Babylon (late summer 401) and the murder of the commanders of the Ten Thousand (as the Greek mercenaries are known), Xenophon was appointed strategos or general and commanded a portion of the troops. After leading them back from the heartland of the Persian empire to the Black Sea and then the coast of Asia Minor, he along with his contingent enrolled in the service of the Spartans then operating in Asia Minor. Fighting there under three successive Spartan commanders Xenophon formed a strong and lasting friendship with the last one, King Agesilaus. In 395, when the home authorities recalled Agesilaus from Asia to lead the Spartan forces against Thebes, Corinth and Athens, Xenophon followed and took part in the battle of Coronea (394). It was shortly after this that Xenophon was exiled from Athens, either because of his participation in the battle of Coronea, or because of this service with Cyrus (an enemy of Athens in the second phase of the Peloponnesian War), or perhaps both. Without a homeland Xenophon's attachments to Sparta became even stronger: sometime shortly after Coronea he was granted an estate by the Spartans at Scillus, a town near Olympia. He had two sons, both born on his estate and educated at Sparta in the agoge (the rigorous Spartan education system designed to produce Spartiates or full citizen-warriors). During his time at Scillus he probably wrote many of his works, remained in touch with his friends at Sparta, but also established and kept up international contacts at the panhellenic festival at Olympia. Although his exile may have been repealed as early as 386, it seems he did not return to Athens but remained at Scillus. After the Spartan defeat at Leuctra in 371 Xenophon was forced to give up his estate and probably went to Corinth. Whether he returned to Athens or stayed at Corinth is uncertain: that some reconciliation took place between Xenophon and his native city seems to be indicated by the focus of his later works on Athenian matters, and by his growing commitment to Spartan and Athenian cooperation. Indeed his eldest son Gryllus was killed fighting for Sparta in an Athenian cavalry contingent in a skirmish before the decisive Spartan defeat at Second Mantinea in 362. References to contemporary events in his last work allow us to say that he was alive in 355; given his extreme old age he surely did not live much longer.</p>
+              <div4 type="section" org="uniform" sample="complete">
+                <subhead>Works</subhead>
+                <p>Xenophon's work may be divided into three main categories: historical, Socratic, and Minor Works.</p>
+                <p>The <title>Anabasis</title>or ‘Trip Up Country’ (late 370s or 360s) is Xenophon's story of the journey of the ten thousand mercenaries under the command of Cyrus the Younger into the heart of the Persian empire and then back again to the Greek world. It is of particular significance because Xenophon himself served on the expedition and he is prominent from Book 3 onwards. It was probably composed after Xenophon's return to Greece from a memoir he kept while with the Ten Thousand. The <title>Hellenica</title>or ‘Hellenic Affairs’, is a history of Greece from 411-362 (early in Xenophon's career; early 350s). This work appears to have been written in two phases: the first portion of the work, going down to the beginning of the Thirty Tyrants at Athens in 403 (<bibl n=" Xen. Hell. 2.3.10" default="NO">Xen. Hell. 2.3.10</bibl>), may well have been one of the first things Xenophon wrote; the second, much larger portion, goes from 403 and extends down to the battle of Second Mantinea (362), and was probably composed very late in Xenophon's life. Due to certain superficial similarities with the work of Thucydides, and especially to the fact that the work picks up roughly where Thucydides leaves off, it is thought to have been conceived originally as a continuation of Thucydides' history of the Peloponnesian War. The testimony of Marcellinus' life of Thucydides (Chap. 45) supports this view. A major break is argued for at 2.3.10 on a number of grounds: stylometric (chiefly distribution of particle usage), change in chronological conventions, change in viewpoint (from Athens to Sparta), and subtle changes in thematic focus (increasing attention to the moral evaluation of individuals). Although frequently faulted for its omissions and Spartan bias, especially when compared with the fragmentary remains of another continuator of Thucydides, the Oxyrhyncus Historian, the Hellenica is our major continuous historical narrative for the crucial period between the latter stages of the Peloponnesian War to the years immediately preceding the rise of Macedon. The <title>Cyropaedia</title>or 'The Education of Cyrus' (370s, revised later) is a long (8 books) biographical treatment of Cyrus the Great of Persia (6th century). This work, which also has a strong claim to be categorized under 'philosophy', is a massive account of the education and training of the ideal king. It comprises elements of historiography, legend, ethnography, and romance, and is thought to be a precursor of the later novel. It contains an epilogue (<bibl n="Xen. Cyrop. 8.8" default="NO" valid="yes">Xen. Cyrop. 8.8</bibl>) on the decline of Persia since the time of Cyrus which seems to have been written after the work was completed. The <title>Agesilaus</title>is a biography of King Agesilaus of Sparta (c.444/3-360), composed in all likelihood sometime after the winter of 360, when the king died. It too is a study of leadership, but clearly also contains apologetic elements. It overlaps significantly with portions of the Hellenica. Together with the <title>Evagoras</title>of Isocrates <bibl n="Isoc. 9" default="NO" valid="yes">Isoc. 9</bibl>(374) it is one of the first true biographies in Greek literature.</p>
+                <p>It is difficult to date precisely any of the Socratic works of Xenophon, only that they must have been composed after the philosopher's death in 399. Like Plato and other Socratics, Xenophon felt the need to compose an <title>Apology</title>or defense of Socrates in response to the charges brought against him by his accusers. Like Plato he also composed a <title>Symposium</title>. The most important of the Socratic works of Xenophon is the <title>Memorabilia</title>, a collection of discussions between Socrates and (typically) young Athenian men which begins in much the same spirit as the <title>Apology</title>, that is in defense of the philosopher. The <title>Oeconomicus</title>is a dialogue between Socrates and an Athenian, Ischomachus, on the subject of house management; it is actually comprised mostly of a reported set of discussions between Ischomachus and his (unnamed) young wife. The work is probably the best introduction into the mind of Xenophon, foregrounding as it does the topic of order, an issue central to his thought. While the <title>Hiero</title>does not actually feature Socrates, it is clearly a combination of a Socratic dialogue and a Herodotean meeting between a sage and a powerful king (e.g. Solon and Croesus), though interestingly the main speaker is Hieron (king of Syracuse from 478 to 467), not the sage (Simonides the poet, c.557/6-468/7); the conversation, on the subject of tyranny, is imaginary.</p>
+                <p>Xenophon's interest in practical knowledge and didactic literature is clearly evidenced by a number of smaller works. Like his contemporary Aeneas Tacticus , Xenophon composed two technical handbooks on matters of practical knowledge, <title>On the Cavalry Commander</title>and <title>On Horsemanship</title>; the <title>On Hunting</title>is widely regarded as not belonging to Xenophon. He also wrote a <title>Constitution of the Lacedaemonians</title>, what is not so much a picture of Spartan government as a valuable description of the Spartan educational system thought to have been set up by the legendary lawgiver Lycurgus (11th-8th?); it, like the <title>Cyropaedia</title>, contains an epilogue (actually the penultimate chapter, <bibl n="Xen. Cyrop.14" default="NO" valid="yes">Xen. Cyrop.14</bibl>) which suggests that Spartan society has degenerated. The <title>Poroi</title>or <title>On Revenues</title>is the probably the last thing Xenophon wrote; it attempts to persuade the Athenians to abandon hegemonic war as a way to increase state revenue and adopt instead programs aimed at improving the existing resources of the city-a proposal and conceptual framework virtually without parallel in all antiquity.</p>
+              </div4>
+              <div4 type="section" org="uniform" sample="complete">
+                <subhead>Note</subhead>
+                <p>The <title>Constitution of the Athenians</title>by the so-called 'Old-Oligarch', long thought to be by Xenophon, is widely believed to be not by him. See G. Bowersock's introduction in the last Loeb volume of Xenophon, <title>Xenophon VII Scripta Minora</title> (Cambridge 1968).</p>
+              </div4>
+              <div4 type="bibliography" org="uniform" sample="complete">
+                <p>Most of the major works of Xenophon are available in Penguin Books translations; especially worth noting are the excellent introductions to Xenophon and his work by George Cawkwell in <title>The Persian Expedition</title> (Harmondsworth 1972) and <title>A History of My Times</title> (Harmondsworth 1979). The <title>Cyropaedia</title>is available from the Everyman Library, <title>The Education of Cyrus</title> (London 1992) with excellent notes by Richard Stoneman. Other works that are helpful:</p>
+                <listBibl default="NO">
+                  <bibl default="NO">Anderson, J.K., <title>Xenophon</title> (London 1974)</bibl>
+                  <bibl default="NO">Cartledge, Paul, <title>Agesilaus and the Crisis of Sparta</title> (London 1987)</bibl>
+                  <bibl default="NO">Fornara, Charles, <title>The Nature of History in Greece and Rome</title> (Berkeley and Los Angeles 1983)</bibl>
+                  <bibl default="NO">Gray, Vivienne, <title>The Character of Xenophon's Hellenica</title> (Baltimore 1989)</bibl>
+                  <bibl default="NO">Harding, Phillip, <title>From the end of the Peloponnesian War to the Battle of Ipsus, Translated Documents of Greece &amp; Rome</title> 2 (Cambridge 1985)</bibl>
+                  <bibl default="NO">Henry, W.P., <title>Greek Historical Writing</title> (Chicago 1967)</bibl>
+                  <bibl default="NO">Higgins, W.E., <title>Xenophon the Athenian</title> (Albany 1977)</bibl>
+                  <bibl default="NO">Krentz, Peter, <title>Hellenika I-II.3.10</title> (Warminster 1989)</bibl>
+                </listBibl>
+              </div4>
+              <byline>John Dillery</byline>
+            </div3>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>marches with Cyrus against Artaxerxes, king of Persia: <bibl n="Paus. 5.6.5" default="NO" valid="yes">Paus. 5.6.5</bibl>, <bibl n="Paus. 9.15.5" default="NO" valid="yes">Paus. 9.15.5</bibl></li>
+                <li>exiled from Athens: <bibl n="Paus. 5.6.5" default="NO" valid="yes">Paus. 5.6.5</bibl></li>
+                <li>receives Scillus from Lacedaemonians and dwells there: <bibl n="Paus. 5.6.5" default="NO" valid="yes">Paus. 5.6.5</bibl>ff.</li>
+                <li>tried by Olympic Council: <bibl n="Paus. 5.6.6" default="NO" valid="yes">Paus. 5.6.6</bibl></li>
+                <li>his tomb: <bibl n="Paus. 5.6.6" default="NO" valid="yes">Paus. 5.6.6</bibl></li>
+                <li>father of <persName><surname full="yes">Grylus</surname></persName>: <bibl n="Paus. 1.3.4" default="NO" valid="yes">Paus. 1.3.4</bibl>, <bibl n="Paus. 8.9.5" default="NO" valid="yes">Paus. 8.9.5</bibl>, 10, <bibl n="Paus. 9.15.5" default="NO" valid="yes">Paus. 9.15.5</bibl></li>
+                <li>wrote history of war between Lacedaemonians and Boeotians: <bibl n="Paus. 1.3.4" default="NO" valid="yes">Paus. 1.3.4</bibl></li>
+                <li>statues perhaps representing his sons: <bibl n="Paus. 1.22.4" default="NO" valid="yes">Paus. 1.22.4</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xerxes" org="uniform" sample="complete">
+          <head>Xerxes</head>
+          <div2 type="subentry" id="xerxes-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xerxes</surname></persName>, king of <placeName>Persia</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li><bibl n="Paus. 2.31.5" default="NO" valid="yes">Paus. 2.31.5</bibl>, <bibl n="Paus. 10.20.1" default="NO" valid="yes">Paus. 10.20.1</bibl></li>
+                <li>father of <persName><surname full="yes">Artaxerxes</surname></persName>: <bibl n="Paus. 1.8.2" default="NO" valid="yes">Paus. 1.8.2</bibl></li>
+                <li>crosses to Europe: <bibl n="Paus. 3.12.6" default="NO" valid="yes">Paus. 3.12.6</bibl>, <bibl n="Paus. 8.42.8" default="NO" valid="yes">Paus. 8.42.8</bibl></li>
+                <li>his army: <bibl n="Paus. 9.32.5" default="NO" valid="yes">Paus. 9.32.5</bibl></li>
+                <li>his army attacked by lions in Thrace: <bibl n="Paus. 6.5.4" default="NO" valid="yes">Paus. 6.5.4</bibl></li>
+                <li>invades Greece: <bibl n="Paus. 3.11.3" default="NO" valid="yes">Paus. 3.11.3</bibl>, <bibl n="Paus. 7.6.3" default="NO" valid="yes">Paus. 7.6.3</bibl>, <bibl n="Paus. 7.10.2" default="NO" valid="yes">Paus. 7.10.2</bibl></li>
+                <li>overthrows Lacedaemonians at Thermopylae: <bibl n="Paus. 3.4.7" default="NO" valid="yes">Paus. 3.4.7</bibl>ff., <bibl n="Paus. 8.52.2" default="NO" valid="yes">Paus. 8.52.2</bibl></li>
+                <li>buries Lacedaemonians at Thermopylae: <bibl n="Paus. 9.32.9" default="NO" valid="yes">Paus. 9.32.9</bibl></li>
+                <li>number of Greeks who mustered at Thermopylae to meet Xerxes: <bibl n="Paus. 10.20.1" default="NO" valid="yes">Paus. 10.20.1</bibl>ff.</li>
+                <li>Xerxes burns sanctuary of Apollo at Abae: <bibl n="Paus. 10.35.2" default="NO" valid="yes">Paus. 10.35.2</bibl></li>
+                <li>burns Hyampolis: <bibl n="Paus. 10.35.6" default="NO" valid="yes">Paus. 10.35.6</bibl></li>
+                <li>burns cities of Phocis: <bibl n="Paus. 10.33.8" default="NO" valid="yes">Paus. 10.33.8</bibl></li>
+                <li>makes attempt on Delphic sanctuary: <bibl n="Paus. 10.7.1" default="NO" valid="yes">Paus. 10.7.1</bibl></li>
+                <li>marches against Athens: <bibl n="Paus. 3.9.6" default="NO" valid="yes">Paus. 3.9.6</bibl></li>
+                <li>captures Athens: <bibl n="Paus. 1.8.5" default="NO" valid="yes">Paus. 1.8.5</bibl></li>
+                <li>carries off statues of Harmodius and Aristogiton from Athens: <bibl n="Paus. 1.8.5" default="NO" valid="yes">Paus. 1.8.5</bibl></li>
+                <li>carries off image of Artemis from Brauron and image of Apollo from Branchidae: <bibl n="Paus. 1.16.3" default="NO" valid="yes">Paus. 1.16.3</bibl>, <bibl n="Paus. 8.46.3" default="NO" valid="yes">Paus. 8.46.3</bibl></li>
+                <li>his fleet defeated by Themistocles at Salamis: <bibl n="Paus. 1.36.2" default="NO" valid="yes">Paus. 1.36.2</bibl>, <bibl n="Paus. 1.37.1" default="NO" valid="yes">Paus. 1.37.1</bibl>, <bibl n="Paus. 8.52.2" default="NO" valid="yes">Paus. 8.52.2</bibl></li>
+                <li>building in imitation of his tent: <bibl n="Paus. 1.20.4" default="NO" valid="yes">Paus. 1.20.4</bibl></li>
+                <li>his execution of a Babylonian priest: <bibl n="Hdt. 1.183" default="NO" valid="yes">Hdt. 1.183</bibl></li>
+                <li>of Sataspes: <bibl n="Hdt. 4.43" default="NO" valid="yes">Hdt. 4.43</bibl></li>
+                <li>succession to the throne: <bibl n="Hdt. 7.2" default="NO" valid="yes">Hdt. 7.2</bibl>, <bibl n="Hdt. 7.3" default="NO" valid="yes">Hdt. 7.3</bibl></li>
+                <li>his council, and colloquies with Artabanus: <bibl n="Hdt. 7.8-18" default="NO" valid="yes">Hdt. 7.8-18</bibl></li>
+                <li>treatment of Pythius: <bibl n="Hdt. 7.27" default="NO" valid="yes">Hdt. 7.27</bibl>, <bibl n="Hdt. 7.28" default="NO" valid="yes">Hdt. 7.28</bibl>, <bibl n="Hdt. 7.38" default="NO" valid="yes">Hdt. 7.38</bibl>, <bibl n="Hdt. 7.39" default="NO" valid="yes">Hdt. 7.39</bibl></li>
+                <li>scourging of the Hellespont: <bibl n="Hdt. 7.35" default="NO" valid="yes">Hdt. 7.35</bibl></li>
+                <li>further colloquy with Artabanus: <bibl n="Hdt. 7.46-52" default="NO" valid="yes">Hdt. 7.46-52</bibl></li>
+                <li>with Demartus: <bibl n="Hdt. 7.101-104" default="NO" valid="yes">Hdt. 7.101-104</bibl>, <bibl n="Hdt. 7.209" default="NO" valid="yes">Hdt. 7.209</bibl>, <bibl n="Hdt. 7.234-237" default="NO" valid="yes">Hdt. 7.234-237</bibl></li>
+                <li>Xerxes' visit to the Peneus: <bibl n="Hdt. 7.128-130" default="NO" valid="yes">Hdt. 7.128-130</bibl></li>
+                <li>generosity to two Spartans: <bibl n="Hdt. 7.136" default="NO" valid="yes">Hdt. 7.136</bibl></li>
+                <li>his personal beauty: <bibl n="Hdt. 7.187" default="NO" valid="yes">Hdt. 7.187</bibl></li>
+                <li>vengeance on the dead Leonidas: <bibl n="Hdt. 7.238" default="NO" valid="yes">Hdt. 7.238</bibl></li>
+                <li>advice given to Xerxes by Artemisia: <bibl n="Hdt. 8.68" default="NO" valid="yes">Hdt. 8.68</bibl>, <bibl n="Hdt. 8.69" default="NO" valid="yes">Hdt. 8.69</bibl></li>
+                <li>Xerxes a spectator of the battle of Salamis: <bibl n="Hdt. 8.88" default="NO" valid="yes">Hdt. 8.88</bibl>, <bibl n="Hdt. 8.90" default="NO" valid="yes">Hdt. 8.90</bibl></li>
+                <li>his council of war after the battle: <bibl n="Hdt. 8.100-102" default="NO" valid="yes">Hdt. 8.100-102</bibl></li>
+                <li>his fear of the Greeks: <bibl n="Hdt. 8.203" default="NO" valid="yes">Hdt. 8.203</bibl></li>
+                <li>story of his danger of shipwreck in his return: <bibl n="Hdt. 8.118" default="NO" valid="yes">Hdt. 8.118</bibl>, <bibl n="Hdt. 8.119" default="NO" valid="yes">Hdt. 8.119</bibl></li>
+                <li>his passion for his brother's wife and daughter, and its consequences: <bibl n="Hdt. 9.108-113" default="NO" valid="yes">Hdt. 9.108-113</bibl></li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 decls="gen.art-terminology" type="entry" org="uniform" sample="complete">
+          <head>xoanon</head>
+          <subhead type="plural">xoana</subhead>
+          <subhead type="alt" lang="greek">ξόανον</subhead>
+          <div2 type="subentry" id="xoanon-1" org="uniform" sample="complete">
+            <div3 type="definition" org="uniform" sample="complete">
+              <p>ancient (wooden) cult images</p>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xuthus" org="uniform" sample="complete">
+          <head>Xuthus</head>
+          <div2 type="subentry" id="xuthus-1" org="uniform" sample="complete">
+            <subhead><persName><surname full="yes">Xuthus</surname></persName>, a legendary hero</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>father of <persName><surname full="yes">Ion</surname></persName>: <bibl n="Hdt. 7.94" default="NO" valid="yes">Hdt. 7.94</bibl>, <bibl n="Hdt. 8.44" default="NO" valid="yes">Hdt. 8.44</bibl>, <bibl n="Paus. 1.31.3" default="NO" valid="yes">Paus. 1.31.3</bibl></li>
+                <li>son of <persName><surname full="yes">Hellen</surname></persName> by a nymph Orseis, father of <persName><surname full="yes">Achaeus</surname></persName> and Ion: <bibl n="Apollod. 1.7.3" default="NO" valid="yes">Apollod. 1.7.3</bibl></li>
+                <li>son of <persName><surname full="yes">Hellen</surname></persName>, flees from Thessaly to Athens: <bibl n="Paus. 7.1.2" default="NO" valid="yes">Paus. 7.1.2</bibl></li>
+                <li>father of <persName><surname full="yes">Diomede</surname></persName>: <bibl n="Apollod. 1.9.2" default="NO" valid="yes">Apollod. 1.9.2</bibl></li>
+                <li>husband of Creusa: <bibl n="Apollod. 3.15.1" default="NO" valid="yes">Apollod. 3.15.1</bibl></li>
+                <li>marries daughter of <persName><surname full="yes">Erechtheus</surname></persName>: <bibl n="Paus. 7.1.2" default="NO" valid="yes">Paus. 7.1.2</bibl></li>
+                <li>settles in Aegialus: <bibl n="Paus. 7.1.2" default="NO" valid="yes">Paus. 7.1.2</bibl>ff.</li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xylophagus" org="uniform" sample="complete">
+          <head>Xylophagus</head>
+          <div2 type="subentry" id="xylophagus-1" org="uniform" sample="complete">
+            <subhead><placeName>Xylophagus</placeName>, later name for <placeName>Mount Caphereus</placeName></subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Apollod. E.6.7" default="NO" valid="yes">Apollod. E.6.7</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+        <div1 type="entry" id="xystus" org="uniform" sample="complete">
+          <head>Xystus</head>
+          <div2 type="subentry" id="xystus-1" org="uniform" sample="complete">
+            <subhead>Xystus, gymnasium at Elis</subhead>
+            <div3 type="index" org="uniform" sample="complete">
+              <ul style="list-style-type:none;">
+                <li>
+                  <bibl n="Paus. 6.23.1" default="NO" valid="yes">Paus. 6.23.1</bibl>
+                </li>
+              </ul>
+            </div3>
+          </div2>
+        </div1>
+      </div0>
+    </body>
+  </text>
+</tei.2>
