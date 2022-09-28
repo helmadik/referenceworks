@@ -1,0 +1,597 @@
+<tei.2>
+
+  <teiHeader type="text" status="new">
+   <fileDesc>
+    <titleStmt>
+ 	<title>Harpers Dictionary of Classical Antiquities (1898)</title>
+ 	<author>Harry Thurston Peck</author>
+ 	<sponsor>Perseus Project, Tufts University</sponsor>
+ 		<principal>Gregory Crane</principal>
+ 		<respStmt>
+ 		<resp>Prepared under the supervision of</resp>
+ 		<name>Lisa Cerrato</name>
+ 		<name>William Merrill</name>
+ 		<name>Elli Mylonas</name>
+ 		<name>David Smith</name>
+ 		</respStmt>
+ <funder n="org:NEH">The National Endowment for the Humanities</funder>
+    </titleStmt>
+    <publicationStmt>
+ 		<publisher>Trustees of Tufts University</publisher>
+ 		<pubPlace>Medford, MA</pubPlace>
+ 		<authority>Perseus Project</authority>
+ 		</publicationStmt>
+       <sourceDesc default="NO">
+ 	<biblStruct default="NO">
+ 	 <monogr>
+ 	  <author>Harry Thurston Peck</author>
+ 	  <title>Harpers Dictionary of Classical Antiquities</title>
+ 	  <imprint>
+ 	   <pubPlace>New York</pubPlace>
+ 	   <publisher>Harper and Brothers</publisher>
+ 	   <date>1898</date>
+ 	  </imprint>
+ 	 </monogr>
+ 	</biblStruct>
+    </sourceDesc>
+   </fileDesc>
+ 
+   <encodingDesc>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="id" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state n="chunk" unit="entry" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="alphabetic letter" />
+ 	<state unit="entry" />
+    </refsDecl>
+   </encodingDesc>
+ 
+   <profileDesc>
+    <langUsage default="NO">
+ 	<language id="en">English
+ 	</language><language id="greek">Greek
+     </language><language id="la">Latin
+ 	</language><language id="fr">French
+ 	</language><language id="it">Italian
+ 	</language><language id="es">Spanish
+ 	</language><language id="de">German
+ 	</language><language id="oe">Old English
+ 	</language><language id="sanskrit">Sanskrit, Harvard-Kyoto code
+ 	</language><language id="gothic">Gothic
+ 	</language><language id="pie">Indo-European
+ 	</language><language id="xhebrew">transliterated Hebrew
+    </language></langUsage>
+   </profileDesc>
+  </teiHeader>
+<text>
+<body>
+<div1 type="alphabetic letter" n="Q" org="uniform" sample="complete">
+<head orig="Q">Q</head>
+
+ 
+<div2 id="crossq" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Q">Q</head>
+
+ <p> as a symbol.</p>
+ <p><hi rend="SmallCaps">In Latin</hi>.—Q=quaestiones, Quintus, quondam.</p>
+ <p>Q˙Q=quicquid, quinquennalis, Quinti duo.</p>
+ <p>Q˙A=quaestor aerarii, quotannis.</p>
+ <p>Q˙D=quaestor designatus, quondam.</p>
+ <p>Q˙M=qui militavit, quo minus.</p>
+ <p>Q˙P=quaestoria potestate, quadrati pedes.</p>
+ <p>Q˙V=qui vocatur.</p>
+ <p>Q˙A˙V(V˙A)=qui annos(-is) vixit, qui vixit annos.</p>
+ <p>Q˙C˙A=quorum curam agebat.</p>
+ <p>Q˙C˙P=quinquennalis censoria potestate.</p>
+ <p>Q˙C˙R=quei cives Romani(erunt).</p>
+ <p>Q˙E˙D=quod eo die.</p>
+ <p>Q˙M˙C=qui militare coeperunt.</p>
+ <p>Q˙P˙F=qui primi fuerunt.</p>
+ <p>Q˙B˙F˙F=quod bonum faustum felix(sit).</p>
+ <p>Q˙D˙R˙A=qua de re agitur.</p>
+ <p>Q˙E˙C˙F=(votum libens animo posuit) quoius eum compotem fecit.</p>
+ <p>Q˙I˙D˙P=qui iure dicundo praeerit.</p>
+ <p>Q˙P˙A˙P=quaestor pecuniae alimentorum publicorum.</p>
+ <p>Q˙R˙C˙F=quando rex comitio fugit.</p>
+ <p>Q˙V˙P˙Q=quoquoversus pedes quadratos.</p>
+ <p>Q˙H˙C˙I˙R=quo honore contentus impensam remisit.</p>
+ <p>Q˙N˙S˙S˙S=quorum nomina supra scripta sunt.</p>
+ <p>Q˙S˙P˙P˙S=qui sacris publicis praesto sunt.</p>
+ <p>Q˙L˙S˙V˙T˙L=(dicite) qui legitis sit vobis terra levis.</p>
+ <p>Q˙V˙F˙S˙I˙O=quod verba facta sunt in ordine.</p>
+ <p>Q˙D˙E˙R˙F˙P˙D˙E˙R˙I˙C=quid de ea re fieri placeret, de ea re ita censuerunt.
+ </p></div2>
+ 
+<div2 id="crossquadi" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadi">Quadi</head>
+
+ <p> A powerful German people of the Suevic race, who dwelt in the southeastern part of Germany, between Mount Gabreta, the Hercynian Forest, the Sarmatian Mountains, and the Danube. They were bounded on the west by the Marcomanni, with whom they were always closely united; on the north by the Gothini and Osi; on the east by the Iazyges Metanastae, from whom they were separated by the river Granuas (Gran); and on the south by the Pannonians, from whom they were divided by the Danube. In the reign of Tiberius the Quadi were taken under the protection of the Romans. In the reign of Marcus Aurelius, however, they joined the Marcomanni and other German tribes in the long and bloody war against the <cb /> Empire, which lasted during the greater part of that emperor's reign. Their name is especially memorable in the history of this war by the victory which M. Aurelius gained over them in A.D. 174 (Dio Cass. lxxi. 8-20). Their independence was recognized by Commodus in A.D. 180. The Quadi disappear from history towards the end of the fourth century.
+ </p></div2>
+ 
+<div2 id="crossquadra" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadra">Quadra</head>
+
+ <p> (1) A square dining-table ( <bibl n="Verg. A. 7. 115" default="NO" valid="yes">Verg. <title>Aen.</title>vii. 115</bibl>). See <ref type="cross" target="crossmensa">Mensa</ref>.</p>
+ <p>(2) The plinth placed under the base of a column (Vitruv. iii. 4. 5).</p>
+ <p>(3) Each of the narrow flat bands on a column forming respectively the upper and lower division between the hollow <seg lang="la">scotia</seg> and the swelling <seg lang="la">torus</seg> above and below it (Vitruv. iii. 5. 2). See <ref type="cross" target="crosscolumna">Columna</ref>.
+ </p></div2>
+ 
+<div2 id="crossquadragesima" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadragesĭma">Quadragesima</head>
+
+ <p> The fortieth part of imported goods (=2 1/2 per cent.) collected in some of the Roman provinces as a customs tax. See Wilmanns, <title>Exempla Inscript. Lat.</title> 1397, 1398; and the article <ref type="cross" target="crossportorium">Portorium</ref>.
+ </p></div2>
+ 
+<div2 id="crossquadrans" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadrans">Quadrans</head>
+
+ <p> (=<seg lang="la">teruncius</seg>). A Roman copper coin, a quarter of an <hi rend="italic">as</hi>=3 <seg lang="la">unciae.</seg> (See <ref type="cross" target="crossas">As</ref>; <ref type="cross" target="crossnumismatics">Numismatics</ref>; <ref type="cross" target="crossuncia">Uncia</ref>.) The quadrans was the usual price paid for a bath. It was equivalent to about a quarter of a cent. The quadrans bore three balls to indicate the number of <seg lang="la">unciae</seg>, accompanied by an open hand, a dolphin, a strigil, a star, a head of Hercules or of Ceres, or a ship. The Greek term is <foreign lang="greek">τετρᾶς</foreign>. <figure id="fig.01352.2">
+<head orig="Quadrans. (Actual size.)">Quadrans. (Actual size.)</head>
+</figure> 
+<pb n="1353" /><cb />
+ </p></div2>
+ 
+<div2 id="crossquadrantal" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadrantal">Quadrantal</head>
+
+ <p> (also <hi rend="SmallCaps">Amphŏra Quadrantal</hi>). A Roman measure of capacity, holding about twentyfour quarts ( Fest. s. v. <seg lang="la">publica pondera</seg>, p. 24, ed. Müller). Half a quadrantal was an <seg lang="la">urna;</seg> one eighth, a <seg lang="la">congius;</seg> and one forty-eighth, a <seg lang="la">sextarius.</seg>
+ </p></div2>
+ 
+<div2 id="crossquadratae" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadrātae">Quadratae</head>
+
+ <p> Now Chiavasso; a Roman military station between Augusta Taurinorum (Turin) and Eporedia (Ivrea).
+ </p></div2>
+ 
+<div2 id="crossquadratus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadrātus">Quadratus</head>
+
+ <p> (1) An early defender of the Christian religion, whose work (now lost) he dedicated to the emperor Hadrian in the year A.D. 126. Quadratus was in early life a resident of Asia Minor, and afterwards a bishop of the Church at Athens, but of the details of his career little is known.</p>
+ <p>(2) <hi rend="SmallCaps">Asinius</hi>. An author who wrote in Greek two historical works, one a history of Rome (<foreign lang="greek">Χιλιετηρίς</foreign>) in the Ionic dialect, treating of the city from its foundation to the year A.D. 248, in which the Ludi Saeculares were celebrated; and a history of Parthia. Quadratus lived during the reigns of the emperors Philippus I. and Philippus II. (A.D. 244- 249).</p>
+ <p>(3) <hi rend="SmallCaps">Lucius Ninnius</hi>, a tribune of the plebs in B.C. 58, when he strongly sided with Cicero against his own colleague P. Clodius <ref type="cross" target="crosspulcher">Pulcher</ref> (q.v.).
+ </p></div2>
+ 
+<div2 id="crossquadrifrons" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadrĭfrons">Quadrifrons</head>
+
+ <p> A surname of <ref type="cross" target="crossianus">Ianus</ref> (q.v.). It is said that after the conquest of the Faliscans an image of Ianus was found with four foreheads ( <figure id="fig.01353">
+<head orig="Ianus Quadrifrons in the Forum Transitorium at Rome.">Ianus Quadrifrons in the Forum Transitorium at Rome.</head>
+</figure> <seg lang="la">ad</seg>  <bibl n="Verg. A. 7. 607" default="NO" valid="yes">Verg. <title>Aen.</title>vii. 607</bibl>). Hence a temple of Ianus Quadrifrons was afterwards built in the Forum Transitorium, which had four gates. The fact of the god being represented with four heads was considered by the ancients to be an indication of his being the divinity presiding over the year with its four seasons. See <ref type="cross" target="crossianus">Ianus</ref>.
+ </p></div2>
+ 
+<div2 id="crossquadriga" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadrīga">Quadriga</head>
+
+ <p> (<foreign lang="greek">τέθριππον ἅρμα</foreign>). A chariot drawn by four horses, used in battle and in athletic games. (See <ref type="cross" target="crosscircus">Circus</ref>.) The illustration represents a quadriga as depicted on an ancient terra-cotta lamp. <cb /> <figure id="fig.01353.2">
+<head orig="Quadriga. (Rich.)">Quadriga. (Rich.)</head>
+</figure> (See <ref type="cross" target="crosscurrus">Currus</ref>.) The driver of a quadriga is called <seg lang="la">quadrigarius.</seg>
+ </p></div2>
+ 
+<div2 id="crossquadrigarius" type="entry" org="uniform" sample="complete">
+ <head><surname full="yes">Quadrigarius</surname></head>, <foreName full="yes">Q. Claudius</foreName>
+ <p>A Roman annalist who flourished B.C. 120-78. His work, which contained at least twenty-three books, commenced immediately after the destruction of Rome by the Gauls, and must in all probability have come down to the death of Sulla , since the seventh consulship of Marius was commemorated in the nineteenth book. By Livy he is uniformly referred to simply as Claudius or Clodius. By other authors he is cited as Quintius, as Claudius, as Q. Claudius, as Claudius Quadrigarius, or as Quadrigarius. From the caution evinced by Livy in making use of him as an authority, especially in matters relating to numbers, it would appear that he was disposed to indulge, although in a less degree, in the same exaggerations as characterize his contemporary Valerius Antias. He is warmly praised by Gellius (x. 13; xiii. 29; xv. 1). See <ref type="cross" target="crosslivius">Livius</ref>.
+ </p></div2>
+ 
+<div2 id="crossquadrigatus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadrigātus">Quadrigatus</head>
+
+ <p> (sc. <seg lang="la">nummus</seg>). A silver denarius having the device of a four-horse chariot (<hi rend="italic">quadriga</hi>) on the reverse. <figure id="fig.01353.3">
+<head orig="Quadrigatus. (Actual size.)">Quadrigatus. (Actual size.)</head>
+</figure> 
+<pb n="1354" /><cb />
+ </p></div2>
+ 
+<div2 id="crossquadriremis" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadrirēmis">Quadriremis</head>
+
+ <p> A warship having four banks of oars. See <ref type="cross" target="crossnavis">Navis</ref>.
+ </p></div2>
+ 
+<div2 id="crossquadrivium" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadrivium">Quadrivium</head>
+
+ <p> (<foreign lang="greek">τετραόδιον</foreign>). (1) A place where four streets met ( <bibl n="Juv.  1. 64" default="NO" valid="yes">Juv.i. 64</bibl>).</p>
+ <p>(2) See <ref type="cross" target="crossliberales-artes">Liberales Artes</ref>.
+ </p></div2>
+ 
+<div2 id="crossquadruplator" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quadruplātor">Quadruplator</head>
+
+ <p> A professional accuser in those cases under the Roman law which involved a pecuniary penalty ( <title>Verr.</title> ii. 8. 22). The name probably owes its origin to the fact that the quadruplator professed to expose offences in which the fine was fixed at four times the damage, as, for example, a violation of the usury laws (<bibl n="Liv.  7. 28" default="NO" valid="yes">Livy, vii. 28</bibl>), and in which, therefore, his own reward would be large. See Geib, <title>Criminalprocess</title>, 106; and the article <hi rend="SmallCaps">Delator</hi>.
+ </p></div2>
+ 
+<div2 id="crossquaesitor" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quaesītor">Quaesitor</head>
+
+ <p> The Roman title of the president of an extraordinary or ordinary criminal court (<seg lang="la">quaestio extraordinaria</seg> or <seg lang="la">perpetua</seg>). According to Sulla 's rules of procedure, six praetors chosen for criminal cases presided, and when this number was not sufficient additional judges, <seg lang="la">iudices quaestionis</seg>, were provided.
+ </p></div2>
+ 
+<div2 id="crossquaestio" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quaestio">Quaestio</head>
+
+ <p> The Latin term for a court of inquiry, either <seg lang="la">extraordinaria</seg>, an extraordinary commission appointed by the Senate or people for special criminal cases, or <seg lang="la">perpetua</seg>, an ordinary criminal court for certain defined offences. The first court of this kind was held B.C. 149 to try a case of extortion.</p>
+ <p>In course of time, by the laws of Gaius Gracchus and of Sulla , the number of these tribunals was increased. In Cicero's time there were eight ordinary courts to try cases of extortion, high treason (<seg lang="la">maiestas</seg>), embezzlement (<seg lang="la">peculatus</seg>), unlawful canvassing for an office (<seg lang="la">ambitus</seg>), violence (<seg lang="la">vis</seg>), assassination, poisoning, and forgery. Every quaestio had a president (see <ref type="cross" target="crossquaesitor">Quaesitor</ref>), either one of the praetors chosen by lot, or when the number of these was not sufficient, a <seg lang="la">iudex quaestionis</seg>, in addition to a certain number of sworn judges. See <ref type="cross" target="crossiudex">Iudex</ref>.</p>
+ <p>It was open to any one except to women, infants, and those who were <seg lang="la">infames</seg>, to begin a criminal prosecution, even if he himself had not been the party injured. There was no public prosecutor; but the State, by means of pecuniary rewards and conferring of dignities, encouraged the prosecution of criminals. If, however, the accused party was found innocent, it was open to him to prosecute his accuser for chicanery. (See <ref type="cross" target="crosscalumnia">Calumnia</ref>.) The case was begun by the <seg lang="la">postulatio</seg>, a request, with a statement of the crime and name of the accused, for permission to prosecute, made to the praetor at an open sitting in the market-place. If several persons offered themselves as accusers, the choice was made by <seg lang="la">divinatio</seg> (q. v.). But besides the principal accuser, others were allowed, who signed the indictment, and were therefore called <seg lang="la">subscriptores.</seg> When permission had been obtained, there followed the <seg lang="la">nominis delatio</seg>, the handing in of the indictment; the <seg lang="la">receptio</seg> and <seg lang="la">inscriptio</seg>, the reception and entry of the same in the official list by the praetor; the <seg lang="la">interrogatio</seg>, the examination (also by the praetor) of the accused, who was now <seg lang="la">reus</seg> (q. v.). Unless he pleaded guilty or clearly proved his innocence, the <seg lang="la">diei dictio</seg>, or date of hearing the case, was fixed at the earliest in ten days, in special cases not till 100 days later. It was the duty of the complainant to collect in the meantime the necessary evidence and witnesses, and for this purpose he received an official authorization. At the sitting of the court, which was held publicly by the sworn judges (<seg lang="la">cognitio</seg>), after the judges and <cb /> parties had been cited, the accuser delivered his accusation in a continuous speech, the <seg lang="la">subscriptores</seg> followed him, then the accused and his <seg lang="la">patroni.</seg> The duration of these speeches (<seg lang="la">actiones</seg>) was at first unlimited, but afterwards, to correct the abuse of this privilege, a water-clock was introduced, which limited the time of each speaker; the time allowed for the defence was about a third greater than that for the accusation. Then followed the proof (<seg lang="la">probatio</seg>) of the case. For this documents, circumstantial evidence, and declarations of witnesses were used. Next, unless the case was adjourned for the production of further proof (<seg lang="la">ampliatio</seg>), or for a new trial on the third day (<seg lang="la">comperendinatio</seg>), the votes of the judges on the question of guilt or innocence were taken. The voting was usually in secret. The judges received from the president wooden tablets covered with wax, on the one side inscribed with a C (<seg lang="la">condemno</seg>, “I condemn”), on the other with an A (<seg lang="la">absolvo</seg>, “I acquit”). They erased one of these letters and threw the tablets into an urn. In cases where they were unable to decide respecting the guilt or innocence of the accused, they could signify the same by writing on the tablet the letters N. L. (<seg lang="la">non liquet</seg>).</p>
+ <p>The result of the voting was then formally proclaimed by the president; and if a fine was inflicted, the amount (<seg lang="la">litis aestimatio</seg>) was then decided by the president and the sworn judges. A man once acquitted could not be retried for the same offence unless his acquittal had been procured by collusion (see <ref type="cross" target="crosspraevaricatio">Praevaricatio</ref>) of the accuser. There was no way of altering the verdict of the sworn judges, and the punishment was exacted immediately after the sentence had been given. If it was one of degradation (<seg lang="la">infamia</seg>) or exile (<seg lang="la">interdictio aquae et ignis;</seg> see <ref type="cross" target="crossexsilium">Exsilium</ref>), the man so punished could be reinstated in the rights he had forfeited (<seg lang="la">restitutio in integrum</seg>). This was done by a decree of the people; in later times, by the emperor's pardon. These courts of sworn judges lasted till the beginning of the third century A.D.
+ </p></div2>
+ 
+<div2 id="crossquaestiones-naturales" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quaestiōnes Naturāles">Quaestiones Naturales</head>
+
+ <p> See <ref type="cross" target="crossseneca">Seneca</ref>.
+ </p></div2>
+ 
+<div2 id="crossquaestiones-romanae" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quaestiōnes Romānae">Quaestiones Romanae</head>
+
+ <p> See <ref type="cross" target="crossplutarchus">Plutarchus</ref>.
+ </p></div2>
+ 
+<div2 id="crossquaestores" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quaestōres">Quaestores</head>
+
+ <p> (from <seg lang="la">quaero, quaesitor</seg>, “the investigator,” “searcher”). The Latin term originally given to two officials chosen by the king; they had to do with those suspected of capital offences. In the time of the Republic they performed the same duty under the consuls, by whom they were chosen every year. When the administration of justice in criminal cases came into the hands of the Comitia Centuriata, the quaestors received, in addition to their old privilege of pleading by the mandate of the consuls, which they lost later, the management of the State treasury (<seg lang="la">aerarium</seg>) in the temple of Saturn. They became recognized officials when they were elected at the Comitia Tributa under the presidency of the consuls (probably about B.C. 447). The quaestors had no regular badges of office. In 421 their number was doubled, and the plebeians received the right of appointing to the office of quaestor, though they did not exercise it till twelve years later. The four quaestors shared their duties, so that two of them acted as masters of the treasury (<seg lang="la">quaestores aerarii</seg>) and remained in the city (hence their name <seg lang="la">quaestores urbani</seg>), while the other two accompanied the consuls on campaigns, in order to administer the military chest. 
+<pb n="1355" /><cb /></p>
+ <p>It was part of the duty of the former two to collect the regular revenues of State (taxes and custom dues) and the extraordinary revenues (fines, levies for war, and money produced by the sale of booty); further, to make payments, which might not be made to the consuls except by special permission of the Senate; to control the accounts of income and expenditure, which were managed under their responsibility by a special class of officials (<seg lang="la">scribae</seg>); to make arrangements for public burials, for the erection of monuments, for the entertainment of foreign ambassadors, etc., at the expense of the treasury. Further, they preserved at their place of business—the temple of Saturn—the military standards, also the laws, the decrees of the Senate, and the plebiscita, and kept a register of the swearing in of the officials, which took place there.</p>
+ <p>After the subjection of Italy, four more quaestors were appointed in B.C. 267. They were stationed in different parts of Italy, at first at Ostia and Ariminum, probably to supervise the building of fleets. Sulla increased their number to twenty, ten of whom were appointed, in the place of the previous two, to accompany the proconsuls and propraetors to the provinces, two to help the consul who remained in the city, and two to help the other two original quaestors at their work in the city. The quaestors employed in the provinces (Sicily alone had two of these, stationed at Syracuse and Lilybaeum respectively) were principally occupied with finance; they managed the provincial treasury, and defrayed out of it the expenses of the army, the governor, and his retinue; any surplus they had to pay in to the State treasury at Rome, and to furnish an exact statement of accounts. The governor might appoint them his deputies, and if he died they assumed the command; in both of these cases they acted <seg lang="la">pro praetore</seg>—i. e. as propraetors. Caesar raised their number to forty, in order to be able to reward a greater number of his adherents; for the office gave admittance to the Senate, and the position of quaestor was looked upon as the first step in the official career. The age defined by law was from twentyseven to thirty years. When the beginning of the magisterial year was fixed for January 1, the quaestors assumed office on December 5, on which day the quaestors in the <seg lang="la">aerarium</seg> decided by lot what the work of each should be.</p>
+ <p>Even under the Empire, when the normal number of quaestors was increased to twenty and the age reduced to twenty-five, the office of quaestor remained the first step to higher positions in the State. But the power of the quaestors grew more limited as the management of the treasury was intrusted to special <seg lang="la">praefecti aerarii</seg>, so that the city quaestors had only charge of the archives, to which the supervision of the paving of streets was added. After the division of the provinces between the emperor and the Senate, quaestors were only employed in the senatorial provinces, and were not abolished till the constitution of the provinces in general was altered by Diocletian. Four quaestors were told off for service to the consuls. The two <seg lang="la">quaestores principis</seg>, or <title>Augusti</title>, were a new creation: they were officers assigned to the emperors, if the latter were not consuls, in which case they would already be entitled to two quaestors. As secretaries to the emperor, they had to read his decrees to the Senate at its sittings. From these quaestors was developed, in the time of Constantine, the <seg lang="la">quaestor Sacri Palatii</seg>, the chancellor of the Empire. <cb />
+ </p></div2>
+ 
+<div2 id="crossquail-fights" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quail-fights">Quail-fights</head>
+
+ <p> See <ref type="cross" target="crossvenationes">Venationes</ref>.
+ </p></div2>
+ 
+<div2 id="crossqualus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Qualus">Qualus</head>
+
+ <p> (<foreign lang="greek">τάλαρος</foreign>). A wicker basket. See <ref type="cross" target="crosscalathus">Calathus</ref>.
+ </p></div2>
+ 
+<div2 id="crossquariates" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quariates">Quariates</head>
+
+ <p> A people of Gallia Narbonensis on the river Druentia (Durance), below the modern Briançon (Pliny , <bibl n="Plin. Nat. 3. 35" default="NO" valid="yes">Pliny <title>H. N.</title>iii. 35</bibl>).
+ </p></div2>
+ 
+<div2 id="crossquarries" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quarries">Quarries</head>
+
+ <p> See <ref type="cross" target="crosslautumiae">Lautumiae</ref>.
+ </p></div2>
+ 
+<div2 id="crossquartarius" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quartarius">Quartarius</head>
+
+ <p> (<foreign lang="greek">τέταρτον</foreign>). A measure of capacity, one fourth of the <seg lang="la">sextarius</seg> (pint).
+ </p></div2>
+ 
+<div2 id="crossquasillus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quasillus">Quasillus</head>
+
+ <p> and <hi rend="bold">Quasillum</hi> (<foreign lang="greek">τάλαρις</foreign>). Diminutives of <ref type="cross" target="crossqualus">qualus</ref> and <hi rend="SmallCaps">qualum</hi>.
+ </p></div2>
+ 
+<div2 id="crossquaternio" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quaternio">Quaternio</head>
+
+ <p> (<foreign lang="greek">τετράς, τετράδιον</foreign>). A quire of four sheets (eight leaves) of paper; the origin of our word “quire.”
+ </p></div2>
+ 
+<div2 id="crossquattuorviri" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quattuorvĭri">Quattuorviri</head>
+
+ <p> The Roman term for an official body consisting of four men. See <ref type="cross" target="crossvigintisexviri">Vigintisexviri</ref>.
+ </p></div2>
+ 
+<div2 id="crossquies" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quies">Quies</head>
+
+ <p> The Roman goddess of rest and tranquillity. She had a sanctuary on the Via Labicana, where travellers stopped to rest; and one outside the Porta Collina (<bibl n="Liv.  4. 41" default="NO" valid="yes">Livy, iv. 41</bibl>).
+ </p></div2>
+ 
+<div2 id="crossquietus" type="entry" org="uniform" sample="complete">
+ <head><surname full="yes">Quiētus</surname></head>, <foreName full="yes">Q. Lusius</foreName>
+ <p>A Moorish chief who served with distinction under Trajan in both the Dacian and the Parthian Wars. Trajan made him governor of Iudaea, and raised him to the consulship in A.D. 116 or 117. After Trajan's death he returned to his native country, but he was suspected by Hadrian of fomenting the disturbances which then prevailed in Mauretania, and was shortly afterwards put to death by order of Hadrian (Dio Cass. lxviii. 8, 22, 30, 32; lxix. 2).
+ </p></div2>
+ 
+<div2 id="crossquilt" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quilt">Quilt</head>
+
+ <p> See <ref type="cross" target="crossstragulum">Stragulum</ref>. <figure id="fig.01355">
+<head orig="Quinarius. (Actual size.)">Quinarius. (Actual size.)</head>
+</figure>
+ </p></div2>
+ 
+<div2 id="crossquinarius" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quinarius">Quinarius</head>
+
+ <p> A silver coin equal to a half-denarius, and worth about nine cents. See <ref type="cross" target="crossdenarius">Denarius</ref>.
+ </p></div2>
+ 
+<div2 id="crossquinctia" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quinctia">Quinctia</head>
+
+ <p> (or <hi rend="bold">Quintia</hi>) Gens. A Roman patrician gens, being one of the Alban houses that came to Rome with Tullus Hostilius. Its most distinguished branches bore the names Capitolinus, Cincinnatus, and Flaminius. See <ref type="cross" target="crosslupercalia">Lupercalia</ref>, p. 980.
+ </p></div2>
+ 
+<div2 id="crossquinctilius-varus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quinctilius Varus">Quinctilius Varus</head>
+
+ <p> See <ref type="cross" target="crossvarus">Varus</ref>.
+ </p></div2>
+ 
+<div2 id="crossquinctius-cincinnatus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quinctius Cincinnātus">Quinctius Cincinnatus</head>
+
+ <p> See <ref type="cross" target="crosscincinnatus">Cincinnatus</ref>.
+ </p></div2>
+ 
+<div2 id="crossquinctius-flamininus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quinctius Flaminīnus">Quinctius Flamininus</head>
+
+ <p> See <ref type="cross" target="crossflamininus">Flamininus</ref>.
+ </p></div2>
+ 
+<div2 id="crossquincunx" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quincunx">Quincunx</head>
+
+ <p> (1) A copper Roman coin weighing five ounces (<seg lang="la">quinque unciae</seg>), whence the name. It was marked by five balls (cf. the illustration under <ref type="cross" target="crossquadrans">Quadrans</ref>), and was valued at five-twelfths of an <hi rend="italic">as.</hi> It is extremely rare, there being no specimens even in the British Museum.</p>
+ <p>(2) The name given to an arrangement of things by fives after the fashion of the points on a die, thus: <figure /></p>
+ <p>and to a series arranged in this way: <figure /></p>
+ <p>It was a favourite method of arranging trees ( <title>De Sen.</title> 17). The French use the same word in the phrase <foreign lang="fr">en quinconce.</foreign>
+ </p></div2>
+ 
+<div2 id="crossquincupedal" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quincupĕdal">Quincupedal</head>
+
+ <p> A Roman graduated measuringrod, five feet long ( <bibl n="Mart.  14. 92" default="NO" valid="yes">Mart.xiv. 92</bibl>). 
+<pb n="1356" /><cb />
+ </p></div2>
+ 
+<div2 id="crossquindecimviri" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quindecimvĭri">Quindecimviri</head>
+
+ <p> The Roman term for an official body consisting of fifteen men, especially that appointed for the inspection of the Sibylline Books. See <ref type="cross" target="crosssibyllae">Sibyllae</ref>.
+ </p></div2>
+ 
+<div2 id="crossquinquagesima" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quinquagesĭma">Quinquagesima</head>
+
+ <p> sc. <seg lang="la">pars.</seg> (1) A Roman tax of the fiftieth part, or two per cent. on the value of all slaves who were sold. It was instituted by Augustus (Dio Cass. lv. 31).</p>
+ <p>(2) A similar tax at Athens (<foreign lang="greek">πεντηκοστή</foreign>) levied on exports and imports. See <ref type="cross" target="crosspentecoste">Pentecosté</ref>.
+ </p></div2>
+ 
+<div2 id="crossquinquatrus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quinquātrus">Quinquatrus</head>
+
+ <p> and <hi rend="bold">Quinquātria</hi> (neut. pl.). A festival celebrated at Rome on the 19th of March, in honour of Mars and, in a greater degree, of Minerva, whose temple had been founded on that day on the Aventine. An incorrect explanation of the name <hi rend="italic">quinquatrus</hi>, which means the fifth day after the Ides (Varro, <title>L. L.</title> vi. 14), led to the festival in honour of Minerva being afterwards prolonged to five days. It was celebrated by all whose employment was under the protection of the goddess, such as teachers and their pupils. The latter obtained a holiday during the festival, and began a new course of study when it was over. The former received at this time their yearly stipend —the <hi rend="italic">minerval.</hi> (See <ref type="cross" target="crossludus-litterarius">Ludus Litterarius</ref>.) The festival was also celebrated by women and children (as being spinners and weavers), by artisans and artists of every kind, and by poets and painters. The first day of the festival was celebrated with sacrifices by the State in honour of the founding of the temple. On the following days the gladiators performed, and there were social gatherings in the houses. On June 13th the minor Quinquatrus (<title>Quinquatrus minusculae</title>) took place. This festival lasted three days. It was celebrated by the guild of the flute-players, an important and numerous body at Rome. They honoured the goddess as their special patroness by meeting at her temple, by masked processions through the city, and by a banquet in the temple of the Capitoline Iupiter. See Livy , lx. 30; Ovid, <bibl n="Ov. Fast. 6. 651" default="NO" valid="yes"> <title>Fast.</title>vi. 651</bibl>; <bibl n="Juv.  10. 115" default="NO" valid="yes">Juv.x. 115</bibl>; and Marquardt, <title>Staatsverwaltung</title>, iii. 566 in the second edition.
+ </p></div2>
+ 
+<div2 id="crossquinquennales" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quinquennāles">Quinquennales</head>
+
+ <p> The officials chosen every five years in the Italian municipalities (see <ref type="cross" target="crossmunicipium">Municipium</ref>), corresponding to the Roman censors. See <ref type="cross" target="crosscensor">Censor</ref>.
+ </p></div2>
+ 
+<div2 id="crossquinquennalia" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quinquennalia">Quinquennalia</head>
+
+ <p> Roman games instituted by Nero in A.D. 60, in imitation of the Greek festivals (<foreign lang="greek">πεντετηρίδες</foreign>). They included contests in music, gymnastics, and equestrian feats, and were also known from their founder as <ref type="cross" target="crossneronia">Neronia</ref> or the <hi rend="SmallCaps">Agon Neroneus</hi> ( <bibl n="Suet. Nero 12" default="NO" valid="yes">Suet. <title>Nero</title>, 12</bibl>). See <ref type="cross" target="crossludi">Ludi</ref>.
+ </p></div2>
+ 
+<div2 id="crossquinqueremis" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quinquerēmis">Quinqueremis</head>
+
+ <p> (<foreign lang="greek">τετρήρης</foreign>). A Roman ship of war with five banks of oars. See <ref type="cross" target="crossnavis">Navis</ref>.
+ </p></div2>
+ 
+<div2 id="crossquinquertium" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quinquertium">Quinquertium</head>
+
+ <p> A Roman athletic contest corresponding to the Greek <foreign lang="greek">πένταθλον</foreign>. See <ref type="cross" target="crosspentathlon">Pentathlon</ref>.
+ </p></div2>
+ 
+<div2 id="crossquinqueviri" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quinquevĭri">Quinqueviri</head>
+
+ <p> A name given by the Romans to any board of five commissioners such as under the Republic were frequently appointed by the extraordinary magistrates to carry out any particular measure, as the Quinqueviri Mensarii or bankers authorized to manage public loans and other financial matters, something like a modern syndicate. Other functions that were sometimes assigned to such commissioners were the repairs of the city walls and towers (<bibl n="Liv.  25. 7" default="NO" valid="yes">Livy, xxv. 7</bibl>), the formation of colonies (usually, however, done by <hi rend="italic">triumviri</hi>), etc. There was also a regular board of five (<title>Quinqueviri cis Tiberim</title>) to guard against fires, breaches of public order, etc. (<bibl n="Liv.  39. 14" default="NO" valid="yes">Livy, xxxix. 14</bibl>). <cb />
+ </p></div2>
+ 
+<div2 id="crossquintana-porta" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quintāna Porta">Quintana Porta</head>
+
+ <p> See <ref type="cross" target="crosscastra">Castra</ref>.
+ </p></div2>
+ 
+<div2 id="crossquintia-gens" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quintia Gens">Quintia Gens</head>
+
+ <p> See <ref type="cross" target="crossquinctia">Quinctia Gens</ref>.
+ </p></div2>
+ 
+<div2 id="crossquintilianus" type="entry" org="uniform" sample="complete">
+ <head><surname full="yes">Quintiliānus</surname></head>, <foreName full="yes">Marcus Fabius</foreName>
+ <p>A celebrated Roman rhetorician, born about A.D. 35 at Calagurris in Spain. After he had received his training as an orator at Rome, he returned home about A.D. 59, but again visited Rome in A.D. 68 in the suite of Galba. He there began to practise as an advocate, and also gave instruction in rhetoric. In this latter capacity he achieved such fame that he was able to open a school of rhetoric in the reign of Vespasian, and received a salary from the State. After twenty years' work he retired from his public duties in A.D. 90, and after some time devoted himself to the education of the grandchildren of Domitilla, Domitian's sister, for which he was rewarded by the emperor with the rank of consul. Though materially prosperous, his happiness was disturbed by the loss of his young wife and his two sons. He died between A.D. 97 and 100.</p>
+ <p>Of his works on rhetoric, composed in his later years, we possess the one that is more important, that on the training of an orator (<title>De Institutione Oratoria</title>) in twelve books. This he wrote in two years; but it was not until after repeated revision that he published it, just before the death of Domitian in the year 96. He dedicated it to his friend, the orator Victorius Marcellus, that he might use it for the education of his son Geta. This work gives a complete course of instruction in rhetoric, including all that is necessary for training in practical elocution, from the preliminary education of boyhood and earliest youth to the time of appearance in public. It describes a perfect orator, who, according to Quintilian, should be not only skilful in rhetoric, but also of good moral character, and concludes with practical advice. Especially interesting is the first book, which gives the principles of training and instruction, and the tenth book, for its criticisms on the Greek and Latin prose authors and poets recommended to the orator for special study. Many of these criticisms, however, are not original. Quintilian's special model, and his main authority, is Cicero, whose classical style, as opposed to the style of his own time exemplified in Seneca, he imitates successfully in his work. A collection of school exercises (<title>Declamationes</title>) which bears his name is probably not by him, but by one of his pupils, though Ritter accepts many of them as genuine.</p>
+ <p>The most important MS. of the <title>Institutiones</title> is the Codex Ambrosianus of the eleventh century. Other complete MSS. are much later—of the fifteenth century—and are full of interpolations. Early editions of Quintilian are those of Gibson <bibl default="NO">(Oxford, 1693)</bibl>, Burmann <bibl default="NO">(Leyden, 1720)</bibl>, and Gesner <bibl default="NO">(Göttingen, 1738)</bibl>. A great edition is that of Spalding, 4 vols. <bibl default="NO">(Leipzig, 1798-1816)</bibl>, to which a fifth volume was added by Zumpt <bibl default="NO">(1829)</bibl>, and a sixth containing a lexicon and indices by Bonnell <bibl default="NO">(1834)</bibl>. The chief edition is that of Halm <bibl default="NO">(Leipzig, 1868)</bibl>, revised by Meister <bibl default="NO">(Prague, 1886)</bibl>. Book X. has been separately edited by Herzog <bibl default="NO">(3d ed., Leipzig, 1833)</bibl>, Schneidewin <bibl default="NO">(Helmst., 1831)</bibl>; Bonnell and Meister <bibl default="NO">(3d ed., Berlin, 1882)</bibl>; G. T. Krüger and G. Krüger <bibl default="NO">(Leipzig, 1888)</bibl>, and J. E. B. Mayor <bibl default="NO">(Pt. i., Camb., 1892)</bibl>. An excellent index is that in the Lemaire edition <bibl default="NO">(Paris, 1821)</bibl>. There is a good German translation by Bossler and Baur, revised by Meister <bibl default="NO">(Prague, 1886)</bibl>; and an English version by Watson, 
+<pb n="1357" /><cb />
+ with notes based on Spalding, and may be found in the Bohn Classical Library. The <title>Declamationes</title> are edited by Ritter <bibl default="NO">(1884)</bibl>.
+ </p></div2>
+ 
+<div2 id="crossquintilis-mensis" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quintīlis Mensis">Quintilis Mensis</head>
+
+ <p> See <ref type="cross" target="crosscalendarium">Calendarium</ref>.
+ </p></div2>
+ 
+<div2 id="crossquintillus" type="entry" org="uniform" sample="complete">
+ <head><surname full="yes">Quintillus</surname></head>, <foreName full="yes">M. Aurelius</foreName>
+ <p>The brother of the emperor M. Aurelius Claudius, who was elevated to the throne by the troops whom he commanded at Aquileia, in A.D. 270. But as the army at Sirmium, where Claudius died, had proclaimed Aurelian emperor, Quintillus put an end to his own life, seeing himself deserted by his own soldiers, to whom the rigour of his discipline had given offence (Eutrop. ix. 12; <bibl n="Zos.  1. 47" default="NO">Zos.i. 47</bibl>).
+ </p></div2>
+ 
+<div2 id="crossquintipor" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quintĭpor">Quintipor</head>
+
+ <p> i.e. <title>Quinti puer.</title> A slave name (Varro <hi rend="italic">ap.</hi> <bibl n="Non.  448. 15" default="NO" valid="yes">Non.448. 15</bibl>).
+ </p></div2>
+ 
+<div2 id="crossquintius-capitolinus-barbatus" type="entry" org="uniform" sample="complete">
+ <head><surname full="yes">Quintius Capitolīnus Barbātus</surname></head>, <foreName full="yes">Titus</foreName>
+ <p>A celebrated Roman general in the early history of the Republic, and equally distinguished in the internal history of the State. He frequently acted as mediator between the patricians and plebeians, with both of whom he was held in the highest esteem. He was six times consul—namely, in B.C. 471, 468, 465, 446, 443, 439. Several of his descendants held the consulship, but none of these require mention except <hi rend="SmallCaps">T. Quintius Pennus Capitolīnus Crispīnus</hi>, who was consul in B.C. 208, and was defeated by Hannibal (Polyb. x. 32).
+ </p></div2>
+ 
+<div2 id="crossquintus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quintus">Quintus</head>
+
+ <p> An eminent physician at Rome, in the former half of the second century after Christ. He was so much superior to his medical colleagues that they grew jealous of his eminence, and formed a sort of coalition against him, and forced him to quit the city by charging him with killing his patients. He died about A.D. 148 (Galen, <title>De Praenot</title>).
+ </p></div2>
+ 
+<div2 id="crossquintus-curtius" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quintus Curtius">Quintus Curtius</head>
+
+ <p> See <ref type="cross" target="crosscurtius">Curtius</ref>.
+ </p></div2>
+ 
+<div2 id="crossquintus-smyrnaeus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quintus Smyrnaeus">Quintus Smyrnaeus</head>
+
+ <p> See <ref type="cross" target="crosscalaber">Calaber</ref>, <ref type="cross" target="crossquintus">Quintus</ref>.
+ </p></div2>
+ 
+<div2 id="crossquirinalia" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quirinalia">Quirinalia</head>
+
+ <p> A festival celebrated on February 17th of each year at Rome in honour of Quirinus, that being the date on which Romulus was said to have been carried up to heaven (Ovid, <title>Fasti</title>, ii. 457). The day was also called <hi rend="SmallCaps">Stultōrum Feriae</hi> or “Feast of Fools,” for which see <ref type="cross" target="crossfornacalia">Fornacalia</ref>.
+ </p></div2>
+ 
+<div2 id="crossquirinalis-flamen" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quirinālis Flamen">Quirinalis Flamen</head>
+
+ <p> See <ref type="cross" target="crossflamen">Flamen</ref>.
+ </p></div2>
+ 
+<div2 id="crossquirinalis-mons" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quirinālis Mons">Quirinalis Mons</head>
+
+ <p> A hill at Rome, added to the city by Servius Tullius ( <bibl n="Liv.  1. 44" default="NO" valid="yes">Liv.i. 44</bibl>). Numa, indeed, had a house upon this mountain, but it was not considered a part of the city until enclosed within the Tullian wall. The temple of Romulus Quirinus, from which it derived its name, was built by Numa, but afterward reconstructed with greater <cb /> magnificence by Papirius Cursor, the dictator ( <bibl n="Liv.  10. 46" default="NO" valid="yes">Liv.x. 46</bibl>). It was the centre of the district called Alta Semita under Augustus. See <ref type="cross" target="crossroma">Roma</ref>.
+ </p></div2>
+ 
+<div2 id="crossquirinus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quirīnus">Quirinus</head>
+
+ <p> The Sabine name of Mars, as the god who brandished the lance (from the Sabine <seg lang="la">curis</seg>= Latin <seg lang="la">quiris</seg>, the lance). The Sabines worshipped him under this name as the father of the founder of their old capital, Cures, just as the Romans honoured Mars as the father of Romulus. When the Sabines migrated to Rome, they took the cult and the name of the god of their race to their new home on the Quirinal Hill. In this way Quirinus, though identical with Mars, had a distinct and separate worship on the slope of the Quirinal. He possessed a temple with priests (see <ref type="cross" target="crossflamen">Flamen</ref>; <ref type="cross" target="crosssalii">Salii</ref>) and a special festival. When, in the course of time, their connection was forgotten, Quirinus was identified with the deified Romulus, the son of Mars. The name is also applied to the Ianus or something in the Forum, which it seems to designate as the “Ianus of the Roman people” ( <bibl n="Suet. Aug. 22" default="NO" valid="yes">Suet. <title>Aug.</title>22</bibl>).
+ </p></div2>
+ 
+<div2 id="crossquirinus2" type="entry" org="uniform" sample="complete">
+ <head><surname full="yes">Quirīnus</surname></head>, <foreName full="yes">P. Sulpicius</foreName>
+ <p>A native of Lanuvium, of obscure origin, but raised to the highest honours by Augustus. He was consul B.C. 12, and subsequently carried on war against some of the robber tribes dwelling in the mountains of Cilicia. In B.C. 1 Augustus appointed him to direct the counsels of his grandson C. Caesar, then in Armenia. About A.D. 5 he was made governor of Syria, and as such took a census of the Jews. He died in A.D. 21 (Dio Cass. liv. 25;  <bibl n="Suet. Tib. 49" default="NO" valid="yes">Suet. <title>Tib.</title>49</bibl>;  <bibl n="Tac. Ann. 3. 48" default="NO" valid="yes">Tac. <title>Ann.</title>iii. 48</bibl>).
+ </p></div2>
+ 
+<div2 id="crossquirites" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quirītes">Quirites</head>
+
+ <p> A word of uncertain derivation. Mommsen regards it as composed of the root of <seg lang="la">curis (quiris)</seg>, “a spear,”+the root of <seg lang="la">ire</seg>, and hence =“the spearmen,” “warriors.” It was the name of the oldest inhabitants of Rome, the Latin Ramnes and the Sabine Tities taken together. Afterwards it became the name of the Roman people (<title>populus Romanus Quiritium</title> or <title>populus Romanus Quirites</title>) in home affairs, while <title>Romani</title> was used in connection with foreign affairs. It was the proudest of the designations of the Romans. <title>Quirites</title> was also used to indicate peaceable citizens, or civilians, as opposed to soldiers (<seg lang="la">milites</seg>) ( <bibl n="Tac. Ann. 1. 42" default="NO" valid="yes">Tac. <title>Ann.</title>i. 42</bibl>; <title>Iul.</title> 70; Lucan, v. 358). See <ref type="cross" target="crosscivitas">Civitas</ref>.
+ </p></div2>
+ 
+<div2 id="crossquiritium-ius" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quiritium Ius">Quiritium Ius</head>
+
+ <p> See <ref type="cross" target="crossius">Ius</ref>.
+ </p></div2>
+ 
+<div2 id="crossquiver" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quiver">Quiver</head>
+
+ <p> See <ref type="cross" target="crossarcus">Arcus</ref>; <ref type="cross" target="crosspharetra">Pharetra</ref>.
+ </p></div2>
+ 
+<div2 id="crossquiza" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quiza">Quiza</head>
+
+ <p> (<foreign lang="greek">Κούϊζα</foreign>). Now Giza, near Oran; a municipium on the coast of Mauretania Caesariensis in the northern part of Africa (Pliny , <bibl n="Plin. Nat. 5. 19" default="NO" valid="yes">Pliny <title>H. N.</title>v. 19</bibl>).
+ </p></div2>
+ 
+<div2 id="crossquoit" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Quoit">Quoit</head>
+
+ <p> See <ref type="cross" target="crossdiscus">Discus</ref>. 
+ 
+ <cb /></p></div2>
+ </div1>
+<div1 type="notes">
+
+<pb n="nts"/>
+<note id="ref1" target="n1">* The original name for these abbreviations seems to have been litterae singulares or singulariae (cf.  Gell.xvii.9.1). At a later period notae became the more common term (cf. Festus, p. 184: Nota nunc significat signum at in pecoribus, tabulis, libris, litterae singulae vel binae). Valerius Probus wrote an elaborate work De Notis, only a part of which has been preserved. In the Digests of Justinian nota is displaced by the term sigla. The word is of doubtful origin. Most scholars regard it as a syncopated form of sigillum; others derive it from singuli; Mommsen thinks it a mere corruption from singulares.</note>
+<note id="ref2" target="n2">* Balnea is, however, used in the singular to designate a private bath in an inscription quoted by Reinesius (Inscr. xi. 115).</note>
+<note id="ref3" target="n3">The power of the quaestors to fine is disputed by Mommsen. But even curatores could fine. (See Karlowa, Rechtsgeschichte, p. 171.)</note>
+
+ 
+</div1>
+</body>
+</text>
+</tei.2>

@@ -1,0 +1,497 @@
+<tei.2>
+
+  <teiHeader type="text" status="new">
+   <fileDesc>
+    <titleStmt>
+ 	<title>Harpers Dictionary of Classical Antiquities (1898)</title>
+ 	<author>Harry Thurston Peck</author>
+ 	<sponsor>Perseus Project, Tufts University</sponsor>
+ 		<principal>Gregory Crane</principal>
+ 		<respStmt>
+ 		<resp>Prepared under the supervision of</resp>
+ 		<name>Lisa Cerrato</name>
+ 		<name>William Merrill</name>
+ 		<name>Elli Mylonas</name>
+ 		<name>David Smith</name>
+ 		</respStmt>
+ <funder n="org:NEH">The National Endowment for the Humanities</funder>
+    </titleStmt>
+    <publicationStmt>
+ 		<publisher>Trustees of Tufts University</publisher>
+ 		<pubPlace>Medford, MA</pubPlace>
+ 		<authority>Perseus Project</authority>
+ 		</publicationStmt>
+       <sourceDesc default="NO">
+ 	<biblStruct default="NO">
+ 	 <monogr>
+ 	  <author>Harry Thurston Peck</author>
+ 	  <title>Harpers Dictionary of Classical Antiquities</title>
+ 	  <imprint>
+ 	   <pubPlace>New York</pubPlace>
+ 	   <publisher>Harper and Brothers</publisher>
+ 	   <date>1898</date>
+ 	  </imprint>
+ 	 </monogr>
+ 	</biblStruct>
+    </sourceDesc>
+   </fileDesc>
+ 
+   <encodingDesc>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="id" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state n="chunk" unit="entry" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="alphabetic letter" />
+ 	<state unit="entry" />
+    </refsDecl>
+   </encodingDesc>
+ 
+   <profileDesc>
+    <langUsage default="NO">
+ 	<language id="en">English
+ 	</language><language id="greek">Greek
+     </language><language id="la">Latin
+ 	</language><language id="fr">French
+ 	</language><language id="it">Italian
+ 	</language><language id="es">Spanish
+ 	</language><language id="de">German
+ 	</language><language id="oe">Old English
+ 	</language><language id="sanskrit">Sanskrit, Harvard-Kyoto code
+ 	</language><language id="gothic">Gothic
+ 	</language><language id="pie">Indo-European
+ 	</language><language id="xhebrew">transliterated Hebrew
+    </language></langUsage>
+   </profileDesc>
+  </teiHeader>
+<text>
+<body>
+<div1 type="alphabetic letter" n="W" org="uniform" sample="complete">
+<head orig="W">W</head>
+
+ 
+<div2 id="crosswagons" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wagons">Wagons</head>
+
+ <p> See <ref type="cross" target="crossarcuma">Arcuma</ref>; <ref type="cross" target="crossbenna">Benna</ref>; <ref type="cross" target="crosscarrus">Carrus</ref>; <ref type="cross" target="crosscarpentum">Carpentum</ref>; <ref type="cross" target="crosscisium">Cisium</ref>; <ref type="cross" target="crosscurrus">Currus</ref>; <ref type="cross" target="crossessedum">Essedum</ref>; <ref type="cross" target="crosspetorritum">Petorritum</ref>; <ref type="cross" target="crosspilentum">Pilentum</ref>; <ref type="cross" target="crossplaustrum">Plaustrum</ref>; <ref type="cross" target="crossreda">Reda</ref>; <ref type="cross" target="crosssarracum">Sarracum</ref>; <ref type="cross" target="crosstensa">Tensa</ref>; <ref type="cross" target="crossvehiculum">Vehiculum</ref>.
+ </p></div2>
+ 
+<div2 id="crosswain" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wain">Wain</head>
+
+ <p> See <ref type="cross" target="crossplaustrum">Plaustrum</ref>.
+ </p></div2>
+ 
+<div2 id="crosswaiters" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Waiters">Waiters</head>
+
+ <p> See <ref type="cross" target="crosscena">Cena</ref>; Famulus; <ref type="cross" target="crossservus">Servus</ref>.
+ </p></div2>
+ 
+<div2 id="crosswall" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wall">Wall</head>
+
+ <p> (1) Of a city. See <ref type="cross" target="crossmurus">Murus</ref>.</p>
+ <p>(2) Of a house. See <ref type="cross" target="crossdomus">Domus</ref>; <ref type="cross" target="crossparies">Paries</ref>.
+ </p></div2>
+ 
+<div2 id="crosswallet" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wallet">Wallet</head>
+
+ <p> See <ref type="cross" target="crossbulga">Bulga</ref>; <ref type="cross" target="crosspera">Pera</ref>; <ref type="cross" target="crossventrale">Ventrale</ref>.
+ </p></div2>
+ 
+<div2 id="crosslwalnut-tree" type="entry" org="uniform" sample="complete">
+ <head>Poem of the Walnut Tree</head>
+ <p>See <ref type="cross" target="crossnux">Nux</ref>.
+ </p></div2>
+ 
+<div2 id="crosswand" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wand">Wand</head>
+
+ <p> See <ref type="cross" target="crossvirga">Virga</ref>.
+ </p></div2>
+ 
+<div2 id="crosswarming-of-houses" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Warming of Houses">Warming of Houses</head>
+
+ <p> See <ref type="cross" target="crossbalneae">Balneae</ref>; <ref type="cross" target="crossdomus">Domus</ref>; Foculus; <ref type="cross" target="crossfurnus">Furnus</ref>.
+ </p></div2>
+ 
+<div2 id="crosswarrant" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Warrant">Warrant</head>
+
+ <p> See <ref type="cross" target="crossdiploma">Diploma</ref>.
+ </p></div2>
+ 
+<div2 id="crosswars" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wars">Wars</head>
+
+ <p> See (1) <ref type="cross" target="crosslelantine-war">Lelantine War</ref>; (2) <ref type="cross" target="crosspeloponnesian-war">Peloponnesian War</ref>; (3) <ref type="cross" target="crosspunic-wars">Punic Wars</ref>; (4) <ref type="cross" target="crosssocial-war">Social War.</ref>
+ </p></div2>
+ 
+<div2 id="crosswashing" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Washing">Washing</head>
+
+ <p> See <ref type="cross" target="crossfullo">Fullo</ref>.
+ </p></div2>
+ 
+<div2 id="crosswasps-of-aristophanes" type="entry" org="uniform" sample="complete">
+ 
+<head orig=" Waspsof Aristophanes"> Waspsof Aristophanes</head>
+
+ <p> See <ref type="cross" target="crossaristophanes">Aristophanes</ref>.
+ </p></div2>
+ 
+<div2 id="crosswatch-house" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Watch-house">Watch-house</head>
+
+ <p> See <ref type="cross" target="crossexcubitorium">Excubitorium</ref>.
+ </p></div2>
+ 
+<div2 id="crosswatchman" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Watchman">Watchman</head>
+
+ <p> See <ref type="cross" target="crosscastra">Castra</ref>; <ref type="cross" target="crossexcubitores">Excubitores</ref>; <ref type="cross" target="crossvigiles">Vigiles</ref>.
+ </p></div2>
+ 
+<div2 id="crosswatch-tower" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Watch-tower">Watch-tower</head>
+
+ <p> See <ref type="cross" target="crossspecula">Specula</ref> in the Appendix.
+ </p></div2>
+ 
+<div2 id="crosswater-clock" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Water-clock">Water-clock</head>
+
+ <p> See <ref type="cross" target="crosshorologium">Horologium</ref>.
+ </p></div2>
+ 
+<div2 id="crosswater-closets" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Water-closets">Water-closets</head>
+
+ <p> See <ref type="cross" target="crossdomus">Domus</ref>; Foricae; <ref type="cross" target="crosslatrina">Latrina</ref>.
+ </p></div2>
+ 
+<div2 id="crosswater-supply" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Water-supply">Water-supply</head>
+
+ <p> See <ref type="cross" target="crossaquae-ductus">Aquae Ductus</ref>; <ref type="cross" target="crossfons">Fons</ref>.
+ </p></div2>
+ 
+<div2 id="crosswaterworks" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Waterworks">Waterworks</head>
+
+ <p> See <ref type="cross" target="crossaquae-ductus">Aquae Ductus</ref>.
+ </p></div2>
+ 
+<div2 id="crosswax" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wax">Wax</head>
+
+ <p> See <ref type="cross" target="crosscera">Cera</ref>; <ref type="cross" target="crossceroma">Ceroma</ref>.
+ </p></div2>
+ 
+<div2 id="crosswax-candles" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wax-candles">Wax-candles</head>
+
+ <p> See <ref type="cross" target="crosscandela">Candela</ref>; <ref type="cross" target="crosscereus">Cereus</ref>.
+ </p></div2>
+ 
+<div2 id="crossweapons" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Weapons">Weapons</head>
+
+ <p> See <ref type="cross" target="crossarcus">Arcus</ref>; <ref type="cross" target="crossarma">Arma</ref>; <ref type="cross" target="crossfunda">Funda</ref>; <ref type="cross" target="crossgladius">Gladius</ref>; <ref type="cross" target="crossglans">Glans</ref>; <ref type="cross" target="crosshasta">Hasta</ref>; <ref type="cross" target="crossiaculum">Iaculum</ref>; <ref type="cross" target="crosspilum">Pilum</ref>; <ref type="cross" target="crosssagitta">Sagitta</ref>; <ref type="cross" target="crosstormentum">Tormentum</ref>.
+ </p></div2>
+ 
+<div2 id="crossweaving" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Weaving">Weaving</head>
+
+ <p> See <ref type="cross" target="crosstela">Tela</ref>.
+ </p></div2>
+ 
+<div2 id="crosswedding-cake" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wedding-cake">Wedding-cake</head>
+
+ <p> See <ref type="cross" target="crossmustaceum">Mustaceum</ref>.
+ </p></div2>
+ 
+<div2 id="crossweddings" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Weddings">Weddings</head>
+
+ <p> See <ref type="cross" target="crossmatrimonium">Matrimonium</ref>.
+ </p></div2>
+ 
+<div2 id="crosswedding-veil" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wedding-veil">Wedding-veil</head>
+
+ <p> See <ref type="cross" target="crossflammeum">Flammeum</ref>; <ref type="cross" target="crossricinium">Ricinium</ref>.
+ </p></div2>
+ 
+<div2 id="crosswedge" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wedge">Wedge</head>
+
+ <p> See <ref type="cross" target="crosscuneus">Cuneus</ref>.
+ </p></div2>
+ 
+<div2 id="crossweek" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Week">Week</head>
+
+ <p> The Greeks originally divided their month into three parts of ten days each, and the Romans had a sort of week of eight days—between the <seg lang="la">nundinae</seg> or market-days. (See <ref type="cross" target="crossnundinae">Nundinae</ref>.) The Egyptians, however, like the Jews, had a week of seven days, named from the seven planets, and from Alexandria this seven-day week (<foreign lang="greek">ἑβδομάς</foreign>, <seg lang="la">hebdomas, septimana</seg>) spread to Greece, and, at about the beginning of the Christian era, to Rome also. In the <ref type="cross" target="crosscodex-theodosianus">Codex Theodosianus</ref> (q.v.) the name <seg lang="la">septimana</seg> first appears in the sense of “week,” and from it came the Italian <foreign lang="it">settimana</foreign>, the Spanish <foreign lang="es">semana</foreign>, and the French <foreign lang="fr">semaine.</foreign>
+ </p></div2>
+ 
+<div2 id="crossweeping-philosopher" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Weeping Philosopher">Weeping Philosopher</head>
+
+ <p> See <ref type="cross" target="crossheraclitus">Heraclitus</ref>.
+ </p></div2>
+ 
+<div2 id="crossweights-and-measures" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Weights and Measures">Weights and Measures</head>
+
+ <p> See <ref type="cross" target="crosspondus">Pondus;</ref> and the Tables in the Appendix.
+ </p></div2>
+ 
+<div2 id="crosswells" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wells">Wells</head>
+
+ <p> See <ref type="cross" target="crossfons">Fons</ref>; <ref type="cross" target="crossputeus">Puteus</ref>.
+ </p></div2>
+ 
+<div2 id="crosswere-wolves" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Were-wolves">Were-wolves</head>
+
+ <p> See <ref type="cross" target="crossversipellis">Versipellis</ref>.
+ </p></div2>
+ 
+<div2 id="crosswest-wind" type="entry" org="uniform" sample="complete">
+ 
+<head orig="West-wind">West-wind</head>
+
+ <p> See <ref type="cross" target="crosszephyrus">Zephyrus</ref>.
+ </p></div2>
+ 
+<div2 id="crosswheel" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wheel">Wheel</head>
+
+ <p> See <ref type="cross" target="crossrota">Rota</ref>; <ref type="cross" target="crosstympanum">Tympanum</ref>.
+ </p></div2>
+ 
+<div2 id="crosswherry" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wherry">Wherry</head>
+
+ <p> See <ref type="cross" target="crosslinter">Linter</ref>. <cb />
+ </p></div2>
+ 
+<div2 id="crosswhip" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Whip">Whip</head>
+
+ <p> See Flagellum; <ref type="cross" target="crossscutica">Scutica</ref>.
+ </p></div2>
+ 
+<div2 id="crosswhiskers" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Whiskers">Whiskers</head>
+
+ <p> See <ref type="cross" target="crossbarba">Barba</ref>; <ref type="cross" target="crossmustax">Mustax</ref>.
+ </p></div2>
+ 
+<div2 id="crosswigs" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wigs">Wigs</head>
+
+ <p> See <ref type="cross" target="crosscaliendrum">Caliendrum</ref>; <ref type="cross" target="crosscoma">Coma</ref>; Galerum.
+ </p></div2>
+ 
+<div2 id="crosswills" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wills">Wills</head>
+
+ <p> See <ref type="cross" target="crossheres">Heres</ref>; <ref type="cross" target="crosstestamentum">Testamentum</ref>.
+ </p></div2>
+ 
+<div2 id="crosswinckelmann" type="entry" org="uniform" sample="complete">
+ <head><surname full="yes">Winckelmann</surname></head>, <foreName full="yes">Johann Joachim</foreName>
+ <p>A very distinguished German archaeologist, born in Stendal, Prussia, December 9th, 1717, the son of a shoemaker. With great difficulty young Winckelmann gained a preparatory training in the schools of his native town, and at Berlin and Salzwedel, whence he went to the Universities of Halle and Jena, at which he showed a remarkable proficiency in the Greek and Latin languages, and a strong bent towards the study of archaeology and ancient art. After teaching for several years at Seehausen, he was made librarian at Nöthnitz, near Dresden. The magnificent collections of the latter place filled him with a desire to visit Rome, learning of which the Papal Nuncio, Archinto, promised to provide him with the means on condition of his joining the Church—a condition which Winckelmann, after a long period of hesitation, accepted in 1755. In the same year he received from the Pope a small pension. He at once journeyed to Rome, where he formed the acquaintance of Raphael Mengs, who greatly aided him in his studies of classic art.</p>
+ <p>Winckelmann now entered upon a period of prosperity, becoming librarian to Cardinal Alessandro Albani, in whose palace and villa he was made at home; and in 1763, the Pope appointed him Professor of Antiquities, and Hellenist to the great Vatican Library. His improved circumstances allowed him to travel, so that he spent some time at Florence, Naples, Pompeii, and Herculaneum, declining an appointment at Berlin, in order to remain in Italy. In 1768, having visited Vienna, he received from the Empress Maria Theresa the gift of some exceedingly rare gold coins, whose value tempted the cupidity of an Italian thief, one Arcangeli, and led him to assassinate Winckelmann while returning to Rome (June 8th). He was buried in the cemetery adjoining the cathedral of Trieste, where he died.</p>
+ <p>Winckelmann was the founder of archaeology as a science, and laid down the lines of antiquarian investigation and research that modern scholars have so successfully followed out. His influence was much more than a purely scholastic one, however. To his views of the beantiful and to his enthusiasm for classical antiquity may be traced much of the inspiration of Lessing and Heyne, and other writers of the Augustan Age of German literature. His greatest work is the <bibl default="NO"><title>Geschichte der Kunst des Alterthums</title> (1764)</bibl>, with its supplementary work <bibl default="NO"><title>Anmerkungen über die Geschichte der Kunst</title> (1767)</bibl>, both included in the Vienna edition of 1776 (Eng. trans. by Lodge, 2d ed. 4 vols. 1856- 72). Other works are the <bibl default="NO"><title>Gedanken über die Nachahmung der griechischen Werke in Malerei und Bildhauerkunst</title> (1755)</bibl>; <bibl default="NO"><title>Description des Pierres Gravées du feu Baron de Stosch</title> (1760)</bibl>; <title>Monumenti Antichi Inediti</title>, 2 vols. <bibl default="NO">(1767-68; 2d ed. 1821)</bibl>; <bibl default="NO"><title>Versuch einer Allegorie</title> (1766, republished with additions from manuscripts, 1866)</bibl>; and several reports on Herculaneum, etc. His letters were edited and 
+<pb n="1670" /><cb />
+ published by F. Forster, in 2 vols., <bibl default="NO"><title>Winckelmann's Briefe</title> (Berlin, 1824)</bibl>; and his complete works have been published under the care of Fernow, H. Meyer, and Schultz, in 8 vols. <bibl default="NO">(Dresden, 1808-1820)</bibl>.</p>
+ <p>On his literary influence the reader is referred to Goethe's <title>Winckelmann und sein Jahrhundert</title>, published in collaboration with H. Meyer and others <bibl default="NO">(Tübingen, 1805)</bibl>. His life was written by Karl Justi, <title>Winckelmann, sein Leben, seine Werke und seine Zeitgenossen</title>, 3 vols. <bibl default="NO">(Leipzig, 1866-72)</bibl>.
+ </p></div2>
+ 
+<div2 id="crosswindows" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Windows">Windows</head>
+
+ <p> See <ref type="cross" target="crossdomus">Domus</ref>. <figure id="fig.01670">
+<head orig="Ancient Window. (Baumeister.)">Ancient Window. (Baumeister.)</head>
+</figure>
+ </p></div2>
+ 
+<div2 id="crosswinds" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Winds">Winds</head>
+
+ <p> See <ref type="cross" target="crossventus">Ventus</ref>.
+ </p></div2>
+ 
+<div2 id="crosswine" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wine">Wine</head>
+
+ <p> See <ref type="cross" target="crossvinum">Vinum</ref>.
+ </p></div2>
+ 
+<div2 id="crosswisdom" type="entry" org="uniform" sample="complete">
+ <head>Goddess of <term>Wisdom</term></head>
+ <p>See <ref type="cross" target="crossathene">Athené</ref>; <ref type="cross" target="crossminerva">Minerva</ref>.
+ </p></div2>
+ 
+<div2 id="crosswise-men" type="entry" org="uniform" sample="complete">
+ <head>The Seven <term>Wise Men</term></head>
+ <p>See <ref type="cross" target="crossseven-sages">Seven Sages</ref>.
+ </p></div2>
+ 
+<div2 id="crosswitch" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Witch">Witch</head>
+
+ <p> See <ref type="cross" target="crosssaga">Saga</ref>; <ref type="cross" target="crossstriga">Striga</ref>; <ref type="cross" target="crossvenefica">Venefica</ref>.
+ </p></div2>
+ 
+<div2 id="crosswitness" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Witness">Witness</head>
+
+ <p> See <ref type="cross" target="crossdike">Diké</ref>; <ref type="cross" target="crossjudicial-procedure">Judicial Procedure</ref>; <ref type="cross" target="crossmartyria">Martyria</ref>; <ref type="cross" target="crosstestis">Testis</ref>.
+ </p></div2>
+ 
+<div2 id="crosswitticisms" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Witticisms">Witticisms</head>
+
+ <p> See <ref type="cross" target="crossjests">Jests</ref>.
+ </p></div2>
+ 
+<div2 id="crosswives" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wives">Wives</head>
+
+ <p> See <ref type="cross" target="crossmatrimonium">Matrimonium</ref>.
+ </p></div2>
+ 
+<div2 id="crosswizards" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wizards">Wizards</head>
+
+ <p> See Magus; <ref type="cross" target="crossstriga">Striga</ref>.
+ </p></div2>
+ 
+<div2 id="crosswolf" type="entry" org="uniform" sample="complete">
+ <head><surname full="yes">Wolf</surname></head>, <foreName full="yes">Friedrich August</foreName>
+ <p>A great Homeric scholar, born in Hainrode, in Germany, on February 15th, 1759. He was educated in the University of Göttingen, where he also gave private lessons; and in 1779 removed to Ilfeld, where he became the teacher of a school. In 1782 he was made rector of the public school at Osterode, and in 1783 Professor of Philosophy at the University of Halle, where he remained until the university was closed in 1806, when he removed to Berlin and took an active part in the foundation of the new university in that city, being employed by the Minister of Public Instruction. Wolf had already won a commanding position among the scholars of Germany by his epoch-making <title>Prolegomena in Homerum</title>, prefixed to the second edition of his <title>Homeri et Homeridarum Opera</title>, which appeared in 1795. In it he set forth the so-called Wolfian theory of the origin of the Homeric poems, claiming that the <title>Iliad</title> is made up of a number of ballads and songs which at first existed separately in the verses of different rhapsodists, by whom they were handed down from generation to generation until they were united by Pisistratus in the singer's epic that was afterwards ascribed to Homer. This theory he based upon his assertion that writing was not known at the time of the composition of the poems, and also upon the contradictions and inconsistencies to be detected in the poems themselves. (See <ref type="cross" target="crosshomerus">Homerus</ref>; <ref type="cross" target="crossrhapsodus">Rhapsodus</ref>.) The Wolfian hypothesis was not original with Wolf himself, having been advanced before his time by other scholars (Casaubon, Vico, Bentley, Hedelin, Perrault, and Wood); <cb /> but Wolf was the first to present the arguments with sufficient acuteness, logic, and impressiveness to make a profound impression upon the scholarship of the day.</p>
+ <p>Other valuable works of Wolf are his <title>Demosthenis Leptinea</title>, with a most learned introduction <bibl default="NO">(1789)</bibl>; editions of Plato's <title>Symposium;</title> of Hesiod's <title>Theogony;</title> of Cicero's <title>Tusculanae;</title> of several of the Ciceronian Orations (<title>Post Reditum in Senatu, Ad Quirites de Domo Sua, De Haruspicum Responsis</title>, and the <title>Oratio pro Marcello</title>, which Wolf regarded as spurious); of the <title>Clouds</title> of Aristophanes; and of Casaubon's Suetonius. His <title>Kleine Schriften</title>, edited by G. Bernhardy, appeared in 2 vols. in 1869. Wolf died at Marseilles, August 8th, 1824. See Körte, <title>Leben und Studien F. A. Wolf's</title>, 2 vols. <bibl default="NO">(Essen, 1833)</bibl>; <bibl default="NO">Arnoldt, <title>Wolf in seinem Verhältnisse zum Schulwesen und zur Pädagogik</title>, 2 vols. (Brunswick, 1861-62)</bibl>; <bibl default="NO">Bursian, <title>Geschichte der class. Philologie</title> (Munich, 1883)</bibl>; and <bibl default="NO">Jebb's <title>Homer</title> (Glasgow, 1877)</bibl>. Cf. the article <ref type="cross" target="crosstextual-criticism">Textual Criticism</ref>.
+ </p></div2>
+ 
+<div2 id="crosswonders" type="entry" org="uniform" sample="complete">
+ <head>The Seven <term>Wonders</term></head>
+ <p>See <ref type="cross" target="crossseven-wonders-of-the-world">Seven Wonders of the World</ref>.
+ </p></div2>
+ 
+<div2 id="crosswood-nymphs" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Wood-nymphs">Wood-nymphs</head>
+
+ <p> See <ref type="cross" target="crossnymphae">Nymphae</ref>.
+ </p></div2>
+ 
+<div2 id="crossword-books" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Word-books">Word-books</head>
+
+ <p> See <ref type="cross" target="crosslexicon">Lexicon</ref>.
+ </p></div2>
+ 
+<div2 id="crossworship" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Worship">Worship</head>
+
+ <p> See <ref type="cross" target="crossreligio">Religio</ref>; <ref type="cross" target="crosssacrificium">Sacrificium</ref>; <ref type="cross" target="crosstemplum">Templum</ref>.
+ </p></div2>
+ 
+<div2 id="crosswriting" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Writing">Writing</head>
+
+ <p> See <ref type="cross" target="crossalphabet">Alphabet</ref>; <ref type="cross" target="crosspalaeography">Palaeography</ref>.
+ </p></div2>
+ 
+<div2 id="crosswriting-and-writing-materials" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Writing and Writing Materials">Writing and Writing Materials</head>
+
+ <p> Ancient writing was done on (<seg lang="la">a</seg>) leaves, as of the olive and bay; (<seg lang="la">b</seg>) bark, as of the lime-tree (<foreign lang="greek">φιλύρα</foreign>); (<hi rend="italic">c</hi>) linen cloth; (<hi rend="italic">d</hi>) clay and pottery; (<seg lang="la">e</seg>) walls; (<hi rend="italic">f</hi>) metals, rarely gold or silver, often lead plates and bronze; (<hi rend="italic">g</hi>) wood, either coated with wax or some kind of glaze or not; (<hi rend="italic">h</hi>) papyrus; (<seg lang="la">i</seg>) skins, especially parchment or vellum (<foreign lang="greek">διφθέραι</foreign>, <seg lang="la">membranae</seg>). (See the articles <ref type="cross" target="crosscodex">Codex</ref>; <ref type="cross" target="crossepigraphy">Epigraphy</ref>; <ref type="cross" target="crossfictile">Fictilé</ref>; <ref type="cross" target="crossgraffiti">Graffiti</ref>; <ref type="cross" target="crossliber">Liber</ref>; <ref type="cross" target="crossosci">Osci</ref>; <ref type="cross" target="crosspalaeography">Palaeography</ref>; <ref type="cross" target="crosspapyrus">Papyrus</ref>; Tabula.) Paper was not found in Europe until its use was learned from the Arabs in the eighth century A.D.</p>
+ <p>The pen used in writing upon papyrus was a split reed (<seg lang="la">calamus</seg>), the best being supplied by Egypt and Cnidus in Caria. The ink (<seg lang="la">atramentum</seg>) <figure id="fig.01670.2"><head>Wax Tablet and Stilus. (Perret, <title>Catacombes de Rome.</title>) </head></figure> employed was a preparation resembling India ink, made of soot and gum, or of the juice of the cuttlefish. Both of these could be erased with a sponge (<seg lang="la">spongia</seg>), whereas ink made of oxide of iron and gallnuts, which appears to have been introduced later, and to have been the only kind capable of being used for parchment, left more or less clear traces behind, even if rubbed out with pumice-stone. Red ink was also used in very early times. The ink-bottle was called <foreign lang="greek">μελανδόχον</foreign>, <figure id="fig.01670.3">
+<head orig="Ancient Inkstands.">Ancient Inkstands.</head>
+</figure> <seg lang="la">atramentarium</seg>, and was a small cylindrical jar, or two such jars, one for black and one for red ink. In ordinary life people used for letters, notices, and despatches, as also in schools, wooden tablets (<seg lang="la">tabellae</seg>) with a 
+<pb n="1671" /><cb />
+ raised rim, within which was spread a thin layer of wax. On this the characters were scratched with the point of a metal or ivory instrument called a <seg lang="la">stilus;</seg> they could be effaced with the other end of the instrument, which was bent or flattened out like a paper-folder (see <ref type="cross" target="crossstilus">Stilus</ref>). Two <cb /> or more such tablets could be fastened together in the form of a book. (See <ref type="cross" target="crossdiptycha">Diptychon</ref>.) See Thompson, <title>Greek and Latin Palaeography</title>, pp. 12-53 <bibl default="NO">(New York, 1893)</bibl>; and the article <ref type="cross" target="crosspalaeography">Palaeography</ref> in this Dictionary.
+ </p></div2>
+ 
+<div2 id="crosswriting-case" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Writing Case">Writing Case</head>
+
+ <p> See <ref type="cross" target="crosscapsa">Capsa</ref>.
+ 
+ <cb /></p></div2>
+ </div1>
+<div1 type="notes">
+
+<pb n="nts"/>
+<note id="ref1" target="n1">* The original name for these abbreviations seems to have been litterae singulares or singulariae (cf.  Gell.xvii.9.1). At a later period notae became the more common term (cf. Festus, p. 184: Nota nunc significat signum at in pecoribus, tabulis, libris, litterae singulae vel binae). Valerius Probus wrote an elaborate work De Notis, only a part of which has been preserved. In the Digests of Justinian nota is displaced by the term sigla. The word is of doubtful origin. Most scholars regard it as a syncopated form of sigillum; others derive it from singuli; Mommsen thinks it a mere corruption from singulares.</note>
+<note id="ref2" target="n2">* Balnea is, however, used in the singular to designate a private bath in an inscription quoted by Reinesius (Inscr. xi. 115).</note>
+<note id="ref3" target="n3">The power of the quaestors to fine is disputed by Mommsen. But even curatores could fine. (See Karlowa, Rechtsgeschichte, p. 171.)</note>
+<note id="ref4" target="n4">* Very little is known of the architectural character of the early basilicas about the Forum.</note>
+<note id="ref5" target="n5">* It is stated that there were but 136 gentes in existence when the Republic was established, and that the Senate was brought up to its normal strength (300) by the free selection of the balance. It is also stated that all, or at least a portion, of the senators thus selected were plebeians; but this seems merely an inference from the other statement, and is, of course, in no sense a necessary inference. Among modern writers the dispute turns largely on the interpretation of the phrase patres conscripti. Many hold that the patres were patricians, the conscripti plebeians. Others assert that the patres were those who sat as representatives of the gentes, and that the rest, whether patricians or plebeians, were conscripti. Others again deny that there was any distinction between patres and conscripti, and translate the phrase, “enrolled senators.”</note>
+
+ 
+</div1>
+</body>
+</text>
+</tei.2>

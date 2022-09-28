@@ -1,0 +1,450 @@
+<tei.2>
+
+  <teiHeader type="text" status="new">
+   <fileDesc>
+    <titleStmt>
+ 	<title>Harpers Dictionary of Classical Antiquities (1898)</title>
+ 	<author>Harry Thurston Peck</author>
+ 	<sponsor>Perseus Project, Tufts University</sponsor>
+ 		<principal>Gregory Crane</principal>
+ 		<respStmt>
+ 		<resp>Prepared under the supervision of</resp>
+ 		<name>Lisa Cerrato</name>
+ 		<name>William Merrill</name>
+ 		<name>Elli Mylonas</name>
+ 		<name>David Smith</name>
+ 		</respStmt>
+ <funder n="org:NEH">The National Endowment for the Humanities</funder>
+    </titleStmt>
+    <publicationStmt>
+ 		<publisher>Trustees of Tufts University</publisher>
+ 		<pubPlace>Medford, MA</pubPlace>
+ 		<authority>Perseus Project</authority>
+ 		</publicationStmt>
+       <sourceDesc default="NO">
+ 	<biblStruct default="NO">
+ 	 <monogr>
+ 	  <author>Harry Thurston Peck</author>
+ 	  <title>Harpers Dictionary of Classical Antiquities</title>
+ 	  <imprint>
+ 	   <pubPlace>New York</pubPlace>
+ 	   <publisher>Harper and Brothers</publisher>
+ 	   <date>1898</date>
+ 	  </imprint>
+ 	 </monogr>
+ 	</biblStruct>
+    </sourceDesc>
+   </fileDesc>
+ 
+   <encodingDesc>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="id" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state n="chunk" unit="entry" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="alphabetic letter" />
+ 	<state unit="entry" />
+    </refsDecl>
+   </encodingDesc>
+ 
+   <profileDesc>
+    <langUsage default="NO">
+ 	<language id="en">English
+ 	</language><language id="greek">Greek
+     </language><language id="la">Latin
+ 	</language><language id="fr">French
+ 	</language><language id="it">Italian
+ 	</language><language id="es">Spanish
+ 	</language><language id="de">German
+ 	</language><language id="oe">Old English
+ 	</language><language id="sanskrit">Sanskrit, Harvard-Kyoto code
+ 	</language><language id="gothic">Gothic
+ 	</language><language id="pie">Indo-European
+ 	</language><language id="xhebrew">transliterated Hebrew
+    </language></langUsage>
+   </profileDesc>
+  </teiHeader>
+<text>
+<body>
+<div1 type="alphabetic letter" n="Z" org="uniform" sample="complete">
+<head orig="Z">Z</head>
+
+ 
+<div2 id="crossz" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Z">Z</head>
+
+ <p> as a symbol.</p>
+ <p><hi rend="SmallCaps">In Greek</hi>.—Z=<foreign lang="greek">ζήσας, ζήσανπ</foreign>. As a numeral <foreign lang="greek">ζ</foreign>=7; <foreign lang="greek">ζ</foreign>=7000.</p>
+ <p><hi rend="SmallCaps">In Latin</hi>.—Z=centurio.
+ </p></div2>
+ 
+<div2 id="crosszabatus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zabătus">Zabatus</head>
+
+ <p> (<foreign lang="greek">Ζάβατος</foreign>). The Zab; a river of Assyria, rising on the south of Armenia and flowing southwest into the Tigris below Larissa ( <bibl n="Xen. Anab. 2. 5" default="NO" valid="yes">Xen. <title>Anab.</title>ii. 5</bibl><bibl n="Xen. Anab. 1" default="NO" valid="yes">Xen. Anab., 1</bibl>).
+ </p></div2>
+ 
+<div2 id="crosszacynthus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zacynthus">Zacynthus</head>
+
+ <p> (<foreign lang="greek">Ζάκυνθος</foreign>). Now Zanté; an island in the Ionian Sea, off the coast of Elis, about forty miles in circumference. It contained a large and flourishing town of the same name upon the eastern coast, the citadel of which was called Psophis. Zacynthus was inhabited by a Greek population at an early period. It is said to have derived its name from Zacynthus, a son of Dardanus, who colonized the island from Psophis in Arcadia. It was afterwards colonized by Achaeans from Peloponnesus. It formed part of the maritime empire of Athens, and continued faithful to the Athenians during the Peloponnesian War. At a later time it was subject to the Macedonian monarchs, and on the conquest of Macedonia by the Romans passed into the hands of the latter (<bibl n="Liv.  36. 32" default="NO" valid="yes">Livy, xxxvi. 32</bibl>). It was said to have colonized the Spanish city of <ref type="cross" target="crosssaguntum">Saguntum</ref> (q.v.). See Partsch, <bibl default="NO"><title>Die Insel Zante</title> (Gotha, 1891)</bibl>.
+ </p></div2>
+ 
+<div2 id="crosszagreus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zagreus">Zagreus</head>
+
+ <p> (<foreign lang="greek">Ζαγρεύς</foreign>). A surname of the mystic Dionysus (Bacchus), whom Zeus, in the form of a serpent, is said to have begotten by Persephoné, before she was carried off by Pluto. He was torn to pieces by the Titans, after he had assumed various shapes to evade them. His mangled remains were buried at Delphi, and Athené brought his heart to Zeus, who swallowed it and thereupon brought forth a new Dionysus called Iacchus, who was nursed by nymphs and satyrs in a winnowingbasket (<seg lang="la">vannus</seg>), thenceforth a symbol of Dionysus. The story, nearly akin to the Egyptian myth of Osiris, whom the Greeks identified with Dionysus, is now regarded as a myth, in the first place, of the death in winter and renewal in spring of the vegetation; for the swinging of the basket was the ritual by which in early times it was sought to rouse the plant-life from its sleep; and, in the second place, it expressed the belief in a death and a resurrection: for both these reasons Iacchus (or Dionysus) was associated with Demeter and Coré (or Persephoné) in the Mysteries. The notoriety of the evils resulting from the worst festivals of Dionysus, and the evil repute of the Bacchanalia, have tended to obscure the purer and more elevating part of the religion, but it is important not to forget it. The rending of Dionysus-Zagreus cannot be dismissed as merely the crushing of the <cb /> grape; it is rather the tearing of the victims in savage sacrifices, possibly in “totem” sacrifices; and in such sacrifices the deity, that is, sacred animal (at one time a human sacrifice), was often slain, and the eating of the slaughtered victim was supposed to give to the worshippers some of the strength and power of the deity. Out of some such ritual the story of the death of Zagreus probably arose. The rites spread westward from Crete through the islands, and so reached Athens ( <bibl n="Diod.  5. 74" default="NO" valid="yes">Diod.v. 74</bibl>). Hence perhaps the savage worship of Dionysus <foreign lang="greek">ὠμηστής</foreign> (eater of raw flesh) at Lesbos, Chios, and Tenedos, betokening human sacrifice to the god of vines in early times, though it may as probably have been derived from Thrace or Phrygia; for the frantic worship of the Thracian or the Boeotian <seg lang="la">thiasus</seg> had the same characteristics. At Naxos his rites were less barbarous, and that island, which claimed also to be the birthplace of the god, seems to have passed on some of the ritual, including the marriage of Dionysus, to Athens. Dionysus, or Bacchus, was introduced into the Roman worship through Magna Graecia and Etruria, and with all the worst features of the rites, and the name and story of Bacchus took the place of the native Italian deity of the vintage. See <ref type="cross" target="crossdionysia">Dionysia</ref>; <ref type="cross" target="crossdionysus">Dionysus</ref>; <ref type="cross" target="crossmysteria">Mysteria</ref>.
+ </p></div2>
+ 
+<div2 id="crosszagros" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zagros">Zagros</head>
+
+ <p> (<foreign lang="greek">Ζάγρος</foreign>). A range of mountains forming the southeastern continuation of the Taurus along the Tigris and Euphrates rivers.
+ </p></div2>
+ 
+<div2 id="crosszaleucus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zaleucus">Zaleucus</head>
+
+ <p> (<foreign lang="greek">Ζάλευκος</foreign>). The celebrated lawgiver of the Epizephyrian Locrians, is said by some to have been originally a slave, but is described by others as a man of good family. He could not, however, have been a disciple of Pythagoras, as some writers state, since he lived upwards of one hundred years before Pythagoras. The date of the legislation of Zaleucus is assigned to B.C. 660. His code, which was severe, is stated to have been the first collection of written laws that the Greeks possessed (Strabo, pp. 259, 398). Among other enactments we are told that the penalty of adultery was the loss of the eyes ( <title>V. H.</title> xiii. 24; Val. Max. v. 5, 3). There is a celebrated story of the son of Zaleucus having become liable to this penalty, and the father himself suffering the loss of one eye, that his son might not be utterly blinded. It is further related that among his laws was one forbidding any citizen, under penalty of death, to enter the senate-house in arms. On one occasion, however, on a sudden emergency in time of war, Zaleucus transgressed his own law, which was remarked to him by one present; whereupon he fell upon his own sword, declaring that he would himself vindicate the law (Eustath.  <title>ad Il.</title>p. 62). Other 
+<pb n="1679" /><cb /> authors tell the same story of Charondas, and of Diocles ( <bibl n="Diod.  12. 19" default="NO" valid="yes">Diod.xii. 19</bibl>; Val. Max. vi. 5, 4).
+ </p></div2>
+ 
+<div2 id="crosszalmoxis" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zalmoxis">Zalmoxis</head>
+
+ <p> (<foreign lang="greek">Ζάλμοξις</foreign>) or <hi rend="bold">Zamolxis</hi> (<foreign lang="greek">Ζάμολξις</foreign>). Said to have been so called from the bear's skin (<foreign lang="greek">ζάλμος</foreign>) in which he was clothed as soon as he was born. He was, according to the story current among the Greeks on the Hellespont, a Getan, who had been a slave to Pythagoras in Samos, but was manumitted, and acquired not only great wealth, but large stores of knowledge from Pythagoras, and from the Egyptians, whom he visited in the course of his travels. He returned among the Getae, introducing the civilization and the religious ideas which he had gained, especially regarding the immortality of the soul. Herodotus, however, suspects that he was an indigenous Getan divinity ( <bibl n="Hdt.  4. 95" default="NO" valid="yes">Herod.iv. 95</bibl>).
+ </p></div2>
+ 
+<div2 id="crosszama-regia" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zama Regia">Zama Regia</head>
+
+ <p> (<foreign lang="greek">Ζάμα</foreign>). Now Zowarîn, southeast of Kaff. A strongly fortified city in the interior of Numidia, on the borders of the Carthaginian territory. It was the scene of one of the most important battles in the history of the world, that in which Hannibal was defeated by Scipio, and the Second Punic War was ended, B.C. 202. See Köhn, <bibl default="NO"><title>De Pugna ad Zamam Commissa</title> (Halle, 1888)</bibl>; and the articles <ref type="cross" target="crosshannibal">Hannibal</ref>; <ref type="cross" target="crosspunic-wars">Punic Wars</ref>.
+ </p></div2>
+ 
+<div2 id="crosszancha" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zancha">Zancha</head>
+
+ <p> or <hi rend="bold">Zanga.</hi> A high and close boot, made of soft black leather (Acron. <seg lang="la">ad</seg>  <bibl n="Enn.  Sat. 1. 6" default="NO"> <title>Sat.</title>i. 6</bibl><bibl n="Enn.  Sat. 27" default="NO"> Sat., 27</bibl>), worn by the Oriental races under their trousers (<seg lang="la">bracae</seg>) (Imp. <hi rend="italic"> Gall.ap.</hi> <title>Claud.</title> 17).
+ </p></div2>
+ 
+<div2 id="crosszancle" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zanclé">Zancle</head>
+
+ <p> See <ref type="cross" target="crossmessana">Messana</ref>.
+ </p></div2>
+ 
+<div2 id="crosszarangae" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zarangae">Zarangae</head>
+
+ <p> The same as the Drangae, or natives of <ref type="cross" target="crossdrangiana">Drangiana</ref> (q.v.).
+ </p></div2>
+ 
+<div2 id="crosszela" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zela">Zela</head>
+
+ <p> (<foreign lang="greek">τὰ Ζῆλα</foreign>) or <hi rend="bold">Ziēla.</hi> Now Zilleh; a city in the south of Pontus, not far south of Amasia. The surrounding district was called <hi rend="SmallCaps">Zeletis</hi> or <hi rend="SmallCaps">Zelitis</hi>. At Zela the Roman general Valerius Triarius was defeated by Mithridates; but the city is more celebrated for another great battle, that in which Iulius Caesar defeated Pharnaces, and of which he wrote his famous despatch to Rome—<title>Veni, vidi, vici</title> ( <bibl n="Plut. Caes. 50" default="NO" valid="yes">Plut. <title>Caes.</title>50</bibl>; <title>Mithr.</title> 89; <title>Bell. Alex.</title> 73).
+ </p></div2>
+ 
+<div2 id="crosszelea" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zelēa">Zelea</head>
+
+ <p> (<foreign lang="greek">Ζέλεια</foreign>). An ancient city of Mysia, at the foot of Mount Ida, and on the river Aesopus, eighty stadia from its mouth, belonging to the territory of Cyzicus. It was the headquarters of the Persian army at the time of Alexander's invasion ( <bibl n="Xen. Anab. 1. 13" default="NO" valid="yes"> <title>Anab.</title>i. 13</bibl>).
+ </p></div2>
+ 
+<div2 id="crosszelus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zelus">Zelus</head>
+
+ <p> (<foreign lang="greek">Ζῆλος</foreign>). The personification of zeal or strife, described as a son of Pallas and Styx, and a brother of Niké.
+ </p></div2>
+ 
+<div2 id="crosszema" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zema">Zema</head>
+
+ <p> (<foreign lang="greek">ζέμα</foreign>). A vessel used for boiling (Apic. viii. 1).
+ </p></div2>
+ 
+<div2 id="crosszeno" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zeno">Zeno</head>
+
+ <p> (<foreign lang="greek">Ζήνων</foreign>). (1) The founder of the School of the Stoics, born at Citium, in the island of Cyprus. His father was a merchant, but, noticing in his son a strong bent towards learning, he early devoted him to the study of philosophy. In his mercantile capacity, the father had frequent occasions to visit Athens, where he purchased for the young Zeno several of the writings of the most eminent Socratic philosophers. These he read with great avidity; and, when about thirty years of age, he determined to take a voyage to a city which was so celebrated. Upon his first arrival in Athens, going accidentally into the shop of a bookseller, he took up a volume of the commentaries of Xenophon, and, after reading a few passages, was so <cb /> much delighted with the work, and formed so high an idea of its author, that he asked the bookseller where he might meet with such men. Crates, the Cynic philosopher, happening at that instant to be passing by, the bookseller pointed to him, and said, “Follow that man.” Zeno soon found an opportunity of attending upon the instructions of Crates, and was so well pleased with his doctrine that he became one of his disciples. But, though he highly admired the general principles and spirit of the Cynic School, he could not easily reconcile himself to their peculiar manners. Besides, his inquisitive turn of mind would not allow him to adopt that indifference to every scientific inquiry which was one of the characteristic distinctions of the sect. He therefore attended upon other masters, who professed to instruct their disciples in the nature and causes of things. When Crates, displeased at his following other philosophers, attempted to drag him by force out of the school of Stilpo, the Megarian, Zeno said to him, “You may seize my body, but Stilpo has laid hold of my mind.” After continuing to attend the lectures of Stilpo for several years, he passed over to other schools, particularly those of Xenocrates and Diodorus Chronus. By the latter he was instructed in dialectics. At last, after attending almost every other teacher, he offered himself as a disciple of Polemo. This philosopher appears to have been aware that Zeno's intention in thus passing from one school to another was to collect materials from various quarters for a new system of his own; for, when he came into Polemo's school, the latter said to him, “I am no stranger to your Phoenician arts, Zeno; I perceive that your design is to creep slyly into my garden and steal away my fruit.” Polemo was not mistaken in his opinion. Having made himself master of the views of others, Zeno determined to become the founder of a new sect. The place which he made choice of for his school was called the Poecilé (<foreign lang="greek">Ποικίλη Στοά</foreign>), or “Painted Porch,” a public portico, so called from the pictures of Polygnotus and other eminent masters with which it was adorned. This portico, being the most famous in Athens, was called, by way of distinction, <foreign lang="greek">Στοά</foreign>, “the Porch.” It was from this circumstance that the followers of Zeno were called <title>Stoics</title> (<foreign lang="greek">Στωϊκοί</foreign>), i. e. “men of the Porch.”</p>
+ <p>Zeno excelled in that kind of subtle reasoning which was then popular. At the same time, he taught a strict system of moral doctrine, and exhibited a model of moral discipline in his own life. The Stoic School, in fact, was a branch of the Cynic, and, so far as respected morals, differed from it more in words than in reality. Its founder, while he avoided the eccentricities of the Cynics, retained the spirit of their moral teaching; and at the same time, from a diligent comparison of the tenets of other masters, he framed a new system of speculative philosophy. It is not at all surprising, therefore, that he obtained a considerable vogue, and even enjoyed the favour of the great. Antigonus Gonatas, king of Macedon, while residing at Athens, attended his lectures, and, upon his return, earnestly invited him to his court. Zeno, in fact, possessed so large a share of esteem among the Athenians that, on account of his approved integrity, they deposited the keys of their citadel in his hands. They also honoured him with a golden crown and a statue of bronze. Among his countrymen, the inhabitants of Cyprus, and with the Sidonians 
+<pb n="1680" /><cb /> from whom his family was derived, he was likewise highly esteemed.</p>
+ <p>In his person Zeno was tall and slender; his aspect was stern, and his brow contracted. His constitution was feeble, but he preserved his health by great abstemiousness. His food consisted only of figs, bread, and honey; yet his table was frequently honoured with the company of great men. He paid more attention to neatness in his personal appearance than did the Cynic philosophers. In his dress, indeed, he was plain, but this is not to be imputed to avarice, but to a contempt of external magnificence. He showed as much respect to the poor as to the rich, and conversed freely with persons of the meanest occupations. He had only one servant, or, according to Seneca, none. Although Zeno's sobriety and continence were even proverbial, he was not without enemies. Among his contemporaries, several philosophers of great ability and eloquence employed their talents against him. Arcesilaüs and Carneades, the founders of the Middle Academy, were his professed opponents. Towards the close of his life, also, he found another powerful antagonist in <ref type="cross" target="crossepicurus">Epicurus</ref> (q.v.), whose temper and doctrines were alike inimical to the severe gravity and philosophical pride of the Stoic sect. Hence mutual invectives passed between the Stoics and other sects.</p>
+ <p>Zeno lived to the extreme age of ninety-eight, and at last, in consequence of an accident, put an end to his life. As he was walking out of his school he fell down, and in the fall broke one of his fingers. He was so affected by this with a consciousness of infirmity that, striking the earth, he exclaimed, <foreign lang="greek">Ἔρχομαι, τί μ ἀΰεις</foreign>; “I am coming, why do you call me?” and immediately went home and strangled himself. He died B.C. 264. The Athenians, at the request of Antigonus, erected a monument to his memory in the Ceramicus.</p>
+ <p>His writings, of which a list is given by Diogenes Laertius (vii. 4), have all been lost. They treated of the State, and of the Life according to Nature. For his doctrines, see <bibl default="NO">Zeller, <title>Stoics, Epicureans, and Skeptics</title> (1870)</bibl>, and the articles <ref type="cross" target="crossphilosophia">Philosophia</ref>; <ref type="cross" target="crossstoici">Stoïci</ref>.
+ </p>
+ <p>(2) The Eleatic philosopher, a native of Elea (Velia) in Italy, son of Teleutagoras, and the favourite disciple of Parmenides. He was born about B.C. 488, and at the age of forty accompanied Parmenides to Athens. (See <ref type="cross" target="crossparmenides">Parmenides</ref>.) He appears to have resided some time at Athens, and is said to have unfolded his doctrines to men like Pericles and Callias for the price of 100 minae. Zeno is said to have taken part in the legislation of Parmenides, to the maintenance of which the citizens of Elea had pledged themselves every year by an oath. His love of freedom is shown by the courage with which he exposed his life in order to deliver his native country from a tyrant. Whether he perished in the attempt or survived the fall of the tyrant is a point on which the authorities vary. They also state the name of the tyranny differently. Zeno devoted all his energies to explain and develop the philosophical system of Parmenides. See <bibl default="NO">Zeller's <title>Pre-Socratic Schools</title> (1881)</bibl>.
+ </p>
+ <p>(3) An Epicurean philosopher, a native of Sidon, and a contemporary of Cicero, who heard him when at Athens. He was sometimes termed <title>Coryphaeus Epicureorum.</title> He seems to have been noted for the disrespectful terms in which he spoke of other philosophers, calling, for instance, Socrates “the <cb /> Attic buffoon.” He was a disciple of Apollodorus, and is described as a clear-headed thinker and perspicacious expounder of his views.
+ </p></div2>
+ 
+<div2 id="crosszenobia" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zenobia">Zenobia</head>
+
+ <p> (<foreign lang="greek">Ζηνοβία</foreign>). A celebrated princess, wife of Odenathus, and after his death queen of <ref type="cross" target="crosspalmyra">Palmyra</ref> (q.v.). With equal talents for jurisprudence, finance, and government, her agile and elastic frame enabled her to direct and share the toils of war. Disdaining the litter, she was continually on horseback, and could even keep pace on foot with the march of her soldiery. History has preserved some reminiscences of her personal appearance, her dress, and her habits, which represent her as a woman of engaging beauty, gifted with the graces of a court, and accomplished in intellectual endowments. In complexion a brunette, her teeth were of a pearly whiteness, and her eyes black and sparkling; her mien was animated, and her voice clear and powerful. With a helmet on her head, and wearing a purple mantle fringed with gems and clasped with a buckle at the waist, so as to leave one of her arms bare to the shoulder, she presented herself at the council of war; and adopting from policy a regal pomp, she was worshipped with Persian prostration. Pure in her manners to the utmost refinement of delicacy, and temperate in her habits, she would nevertheless challenge in their cups her Persian and Armenian guests, and retire the victor without drunkenness. Chiefly versed in the languages of Syria and Egypt, her diffidence restrained her from conversing freely in Latin; but she had read the Roman history in Greek, was herself an historian, and had compiled the annals of Alexandria and the East. Her authority was acknowledged by a large portion of Asia Minor when the Roman emperor Aurelian succeeded to the throne. Jealous of her power, and determined to dispossess her of some of the rich provinces comprehended in her dominions, he marched at the head of a powerful army to Asia. Having defeated the queen's general near Antioch, he compelled her to retreat to Emesa. Under the walls of this city another engagement was fought, in which the emperor was again victorious. The queen fled to Palmyra, determined to support a siege. Aurelian followed her, and, on making his approaches to the walls, found them mounted in every part with mural engines, which plied the besiegers with stones, darts, and fire-balls. To the summons for a surrender of the city and kingdom, on the condition of her life being spared, Zenobia replied in a proud and spirited letter, written in Greek by her secretary, the celebrated <ref type="cross" target="crosslonginus">Longinus</ref> (q.v.). Her hopes of victory soon vanished; and, though she harassed the Romans night and day by continual sallies from her walls and the working of her military engines, she despaired of success when she heard that the armies which were marching to her relief from Armenia, Persia, and the East had either been intercepted or gained over by the foe. She fled from Palmyra in the night on her dromedaries, but was overtaken by the Roman cavalry while attempting to cross the Euphrates, and was brought into the presence of Aurelian, and tried before a tribunal at Emesa, Aurelian himself presiding. The soldiers were clamorous for her death, but she, in a manner unworthy of her former fame, saved her own life by throwing the blame on her counsellors, especially on Longinus, who was, in consequence, put to death. Zenobia was carried 
+<pb n="1681" /><cb /> to Rome, to grace the emperor's triumph (A.D. 274), and was led along in chains of gold. She is said to have almost sunk beneath the weight of jewels with which she was adorned on that occasion. She was treated with great humanity, and Aurelian gave her large possessions near Tiber, where she was permitted to pass the remainder of her days. Her two sons afterwards married into distinguished families at Rome. See the life of Aurelian by Vopiscus; and Ware's historical romance, <bibl default="NO"><title>Zenobia</title> (N. Y. 1837)</bibl>.
+ </p></div2>
+ 
+<div2 id="crosszenobius" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zenobius">Zenobius</head>
+
+ <p> (<foreign lang="greek">Ζηνόβιος</foreign>). A Greek Sophist of Antioch, who lived at Rome as teacher of rhetoric in the first half of the second century B.C., and, availing himself of the works of earlier writers, made a collection of proverbs, still extant in an abridged form, arranged alphabetically and divided into hundreds. In all there are 552, the last division being incomplete. They are printed by Schott in his <bibl default="NO"><title>Paroemiae Hellenicae</title> (Antwerp, 1612)</bibl>. See <bibl default="NO">Jungblut, <title>De Zenobio</title> (1882)</bibl>.
+ </p></div2>
+ 
+<div2 id="crosszenodorus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zenodōrus">Zenodorus</head>
+
+ <p> (<foreign lang="greek">Ζηνόδωρος</foreign>). A Greek statuary, whose native country is uncertain. He practised his art in Cisalpine Gaul, and also in Rome during the reign of Nero. Pliny speaks of a Mercury of his, and also of a colossal statue of Nero 110 feet high, afterwards dedicated to the Sun on the downfall of that emperor. See <ref type="cross" target="crosscolossus">Colossus</ref>.
+ </p></div2>
+ 
+<div2 id="crosszenodotus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zenodŏtus">Zenodotus</head>
+
+ <p> (<foreign lang="greek">Ζηνόδοτος</foreign>). A celebrated grammarian of Ephesus, superintendent of the great library at Alexandria, who flourished under Ptolemy Philadelphus, about B.C. 308. Zenodotus was employed by Philadelphus, together with his two contemporaries, Alexander the Aetolian and Lycophron the Chalcidian, to collect and revise all the Greek poets. Alexander, we are told, undertook the task of collecting the tragedies, Lycophron the comedies, and Zenodotus the poems of Homer and of the other illustrious poets. Zenodotus, however, devoted his chief attention to the <title>Iliad</title> and <title>Odyssey.</title> Hence he is called the first reviser (<foreign lang="greek">διορθωτής</foreign>) of Homer, and his recension (<foreign lang="greek">διόρθωσις</foreign>) of the <title>Iliad</title> and <title>Odyssey</title> obtained the greatest celebrity. The corrections which Zenodotus applied to the text of Homer were of three kinds: (1) He expunged verses;</p>
+ <p>(2) he marked some as spurious, but left them in his copy;</p>
+ <p>(3) he introduced new readings and transposed or altered verses. The great attention which Zenodotus paid to the language of Homer caused a new epoch in the grammatical study of the Greek language. The results of his investigations respecting the meaning and the use of words were contained in two works which he published under the title of a glossary (<foreign lang="greek">Γλῶσσαι</foreign>), and a dictionary of barbarous or foreign phrases. See Düntzer, <bibl default="NO"><title>De Zenodoti Studiis Homericis</title> (Göttingen, 1848)</bibl>; Römer, <bibl default="NO"><title>Ueber die Homerrecension des Zenod.</title> (Munich, 1885)</bibl>; and the article <ref type="cross" target="crosstextual-criticism">Textual Criticism</ref>.
+ </p></div2>
+ 
+<div2 id="crosszephyrium" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zephyrium">Zephyrium</head>
+
+ <p> (<foreign lang="greek">Ζεφύριον</foreign>, sc. <foreign lang="greek">ἀκρωτήριον</foreign>, i. e. “the western promontory”). The name of several promontories of the ancient world, not all of which, however, faced the west. The chief of them were: (1) Now C. di Brussano, a promontory in Bruttium, forming the southeastern extremity of the country, from which the Locri, who settled in the neighbourhood, are said to have obtained the name of Epizephyrii. (See <ref type="cross" target="crosslocri">Locri</ref>.)</p>
+ <p>(2) A promontory on the west coast of Cyprus.</p>
+ <p>(3) In Cilicia (prob. C. Cavaliere), a far-projecting promontory, west of Prom. Sarpedon. <cb />
+ </p></div2>
+ 
+<div2 id="crosszephyrus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zephyrus">Zephyrus</head>
+
+ <p> (<foreign lang="greek">Ζέφυρος</foreign>). The personification of the west wind, described by Hesiod as a son of Astraeus and Eos. Zephyrus and Boreas are frequently mentioned together by Homer, and both <figure id="fig.01681">
+<head orig="Zephyrus. (From the Tower of the Winds at Athens.)">Zephyrus. (From the Tower of the Winds at Athens.)</head>
+</figure> dwelt together in a palace in Thrace. By the Harpy Podargé, Zephyrus became the father of the horses Xanthus and Balius, which belonged to Achilles ( <bibl n="Hom. Il. 16. 150" default="NO" valid="yes"> <title>Il.</title>xvi. 150</bibl>); but he was married to Chloris, whom he had carried off by force, and by whom he had a son, Carpus.
+ </p></div2>
+ 
+<div2 id="crosszerynthus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zerynthus">Zerynthus</head>
+
+ <p> (<foreign lang="greek">Ζήρυνθος</foreign>). A town of Thrace, in the territory of Aenos, with a temple of Apollo and a cave of Hecaté, who are hence called Zerynthius and Zerynthia respectively.
+ </p></div2>
+ 
+<div2 id="crosszetes" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zetes">Zetes</head>
+
+ <p> (<foreign lang="greek">Ζήτης</foreign>) and <hi rend="bold">Calăis</hi> (<foreign lang="greek">Κάλαϊς</foreign>). The sons of Boreas and Orithyia, frequently called the <hi rend="SmallCaps">Boreadae</hi>, are mentioned among the Argonauts, and are described as winged beings (<bibl n="Pind. P. 4.325" default="NO" valid="yes"><title>Pyth.</title> iv. 325</bibl>; <bibl n="A. R. 1.219" default="NO" valid="yes">Ap. Rh. i. 219</bibl>). Their sister, Cleopatra , who was married to Phineus, king of Salmydessus, had been thrown with her sons into prison by Phineus at the instigation of his second wife. Here she was found by Zetes and Calaïs, when they arrived at Salmydessus in the Argonautic expedition. They liberated their sister and her children, gave the kingdom to the latter, and sent the second wife of Phineus to her own country, Scythia ( <bibl n="Diod.  4. 44" default="NO" valid="yes">Diod.iv. 44</bibl>). Other accounts relate that the Boreadae delivered Phineus from the Harpies; for it had been foretold that the Harpies might be killed by the sons of Boreas, but that the sons of Boreas must die if they should not be able to overtake the Harpies ( <bibl n="Apollod.  1.9.21" default="NO" valid="yes">Apollod.i.9.21</bibl>). Others, again, state that the Boreadae perished in their pursuit of the Harpies, or that Heracles killed them with his arrows near the island of Tenos ( <bibl n="Hyg. Fab. 14" default="NO" valid="yes">Hyg. <title>Fab.</title>14</bibl>). Their tombs were said to be in Tenos, adorned with sepulchral <seg lang="la">stelae</seg>, one of which moved whenever the wind blew from the north. Calaïs is also mentioned as the founder of the Campanian town of Cales (Sil. It. viii. 515). See <ref type="cross" target="crossharpyiae">Harpyiae</ref>.
+ </p></div2>
+ 
+<div2 id="crosszetetae" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zetētae">Zetetae</head>
+
+ <p> (<foreign lang="greek">ζητηταί</foreign>). Officials at Athens appointed on special occasions: (1) as investigators of crimes, to discover the authors and to bring them to punishment; and</p>
+ <p>(2) to discover property confiscated to the State, and to receive information against persons who concealed property to which the State had a claim. See Schöll, <title>Quaestiones Fiscales Iuris Attici</title>, etc. <bibl default="NO">(Berlin, 1893)</bibl>.
+ </p></div2>
+ 
+<div2 id="crosszethus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zethus">Zethus</head>
+
+ <p> (<foreign lang="greek">Ζῆθος</foreign>). Brother of Amphion. See <ref type="cross" target="crossamphion">Amphion</ref>.
+ </p></div2>
+ 
+<div2 id="crosszeugis" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zeugis, Zeugitāna Regio">Zeugis, Zeugitana Regio</head>
+
+ <p> (<foreign lang="greek">ἡ Ζευγιτανή</foreign>). The northern part of Tunis. The northern district of Africa Propria. See <ref type="cross" target="crossafrica">Africa</ref>.
+ </p></div2>
+ 
+<div2 id="crosszeugitae" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zeugĭtae">Zeugitae</head>
+
+ <p> (<foreign lang="greek">ζευγῖται</foreign>). See <ref type="cross" target="crosssolon">Solon</ref>.
+ </p></div2>
+ 
+<div2 id="crosszeugma" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zeugma">Zeugma</head>
+
+ <p> (<foreign lang="greek">Ζεῦγμα</foreign>). Probably Rumkaleh; a city of Syria, on the borders of Commagené and Cyrrhesticé, 
+<pb n="1682" /><cb /> built by Seleucus Nicator on the western bank of the Euphrates, at a point where the river was crossed by a bridge of boats, which had been constructed by Alexander the Great (Polyb. v. 43).
+ </p></div2>
+ 
+<div2 id="crosszeus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zeus">Zeus</head>
+
+ <p> (<foreign lang="greek">Ζεύς</foreign>). The supreme god in the Greek mythology; according to the common legend, the eldest son of Cronus and Rhea, hence called <hi rend="SmallCaps">Cronides</hi>. According to a myth indigenous to Crete, he was the youngest son, and Rhea, in dread of Cronus, who had swallowed all his previous children, bore him secretly in a cave of the island, where he was suckled by the goat <ref type="cross" target="crossamalthea">Amalthea</ref> (q.v.), while the <ref type="cross" target="crosscuretes">Curetes</ref> (q.v.) drowned the cries of the child by the clash of their weapons; but Rhea outwitted Cronus by giving him a stone to swallow instead. When he was grown up, Zeus married <ref type="cross" target="crossmetis">Metis</ref> (q.v.), who, by means of a charm, compelled Cronus to disgorge the children he had swallowed. When, with the help of his brothers and sisters, Poseidon, Hades, Hestia, Demeter, and Heré, he had overthrown Cronus and the Titans, the world was divided into three parts, Zeus obtaining heaven, <figure id="fig.01682">
+<head orig="Zeus of Otricoli. (Vatican.)">Zeus of Otricoli. (Vatican.)</head>
+</figure> Poseidon the sea, and Hades the lower world; the earth and Olympus being appointed for the common possession of all the three. But the king of the gods is Zeus, whose power, as Homer says, is greater than that of all the other gods together.</p>
+ <p>Next to him, but in a subordinate position, stands, as queen of the gods, his sister and consort Heré, the mother of Ares, Hephaestus, and Hebé, who was regarded as preëminently his rightful wife. Not incompatible with this, however, was the idea that the marriage with Heré was the <cb /> earliest of a series of marriages with other goddesses—first, according to Hesiod, with Metis, whom he swallowed, in order to bring forth Athené from his own head; then with Themis, the mother of the Hours and the Fates; afterwards with Eurynomé, the mother of the Graces; Demeter, the mother of Persephoné; Mnemosyné, the mother of the Muses; and Leto, the mother of Apollo and Artemis. The fact that still later, in Dodona, Dioné, the mother of Aphrodité, was also honoured as the wife of Zeus shows the origin of the legend. Originally different wives of Zeus were recognized in the different local cults. When the legend of the marriage with Heré had become the predominant one, an attempt was made to harmonize the different versions of the story by the supposition of successive marriages. In the same way the loves of Zeus with half-divine, half-mortal women, of whom Alcmené, the mother of Heracles, was said to be the last, were originally rural legends, which derived the descent of indigenous divinities, like Hermes and Dionysus, or of heroes and noble families, from the highest god; and not until they had become the common property of the whole Greek people, which was practically the case as early as the time of Homer, could the love affairs of the greatest of the gods become the theme of those mythical stories which are so repugnant to modern taste.</p>
+ <p>The very name of Zeus (Skt. <hi rend="italic">dyaus</hi>, “the bright sky”) identifies him as the god of the sky and its phenomena. As such he was everywhere worshipped on the highest mountains, on whose summits he was considered to be enthroned. Of all places the Thessalian mountain <ref type="cross" target="crossolympus">Olympus</ref> (q.v.), even in the earliest ages, met with the most general recognition as the abode of Zeus and of the gods who were associated with him. From Zeus come all changes in the sky or the winds; he is the gatherer of the clouds, which dispense the fertilizing rain, while he is also the thunderer, and the hurler of the irresistible lightning. As by the shaking of his <ref type="cross" target="crossaegis">aegis</ref> (q.v.) he causes sudden storm and tempest to break forth, so he calms the elements again, brightens the sky, and sends forth favouring winds. The changes of the seasons also proceed from him as the father of the Hours.</p>
+ <p>As the supreme lord of heaven, he was worshipped under the name of Olympian Zeus in many parts of Greece, but especially in Olympia, where the Olympian <ref type="cross" target="crossgames">Games</ref> (q.v.) were celebrated in his honour. The cult of Zeus at the ancient seat of the oracle at Dodona recognized his character as dispenser of the fertilizing dew. Among the numerous mountaincults in the Peloponnesus, the oldest and most original was that of the Lycaean Zeus, on Mount Lycaeus in Arcadia, where human beings were actually sacrificed to him in propitiation. (See <ref type="cross" target="crosslycaea">Lycaea</ref>.) In Attica, again, many festivals refer to the god as a personification of the powers of nature. Various rites of purification and expiation were observed in his honour as the god of wrath (<foreign lang="greek">Μαιμάκτης</foreign>), in the month Maemacterion (Nov. -Dec.), at the beginning of the winter storms; while towards the end of winter he was worshipped as the gracious god (<foreign lang="greek">Μειλίχιος</foreign>) at the festival of the <ref type="cross" target="crossdiasia">Diasia</ref> (q.v.). Among the islands, Rhodes and Crete were the principal seats of the 
+<pb n="1683" /><cb /> <figure id="fig.01683">
+<head orig="Interior of the Temple of Zeus in Olympia. (Restoration by Bühlmann.)">Interior of the Temple of Zeus in Olympia. (Restoration by Buhlmann.)</head>
+</figure> worship of the sky-god; not only his birth but also his death was there celebrated, and even his grave was shown, in accordance with the widely spread notion that the annual death of Nature in winter was the death of the god. In Asia, the summit of Mount Ida in the Troad was especially and beyond all other places sacred to Zeus.</p>
+ <p>As he presides over the gods and the whole of nature, so also is he the ruler of men, who all stand in need of his help, and to whom, according to Homer, he weighs out their destinies on golden scales, and distributes good and evil out of the two jars which stand in his palace, filled the one with good and the other with evil gifts. But his natural attributes are goodness and love; hence Homer calls him “the father of gods and men.” He gives to all things a good beginning and a good end: he is the saviour in all distress. To Zeus the Saviour (<foreign lang="greek">Σωτήρ</foreign>) it was customary to drink the third cup at a meal, and in Athens to sacrifice on the last day of the year. From him comes everything good, noble, and strong, and also bodily vigour and valour, which were exhibited in his honour, particularly at the Olympian and Nemean Games. He is also the giver of victory; indeed, the goddess of victory (see <ref type="cross" target="crossnike">Niké</ref>), and her brothers and sister, Force, Might, and Strife (<foreign lang="greek">Βία, Κράτος, Ζῆλος</foreign>), are his constant companions. From him, as ruler of the world, proceed those universal laws which regulate the course of all things, and he knows and sees everything, the future as well as the past. Hence all revelation comes in the first instance from him. At times he himself announces to mortals his hidden counsels by manifold signs, thunder and lightning and other portents in the sky; by birds, especially the eagle, which was sacred to him; by prophetic voices (see <ref type="cross" target="crossmantike">Mantiké</ref>) and <cb /> special oracles. (See <ref type="cross" target="crossammon">Ammon</ref>; <ref type="cross" target="crossdodona">Dodona</ref>; <ref type="cross" target="crossoracula">Oracula</ref>.) At times he makes use of other deities for this purpose, chiefly of his son Apollo, through whose mouth he speaks at Delphi in particular. Thus the course of the world is ordained by him; he is the author and preserver of all order in the life of men. In conjunction with Themis, Diké, and Nemesis, he watches over justice and truth, the foundations of human society; in particular he is the special god who guards the sanctity of the oath; he is also the avenger of perjury, the keeper of boundaries and of property, the defender of the laws of hospitality and the rights of the suppliant. But nevertheless to him who has offended against the laws of human life, Zeus, as the supreme god of atonement, offers the power of expiating his guilt by rites of purification. As he presides over the family and community of the gods, so also he is the chief patron of the family and of all communal life. In the former relation he was especially worshipped in all branches of the family as protector of house and home (<foreign lang="greek">Ἑρκεῖος</foreign>), and defender of the domestic hearth (<foreign lang="greek">Ἐφέστιος</foreign>): in the latter, as the shield of the State, e. g. in Athens at the <ref type="cross" target="crossdiipolia">Diipolia</ref> (q.v.); as director of the popular assembly and of the council; as the god of covenants; as the source of kingship, whose symbol, the sceptre, was traced back to him. From him also proceed both national and personal freedom; hence a sanctuary was dedicated at Athens by freedmen to Zeus the Liberator (<foreign lang="greek">Ἐλευθέριος</foreign>); and after the battle of Plataea a thanksgiving festival, <ref type="cross" target="crosseleutheria">Eleutheria</ref> (q.v.), was instituted by the allied Greeks, which was still celebrated by the Plataeans in Roman times, and attended by deputies from the other States.</p>
+ <p>Zeus is to the Greeks—as <ref type="cross" target="crossiupiter">Iupiter</ref> (q.v.), who in 
+<pb n="1684" /><cb /> his principal characteristics exactly corresponds to him, is to the Romans—the essence of all divine power. No deity received such widespread worship; all the others were, in the popular belief, subordinated to him at a greater or less distance. The active operations of most of the gods appear only as an outcome of his being, particularly those of his children, among whom the nearest to him are Athené and Apollo, his favourites, who often seem to be joined with their father in the highest union.</p>
+ <p>The eagle and the oak were sacred to Zeus; the eagle, together with the sceptre and the lightning, is also one of his customary attributes. The most famous statue of Zeus in antiquity was that executed by Phidias in gold and ivory for the temple at Olympia. It represented the enthroned Olympian god with a divine expression of the highest dignity, and at the same time with the benevolent mildness of the deity who graciously listens to prayer. The figure of the seated god was about forty feet high; and since the base was as high as twelve feet, the statue almost touched with its crown the roof of the temple, so as to call forth in the spectator the feeling that no earthly dwelling would be adequate for such a divinity. The bearded head was ornamented with a wreath of olive leaves, the victor's prize at Olympia. The upper part of the body, made of ivory, was naked, the lower part was wrapped in a golden mantle falling from the hips to the feet, which, adorned with golden sandals, rested on a footstool. Beside this lay golden lions. The right hand bore the goddess of victory, the left the sceptre, surmounted by an eagle. Like the base, and the whole space around, the seat of the throne was decorated with various works of art. It was supported by figures of the goddess of victory; and on the back of the throne, which rose above the head of the god, were represented the hovering forms of the Hours and the Graces. This statue was the model for most of the later representatives of Zeus. Among those that are extant the well-known bust of Zeus found at Otricoli (Ocriculum in Umbria), and now in the Vatican Museum, is supposed to be an imitation of the great work of Phidias. In the most direct relation to the latter stand the figures of Zeus on the coins of Elis (see <ref type="cross" target="crosselis">Elis</ref>, p. 587). Among the standing statues of Zeus the most famous was the bronze colossus, forty cubits (or sixty feet) high, by Lysippus at Tarentum. See <ref type="cross" target="crosscolossus">Colossus</ref>. On the general relation of Zeus to the mythological system of the Greeks, see Preller, <bibl default="NO"><title>Griechische Mythologie</title> (last ed. rev. by Robert, Berlin, 1887)</bibl>; and Welcker, <bibl default="NO"><title>Griechische Götterlehre</title> (1857-63)</bibl>.
+ </p></div2>
+ 
+<div2 id="crosszeuxis" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zeuxis">Zeuxis</head>
+
+ <p> (<foreign lang="greek">Ζεῦξις</foreign>). A celebrated Greek painter of the Ionic School, a contemporary of Parrhasius; he was a native of Heraclea in South Italy, and lived till about B.C. 400 at different places in Greece, at last, as it appears, settling in Ephesus. According to the accounts of his works which have been preserved, in contrast to the great mural painter, Polygnotus, he especially devoted himself to painting on panels. He endeavoured above all things to make his subjects attractive by investing them with the charm of novelty and grace. He also has the merit of having further improved the distribution of light and shade, introduced by his elder contemporaries. Especially celebrated was his picture of Helen, painted for the temple <cb /> of Heré on the Lacinian promontory ( <title>De Invent.</title> ii. 1, 1). He aimed at the highest degree of illusion. As is well known, he is said to have painted grapes so naturally that the birds flew to peck at them (Pliny , <bibl n="Plin. Nat. 35. 61" default="NO" valid="yes">Pliny <title>H. N.</title>xxxv. 61</bibl>-66). See <ref type="cross" target="crossparrhasius">Parrhasius</ref>; <ref type="cross" target="crosspictura">Pictura</ref>.
+ </p></div2>
+ 
+<div2 id="crosszodiacus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zodiăcus">Zodiacus</head>
+
+ <p> sc. <seg lang="la">circulus</seg> (<foreign lang="greek">ζωδιακὸς κύκλος</foreign>). The circle of the Zodiac (Aul. Gell. xiii.9.3).
+ </p></div2>
+ 
+<div2 id="crosszoilus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zoĭlus">Zoilus</head>
+
+ <p> (<foreign lang="greek">Ζωΐλος</foreign>). A grammarian, a native of Amphipolis, who flourished in the time of Philip of Macedon. He was celebrated for the asperity with which he assailed Homer (<foreign lang="greek">Ὁμηρομάστιξ</foreign>), and his name became proverbial for a captious and malignant critic ( <title>V. H.</title> xi. 10). See Spindler, <title>De Zoïlo Homeromastige Qui Vocatur</title>, 2 pts. (1888- 89).
+ </p></div2>
+ 
+<div2 id="crosszona" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zona">Zona</head>
+
+ <p> (<foreign lang="greek">ζώνη</foreign>). (1) A flat and rather broad girdle worn by young unmarried women (<foreign lang="greek">ζώνη παρθενική</foreign>) around their hips ( <bibl n="Homer Od. 5. 231" default="NO">Homer <title>Od.</title>v. 231</bibl>;  <bibl n="Ov. Fast. 2. 231" default="NO" valid="yes">Ov. <title>Fast.</title>ii. 231</bibl>), <figure id="fig.01684">
+<head orig="Flora, showing Zona. (National Museum, Naples.)">Flora, showing Zona. (National Museum, Naples.)</head>
+</figure> as exemplified in the accompanying illustration; whereas the common girdle (<seg lang="la">cingulum</seg>) was placed immediately under the bosom. The zone was not laid aside until after the wedding, when the bridegroom had unfastened it with his own hands; whence the expression <seg lang="la">zonam solvere</seg> (<bibl n="Catul. 2.13" default="NO" valid="yes">Catull. ii. 13</bibl>; Ovid, <bibl n="Eur. Her. 2. 115" default="NO" valid="yes"> <title>Her.</title>ii. 115</bibl>) means “to enter the married state.”</p>
+ <p>(2) A broad belt worn by men round their loins ( <bibl n="Hom. Il. 11. 234" default="NO" valid="yes">Hom. <title>Il.</title>xi. 234</bibl>; Plaut. <title>Merc.</title> v. 2, 84), and made double or hollow like our shot-belts, for the purpose of carrying money deposited in it about the person (C. Gracch. <hi rend="italic">ap.</hi> <bibl n="Gel.  15. 12" default="NO" valid="yes">Gell.xv. 12</bibl>;  <bibl n="Suet. Vit. 16" default="NO" valid="yes">Suet. <title>Vit.</title>16</bibl>); whence the expression <seg lang="la">zonam perdere</seg> ( <bibl n="Plin. Ep. 2. 2" default="NO" valid="yes">Plin. <title>Ep.</title>ii. 2</bibl><bibl n="Plin. Ep. 40" default="NO" valid="yes">Plin. Ep., 40</bibl>) means “to lose one's money.”</p>
+ <p>(3) The Greek writers also use the term for a soldier's belt, worn round the loins, to cover the juncture of the cuirass and the kilt of leather straps. See <ref type="cross" target="crossthorax">Thorax</ref>.
+ </p></div2>
+ 
+<div2 id="crosszonaras" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zonăras">Zonaras</head>
+
+ <p> <ref type="cross" target="crossioannes">Ioannes</ref> (<foreign lang="greek">Ἰωάννης ὁ Ζωναράς</foreign>). A Greek historian, who lived at Constantinople as chief of the imperial body-guard and first private secretary to the emperor under Alexius I. (Comnenus). He next became a monk, and composed a history of the world (<foreign lang="greek">Χρονικόν</foreign>) down to A.D. 1118, divided into eighteen books. Its value consists in its exact quotations from lost works of earlier writers, especially from those of Dio Cassius, referring to the Empire. The history of his own time he recorded as an eye-witness. The work is edited by Du Cange <bibl default="NO">(Paris, 1686)</bibl>, and Dindorf (Leipzig, 1868- 75). A lexicon by Zonaras is edited by Tittmann <bibl default="NO">(Leipzig, 1808)</bibl>.
+ </p></div2>
+ 
+<div2 id="crosszone" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zoné">Zone</head>
+
+ <p> (<foreign lang="greek">Ζώνη</foreign>). A town of Thrace, where Orpheus is said to have sung ( <bibl n="Hdt.  7. 59" default="NO" valid="yes">Herod.vii. 59</bibl>).
+ </p></div2>
+ 
+<div2 id="crosszophorus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zophŏrus">Zophorus</head>
+
+ <p> (<foreign lang="greek">ζῳφόρος</foreign>). “Bearing animals”; a <figure id="fig.01684.2">
+<head orig="Zophorus.">Zophorus.</head>
+</figure> word applied to a panel or relief, and hence used of the continuous carved frieze of the Ionic and Corinthian architecture, which represents the triglyphs and metopes of the Doric buildings (Vitruv. iii. 5, 10). 
+<pb n="1685" /><cb />
+ </p></div2>
+ 
+<div2 id="crosszopyrus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zopyrus">Zopyrus</head>
+
+ <p> (<foreign lang="greek">Ζώπυρος</foreign>). (1) A distinguished Persian, son of Megabyzus. After Darius Hystaspis had besieged Babylon for twenty months in vain, Zopyrus resolved to gain the place for his master by the most extraordinary self-sacrifice. Accordingly, one day he appeared before Darius with his body mutilated in the most horrible manner; both his ears and nose were cut off, and his person otherwise disfigured. After explaining to Darius his intentions, he fled to Babylon as a victim of the cruelty of the Persian king. The Babylonians gave him their confidence, and placed him at the head of their troops. He soon found means to betray the city to Darius, who severely punished the inhabitants for their revolt. Darius appointed Zopyrus satrap of Babylon for life, with the enjoyment of its entire revenues ( <bibl n="Hdt.  3. 153" default="NO" valid="yes">Herod.iii. 153</bibl>-160).</p>
+ <p>(2) The Physiognomist, who attributed many vices to Socrates, which the latter admitted were his natural propensities, but said that they had been overcome by philosophy ( <title>Tusc. Disp.</title> iv. 37; <title>De Fato</title>, 5).
+ </p></div2>
+ 
+<div2 id="crosszoroaster" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zoroaster">Zoroaster</head>
+
+ <p> or <hi rend="bold">Zoroastres</hi> (<foreign lang="greek">Ζωροάστρης</foreign>). The prophet of ancient Iran, and one of the great religious teachers of the East. He is commonly spoken of as a Magian (<foreign lang="greek">Μάγος</foreign>, <title>Magus</title>), or as a reformer of the old faith of Persia; the religion which he founded is best designated as Zoroastrianism, after his own name, for the lessons of his teaching sank deep into the heart of Iran. There can be no question as to the fact that Zoroaster was an actual historical personage in spite of doubts that have been raised on the subject.</p>
+ <p>Considerable uncertainty has prevailed as to the exact date at which Zoroaster lived; so much, however, is certain, that his era must be placed at least six centuries before Christ; and although the historical origin of Zoroastrianism has not yet been cleared up, the religion presumably became the faith of the great Achaemenian kings, and entered upon its long history as one of the important early religions of the world. The national power of the creed was broken by the victorious invasion of Alexander the Great, but Zoroastrianism outlived the blow, and still lingered in Iran under the Seleucid government and the Parthian sway until the third century of our own era, when it once more rose to supremacy at the time of the Sassanidae (A.D. 226- 651), and was restored to its pristine glory. (See <ref type="cross" target="crosspersia">Persia</ref>.) The final overthrow of the Zoroastrian belief, however, came in the seventh century with the rise of Islam; for the religion of Ormazd was <cb /> almost blotted out in Iran by the Mohammedan conquest, although a few true followers of Zoroaster are still to be found scattered here and there in their old home. The small band, however, which preferred exile to conversion and sought refuge in India became the ancestors of the flourishing community of Parsis to-day in Bombay; these are the veritable Zoroastrian descendants of the persecuted faithful whofound among the Hindus a place of safe retreat and of freedom to worship Ormazd. They are the chief conservators of what remains of the sacred literature, which has naturally suffered from the various vicissitudes and crises through which the religion has passed.</p>
+ <p>Respecting Zoroaster's life and teaching, our sources of information are either directly the Avesta, or Zend-Avesta, and the Pahlavi books, below mentioned, or they are indirectly the statements found in other Oriental writings or contained in allusions in the classics. Next to the ancient Avesta and the Pahlavi writings, which latter belong chiefly to Sassanian times (A.D. 226-651), the most important Oriental contributions to our knowledge come from the later Persian national epic Shāh-Nāmah, or “book of kings” (tenth century A.D.), and from the Zartusht Nāmah, a legendary sketch of Zoroaster's life (thirteenth century A.D.). Both of these, however, must be used with proper judgment. Considerable valuable information, moreover, is to be gathered from Arabic writings; though these statements are often tinged by a Mohammedan colouring.</p>
+ <p>All classical antiquity is agreed on the point of Zoroaster's being an historical personage, even if he was in the eyes of the authors of the time a more or less hazy figure. He was regarded by the writers of Greece and Rome as the arch-representative of the Magi, and was more famous sometimes perhaps on account of the magic arts attributed to him than for the depth of his philosophy or his legislation, his religious or moral teaching. The Magi were the reputed masters of learning in ancient times ( <title>De Div.</title> 1, 23, et al.), but it is difficult to form a clear picture of their doctrines and teachings, except so far as we may believe them to be reflected in Zoroaster, making due allowance, however, for changes or reforms which he may have instituted. The tradition preserved to the effect that Pythagoras studied under these masters in Babylon, or that he may have caught some Zoroastrian ideas, may not be altogether without foundation ( <title>De Fin.</title> v. 29; Val. Max. viii. 7; Pliny , <bibl n="Plin. Nat. 30. 1" default="NO" valid="yes">Pliny <title>H. N.</title>xxx. 1</bibl><bibl n="Plin. Nat. 2" default="NO" valid="yes">Pliny H. N., 2</bibl>; <title>Florid.</title> p. 19; <title>Vita Pythag.</title> 41; Lactant. <title>Institut.</title> iv. 2; Iambl. <title>Vita Pythag.</title> c. 19; Clem. Alex. <bibl n="Clem. Al. Strom. 1." default="NO" valid="yes"> <title>Strom.</title>i.</bibl> p. 357, et al.). Plato, moreover, according to tradition, was anxious to visit the Orient and to study with the Magi had he not been prevented by the Persian wars ( <bibl n="Diog.  3. 7" default="NO">Diog. Laert.iii. 7</bibl>; <title>De Habitud. Doctrin. Plat.</title> p. 569). The followers of the sophist Prodicus are reported as boasting of possessing secret writings of Zoroaster (Clem. Alex. <bibl n="Clem. Al. Strom. 1." default="NO" valid="yes"> <title>Strom.</title>i.</bibl> p. 357), and even a Magian teacher named Gobryas has been claimed for 
+<pb n="1686" /><cb />
+ Socrates (cf. <title>Axiochos</title> attributed to Plato). Instances might be multiplied. Aristotle, Eudoxus of Cnidus, Deinon, and especially Theopompus, were familiar with Zoroastrian tenets (cf.  <bibl n="D. Prooem. 8" default="NO"> <title>Prooem.</title>8</bibl>; Pliny , <bibl n="Plin. Nat. 30. 1" default="NO" valid="yes">Pliny <title>H. N.</title>xxx. 1</bibl><bibl n="Plin. Nat. 20" default="NO" valid="yes">Pliny H. N., 20</bibl>; <title>Is. et Os.</title> 47). An allusion is also found to a work bearing Zoroaster's name by Heracleidus Ponticus, a pupil of Plato and Aristotle (cf. <title>Adv. Colot.</title> p. 1115A). Hermippus, moreover, made careful studies of Magism and of Zoroastrian writings (cf. Pliny , <bibl n="Plin. Nat. 30. 1" default="NO" valid="yes">Pliny <title>H. N.</title>xxx. 1</bibl><bibl n="Plin. Nat. 2" default="NO" valid="yes">Pliny H. N., 2</bibl>); finally, there are common enough references to Zoroastrian ideas to be found in Plutarch, Strabo, Pliny , and others. A number of purported books by Zoroaster, such as <foreign lang="greek">Περὶ Λίθων Τιμίων, Περὶ Φύσεως, Λόγια, Βίβλιοι Ἀπόκρυφοι Ζωροάστρου, Ἀστεροσκοπικά</foreign> (cf. Suidas and Pliny ), or Gemistus Pletho's <foreign lang="greek">Μαγικὰ Λόγια τῶν ἀπὸ τοῦ Ζωροάστρου Μάγων</foreign>, from which citations are quoted, are doubtless apocryphal; they nevertheless show the reputation which Zoroaster later enjoyed (for references cf. Fabricius, <title>Bibl. Graec.</title> vol. i. p. 304 seq.), although his name is not mentioned by Herodotus nor by Xenophon, and there are only doubtful grounds for assuming its presence in the fragments that happen to be preserved of Ctesias. The earliest authenticated allusion to Zoroaster by name in the classics seems to be that in the Platonic <title>Alcibiades</title>, i. 122; but according to Diogenes Laertius ( <bibl n="D. Prooem. 2" default="NO"> <title>Prooem.</title>2</bibl>) he is mentioned by the earlier Xanthus of Lydia. The Greek form <foreign lang="greek">Ζωροάστρης</foreign>, under which the sage is known to fame, is a modified form of <title>Zarathushtra</title> (cf.  <title>Zardusht</title>), which is the prophet's actual name in the Avesta; Diodorus Siculus (i. 94) once has <foreign lang="greek">Ζαθπαύστης</foreign>.</p>
+ <p>In regard to the date at which Zoroaster lived a wide diversity of opinion has prevailed. The statements of antiquity on the subject may conveniently be divided into three groups. First (1) may be considered those classical references that assign to him the extravagant age of B.C. 6000. These are confined simply to the classics, but they have the claim of being based upon information possessed by Aristotle, Eudoxus, and Hermippus (cf. Pliny , <bibl n="Plin. Nat. 30. 1" default="NO" valid="yes">Pliny <title>H. N.</title>xxx. 1</bibl><bibl n="Plin. Nat. 2" default="NO" valid="yes">Pliny H. N., 2</bibl>; <title>Is. et Os.</title> 46; Schol. Plato's <title>Alcibiades</title>, i. 122; <title>De Vita Philos. Prooem.</title> 2; Lactant. <title>Institut.</title> vii. 16; and cf. Suid. s. v. <title>Zoroastres</title>). Such extraordinary figures are presumably due to the Greeks' misunderstanding the statements of the Persians in regard to the position of Zoroaster's millennium in the great world-period of 12,000 years. Second</p>
+ <p>(2) come those statements which connect the name of Zoroaster with that of the uncertain Semiramis and Ninus ( <bibl n="Diod.  2. 6" default="NO" valid="yes">Diod. Sic.ii. 6</bibl>; Fragm. of Ceph. in Euseb. <title>Chron.</title> i. 43, and iv. 35; Syncel. <title>Chronograph.</title> i. p. 315; Theon , <title>Progymnasmata</title>, 9; Justin, <title>Hist. Philippic.</title> i. 1; Arnob. <title>Adv. Gent.</title> i. 5; compare also Suidas, s. v. <title>Zoroastres</title>, and the Armenian Moses of Khorni<bibl n="Moses  1. 16" default="NO">Moses, i. 16</bibl>). Third</p>
+ <p>(3), the direct Zoroastrian tradition as found in the Pahlavi books <title>Bundahish</title>, xxxiv. 7-8; <title>Ardā-i Vīrāf</title>, i. 1-5, supported also by abundant Arabic allusions (Albīrūnī, Masūdī, etc.), is unanimous in placing the opening of Zoroaster's ministry at 258 years before the era of Alexander, or 272 years before the close of his dominion, which would give Zoroaster's date as falling between the latter half of the seventh century B.C. and the middle of the sixth century; in fact, in the period just preceding the Achaemenian dynasty. This is doubtless not far from the truth, and may be finally regarded as the best view to adopt. Tradition has it that <cb /> Zoroaster was forty-two years old when he first converted King Vishtaspa, who became his patron; but there is no good ground for identifying this ruler with Hystaspes the father of Darius. Such identification is made by Ammianus Marcellinus (xxvi. 6, 32), and has met with considerable support, but the doubt which Agathias (ii. 24) raises on this subject is better founded.</p>
+ <p>Like Homer, Zoroaster's native place is debated ground, but the Oriental tradition cannot be far astray that assigns Atropatené in Media, or even more precisely the city of Oroomiah, as his native land, and places the field of his religious activity in Bactria, where the faith became the organized State religion and apparently spread back towards Media and Persia. Such a view, at least, finds support when the Avesta and the Pahlavi books, supplemented also by Arabic and Syriac writings, are combined with statements found in the classics ( <bibl n="Diod.  2. 6" default="NO" valid="yes">Diod. Sic.ii. 6</bibl>; Fragm. Ceph. in Euseb. <title>Chron.</title> i. 43, and iv. 35; <title>Praeparatio Evang.</title> x. 9; Theon , <title>Progym.</title> 9; Justin, <title>Hist. Philippic.</title> i. 1; Arnob. <title>Adv. Gent.</title> i. 5; Ammian. Marcel. 23, 6, 32; Clem. Alex. <bibl n="Clem. Al. Strom. 1." default="NO" valid="yes"> <title>Strom.</title>i.</bibl> p. 357; Pliny , <bibl n="Plin. Nat. 30. 1" default="NO" valid="yes">Pliny <title>H. N.</title>xxx. 1</bibl><bibl n="Plin. Nat. 2" default="NO" valid="yes">Pliny H. N., 2</bibl>;  <bibl n="D. Prooem. 2" default="NO"> <title>Prooem.</title>2</bibl>; Suid. s. v. <title>Zoroastres;</title> cf. also the Armenian Moses of Khorni, i. 16).</p>
+ <p>Numerous legends and myths early gathered about the name of Zoroaster, and several of these are preserved in classical writers. The tradition, for example, about his laughing instead of crying when he was born, as told by Pliny ( <bibl n="Plin. Nat. 7. 16" default="NO" valid="yes">Pliny <title>H. N.</title>vii. 16</bibl><bibl n="Plin. Nat. 15" default="NO" valid="yes">Pliny H. N., 15</bibl>), is found also in the East; but the romantic story of his death by lightning ( Suid. s. v. <title>Zoroastres;</title> Pseud.- <title>Recogn.</title> iv. 27-29, <title>Homil.</title> ix. 3; <title>Chronic. Pasch.</title> i. p. 67) is not in accordance with the prevailing Oriental testimony to the effect that he was massacred at the age of seventy-seven when Balkh was stormed by the Turanians. In his lifetime he is said to have performed a number of miracles; the report, moreover, that he lived in silence in the wilderness for a number of years is doubtless to be explained as alluding to a period of religious meditation and preparation (Pliny , <bibl n="Plin. Nat. 11. 42" default="NO" valid="yes">Pliny <title>H. N.</title>xi. 42</bibl><bibl n="Plin. Nat. 97" default="NO" valid="yes">Pliny H. N., 97</bibl>; Schol. Plato's <title>Alcibiades</title>, i. 122; <title>Quaest. Sympos.</title> iv. 1, p. 660). The consistent Oriental tradition that he began his ministry at the age of thirty appears also in the Scholion to the <title>Alcibiades.</title> Furthermore, Pliny ( <bibl n="Plin. Nat. 30. 1" default="NO" valid="yes">Pliny <title>H. N.</title>xxx. 1</bibl><bibl n="Plin. Nat. 2" default="NO" valid="yes">Pliny H. N., 2</bibl>), Diogenes Laertius ( <bibl n="D. Prooem. 2" default="NO"> <title>Prooem.</title>2</bibl>), and Suidas (s. v. <title>Magoi</title>) are able to give the names of some of the Magi that succeeded him.</p>
+ <p>Zoroaster's religion may be characterized primarily as dualism in so far as it proclaims the incessant warfare that reigns on earth between the good principle, Ahura Mazda or Ormazd (<foreign lang="greek">Ὠρομάσδης</foreign>), and the evil spirit, Anra Mainyu, Ahriman (<foreign lang="greek">Ἀρειμάνιος</foreign>). At the end of the world the good will finally triumph, evil will be destroyed, and a general resurrection of the dead will take place ( <title>Is. et Os.</title> 47). The doctrine of rewards and punishments for the immortal soul is a cardinal theme in Zoroaster's preaching; the principle, moreover, is inculcated of preserving the purity of the body and of the care of useful animals, especially the cow. The exercise of scrupulous caution is enjoined for preserving the elements, fire, water, and earth, from defilement, particularly from contact with dead matter; hence arose the strange custom of exposing corpses upon the <hi rend="italic">dakhmas</hi>, or towers of silence, to be devoured by dogs and birds—a custom which has been commented 
+<pb n="1687" /><cb /> upon from the days of Herodotus to the present ( <bibl n="Hdt.  1. 140" default="NO" valid="yes">Herod.i. 140</bibl>; <title>De Abstin.</title> iv. 21, etc.). The general spirituality of the Persian religious ideas was often remarked upon by the Greeks ( <bibl n="Hdt.  1. 131" default="NO" valid="yes">Herod.i. 131</bibl>; Deinon Fragm. 9;  <bibl n="D. Prooem. 6" default="NO"> <title>Prooem.</title>6</bibl>; <title>Is. et Os.</title> 46; <title>Vita Pythag.</title> 41); and owing to the more or less close relations between Iran on the one side and Greece and Rome upon the other, the figure of Zoroaster is one of considerable interest to the student of the classics; while, by way of criticism, it may be added that in classical writers there is hardly a statement regarding him or the Magian faith which does not find some support, corroboration, or parallel in the sacred texts themselves.</p>
+ <p><hi rend="SmallCaps">Bibliography</hi>.—The most complete collection as yet of allusions in the classics to Zoroaster, the Magi, and the Persians is to be found in Kleuker, <title>Zend-Avesta</title>, Anhang ii. 3 <bibl default="NO">(Leipzig and Riga, 1783)</bibl>; consult also Rapp in <title>Zeitschrift d. deutschen morgenländischen Gesellschaft</title>, xix. 1-89, xx. 49 seq., and Windischmann, <bibl default="NO"><title>Zoroastrische Studien</title> (Berlin, 1863)</bibl>. The standard text of the Zoroastrian Scriptures is edited by Geldner, <bibl default="NO"><title>Avesta</title> (Stuttgart, 1884- 1895)</bibl>. Translations from the Avesta and the Pahlavi literature by Darmesteter, Mills, and West have appeared in the <title>Sacred Books of the East</title>, vol. iv. (Oxford, 1880 foll.); the most recent translation is in French by Darmesteter, <bibl default="NO"><title>Annales du Musée Guimet</title> (Paris, 1892-93)</bibl>. For a complete list of works of reference consult the articles “Avesta,” “Pahlavi,” and “Religion of Iran” in <bibl default="NO">Geiger and Kuhn's <title>Grundriss der iranischen Philologie</title> (Strasburg, 1895-96)</bibl>.
+ </p></div2>
+ 
+<div2 id="crosszosimus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zosĭmus">Zosimus</head>
+
+ <p> (<foreign lang="greek">Ζώσιμος</foreign>). A Greek historian who lived as a high officer of State at Constantinople in the second half of the fifth century A.D., and composed a work, distinguished for its intelligent and liberal views, on the fall of the Roman Empire. It is in six books: i. giving a sketch of the time from Augustus to Diocletian; ii.-iv. a fuller account of events down to the division of the Empire by Theodosius the Great; v. and vi. treat in greater detail of the period from 395 to 410; the conclusion of book vi. is probably wanting, as Zosimus had the intention of continuing the history up to his own time. He attributes the fall of the Empire in part to the overthrow of heathenism <cb /> and the introduction of Christianity, with which, of course, he was not acquainted in its purest form, but only in the degenerate state into which it had sunk in some places in the fourth century. This history is edited by Bekker <bibl default="NO">(1837)</bibl> and by Mendelssohn <bibl default="NO">(1887)</bibl>. See <bibl default="NO">Martin, <title>De Fontibus Zosimi</title> (1866)</bibl>. A monograph on the various prodigies, oracles, etc., recorded by Zosimus was published by H. Piristi in 1893.
+ </p></div2>
+ 
+<div2 id="crosszoster" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zoster">Zoster</head>
+
+ <p> (<foreign lang="greek">Ζωστήρ</foreign>). Now C. of Vari; a promontory on the west of Attica, between Phalerum and Sunium.
+ </p></div2>
+ 
+<div2 id="crosszotheca" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zothēca">Zotheca</head>
+
+ <p> A small private room or study, adjoining a large one (Pliny , <title>Epist.</title> ii. 17, 21).
+ </p></div2>
+ 
+<div2 id="crosszumpt" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zumpt">Zumpt</head>
+
+ <p> (1) <hi rend="SmallCaps">Karl Gottlieb</hi>, a German classical scholar, born in Berlin March 20th, 1792. He pursued his studies under Kreuzer at Heidelberg, under Wolf and Böckh at Berlin, and on finishing his university course became in succession Professor of Classics at the Joachimsthal Gymnasium, of History at the Military School, Professor Extraordinary of Roman Literature at the University of Berlin, and Professor Ordinarius in the same university in 1838. He died at Karlsbad, June 25th, 1849. He published a very popular Latin Grammar <bibl default="NO">(Berlin, 1818)</bibl>, which has gone through many editions <bibl default="NO">(Eng. trans. by Schmitz, 3d ed. London, 1852)</bibl>, and which has been the basis of several other grammars in English. He also edited Quintilian <bibl default="NO">(Leipzig, 1831)</bibl>; parts of Cicero; and Quintus Curtius <bibl default="NO">(Brunswick, 1849)</bibl>; and was the author of the following treatises: <bibl default="NO"><title>Annales Veterum Regnorum et Populorum imprimis Romanorum</title> (1819, 3d ed. 1862)</bibl>; <bibl default="NO"><title>Ueber die bauliche Einrichtung des römischen Wohnhauses</title> (2d ed. 1851)</bibl>; <bibl default="NO"><title>Die Religion der Römer</title> (1845)</bibl>.</p>
+ <p>(2) <hi rend="SmallCaps">August Wilhelm</hi>, nephew of the preceding, was born in Königsberg Dec. 4th, 1815, and was educated at the University of Berlin. He became professor in the FriedrichWilhelm Gymnasium, and died April 22d, 1877. He wrote various works on Roman epigraphy and antiquities, and especially <title>Das Criminalrecht der römischen Republik</title>, 2 vols. <bibl default="NO">(1869)</bibl>. See Padaletti, <bibl default="NO"><title>A. W. Zumpt</title> (Leipzig, 1878)</bibl>.
+ </p></div2>
+ 
+<div2 id="crosszythum" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Zythum">Zythum</head>
+
+ <p> and <hi rend="bold">Zythus</hi> (<foreign lang="greek">ζῦθος</foreign>). A kind of ale or beer made of barley or other grain, for which see the article <ref type="cross" target="crosscervesia">Cervesia</ref>.
+ </p></div2>
+ </div1>
+<div1 type="notes">
+
+<pb n="nts"/>
+<note id="ref1" target="n1">* The original name for these abbreviations seems to have been litterae singulares or singulariae (cf.  Gell.xvii.9.1). At a later period notae became the more common term (cf. Festus, p. 184: Nota nunc significat signum at in pecoribus, tabulis, libris, litterae singulae vel binae). Valerius Probus wrote an elaborate work De Notis, only a part of which has been preserved. In the Digests of Justinian nota is displaced by the term sigla. The word is of doubtful origin. Most scholars regard it as a syncopated form of sigillum; others derive it from singuli; Mommsen thinks it a mere corruption from singulares.</note>
+<note id="ref2" target="n2">* Balnea is, however, used in the singular to designate a private bath in an inscription quoted by Reinesius (Inscr. xi. 115).</note>
+<note id="ref3" target="n3">The power of the quaestors to fine is disputed by Mommsen. But even curatores could fine. (See Karlowa, Rechtsgeschichte, p. 171.)</note>
+<note id="ref4" target="n4">* Very little is known of the architectural character of the early basilicas about the Forum.</note>
+<note id="ref5" target="n5">* It is stated that there were but 136 gentes in existence when the Republic was established, and that the Senate was brought up to its normal strength (300) by the free selection of the balance. It is also stated that all, or at least a portion, of the senators thus selected were plebeians; but this seems merely an inference from the other statement, and is, of course, in no sense a necessary inference. Among modern writers the dispute turns largely on the interpretation of the phrase patres conscripti. Many hold that the patres were patricians, the conscripti plebeians. Others assert that the patres were those who sat as representatives of the gentes, and that the rest, whether patricians or plebeians, were conscripti. Others again deny that there was any distinction between patres and conscripti, and translate the phrase, “enrolled senators.”</note>
+
+ </div1>
+ </body>
+ </text>
+ </tei.2>

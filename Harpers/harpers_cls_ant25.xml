@@ -1,0 +1,110 @@
+<tei.2>
+
+  <teiHeader type="text" status="new">
+   <fileDesc>
+    <titleStmt>
+ 	<title>Harpers Dictionary of Classical Antiquities (1898)</title>
+ 	<author>Harry Thurston Peck</author>
+ 	<sponsor>Perseus Project, Tufts University</sponsor>
+ 		<principal>Gregory Crane</principal>
+ 		<respStmt>
+ 		<resp>Prepared under the supervision of</resp>
+ 		<name>Lisa Cerrato</name>
+ 		<name>William Merrill</name>
+ 		<name>Elli Mylonas</name>
+ 		<name>David Smith</name>
+ 		</respStmt>
+ <funder n="org:NEH">The National Endowment for the Humanities</funder>
+    </titleStmt>
+    <publicationStmt>
+ 		<publisher>Trustees of Tufts University</publisher>
+ 		<pubPlace>Medford, MA</pubPlace>
+ 		<authority>Perseus Project</authority>
+ 		</publicationStmt>
+       <sourceDesc default="NO">
+ 	<biblStruct default="NO">
+ 	 <monogr>
+ 	  <author>Harry Thurston Peck</author>
+ 	  <title>Harpers Dictionary of Classical Antiquities</title>
+ 	  <imprint>
+ 	   <pubPlace>New York</pubPlace>
+ 	   <publisher>Harper and Brothers</publisher>
+ 	   <date>1898</date>
+ 	  </imprint>
+ 	 </monogr>
+ 	</biblStruct>
+    </sourceDesc>
+   </fileDesc>
+ 
+   <encodingDesc>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="id" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state n="chunk" unit="entry" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="alphabetic letter" />
+ 	<state unit="entry" />
+    </refsDecl>
+   </encodingDesc>
+ 
+   <profileDesc>
+    <langUsage default="NO">
+ 	<language id="en">English
+ 	</language><language id="greek">Greek
+     </language><language id="la">Latin
+ 	</language><language id="fr">French
+ 	</language><language id="it">Italian
+ 	</language><language id="es">Spanish
+ 	</language><language id="de">German
+ 	</language><language id="oe">Old English
+ 	</language><language id="sanskrit">Sanskrit, Harvard-Kyoto code
+ 	</language><language id="gothic">Gothic
+ 	</language><language id="pie">Indo-European
+ 	</language><language id="xhebrew">transliterated Hebrew
+    </language></langUsage>
+   </profileDesc>
+  </teiHeader>
+<text>
+<body>
+<div1 type="alphabetic letter" n="Y" org="uniform" sample="complete">
+<head orig="Y">Y</head>
+
+ <p>For the Greek <foreign lang="greek">Υ</foreign> as a symbol, see under V.
+ </p>
+ 
+<div2 id="crossyard" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Yard">Yard</head>
+
+ <p> See <ref type="cross" target="crossarea">Area</ref>. <cb />
+ </p></div2>
+ 
+<div2 id="crossyear" type="entry" org="uniform" sample="complete">
+ <head>Divisions of the <term>Year</term></head>
+ <p>See <ref type="cross" target="crosscalendarium">Calendarium</ref>.
+ </p></div2>
+ 
+<div2 id="crossyoke" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Yoke">Yoke</head>
+
+ <p> See <ref type="cross" target="crossiugum">Iugum</ref>.
+ 
+ <cb /></p></div2>
+ </div1>
+<div1 type="notes">
+
+<pb n="nts"/>
+<note id="ref1" target="n1">* The original name for these abbreviations seems to have been litterae singulares or singulariae (cf.  Gell.xvii.9.1). At a later period notae became the more common term (cf. Festus, p. 184: Nota nunc significat signum at in pecoribus, tabulis, libris, litterae singulae vel binae). Valerius Probus wrote an elaborate work De Notis, only a part of which has been preserved. In the Digests of Justinian nota is displaced by the term sigla. The word is of doubtful origin. Most scholars regard it as a syncopated form of sigillum; others derive it from singuli; Mommsen thinks it a mere corruption from singulares.</note>
+<note id="ref2" target="n2">* Balnea is, however, used in the singular to designate a private bath in an inscription quoted by Reinesius (Inscr. xi. 115).</note>
+<note id="ref3" target="n3">The power of the quaestors to fine is disputed by Mommsen. But even curatores could fine. (See Karlowa, Rechtsgeschichte, p. 171.)</note>
+<note id="ref4" target="n4">* Very little is known of the architectural character of the early basilicas about the Forum.</note>
+<note id="ref5" target="n5">* It is stated that there were but 136 gentes in existence when the Republic was established, and that the Senate was brought up to its normal strength (300) by the free selection of the balance. It is also stated that all, or at least a portion, of the senators thus selected were plebeians; but this seems merely an inference from the other statement, and is, of course, in no sense a necessary inference. Among modern writers the dispute turns largely on the interpretation of the phrase patres conscripti. Many hold that the patres were patricians, the conscripti plebeians. Others assert that the patres were those who sat as representatives of the gentes, and that the rest, whether patricians or plebeians, were conscripti. Others again deny that there was any distinction between patres and conscripti, and translate the phrase, “enrolled senators.”</note>
+
+ 
+</div1>
+</body>
+</text>
+</tei.2>

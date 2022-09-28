@@ -1,0 +1,189 @@
+<tei.2>
+
+  <teiHeader type="text" status="new">
+   <fileDesc>
+    <titleStmt>
+ 	<title>Harpers Dictionary of Classical Antiquities (1898)</title>
+ 	<author>Harry Thurston Peck</author>
+ 	<sponsor>Perseus Project, Tufts University</sponsor>
+ 		<principal>Gregory Crane</principal>
+ 		<respStmt>
+ 		<resp>Prepared under the supervision of</resp>
+ 		<name>Lisa Cerrato</name>
+ 		<name>William Merrill</name>
+ 		<name>Elli Mylonas</name>
+ 		<name>David Smith</name>
+ 		</respStmt>
+ <funder n="org:NEH">The National Endowment for the Humanities</funder>
+    </titleStmt>
+    <publicationStmt>
+ 		<publisher>Trustees of Tufts University</publisher>
+ 		<pubPlace>Medford, MA</pubPlace>
+ 		<authority>Perseus Project</authority>
+ 		</publicationStmt>
+       <sourceDesc default="NO">
+ 	<biblStruct default="NO">
+ 	 <monogr>
+ 	  <author>Harry Thurston Peck</author>
+ 	  <title>Harpers Dictionary of Classical Antiquities</title>
+ 	  <imprint>
+ 	   <pubPlace>New York</pubPlace>
+ 	   <publisher>Harper and Brothers</publisher>
+ 	   <date>1898</date>
+ 	  </imprint>
+ 	 </monogr>
+ 	</biblStruct>
+    </sourceDesc>
+   </fileDesc>
+ 
+   <encodingDesc>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="id" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state n="chunk" unit="entry" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="alphabetic letter" />
+ 	<state unit="entry" />
+    </refsDecl>
+   </encodingDesc>
+ 
+   <profileDesc>
+    <langUsage default="NO">
+ 	<language id="en">English
+ 	</language><language id="greek">Greek
+     </language><language id="la">Latin
+ 	</language><language id="fr">French
+ 	</language><language id="it">Italian
+ 	</language><language id="es">Spanish
+ 	</language><language id="de">German
+ 	</language><language id="oe">Old English
+ 	</language><language id="sanskrit">Sanskrit, Harvard-Kyoto code
+ 	</language><language id="gothic">Gothic
+ 	</language><language id="pie">Indo-European
+ 	</language><language id="xhebrew">transliterated Hebrew
+    </language></langUsage>
+   </profileDesc>
+  </teiHeader>
+<text>
+<body>
+<div1 type="alphabetic letter" n="K" org="uniform" sample="complete">
+<head orig="K">K</head>
+
+ <p>For Greek and Latin words commencing with K, and for K as a symbol, see under C.
+ </p>
+ 
+<div2 id="crosskammermeister" type="entry" org="uniform" sample="complete">
+ <head><surname full="yes">Kammermeister</surname></head>, <foreName full="yes">Joachim</foreName>
+ <p>See <ref type="cross" target="crosscamerarius">Camerarius</ref>.
+ </p></div2>
+ 
+<div2 id="crosskeel" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Keel">Keel</head>
+
+ <p> See <ref type="cross" target="crossnavis">Navis</ref>.
+ </p></div2>
+ 
+<div2 id="crosskeg" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Keg">Keg</head>
+
+ <p> See <ref type="cross" target="crossdolium">Dolium</ref>.
+ </p></div2>
+ 
+<div2 id="crosskettle" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Kettle">Kettle</head>
+
+ <p> See <ref type="cross" target="crossaenum">Aenum</ref>; <ref type="cross" target="crosscaccabus">Caccabus</ref>; <ref type="cross" target="crosscortina">Cortina</ref>.
+ </p></div2>
+ 
+<div2 id="crosskey" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Key">Key</head>
+
+ <p> See <ref type="cross" target="crossclavis">Clavis</ref>.
+ </p></div2>
+ 
+<div2 id="crosskiln" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Kiln">Kiln</head>
+
+ <p> See <ref type="cross" target="crossfictile">Fictilé</ref>; <ref type="cross" target="crossfornax">Fornax</ref>.
+ </p></div2>
+ 
+<div2 id="crossking" type="entry" org="uniform" sample="complete">
+ 
+<head orig="King">King</head>
+
+ <p> See <ref type="cross" target="crossrex">Rex</ref>. <cb />
+ </p></div2>
+ 
+<div2 id="crosskissing" type="entry" org="uniform" sample="complete">
+ <head>Right of <term>Kissing</term></head>
+ <p>See <ref type="cross" target="crosscognati">Cognati</ref>.
+ </p></div2>
+ 
+<div2 id="crosskitchen" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Kitchen">Kitchen</head>
+
+ <p> See <ref type="cross" target="crossculina">Culina</ref>.
+ </p></div2>
+ 
+<div2 id="crosskitchen-gardens" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Kitchen-gardens">Kitchen-gardens</head>
+
+ <p> See <ref type="cross" target="crosshortus">Hortus</ref>.
+ </p></div2>
+ 
+<div2 id="crossknapsack" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Knapsack">Knapsack</head>
+
+ <p> See <ref type="cross" target="crosspera">Pera</ref>; <ref type="cross" target="crosssarcina">Sarcina</ref>.
+ </p></div2>
+ 
+<div2 id="crossknights" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Knights">Knights</head>
+
+ <p> See <ref type="cross" target="crossequites">Equites</ref>; <ref type="cross" target="crosshippeis">Hippeis</ref>.
+ </p></div2>
+ 
+<div2 id="crossknives" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Knives">Knives</head>
+
+ <p> See <ref type="cross" target="crossculter">Culter</ref>.
+ </p></div2>
+ 
+<div2 id="crossknob" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Knob">Knob</head>
+
+ <p> See <ref type="cross" target="crossbulla">Bulla</ref>.
+ </p></div2>
+ 
+<div2 id="crosskoppa" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Koppa">Koppa</head>
+
+ <p> See C at the beginning. 
+ 
+ <cb /></p></div2>
+ </div1>
+<div1 type="notes">
+
+<pb n="nts"/>
+<note id="ref1" target="n1">* The original name for these abbreviations seems to have been litterae singulares or singulariae (cf.  Gell.xvii.9.1). At a later period notae became the more common term (cf. Festus, p. 184: Nota nunc significat signum at in pecoribus, tabulis, libris, litterae singulae vel binae). Valerius Probus wrote an elaborate work De Notis, only a part of which has been preserved. In the Digests of Justinian nota is displaced by the term sigla. The word is of doubtful origin. Most scholars regard it as a syncopated form of sigillum; others derive it from singuli; Mommsen thinks it a mere corruption from singulares.</note>
+<note id="ref2" target="n2">* Balnea is, however, used in the singular to designate a private bath in an inscription quoted by Reinesius (Inscr. xi. 115).</note>
+
+ 
+</div1>
+</body>
+</text>
+</tei.2>

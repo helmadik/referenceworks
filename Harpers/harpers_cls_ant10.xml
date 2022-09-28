@@ -1,0 +1,323 @@
+<tei.2>
+
+  <teiHeader type="text" status="new">
+   <fileDesc>
+    <titleStmt>
+ 	<title>Harpers Dictionary of Classical Antiquities (1898)</title>
+ 	<author>Harry Thurston Peck</author>
+ 	<sponsor>Perseus Project, Tufts University</sponsor>
+ 		<principal>Gregory Crane</principal>
+ 		<respStmt>
+ 		<resp>Prepared under the supervision of</resp>
+ 		<name>Lisa Cerrato</name>
+ 		<name>William Merrill</name>
+ 		<name>Elli Mylonas</name>
+ 		<name>David Smith</name>
+ 		</respStmt>
+ <funder n="org:NEH">The National Endowment for the Humanities</funder>
+    </titleStmt>
+    <publicationStmt>
+ 		<publisher>Trustees of Tufts University</publisher>
+ 		<pubPlace>Medford, MA</pubPlace>
+ 		<authority>Perseus Project</authority>
+ 		</publicationStmt>
+       <sourceDesc default="NO">
+ 	<biblStruct default="NO">
+ 	 <monogr>
+ 	  <author>Harry Thurston Peck</author>
+ 	  <title>Harpers Dictionary of Classical Antiquities</title>
+ 	  <imprint>
+ 	   <pubPlace>New York</pubPlace>
+ 	   <publisher>Harper and Brothers</publisher>
+ 	   <date>1898</date>
+ 	  </imprint>
+ 	 </monogr>
+ 	</biblStruct>
+    </sourceDesc>
+   </fileDesc>
+ 
+   <encodingDesc>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="id" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state n="chunk" unit="entry" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="alphabetic letter" />
+ 	<state unit="entry" />
+    </refsDecl>
+   </encodingDesc>
+ 
+   <profileDesc>
+    <langUsage default="NO">
+ 	<language id="en">English
+ 	</language><language id="greek">Greek
+     </language><language id="la">Latin
+ 	</language><language id="fr">French
+ 	</language><language id="it">Italian
+ 	</language><language id="es">Spanish
+ 	</language><language id="de">German
+ 	</language><language id="oe">Old English
+ 	</language><language id="sanskrit">Sanskrit, Harvard-Kyoto code
+ 	</language><language id="gothic">Gothic
+ 	</language><language id="pie">Indo-European
+ 	</language><language id="xhebrew">transliterated Hebrew
+    </language></langUsage>
+   </profileDesc>
+  </teiHeader>
+<text>
+<body>
+<div1 type="alphabetic letter" n="J" org="uniform" sample="complete">
+<head orig="J">J</head>
+
+ 
+<div2 id="crossj" type="entry" org="uniform" sample="complete">
+ 
+<head orig="J">J</head>
+
+ <p> For Latin words beginning with J (consonantal I), see under I. For the character, see <ref type="cross" target="crossalphabet">Alphabet</ref>, p. 62.
+ </p></div2>
+ 
+<div2 id="crossjacobs" type="entry" org="uniform" sample="complete">
+ <head><surname full="yes">Jacobs</surname></head>, <foreName full="yes">Christian Friedrich Wilhelm</foreName>
+ <p>, a distinguished classicist, was born at Gotha, October 6, 1764. He studied philology, theology, and philosophy at the universities of Jena and Göttingen, and in 1785 became an iustructor in the Gymnasium at Gotha, with a position after 1802 in the Public Library of that city. In 1807 he accepted the office of classical teacher in the Munich Lyceum, returning, however, to Gotha in 1810 to assume full charge of the Library and of the collection of numismatics and antiques. From 1831 to 1842 he was director of the art collections of Gotha. He died March 30, 1847. Besides many <cb /> special editions of the classics, including the <title>Carmina Iliaca</title> of Tzetzes, Aelian, Achilles Tatius, and the <title>Imagines</title> of the Philostrati, Jacobs was a prolific contributor to general literature and a frequent translator. His essays on topics relating to classical philology were published at various times with the title <title>Vermischte Schriften</title>, and make eight volumes in all <bibl default="NO">(1823-44)</bibl>. His most important classical work is an edition of the <title>Anthologia Graeca</title>, 13 vols. <bibl default="NO">(1794-1814)</bibl>. He also made numerous translations from the Anthology, which he published under the title of <title>Tempe</title>, in 2 vols. <bibl default="NO">(1803)</bibl>. His elemeutary book on Greek (<title>Elementarbuch der griechischen Sprache</title>), published in 1805, was long popular. Of his other writings may be mentioned the <title>Geschichte des weiblichen Geschlechts.</title> See Bursian, <title>Geschichte der class. Philol. in Deutschland</title>, pp. 635-640.
+<pb n="906" /><cb />
+ </p></div2>
+ 
+<div2 id="crossjahn" type="entry" org="uniform" sample="complete">
+ <head><surname full="yes">Jahn</surname></head>, <foreName full="yes">Otto</foreName>
+ <p>, distinguished as an archaeologist and classical scholar, was born at Kiel, June 16, 1813. He pursued his university studies at Kiel, Leipzig, and Berlin, and after travelling extensively in Italy, took up his residence for a time at Rome, whence he was called to lecture at Kiel and later at Greifswald. In 1847 he became Professor of Archaeology at the University of Leipzig, where he founded the Archaeological Society and acted himself as Director of the Archaeological Museum. Having taken part with Mommsen and other distinguished men in the political agitation of 1848- 1849, he was deprived of his university offices in 1851. Four years later he received a call to Bonn as Professor of “Alterthumswissenschaft” and Director of the Art Museum, resigning in 1867 to succeed Gerhard at Berlin, but died before actually commencing to lecture there, September 9, 1869.</p>
+ <p>Jahn was a most prolific writer, and possessed a versatile mind coupled with acuteness and power. His contributions to literature comprise many works that are of the first importance. Such are his editions of Persius <bibl default="NO">(1843)</bibl>, Censorinus <bibl default="NO">(1845)</bibl>, Florus <bibl default="NO">(1852)</bibl>, <bibl default="NO"><title>Pausaniae Descriptio Arcis Atheniensis</title> (1860)</bibl>, the <title>Brutus</title> of Cicero <bibl default="NO">(1849)</bibl>, Juvenal <bibl default="NO">(1851)</bibl>, the <title>Periochae</title> of Livy <bibl default="NO">(1853)</bibl>, the <title>Psyche et Cupido</title> of Apuleius <bibl default="NO">(1856)</bibl>, the <title>Electra</title> of Sophocles <bibl default="NO">(1861)</bibl>, the <title>Symposium</title> of Plato <bibl default="NO">(1864)</bibl>, and Longinus <bibl default="NO">(1867)</bibl>. Purely archaeological are the following works: <bibl default="NO"><title>Die hellenische Kunst</title> (1846)</bibl>; <bibl default="NO"><title>Peitho</title> (1846)</bibl>; a description of the antique vases in the Royal Bavarian Collection <bibl default="NO">(1854)</bibl>; <bibl default="NO"><title>Die Wandgemälde des Columbariums in der Villa Pamfili</title> (1859)</bibl>; a work on the evil eye <bibl default="NO">(1855)</bibl>; and <bibl default="NO"><title>Darstellungen griechischer Dichter auf Vasenbildern</title> (1861)</bibl>. Other works are the elaborate and able biography of Mozart <bibl default="NO">(1856-60)</bibl>; the <bibl default="NO"><title>Gesammelte Aufsätze über Musik</title> (1866)</bibl>; his <bibl default="NO"><title>Biographische Aufsätze</title> (1866)</bibl>; and <bibl default="NO"><title>Ludwig Uhland</title> (1853)</bibl>. See the sketch of Jahn by Vahlen <bibl default="NO">(Vienna, 1870)</bibl>.
+ </p></div2>
+ 
+<div2 id="crossjail" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jail">Jail</head>
+
+ <p> See <ref type="cross" target="crosscarcer">Carcer</ref>.
+ </p></div2>
+ 
+<div2 id="crossjamb" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jamb">Jamb</head>
+
+ <p> See <ref type="cross" target="crossianua">Ianua</ref>; <ref type="cross" target="crosspostis">Postis</ref>.
+ </p></div2>
+ 
+<div2 id="crossjanitor" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Janitor">Janitor</head>
+
+ <p> See <ref type="cross" target="crossdomus">Domus</ref>.
+ </p></div2>
+ 
+<div2 id="crossjanuary" type="entry" org="uniform" sample="complete">
+ 
+<head orig="January">January</head>
+
+ <p> See <ref type="cross" target="crosscalendarium">Calendarium</ref>.
+ </p></div2>
+ 
+<div2 id="crossjar" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jar">Jar</head>
+
+ <p> See <ref type="cross" target="crossamphora">Amphora</ref>; <ref type="cross" target="crosscadus">Cadus</ref>; <ref type="cross" target="crossdolium">Dolium</ref>; <ref type="cross" target="crossolla">Olla</ref>; <ref type="cross" target="crossseria">Seria</ref>; <ref type="cross" target="crossurceus">Urceus</ref>; <ref type="cross" target="crossvitrum">Vitrum</ref>.
+ </p></div2>
+ 
+<div2 id="crossjavelin" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Javelin">Javelin</head>
+
+ <p> See <ref type="cross" target="crossiaculum">Iaculum</ref>; <ref type="cross" target="crosspilum">Pilum</ref>.
+ </p></div2>
+ 
+<div2 id="crossjerome" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jerome">Jerome</head>
+
+ <p> See <ref type="cross" target="crosshieronymus">Hieronymus</ref>.
+ </p></div2>
+ 
+<div2 id="crossjerusalem" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jerusalem">Jerusalem</head>
+
+ <p> See <ref type="cross" target="crosshierosolyma">Hierosolyma</ref>.
+ </p></div2>
+ 
+<div2 id="crossjesters" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jesters">Jesters</head>
+
+ <p> See <ref type="cross" target="crossbalatro">Balatro</ref>; <ref type="cross" target="crossscurra">Scurra</ref>.
+ </p></div2>
+ 
+<div2 id="crossjests" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jests">Jests</head>
+
+ <p> (<foreign lang="greek">ἀστεῖα, σκώμματα</foreign>, <seg lang="la">ioci, iocularia, facete dicta</seg>). In their fun-making, the Greeks and Romans seem to have differed somewhat as do the French and the English of to-day—the Greeks inclining more to wit and the Romans to humour. The Greeks admired what was neat in form, terse, pointed, sparkling; the Romans what was provocative of laughter. This is, in fact, the essential difference between the <title>sal Atticum</title> and the <title>acetum Italicum.</title> (See <ref type="cross" target="crossepigramma">Epigramma</ref>.) The witty sayings of the most famous Greeks, preserved for us in the pages of Diogenes Laertius and Plutarch, have a higher quality about them than mere fun. Such is that of Diogenes the Cynic, who, when journeying from Sparta to Athens, was asked where he was going, and replied, “From the men's apartments to the women's.” The same person, observing the son <cb /> of a courtesan throwing stones among a crowd, said to him, “Take care lest you hit your father!” A stock joke of modern times is told of him, for seeing an unskilful archer practising, he went and sat by the target, saying, “Now I shall be out of harm's way.” Clever, also, is the saying of Aristotle on being told that a person had been abusing him in his absence: “He may even beat me, if he likes, in my absence.” Two of his sayings anticipate two famous passages of the New Testament. Being asked how we should treat our friends, he replied, “As we should wish our friends to treat us.” And to one who inquired how students should get on, he said, “Pressing on upon those who are before and not waiting for those who are behind.”</p>
+ <p>Parody and burlesque flourished among the Greeks from very early times, witness the mockheroics of the <title>Batrachomyomachia</title> (q. v.) and the other ludicrous imitations of the Homeric poems, and so in Latin in the pseudo-Vergilian comic epic <title>Culex.</title> As early as Epicharmus (in the fifth century B.C.) tragic themes were burlesqued, as in later times by <ref type="cross" target="crossrhinthon">Rhinthon</ref> (q.v.), who gave his name to this species of composition (<title>fabula Rhinthonica</title>); while <ref type="cross" target="crossaristophanes">Aristophanes</ref> (q.v.) has filled his comedies with the richest kind of drollery based upon the presentation of serious subjects in a comic light. Lucian's dialogues are remarkable examples of clever burlesque and keen irony, which spares neither men nor gods. See <ref type="cross" target="crosslucianus">Lucianus</ref>; <ref type="cross" target="crossparodia">Parodia</ref>.</p>
+ <p>In later times special collections of <seg lang="la">facetiae</seg> were made, one of the best known being the <foreign lang="greek">Ἀστεῖα</foreign> ascribed to Hierocles. This is the source of many jokes that are professedly modern, and deals principally with the absurd doings of pedants (<foreign lang="greek">σχολαστικοί</foreign>), which bear a strong family likeness to many of the jokes that appear in the <title>Fliegende Blätter.</title> The following will serve as specimens of these ancient jests:</p>
+ <p>“A bookworm, wishing to teach his horse to be a small eater, gave him no food at all. Finally the horse starved to death, whereupon the bookworm exclaimed, ‘What a loss I have suffered! Just as he had learned to live without eating, he has gone and died!’”—a story which reappears in modern fiction in Sir Walter Scott's <title>Waverley</title>, where it is put into the mouth of Evan Dhu Maccombich.</p>
+ <p>“A bookworm, meeting another of his own kind, said, ‘Why, I heard you were dead!’ ‘And yet,’ replied the other, ‘you see that I am alive.’ ‘Well,’ said the first, with a puzzled air, ‘I really don't know what to believe, for the party who told me is a much more reliable person than you are.’”</p>
+ <p>Quintilian devotes a part of his treatise (vi. 3) to the discussion of humour, giving copious examples from Roman sources. In it he deprecates the use of puns as being only a cheap form of wit; yet punning was much practised by the Romans. Cicero was an inveterate punster, much to the disgust of Pompey when they were associated together in the Civil War. Many of these cheap jokes of his are preserved by Macrobius (ii. 2), by Plutarch in his life of the orator, and Quintilian mentions a collection of them as having been made and published (vi. 3, 5) by Cicero's freedman Tiro. Another collection of them was made by C. Trebonius ( <title>Ad Fam.</title> xv. 21, 1-3). Like books were made of Caesar's <foreign lang="greek">ἀποφθέγματα</foreign>. (Cf. C. F. W. Müller's ed. of Cicero, iv. 3, 341; and for examples, the article describing <ref type="cross" target="crosspuns">Puns</ref> in this Dictionary.) Cato the Censor is said to have published a joke-book, but not, however, 
+<pb n="907" /><cb /> of his own sayings ( <title>Cat. Mai.</title> 2). For satirical wit, see <ref type="cross" target="crosssatira">Satira</ref>.
+ </p></div2>
+ 
+<div2 id="crossjet" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jet">Jet</head>
+
+ <p> (<foreign lang="greek">γαγάτης λίθος</foreign>, <foreign lang="la">Gagates lapis</foreign>). See <ref type="cross" target="crossgagae">Gagae</ref>.
+ </p></div2>
+ 
+<div2 id="crossjewellery" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jewellery">Jewellery</head>
+
+ <p> See <ref type="cross" target="crossanulus">Anulus</ref>; <ref type="cross" target="crossargentum">Argentum</ref>; <ref type="cross" target="crossarmilla">Armilla</ref>; <ref type="cross" target="crossaurum">Aurum</ref>; <ref type="cross" target="crosscaelatura">Caelatura</ref>; <ref type="cross" target="crossgemma">Gemma</ref>; <ref type="cross" target="crossinauris">Inauris</ref>; <ref type="cross" target="crossmonile">Monilé</ref>.
+ </p></div2>
+ 
+<div2 id="crossjews" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jews">Jews</head>
+
+ <p> See <ref type="cross" target="crossiudaei">Iudaei</ref>; <ref type="cross" target="crosspalaestina">Palaestina</ref>.
+ </p></div2>
+ 
+<div2 id="crossjockeys" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jockeys">Jockeys</head>
+
+ <p> See <ref type="cross" target="crosscircus">Circus</ref>; <ref type="cross" target="crosshippodromus">Hippodromus</ref>.
+ </p></div2>
+ 
+<div2 id="crossjokes" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jokes">Jokes</head>
+
+ <p> See <ref type="cross" target="crossjests">Jests</ref>.
+ </p></div2>
+ 
+<div2 id="crossjournal" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Journal">Journal</head>
+
+ <p> See <ref type="cross" target="crossacta">Acta</ref>; <ref type="cross" target="crosscodex-accepti-et-expensi">Codex Accepti et Expensi</ref>; <ref type="cross" target="crosscommentarii">Commentarii</ref>; <ref type="cross" target="crossephemeris">Ephemeris</ref>.
+ </p></div2>
+ 
+<div2 id="crossjove" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jove">Jove</head>
+
+ <p> See <ref type="cross" target="crossiupiter">Iupiter</ref>.
+ </p></div2>
+ 
+<div2 id="crossjudge" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Judge">Judge</head>
+
+ <p> See <ref type="cross" target="crossdicastes">Dicastes</ref>; <ref type="cross" target="crossiudex">Iudex</ref>.
+ </p></div2>
+ 
+<div2 id="crossjudicial-procedure" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Judicial Procedure">Judicial Procedure</head>
+
+ <p><hi rend="SmallCaps">I. At Athens</hi>—A clear distinction was drawn at Athens between public (<foreign lang="greek">γραφαί</foreign>) and private actions (<foreign lang="greek">δίκαι</foreign>). But it must be remarked that the public actions included more offences than those which directly affected the State. Injuries to individuals might form matter for a public prosecution, if (as, e. g., in a case of theft or damage to property) the wrong to a citizen in his honour or property admitted of being viewed as an attack upon the honour of the citizens or the security of property in general. The difference, both in public and private actions, was essential, whether we consider (<seg lang="la">a</seg>) the right of prosecution, or (<seg lang="la">b</seg>) the consequences of condemnation.</p>
+ <p> (<seg lang="la">a</seg>) Any one might institute a public prosecution, even if he had himself suffered no wrong. The only condition was that he must be of full age and in possession of all civic rights. It was only in cases of murder that the right of prosecution was limited to the relations of the murdered person. Private prosecutions, on the other hand, could only be undertaken by the injured person or his legal representative, in the case of a ward by his guardian, in that of a married woman by her husband, in that of strangers by their <foreign lang="greek">πρόξενος</foreign>, in that of resident aliens by their patrons.</p>
+ <p> (<seg lang="la">b</seg>) In the case of public prosecutions, if a fine was inflicted the amount went into the public treasury; in the case of a private prosecution, to the prosecutor. At public trials other penalties than fines could be inflicted: death, imprisonment, deprivation of civic rights, banishment with confiscation of property. This was not the case in private causes, though in them the State had the right of increasing the penalty. For instance, a prosecution for false witness was not public, but private; yet if a person was convicted three times, the State could inflict deprivation of civil rights. In public causes the prosecutor ran the risk of being himself fined 1000 <hi rend="italic">drachmae</hi> ($166) if he failed to carry at least one third of the votes of the jurymen, besides which he lost his right of instituting a similar action again. In private causes the prosecutor, if he failed to establish his case, was fined in an amount generally equal to one sixth of the sum in dispute. A distinction was drawn between assessed and non-assessed causes. The non-assessed were those in which the amount of the fine was already fixed by law, and any further estimate was therefore unnecessary; the assessed causes were all those in which the amount of fine had to be settled according to the character of the offence, or the magnitude of the damage; in other words, those which required that the punishment should be fixed for the occasion. Besides those prosecutions, the object of which was to get a person punished <cb /> for an actual breach of law, there were others which merely aimed at settling a disputed right. These were naturally, for the most part, private causes; but there were public prosecutions of this kind as well. For instance, any one who proposed and carried a new law was liable for a whole year after it had passed to prosecution and punishment for making an illegal proposal. But after the year had elapsed, his personal responsibility came to an end, and only the new law could be attacked. Private causes could be settled by arrangement, but the law forbade the accuser in a public cause to drop the case. If he did, he was liable to the same punishment as if he had failed to carry one third of the votes. This was the principle, but it was not always carried out in practice. In certain public causes in which a reward was offered by the State, the prosecutor, if successful, received a share of the fine. The costs of private causes (<foreign lang="greek">πρυτανεῖα</foreign>) were paid by both parties in advance, and returned to the successful suitor by his adversary. These fees amounted, if the sum in dispute were less than 1000 drachmae, to three drachmae (about $0.50); if greater, to thirty drachmae (about $5.00). The costs of public prosecutions were not paid by the accused. They were paid by the accuser in one case only—namely, if, in the event of the accused being condemned, the accuser received part of the fine imposed. In testamentary suits, supposing a person to claim an inheritance already assigned to another, or to lay exclusive claim to one which was claimed by several others, the tenth part of the amount was deposited before the trial. If the suit was instituted against the State, supposing the question affected confiscated property, a fifth part of the amount was deposited. The successful litigant in either case received the amount deposited.</p>
+ <p>As above mentioned, the Athenian law allowed the prosecutor, in many cases, to institute the same suit in various forms. A case of personal injury might be treated either as a private action for assault or as a public action for outrage. In the latter case the prosecutor could make no claim for personal compensation. If the injury was accompanied by aggravating circumstances, supposing, for instance, that the person injured were performing a public function, either form of action was open.</p>
+ <p>Private actions were often decided by Diaetetae, or arbitrators (see <ref type="cross" target="crossdiaetetae">Diaetetae</ref>) —an important body. For the convenience of persons living outside Athens, thirty (in later times forty) local magistrates were appointed by lot, whose business it was to go from place to place and decide petty cases of debt, or damage, or assault. In cases of murder the jurisdiction belonged to the Ephetae, in certain other cases to the Senate, the Ecclesia, the Strategi, the Archons, and the Eleven. (See <ref type="cross" target="crosshendeka">Hendeka</ref>.) The greater number of cases came before the court of the Heliaea. See <ref type="cross" target="crossdicastes">Dicastes</ref>; <ref type="cross" target="crossdike">Diké</ref>.</p>
+ <p>The most general name for a public charge was <foreign lang="greek">γραφή</foreign>, or a statement in writing. The <foreign lang="greek">γραφή</foreign> was resorted to only in cases of offences already recognized by law, and was always brought before a court of law, never before a political body, such as the Senate or Public Assembly. On the special forms of public prosecution, see <ref type="cross" target="crossapagoge">Apagogé</ref>; <ref type="cross" target="crosseisangelia">Eisangelia</ref>; <ref type="cross" target="crossendeixis">Endeixis</ref>; <ref type="cross" target="crossphasis">Phasis</ref>; <ref type="cross" target="crossprobole">Probolé</ref>. <foreign lang="greek">Δίκη</foreign> (suit) was the term for a civil process. Under both 
+<pb n="908" /><cb />
+ forms of action the proceedings were very much the same. Except in certain cases affecting the religious mysteries, they were public, and involved a great many formalities. By way of introducing his case, the prosecutor applied to the president of the court, who fixed the date for the preliminary investigation. The summons was made by the prosecutor in a public place and in the presence of witnesses. Aliens were obliged to give security for their appearance; citizens were not, except in case of <foreign lang="greek">ἀπαγωγή, ἔνδειξις</foreign>, or <foreign lang="greek">εἰσαγγελία</foreign>; and in these cases a special summons was sometimes dispensed with, and the accused might be immediately arrested. The charge having been handed in, the presiding judge decided, when the day mentioned in the summons came round, whether he should admit it or not. Various reasons might lead him to dismiss it: the non-appearance of the accused, there being no sufficient evidence to show that he had been summoned; or if the accuser appeared, on the whole, not justified in bringing the charge; or if the forms were not duly observed. If the charge were admitted, it was publicly posted up on a tablet in the neighbourhood of the court, with a notification of the day when the trial would come on. If the accuser failed to appear on the appointed day, the charge fell through <seg lang="la">ipso facto;</seg> if the accused failed without putting in a valid plea for postponement, he was proceeded against <seg lang="la">in contumaciam.</seg> If the parties came into court, they were both put on their oath, the accuser with respect to his charge, the accused with regard to his answer. They then paid the court fees.</p>
+ <p>The accused generally tried, if possible, to prevent the trial coming on. There were many ways of doing this. He might, or another might for him, dispute the admissibility of the charge on various grounds—e. g. the legal inability of the prosecutor to prosecute, limitation, want of jurisdiction on the part of the authorities, absence of any law to serve as a basis for the charge, and so on. A witness was usually put forward in cases of disputed inheritance to prove that the prosecutor had no claim. In either case the trial was postponed until a decision had been come to upon the objection raised by the accused or upon the charge of false testimony brought by him against the witness. If the decision went against the accuser he was obliged to retire from the case. After a decision was given on the objection raised by the accused, the party to whom it was unfavourable had to pay his adversary a fine amounting to a sixth part of the value of the object in dispute.</p>
+ <p>All the material necessary for the trial, the passages to be quoted from laws, documents, and testimony, had to be prepared by the parties. The evidence consisted of written statements which were given in among the records. The witnesses who were responsible for these might either have made them in person before the magistrates, or in their absence before other witnesses. The witnesses were either willing or unwilling. If a person had at first offered to give evidence and afterwards refused to do so, he might be prosecuted by the person affected by his conduct. If any person, even without having bound himself to appear, refused to give evidence after being formally summoned by the herald, he had to pay into the public treasury a fine of 1000 drachmae.</p>
+ <p>The statements of slaves were only accepted as <cb /> evidence when given under torture in the presence of witnesses, who had to take them down. The owners of slaves offered to submit them to the torture, either of their own will or on the demand of the opposite party, with which, however, they were not bound to comply. The oath was regarded as the ultimate test of truth. (See <ref type="cross" target="crossiusiurandum">Iusiurandum</ref>.) It might either be taken by both parties on their own proposal, or be exacted by one party from the other. The taking of the oath or the refusal to take it was put into writing as evidence and enrolled among the archives. These documents were kept by the magistrate in a sealed box, and brought by him into court on the day of trial. In certain cases, such as those relating to commerce, mining, and dowries, the duration of the proceedings was legally limited to thirty days; but in other causes trials would sometimes drag themselves out through a whole year. If one of the parties failed to appear in court on the day appointed, his reason had to be stated on oath by a representative. The other party was free to declare on oath that the reasons alleged were insufficient: if the judge took this view, the proceedings went on <seg lang="la">in contumaciam</seg>, and the absent party lost in the suit. In the opposite case the accuser had to propose another date for the trial. In private cases an arrangement might be made, even in court. The charge and the answer having been read by the clerk, both parties delivered their speeches. These had often been composed for them, for, according to strict law, the parties could not be represented by advocates. In practice, however, they often contented themselves with a short introductory address of their own, and then asked for permission to employ an advocate.</p>
+ <p>The first speech and reply were often followed by a second, but the whole number of speeches on each side was not allowed to exceed a certain time measured by the water-clock. The pieces of written evidence were read out by the clerk, during the speaking, in their proper places, but the time which they took was not counted against the speaker. The judge alone had the right of interrupting the speaker. It was usual to introduce the evidence of parents, wives, children, and influential persons. The voting was secret. Every judge received a black and a white pebble (the black for condemnation and the white for acquittal), and put the pebble (<foreign lang="greek">ψῆφος</foreign>) which indicated his vote into a metal urn (<foreign lang="greek">ὑδρία</foreign>), the other into a wooden one. Stones bored through or left entire, mussel shells, beans, or metal balls were also used for voting.</p>
+ <p>The verdict was decided by the majority of votes: if they were equal, the accused was acquitted. If the cause was assessed (<foreign lang="greek">ἀγὼν τιμητός</foreign>), a second voting followed, to decide between the punishment proposed by the accuser and the counter-proposal of the accused. There was no appeal, at least against the decision of the public court of the Heliastae. The utmost that was possible was to get the verdict set aside by proving that the proceedings <seg lang="la">in contumaciam</seg> had been illegal, or that the winner had gained the case by suborning false witnesses. The magistrates were, in the case of public actions, responsible for carrying out the punishment. Capital sentences were usually carried out (by poison or strangulation) in prison by the executioner commissioned by the Eleven. (See <ref type="cross" target="crosshendeka">Hendeka</ref>.) The corpses of great criminals were 
+<pb n="909" /><cb /> thrown down a precipice or removed over the border. If the sentence were banishment, the condemned person had to leave the country within a certain time at the peril of his life; his property was confiscated. If <foreign lang="greek">ἀτιμία</foreign> were inflicted, and the condemned person attempted to usurp the rights of which he had been deprived, he was liable to severe, even to capital, punishment. In case of a fine being inflicted, a man was <foreign lang="greek">ἄτιμος</foreign> till it was paid: if he failed to pay by the time appointed, he was liable to a double punishment, and ultimately to the confiscation of his property. If the amount of his property exceeded the fine, the surplus was returned to him; if it fell short of it, he and his descendants were debtors to the State and <foreign lang="greek">ἄτιμοι</foreign>. Imprisonment seems to have served only as an increase of sentence or as a means of enforcing sentence. Loss of freedom and sale were only inflicted on non-citizens for usurping civic rights. In private actions the ultimate means of compelling the condemned person to the fulfilment of his obligation was an executory mandate, by which he was declared a debtor to the State in the same sum that he owed the prosecutor, and made <foreign lang="greek">ἄτιμος</foreign> till it was paid.</p>
+ <p><hi rend="SmallCaps">II. At Rome</hi>. Criminal jurisdiction, until the establishment of the Republic, belonged to the kings, and on their commission to the <seg lang="la">quaestores parricidii</seg> and the <seg lang="la">duo viri perduellionis.</seg> (See <ref type="cross" target="crossparricidium">Parricidium</ref>; <ref type="cross" target="crossperduellio">Perduellio</ref>.) After the expulsion of the kings it passed over immediately to the consuls, until the public courts (<seg lang="la">iudicia populi</seg>) were gradually developed. In capital cases, even in the time of the kings, an appeal was allowed, as an act of grace, from their verdict to the representative assembly, at first to the Comitia Curiata, and after Servius Tullius to the Comitia Centuriata. (See <ref type="cross" target="crossprovocatio">Provocatio</ref>.) After the establishment of the Republic, it was, in B.C. 509, legally provided that an appeal might be made, in capital cases, from the sentence of the magistrate to the decision of the Comitia Centuriata as a court of appeal. Condemned persons, as a rule, naturally made use of this right, and the magistrates consequently brought their verdict before the Comitia Centuriata, in the form of a charge with reasons to support it. Thus these comitia acquired a jurisdiction, dependent, it is true, on a previous judgment of the magistrates, and limited to capital cases which admitted of appeal. The jurisdiction of the Comitia Tributa was developed in the same way. At first these comitia had merely served as a court of appeal against the fines imposed by the tribunes for violation of their authority. (See <ref type="cross" target="crossmulta">Multa</ref>.) But they soon acquired jurisdiction in all cases involving fines, and quite overshadowed the Comitia Centuriata in importance. The judicial power of the latter was gradually more and more restricted by the increasing habit of referring cases of common offences to the exceptional commissions. At last actions brought under the name of <seg lang="la">perduellio</seg> were the only ones in which they retained their judicial competence. But the greatest possible number of cases were brought before the Comitia Tributa, notably those of a political character in which illegal or mischievous administration was in question. Only the name of <seg lang="la">perduellio</seg> was avoided. The distinction between the judicial competence of the two assemblies was founded, not so much on differences in the offences, as in those of the penalties. Whether the Comitia Centuriata <cb /> or Comitia Tributa were to take cognizance of an offence depended on the light in which the magistrates regarded it. If they thought less seriously of it, it would go before the Comitia Tributa, which had only the power of inflicting fines to the amount of half the property; if more seriously, before the Comitia Centuriata, which could only pass capital sentences; in early times death, in later times the <seg lang="la">interdictio aquae et ignis</seg>, and the confiscation of property which accompanied them. See <ref type="cross" target="crossexsilium">Exsilium</ref>.</p>
+ <p>The proceedings in the assembly were opened by the accusing magistrate. In the Comitia Centuriata this would be a consul or praetor, in the Comitia Tributa a tribune, aedile, or quaestor. The trial began with the <seg lang="la">diei dictio</seg>, or fixing of a day for the proceedings. The accused was then either put into prison, or left free on giving bail for his appearance. To give the people some means of arriving at a conclusion on the guilt or innocence of the accused, a preliminary investigation was held in three <seg lang="la">contiones</seg> at intervals of some days. Before these the accused was allowed to defend himself against the charge of the magistrate. At the last <seg lang="la">contio</seg> the magistrate pronounced a provisional verdict, which, if adverse, was taken as a definite charge. At the same time he fixed the day for the meeting of the Comitia, always allowing an interval of thirty days. At the meeting of the Comitia, supposing nothing had occurred to stop the proceedings—i. e. supposing the accused had gone into voluntary exile, or a tribune had interposed his veto, or the accuser had withdrawn the charge— the accuser made his proposal (<seg lang="la">rogatio</seg>) to punish the accused. Thereupon the accused (or his advocate) spoke in his defence, the evidence of the witnesses who had been previously called was shortly gone through, and the proofs laid before the assembly. Finally the votes were taken in the usual manner, and the result at once made known. An action which remained unfinished at the expiration of the appointed time was not continued, but the accused was regarded as acquitted. The condemnation of the accused was followed by the immediate infliction of the penalty. The sentence could only be reversed by a subsequent resolution of the people. (See <ref type="cross" target="crossrestitutio">Restitutio</ref>.) The popular tribunals fell gradually into disuse; the standing judicial courts or <seg lang="la">quaestiones</seg> arose, the first of which was instituted in B.C. 149. In Cicero's time there were eight of those commissions, each presided over by a praetor or his representative. These courts were respectively appointed to try the following offences: (1) <title>Repetundae</title>, or official extortion;</p>
+ <p>(2) <title>Maiestas</title>, or offences against the majesty of the State;</p>
+ <p>(3) <title>Peculatus</title>, or embezzlement;</p>
+ <p>(4) <title>Ambitus</title>, or attempt to gain office by unlawful means;</p>
+ <p>(5) <title>Vis</title>, or violence;</p>
+ <p>(6) <title>De Sicariis</title>, or murder;</p>
+ <p>(7) <title>Adulterium</title>, or adultery;</p>
+ <p>(8) <title>Falsum</title>, or forgery. (See <ref type="cross" target="crossambitus">Ambitus</ref>; <ref type="cross" target="crossmaiestas">Maiestas</ref>; <ref type="cross" target="crosspeculatus">Peculatus</ref>; Repetundae; <ref type="cross" target="crossvis">Vis</ref>.) Any citizen, not an official, might bring the charge. On the proceedings, see <ref type="cross" target="crossquaestio">Quaestio</ref>.</p>
+ <p>The Comitia Tributa were, after this, only set in motion in cases for which there was no <seg lang="la">quaestio perpetua</seg>, or for which it was thought improper to institute a <seg lang="la">quaestio extraordinaria.</seg> The popular tribunals of the Comitia came to an end with the Republic, but the <seg lang="la">quaestiones</seg> continued until the second century A.D. to act as the regular criminal courts. Under the Empire the Senate and the emperor had an extraordinary jurisdiction in crim
+ inal cases. 
+<pb n="910" /><cb /> The senatorial court, which met under the presidency of the consuls, followed the procedure of the <seg lang="la">quaestiones</seg>, but its proceedings were not public. The cases which it tried were usually those which affected persons of high standing charged with political or official offences. The decision of the court took the form of a <seg lang="la">senatus consultum</seg>, but had all the force of a legal sentence. The emperor, in virtue of his tribunician authority, had the power of neutralizing it by his veto. An interval of ten days occurred between sentence and execution, in pursuance of an order of Tiberius made in A.D. 22. But up to that time the sentence was carried out immediately after being passed, even in capital cases. Capital punishment had in the republican times been practically abolished, but was at once reinstated under the imperial régime. The emperor himself usually exercised his jurisdiction only over his own procurators and the higher officers of the army, notably in the case of strictly military offences. He acted as sole judge even when he invited the assistance of a jury (<seg lang="la">consilium</seg>). No formal act of accusation was required. Actions which he was unwilling to settle himself he would generally hand over to the <seg lang="la">quaestiones</seg> or the senatorial tribunals. The power of inflicting sentence of death on Roman citizens was confined originally to the emperor and Senate; but in later times the emperor, by a special mandate, transferred it for purposes of provincial administration to the governors of the provinces, whose jurisdiction extended to all citizens, with the exception of the high military officers, senators, and the <seg lang="la">decuriones</seg> of a <seg lang="la">municipium.</seg> (See <ref type="cross" target="crossdecurio">Decurio</ref>.) The criminal jurisdiction in Rome and its neighbourhood for a radius of 100 miles was given to the <seg lang="la">praefectus urbi</seg>, whose court ended by becoming the chief criminal court in the capital. The rest of Italy was placed under the jurisdiction of the praefect of the Praetorian Guard. From the decision of these representatives of the imperial authority an appeal was allowed to the emperor. But, after the third century A.D., the appeal mostly came before the praefect of the body-guard, whose judgment was generally final. The senatorial court came finally to acting only on the motion of the emperor.</p>
+ <p>The Roman civil jurisdiction, like the criminal, belonged originally to the king, from whom it passed to the consuls. With them it remained until a special magistracy, the praetorship, was instituted for it. (See <ref type="cross" target="crosspraetor">Praetor</ref>.) According to ancient usage, the highest judicial authorities did not superintend the case from beginning to end. Their action was usually confined to the preparation of the case and such measures as its course made absolutely necessary, as (supposing their interference was required) in ordering execution of sentence. The investigation proper, and the passing of judgment, they as a rule handed over (with the consent of the parties) either to a single judge (see <ref type="cross" target="crossiudex">Iudex</ref>) or <seg lang="la">recuperatores</seg> (see <ref type="cross" target="crossrecuperatores">Recuperatores</ref>) appointed for the occasion, or to the judicial <seg lang="la">collegia</seg> of the <seg lang="la">iudices decemviri</seg> and <seg lang="la">centumviri</seg>, appointed, independently of special cases, for the whole year. As an introduction of the case, the suitor (<seg lang="la">petitor</seg>) was required to bring the defendant (<seg lang="la">reus</seg>) before the tribunal of the magistrate (<seg lang="la">in ius</seg>). In the case of the praetor, this would be his tribunal in the Forum. If the accused failed either to obey the personal summons of the prosecutor (<seg lang="la">in ius vocatio</seg>) <cb /> or to appear by his representative (<seg lang="la">vindex</seg>), the prosecutor could, after calling a witness to attest that his summons was in order, take him before the praetor by force. In later time, to meet the cases in which the accused was unable to answer the summons immediately, the <seg lang="la">vadimonium</seg> was introduced. This was a promise, given by the accused on the security of sureties, that he would appear in court on a certain day, or if he failed would pay a sum of money, the amount of which depended on the nature of the question in dispute. The proceedings <seg lang="la">in iure</seg>, or before the magistrate, took place according to certain definite formal rules, the so-called <seg lang="la">legis actiones</seg>, the commonest of which was the <seg lang="la">actio sacramenti.</seg> This was accompanied by the utterance of a solemn formula partly by the magistrate, partly by the parties, and by certain symbolical acts. The smallest departure from the traditional formula involved the loss of the suit. The trial thus commenced, the next step was the <seg lang="la">iudicis datio</seg>, or appointment of a judge to try it. The case came on before the appointed <seg lang="la">iudex (in iudicio)</seg> on a day appointed. It was first shortly stated; the parties or their advocates made their speeches, the evidence was tested and judgment pronounced. See <ref type="cross" target="crossactio">Actio</ref>; <ref type="cross" target="crossiudex">Iudex</ref>.</p>
+ <p>The cumbrous machinery of the <seg lang="la">legis actiones</seg> gave way afterwards, in all cases but a few, to the procedure of <seg lang="la">formula.</seg> The <seg lang="la">formula</seg> was a document written out by the praetor, in which he, after hearing the parties, summed up the points of the accusation and the replies of the accused, appointed the judge, and gave him the materials for investigation and judgment. The proceedings <seg lang="la">in iudicio</seg> were then opened with the production of the formula. The question of the debt being settled, the judge proceeded to make a valuation of the object in dispute, in case a definite amount had not been mentioned in the formula. On the procedure in case of default, see <ref type="cross" target="crosscontumacia">Contumacia</ref>. The judgment was irreversible. It was only in certain exceptional cases, notably if it appeared that any deception or force had been employed, that the magistrate who had appointed the judge, or his successor in office, could set it aside by <seg lang="la">restitutio in integrum.</seg> If the condemned party refused to make the payment, the magistrate who had prepared the case could order personal arrest or seizure of goods. See <ref type="cross" target="crossmanus-iniectio">Manus Iniectio</ref> and <ref type="cross" target="crossbonorum-emptio">Bonorum Emptio</ref>.</p>
+ <p>The only weapon against abuse of judicial authority in the republican age was the right of appeal to a magistrate with the power of veto. See <ref type="cross" target="crossappellatio">Appellatio</ref>; <ref type="cross" target="crossprovocatio">Provocatio</ref>.</p>
+ <p>The system of civil jurisdiction continued to exist in the imperial period, though with many modifications in detail, until the third century A.D. After that, the exceptional procedure (<seg lang="la">extra ordinem</seg>), in which the magistrate superintended the case till its conclusion and pronounced judgment at the end of it, became the usual one. The emperor, as supreme judge, had the power of deciding every case, criminal or otherwise, if his decision was appealed to. Further, he could interfere by his decree during the course of the trial, and either quash the verdict himself, or lay the appeal for decision before an authority constituted by himself for the purpose. In later times this authority was the <seg lang="la">praefectus urbi.</seg> A further appeal from this authority back to the emperor was allowed.
+ </p></div2>
+ 
+<div2 id="crossjug" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jug">Jug</head>
+
+ <p> See <ref type="cross" target="crossurceus">Urceus</ref>. 
+<pb n="911" /><cb />
+ </p></div2>
+ 
+<div2 id="crossjuggler" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Juggler">Juggler</head>
+
+ <p> See <ref type="cross" target="crosscirculator">Circulator</ref>.
+ </p></div2>
+ 
+<div2 id="crossjulian-calendar" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Julian Calendar">Julian Calendar</head>
+
+ <p> See <ref type="cross" target="crosscalendarium">Calendarium</ref>.
+ </p></div2>
+ 
+<div2 id="crossjuly" type="entry" org="uniform" sample="complete">
+ 
+<head orig="July">July</head>
+
+ <p> See <ref type="cross" target="crosscalendarium">Calendarium</ref>. <cb />
+ </p></div2>
+ 
+<div2 id="crossjune" type="entry" org="uniform" sample="complete">
+ 
+<head orig="June">June</head>
+
+ <p> See <ref type="cross" target="crosscalendarium">Calendarium</ref>.
+ </p></div2>
+ 
+<div2 id="crossjurisprudence" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jurisprudence">Jurisprudence</head>
+
+ <p> See <ref type="cross" target="crossiurisprudentia">Iurisprudentia</ref>.
+ </p></div2>
+ 
+<div2 id="crossjury" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Jury">Jury</head>
+
+ <p> See <ref type="cross" target="crossiudices">Iudices</ref>.
+ 
+ <cb /></p></div2>
+ </div1>
+<div1 type="notes">
+
+<pb n="nts"/>
+<note id="ref1" target="n1">* The original name for these abbreviations seems to have been litterae singulares or singulariae (cf.  Gell.xvii.9.1). At a later period notae became the more common term (cf. Festus, p. 184: Nota nunc significat signum at in pecoribus, tabulis, libris, litterae singulae vel binae). Valerius Probus wrote an elaborate work De Notis, only a part of which has been preserved. In the Digests of Justinian nota is displaced by the term sigla. The word is of doubtful origin. Most scholars regard it as a syncopated form of sigillum; others derive it from singuli; Mommsen thinks it a mere corruption from singulares.</note>
+<note id="ref2" target="n2">* Balnea is, however, used in the singular to designate a private bath in an inscription quoted by Reinesius (Inscr. xi. 115).</note>
+
+ 
+</div1>
+</body>
+</text>
+</tei.2>

@@ -1,0 +1,522 @@
+<tei.2>
+
+  <teiHeader type="text" status="new">
+   <fileDesc>
+    <titleStmt>
+ 	<title>Harpers Dictionary of Classical Antiquities (1898)</title>
+ 	<author>Harry Thurston Peck</author>
+ 	<sponsor>Perseus Project, Tufts University</sponsor>
+ 		<principal>Gregory Crane</principal>
+ 		<respStmt>
+ 		<resp>Prepared under the supervision of</resp>
+ 		<name>Lisa Cerrato</name>
+ 		<name>William Merrill</name>
+ 		<name>Elli Mylonas</name>
+ 		<name>David Smith</name>
+ 		</respStmt>
+ <funder n="org:NEH">The National Endowment for the Humanities</funder>
+    </titleStmt>
+    <publicationStmt>
+ 		<publisher>Trustees of Tufts University</publisher>
+ 		<pubPlace>Medford, MA</pubPlace>
+ 		<authority>Perseus Project</authority>
+ 		</publicationStmt>
+       <sourceDesc default="NO">
+ 	<biblStruct default="NO">
+ 	 <monogr>
+ 	  <author>Harry Thurston Peck</author>
+ 	  <title>Harpers Dictionary of Classical Antiquities</title>
+ 	  <imprint>
+ 	   <pubPlace>New York</pubPlace>
+ 	   <publisher>Harper and Brothers</publisher>
+ 	   <date>1898</date>
+ 	  </imprint>
+ 	 </monogr>
+ 	</biblStruct>
+    </sourceDesc>
+   </fileDesc>
+ 
+   <encodingDesc>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="id" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state n="chunk" unit="entry" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="alphabetic letter" />
+ 	<state unit="entry" />
+    </refsDecl>
+   </encodingDesc>
+ 
+   <profileDesc>
+    <langUsage default="NO">
+ 	<language id="en">English
+ 	</language><language id="greek">Greek
+     </language><language id="la">Latin
+ 	</language><language id="fr">French
+ 	</language><language id="it">Italian
+ 	</language><language id="es">Spanish
+ 	</language><language id="de">German
+ 	</language><language id="oe">Old English
+ 	</language><language id="sanskrit">Sanskrit, Harvard-Kyoto code
+ 	</language><language id="gothic">Gothic
+ 	</language><language id="pie">Indo-European
+ 	</language><language id="xhebrew">transliterated Hebrew
+    </language></langUsage>
+   </profileDesc>
+  </teiHeader>
+<text>
+<body>
+<div1 type="alphabetic letter" n="U" org="uniform" sample="complete">
+<head orig="U">U</head>
+
+ 
+<div2 id="crossu" type="entry" org="uniform" sample="complete">
+ 
+<head orig="U">U</head>
+
+ <p> as a symbol. See V.
+ </p></div2>
+ 
+<div2 id="crossubii" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Ubii">Ubii</head>
+
+ <p> A German people, who originally dwelt on the right bank of the Rhine, but were transported across the river by Agrippa, in B.C. 37, at their own request, because they wished to escape the hostilities of the Suevi ( <title>B. G.</title> iv. 3, 18;  <bibl n="Tac. Ann. 12. 27" default="NO" valid="yes">Tac. <title>Ann.</title>xii. 27</bibl>;  <bibl n="Suet. Aug. 21" default="NO" valid="yes">Suet. <title>Aug.</title>21</bibl>). They took the name of Agrippenses, from their town Colonia Agrippina (Cologne).
+ </p></div2>
+ 
+<div2 id="crossucalegon" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Ucalĕgon">Ucalegon</head>
+
+ <p> (<foreign lang="greek">Οὐκαλέγων</foreign>). One of the elders at Troy, whose house was burned at the destruction of the city ( <bibl n="Hom. Il. 3. 147" default="NO" valid="yes"> <title>Il.</title>iii. 147</bibl>;  <bibl n="Verg. A. 2. 312" default="NO" valid="yes">Verg. <title>Aen.</title>ii. 312</bibl>). Hence Juvenal uses his name for a neighbour whose house is on fire (iii. 199).
+ </p></div2>
+ 
+<div2 id="crossudo" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Udo">Udo</head>
+
+ <p> A sort of sock or stocking made of goatskin ( <bibl n="Mart.  14. 140" default="NO" valid="yes">Mart.xiv. 140</bibl>).
+ </p></div2>
+ 
+<div2 id="crossufens" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Ufens">Ufens</head>
+
+ <p> Now the Uffente; a river in Latium, flowing from Setia, and falling into the Amasenus.
+ </p></div2>
+ 
+<div2 id="crossuffugum" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Uffŭgum">Uffugum</head>
+
+ <p> A town in Bruttium, between Scyllacium and Rhegium.
+ </p></div2>
+ 
+<div2 id="crossulpianus" type="entry" org="uniform" sample="complete">
+ <head><surname full="yes">Ulpiānus</surname></head>, <foreName full="yes">Domitius</foreName>
+ <p>The most celebrated among Roman jurists next to Papinianus. Born at Tyre about A.D. 170, he began his career in Rome under Septimius Severus as colleague of Papinianus; and, under Elagabalus and Alexander Severus, whose preceptor and guardian he had been, he filled the office of a <seg lang="la">praefectus praetorio.</seg> During his tenure of this office he was murdered (228) before the eyes of the emperor by the Praetorians, whom he had exasperated by the strictness of his discipline. His two chief works, on the praetorian law (<title>Ad Edictum</title>), in eighty-three books, and on the civil law (<title>Ad Sabinum</title>), in fifty-one books, were held in high esteem, and formed the foundation of the Pandects of Justinian's <title>Corpus Iuris.</title> Of this portion the extracts from his writings form a full third. Besides these excerpts we have a small part of his <title>Regularum Liber Singularis</title> (ed. by Böcking [Bonn, 1855]), and of his <title>Institutiones</title>, included in Huschke's <title>Iurisprudentia Anteiustiniana</title>, 568, and edited by Vahlen <bibl default="NO">(Bonn, 1856)</bibl>. See Schilling, <bibl default="NO"><title>De Ulpiano</title> (Breslau, 1824)</bibl>; and Karlowa, <title>Röm. Rechtsgeschichte</title>, i. 743.
+ </p></div2>
+ 
+<div2 id="crossulpius-traianus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Ulpius Traiānus">Ulpius Traianus</head>
+
+ <p> See <ref type="cross" target="crosstraianus">Traianus</ref>.
+ </p></div2>
+ 
+<div2 id="crossultor" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Ultor">Ultor</head>
+
+ <p> “The avenger;” a surname of Mars, to whom Augustus built a temple at Rome in the Forum, after taking vengeance upon the murderers of his great-uncle, Iulius Caesar.
+ </p></div2>
+ 
+<div2 id="crossulubrae" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Ulŭbrae">Ulubrae</head>
+
+ <p> A small town in Latium, of uncertain site, but in the neighbourhood of the Pontine Marshes.
+ </p></div2>
+ 
+<div2 id="crossulysses" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Ulysses">Ulysses</head>
+
+ <p> See <ref type="cross" target="crossodysseus">Odysseus</ref>.
+ </p></div2>
+ 
+<div2 id="crossumbella" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Umbella">Umbella</head>
+
+ <p> See <ref type="cross" target="crossumbraculum">Umbraculum</ref>.
+ </p></div2>
+ 
+<div2 id="crossumbilicus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Umbilīcus">Umbilicus</head>
+
+ <p> (<foreign lang="greek">ὀμφαλός</foreign>). (1) See <ref type="cross" target="crossdelphi">Delphi</ref>, p. 481.</p>
+ <p>(2) See <ref type="cross" target="crossliber">Liber</ref>, p. 951.
+ </p></div2>
+ 
+<div2 id="crossumbo" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Umbo">Umbo</head>
+
+ <p> (<foreign lang="greek">ἄμβων</foreign>). (1) A knob or boss projecting from the centre of a shield. (See <ref type="cross" target="crossclipeus">Clipeus</ref>.)</p>
+ <p>(2) A <cb /> bunch or fold in a garment, especially that produced by drawing up a part of the toga and fastening it at the breast (Tertull. <title>Pall.</title> 5).</p>
+ <p>(3) A curbstone; the raised margin of a sidewalk.
+ </p></div2>
+ 
+<div2 id="crossumbra" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Umbra">Umbra</head>
+
+ <p> (1) (<foreign lang="greek">εἴδωλον</foreign>, <seg lang="la">imago</seg>). A ghost. The ancients believed that the spirit of the human body descended into subterranean regions after life was extinct, and there retained the same figure and appearance it had possessed during life, so as to be recognizable by the relatives and friends who followed it, but without any real corporeal substance; or, in other words, that it was visible but impalpable. Those who had passed a life of virtue were removed to Elysium (see <ref type="cross" target="crosselysii-campi">Elysii Campi</ref>), where they continued in the enjoyment of perpetual youth, and sharing in the intercourse of such friends and relatives as had obtained the same lot. Those, on the contrary, who had lived in vice were removed to Tartarus, where they wore out an existence of perpetual punishment ( <seg lang="la">Serv. ad</seg>  <bibl n="Verg. A. 4. 654" default="NO" valid="yes">Verg. <title>Aen.</title>iv. 654</bibl>; Tibull. iii. 2, 9; <bibl n="Lucr. 1.120" default="NO" valid="yes">Lucret. i. 120</bibl>;  <bibl n="Hor. Carm. 4. 7" default="NO" valid="yes">Hor. <title>Carm.</title>iv. 7</bibl><bibl n="Hor. Carm. 14" default="NO" valid="yes">Hor. Carm., 14</bibl>). Hence the poets and artists always invest the shades with a corporeal form, and with the same appearances which the body presented during life. Popular tradition held that the spirits of the dead could revisit the earth; so that there are many passages in ancient literature that are curiously suggestive of the modern “ghost-story.” Several such are found in a letter of Pliny (vii. 27), where all the accessories of strange noises, clanking chains, etc., are introduced, and where the longest tale is the literary prototype of Washington Irving's ghost-story in <title>Dolph Heyliger.</title> See <bibl default="NO">Tylor, <title>Primitive Culture</title> (1871)</bibl>; and the article <hi rend="SmallCaps">Larva</hi>.</p>
+ <p>(2) A guest who comes to dinner on the invitation, not of the host, but of one whom the host has invited ( <title>Epist.</title> i. 5, 28).
+ </p></div2>
+ 
+<div2 id="crossumbraculum" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Umbracŭlum">Umbraculum</head>
+
+ <p> (<foreign lang="greek">σκιάδειον</foreign>) and <hi rend="bold">Umbella.</hi> A sunshade or parasol made like our own to open and shut ( <bibl n="Aristoph. Kn. 1348" default="NO" valid="yes">Aristoph. <title>Eq.</title>1348</bibl>). The ribs were called <seg lang="la">virgae</seg> (Ovid, <bibl n="Ov. Ars 2.209" default="NO" valid="yes"><title>A. A.</title> ii. 209</bibl>). It was usually carried <figure id="fig.01625">
+<head orig="Lady with Maid carrying Umbraculum. (From a vase.)">Lady with Maid carrying Umbraculum. (From a vase.)</head>
+</figure> by a female slave, who held it over the head of her mistress. The use of umbrellas was almost confined to women, for it was considered effeminate for men to use any protection against the sun except when travelling. Some luxurious men, however 
+<pb n="1626" /><cb /> (Athen. xii. p. 534 <seg lang="la">a</seg>), occasionally braved public opinion and used them. In Hellenistic times a large straw hat came into fashion, doubtless as a substitute for the parasol. At Rome they were also taken to the amphitheatre as a protection against the sun. See Paciandi, <bibl default="NO"><title>De Umbellae Gestatione</title> (Rome, 1752)</bibl>; Marquardt, <title>Privatleben</title>, p. 148. For the carrying of the parasol in processions, see <ref type="cross" target="crosssciadephoria">Sciadephoria</ref>.
+ </p></div2>
+ 
+<div2 id="crossumbrella" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Umbrella">Umbrella</head>
+
+ <p> See <ref type="cross" target="crossumbraculum">Umbraculum</ref>.
+ </p></div2>
+ 
+<div2 id="crossumbria" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Umbria">Umbria</head>
+
+ <p> (<foreign lang="greek">Ὀμβρική</foreign>). The portion of Central Italy between the rivers Sapis in the north and Nar in the south, the Apennines in the west, the Ager Gallicus near Ariminum and the Ager Picens near Hadria in the east; in Augustus's division, the sixth region of Italy, with about fifty important cities (Pliny , <bibl n="Plin. Nat. 3. 112" default="NO" valid="yes">Pliny <title>H. N.</title>iii. 112</bibl> foll.), after B.C. 220, traversed by the Via Flaminia. It was able, at the time of the Second Punic War, to muster 20,000 warriors against the Keltic foe. The name <foreign lang="greek">Ὀμβρικοί</foreign> (shorter <foreign lang="greek">Ὄμβροι</foreign>) is first met in Herodotus as an undefined title for the Italic tribes in the region of the Po, of which the Etruscans took possession. The ancients derived the name from <foreign lang="greek">ὄμβρος</foreign>, <seg lang="la">imber</seg>, making the people as old as the Deluge; the Umbrian-Roman comedian Plautus, with more probable correctness, in a joke (<title>Most.</title> 770) connects the word with <seg lang="la">umbra.</seg> The name probably designated the tribes of the western mountains from the standpoint of some of the Greeks.</p>
+ <p>Most nearly related to the Latins and the Sabellian tribes, the Umbrians were the ruling race of Northern Italy until the Romans, in the extension of their power, about B.C. 300, brought them also under their sway. The Sarsinates were the last to submit to the Roman <seg lang="la">imperium</seg> in the year 266, after a vain attempt to recover their freedom; the Sarsinate Plautus, who wrote for the Roman stage even before 200, is so completely Latinized that his ancient commentators had trouble to discover a single Umbrian word in his comedies. The historical importance of the Umbrians, therefore, belongs to an undefined period prior to the end of the fourth century B.C., when they formed a powerful barrier for the Italic peoples against the tribes of another race pushing on from the North. The elder Cato had placed the founding of the Umbrian city of Ameria in the year B.C. 1133, fifty years after the fall of Troy, as calculated by the Alexandrian scholars. Once subjugated by these strangers, or while still contending with them for supremacy in the plain of the Po and beyond the Apennines, the Umbrians had been more and more forced back, and at last confined to the abovenamed position in the valleys east of the Apennines. There they had been obliged to give place to the Kelts and Etruscans, who, to the last, were considered by the Umbrians the chief enemies of their own name. Various Keltic tribes had at different times pushed their way south through the plains of Lombardy into Umbrian territory (<bibl n="Liv.  5. 34" default="NO" valid="yes">Livy, v. 34</bibl> foll.); the tomb of a Kelt, with Keltic and Roman inscriptions, was found at Tuder in the heart of Umbria. This race is represented in the ritual records of the Umbrians by the tribe of the Iapyds, which is not mentioned in the Roman annals until the second century B.C. The other hereditary enemy was the Etruscans. Not only did the Umbrians contend with Etruscans for the adjoining lands of the Po region, where <cb /> many settlements were alternately Umbrian and Etruscan (Strabo, v. p. 216), but even in Etruria itself, many districts had been in the hands of the Umbrians before they were driven out by the Etruscans; and before the onsets of the Romans both nations made war against each other alternately to and fro across the Tiber, which formed the boundary between their territories. Thus the strongest barrier was set against the spread of the Umbrians to the north and west. It is no wonder, then, that the Umbrians, hemmed in by Kelts and Etruscans, were unable to offer any successful resistance to the conquering enemies of their own line pressing upon them from the Nar, since we see them without unity or centralized power, split up into a number of cities or States, which were just as hostile to each other as to the national enemy, as the Iguvini towards the Tadinates, the Sarsinates towards the rest of the Umbrians. The contrast to the political ideas and discipline of the Romans is apparent also in the contrasting application of an hereditary expression for their civil divisions. While the Romans subordinated the tribus as a fractional part to the <seg lang="la">civitas</seg>, with the Umbrians the <hi rend="italic">trifu</hi>, i. e. the outlying country confederation belonging to the city, stood above the <seg lang="la">tota</seg>, as they called the city organization, as the essence of the State; e. g. the district of Iguvium or the tribus Sapinia on the northern boundary of the land (<bibl n="Liv.  31. 2" default="NO" valid="yes">Livy, xxxi. 2</bibl>). As in Rome, consuls, so at the head of Umbrian States we find <hi rend="italic">marones</hi>, a word familiar through Vergil's cognomen.</p>
+ <p>The fact that we know a little more of the Umbrians, their language and civilization, than the scanty and inexact records of the ancient historians and geographers tell us, is due to the inscriptions on the monuments which the soil of the land has preserved for modern times. It is true that the smaller inscriptions from Asisium, Fulginia, Tuder, Ameria, including two dies for coinage, only seven in number, and of limited extent, give little information; but from the inscription of Assisi we may mention the mayor Propartis as the ancestor of the Umbrian Callimachus, who in the last verse of his elegy on Maecenas (iii. 9) evidently makes an allusion to the etymology, clearer in that form, of his name (<seg lang="la">in partes</seg>). Far richer and more valuable, in their extent almost unique in Italian epigraphy, are the seven bronze tablets excavated in 1444 in the theatre at Iguvium (now Gubbio) and still preserved at that place, written partly in the Umbrian, partly in the Latin alphabet, but all in the Umbrian dialect. They are the legacy of a religious brotherhood, which had at Iguvium nearly the same importance as the Pontifical Collegium at Rome, and at all events far surpassed the known Roman brotherhoods in weight and influence in the sacras of all the communities. The Temple of Iupiter Apenninus on the heights at Iguvium was famous in ancient times; but certain indications of the position of this temple and cult are lacking in the tablets.</p>
+ <p>These tablets (<ref type="cross" target="crosstabulae-iguvinae">Tabŭlae Iguvīnae</ref> or <hi rend="SmallCaps">Eugubīnae</hi>) are the work of the Fratres Atiedii, who have here set down their ritual and in addition some decisions of their College. Of the ten great families for whose alliance a sacrifice of pigs and goats is offered twice a year, the <title>Atiedias familia</title> occupies the first place; the similarity of this name to the ethnic name of the Umbrian city Attidium is certainly not accidental. The most 
+<pb n="1627" /><cb /> <figure id="fig.01627">
+<head orig="One of the Eugubine Tablets. (Bréal.)">One of the Eugubine Tablets. (Breal.)</head>
+</figure>
+ important tablets are I., VI., and VII., which describe the most essential sacrificial rites of the ancient communities, the lustration of the sacred citadel (<seg lang="la">montem piare</seg>), and the purification of the people (<seg lang="la">circumferre populum</seg>), from moment to moment and with all the ceremonies and prayers— Tablet I. briefly, VI. and VII. in greater detail, just as among the Roman <title>Fratres Arvales</title> the protocols of the rites are at first short, later more detailed and verbose. At the consecration of the citadel a procession went from gate to gate, and before and behind each gate a rich sacrifice was offered for the citadel and town of Iguvium. The celebration was concluded with sacrifices of bullocks at the Temple of Iupiter and a deity related to Iuno Curritis, which probably stood upon the citadel; the whole ceremony occupied the greater part of the day. “Then the citadel shall be purified; but if anything should be omitted, the officiating priest must observe the birds, turn back at the first gate, and begin the sacred rite anew.” Tablet II. gives directions for a sacrifice improperly made and for the service of the dead, and on the other side for the half-yearly family reunions; III. and IV. add the ritual of the <seg lang="la">ambarvalia</seg> to the <seg lang="la">amburbium</seg> and <hi rend="italic">ambilustrium</hi> described in I., VI., and VII.; V. contains decrees of the College as to what the officiating priest and the members of the society have to perform and to demand in regard to the expenses necessary for the <seg lang="la">sacra</seg>, the sacrificial feast, the distribution of the flesh, etc. As we possess no documents similar to these Umbrian <cb /> remains concerning Roman religion and religious observances, and least of all from the time when the Roman cult was not yet permeated and adulterated by the Grecian, the great importance of these monuments for all investigation of Roman as well as of Italian ceremonial systems is self-evident. As the whole Roman literature, frequently as it refers to auspices and other kindred terms, does not tell us much of their nature, the arrangement of the temple, the methods and forms of auspices, etc., as the beginning of the sixth Umbrian tablet, its statements are necessarily the foundation for all scientific investigation of these questions. The significance of the <seg lang="la">vacca honoraria</seg> in contrast to the <seg lang="la">hostiae piaculares</seg> in the Roman Arval-rites had been shown in the Umbrian <hi rend="italic">vittu vufru</hi>, before the recently discovered record of the Roman secular festival under Augustus had instructed even Roman antiquarians on the point (Mommsen, <title>Ephem. Epigraph.</title> viii. p. 270). See <ref type="cross" target="crossludi">Ludi</ref>.</p>
+ <p>But infinitely greater in value than the information which these tablets contain is their linguistic importance, for we must not forget that some light is shed by the language upon those periods of the people on which history is silent, in so far as it interprets the origin of a race and its connection with or opposition to other peoples. Although in the last century, misled by the characters, scholars associated Umbrian and Etruscan, every one knows, from the language, that these two races had nothing in common. This, however, does not preclude the possibility that in consequence of centuries of proximity each one borrowed features from the other, or both from a third; as, e. g., the Umbrian-Italian words <hi rend="italic">maron</hi> (city official) and <hi rend="italic">vinu</hi> are found also in Etruscan. This much at least is sure, on the other hand, that the Umbrians received their writing and alphabet from the Etruscans. And this very point throws still further light on primitive times. For while their language unites the Umbrians with the Latins, Sabines, Samnites, and the smaller peoples of Central Italy, so that we roughly class them all as Italic, the writing separates the Umbrians from the Latins and Faliscans, and places them in a closer relation, produced probably by longer living together, with the Samnites (Oscans), who, together with the Umbrians, adopted the same Etruscan alphabet. In this alphabet, to which the sign <figure /> for the Italic fricative <hi rend="italic">f</hi> is peculiar, the character for the vowel <seg lang="la">o</seg> was wanting (so in Umbrian <hi rend="italic">puplum</hi> is written for <hi rend="italic">poplom</hi>), as were also the characters for medial <hi rend="italic">g</hi> (for which <title>Ikuvina</title> and <title>Ijuvina</title> are written), and <hi rend="italic">d</hi>, which is supplied partly by <hi rend="italic">t </hi> (<hi rend="italic">tekuries</hi> for the Latin <seg lang="la">decuries</seg>). But the Umbrians compensated for this by incorporating two new characters in their alphabet, both modifications of an older <hi rend="italic">r</hi>-sign, as the sound represented by the first letter had really relationship with the <hi rend="italic">r</hi>-sound. The second letter was then arbitrarily formed in imitation of the first. The first is <figure />, represented 
+<pb n="1628" /><cb />
+ in Latin writing by <hi rend="italic">rs</hi>, in general etymologically corresponding to the Greek <foreign lang="greek">δ</foreign>—e. g., <seg lang="la">persu</seg>, for <foreign lang="greek">πόδα</foreign>, <seg lang="la">pedem;</seg> sometimes to <hi rend="italic">l</hi>, as in <hi rend="italic">karsitu</hi> for <foreign lang="greek">καλέιτω</foreign>, <seg lang="la">calato.</seg> The fact that the Latin transcription employed <hi rend="italic">r</hi> as well as <hi rend="italic">s</hi> indicates a dental sound, such as the rubbing of the tongue between the teeth produces. The other letter is <figure />, rendered <seg lang="la">s'</seg> in the Latin writing, etymologically corresponding to <hi rend="italic">k</hi> before <seg lang="la">i</seg> and <seg lang="la">e: fas'ia</seg> for Latin <seg lang="la">faciat, pas'e</seg> for Latin <seg lang="la">pace.</seg> This fact, that the Umbrian, in agreement with the Romance languages, changes the original guttural into the sibilant before light vowels, is the more remarkable since in related dialects no trace of this is found, nor in Latin before the time of Constantine. But this is one of many indications that important linguistic processes of the Romance languages have their beginning in the far-distant past of the Italic, but, pushed aside and restrained by the development and predominance of literary Latin, only with its decadence after the time of the Antonines come to the surface and into use again. The language of the Umbrians, as we know it from the monuments, embraces approximately the second century B.C. The inscriptions written in the Latin alphabet may be assigned on palaeographic and other grounds to the time of Sulla , roughly to B.C. 100; those written in Umbrian characters, therefore, tablets written from right to left as among the Etruscans, must be as much older as is required for certain changes in the language, shown in later tablets, to have become fixed. Among these changes the progress of rhotacism in place of an original <hi rend="italic">s</hi> is especially prominent, as e. g. in the older tablets we find the genitive singular <seg lang="la">totas</seg> like <foreign lang="greek">σοφίας</foreign>, <hi rend="italic">paterfamilias</hi>, but in the later, <hi rend="italic">totar.</hi> From this difference we distinguish Old Umbrian, written in the national alphabet, and New Umbrian, written in Latin; the former reaches scarcely beyond the war with Hannibal, but may perhaps, as appears from the older tablets (I. to V.), have been produced in different decades of the second century, since even in them slight differences in language appear.</p>
+ <p>On the whole, the Umbrian more nearly resembles the Oscan than the Latin, the reason for which has been already indicated in its phonology (Umbr.-Osc. <hi rend="italic">pantam</hi>, Lat. <seg lang="la">quantam</seg>), in inflection (nominative plural Umbr.-Osc. <seg lang="la">viros</seg>, Lat. <seg lang="la">viri;</seg> Umbr.-Osc. <hi rend="italic">frateer</hi>, Lat. <seg lang="la">fratres;</seg> fut. Umbr.Osc. <hi rend="italic">fust</hi>, Lat. <seg lang="la">erit</seg>, etc.), in vocabulary (Umbr.Osc. <hi rend="italic">heriom</hi>, Lat. <seg lang="la">velle</seg>). The discoveries of Oscan remains in recent years have confirmed the presumption of a very close agreement between Oscans and Umbrians in matter as well as in language (e.g. in the pentadic family order). But the Oscan gives the impression of a more vigorous plant, as though unfolded in the sunlight of Magna Graecia. It has more genuine, transparent, elegant forms, while with the Umbrians even their language reflects the pressure of their political relations, narrowing and stunted. All the diphthongs have disappeared (<hi rend="italic">oktur</hi>, Lat. <seg lang="la">auctor, kvestur</seg>); the endings are mangled (<seg lang="la">nome</seg> for <seg lang="la">nomen, emantu</seg> for <seg lang="la">emantur</seg>, etc.); in composition four prepositions, appearing in Latin as <seg lang="la">ab, ad, an</seg>, and <seg lang="la">in</seg>, are reduced to the bare <seg lang="la">a</seg>-vowel.</p>
+ <p>If we bring Latin into comparison, the Umbrian has most similarity in its general structure with the Latin of two periods—the first, before it had been elaborated on literary lines, the second after <cb /> the decline of the literature at its vulgarization and breaking up into provincial idioms. It is therefore not probable that a national literature preceded or accompanied the Umbrian which we know. Among the smaller tribes of Central Italy the Paeligni spoke a dialect occupying a place about midway between Umbrian and Oscan; but in spite of the greater separation in their positions, in historic times, the language of the Volsci comes near to the Umbrian. See <ref type="cross" target="crossitalia">Italia</ref>.</p>
+ <p>The principal authority is Aufrecht and Kirchhoff, <bibl default="NO"><title>Die Umbrischen Sprachdenkmäler</title> (Berlin, 1849)</bibl>; Huschke, <bibl default="NO"><title>Die Iguv. Tafeln</title> (Leipzig, 1859)</bibl>, chiefly for the facts; Bréal, <title>Les Tables Eugubines</title> (Paris, 1875, with photo-lithographic atlas), especially useful as an introduction to the language; Bücheler, <bibl default="NO"><title>Umbrica</title> (Bonn, 1883)</bibl>; Von Planta, <title>Grammatik der Osk.-Umbr. Dialekte</title>, i. <bibl default="NO">(Strassburg, 1893)</bibl>. For the history and geography, Nissen, <title>Italische Landeskunde</title>, i. p. 502 foll., and, above all, Borrmann in the <title>Corpus Inscript. Latinarum</title>, xi. 2, in which are collected the Latin inscriptions of Umbria. Cf. <ref type="cross" target="crossosci">Osci</ref>.
+ </p></div2>
+ 
+<div2 id="crossumbro" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Umbro">Umbro</head>
+
+ <p> Now the Ombrone; one of the largest rivers in Etruria, falling into the Tyrrhene Sea. <figure id="fig.01628">
+<head orig="Roman Uncia (one-third of original size).">Roman Uncia (one-third of original size).</head>
+</figure>
+ </p></div2>
+ 
+<div2 id="crossuncia" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Uncia">Uncia</head>
+
+ <p> (<foreign lang="greek">οὐγκία</foreign>). An ounce; the twelfth part of anything, especially of an <hi rend="italic">as.</hi> It was the name of a small Roman copper coin (Varro, <title>L. L.</title> v. 171).
+ </p></div2>
+ 
+<div2 id="crossuncials" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Uncials">Uncials</head>
+
+ <p> See <ref type="cross" target="crosspalaeography">Palaeography</ref>.
+ </p></div2>
+ 
+<div2 id="crossunctor" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Unctor">Unctor</head>
+
+ <p> An anointer. See <ref type="cross" target="crossaliptae">Aliptae</ref>; <ref type="cross" target="crossathletae">Athletae</ref>; <ref type="cross" target="crossbalneae">Balneae</ref>.
+ </p></div2>
+ 
+<div2 id="crossundertaker" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Undertaker">Undertaker</head>
+
+ <p> See <ref type="cross" target="crossfunus">Funus</ref>; <ref type="cross" target="crossustor">Ustor</ref>.
+ </p></div2>
+ 
+<div2 id="crossunelli" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Unelli">Unelli</head>
+
+ <p> A people on the northern coast of Gaul, opposite Britain ( <title>B. G.</title> ii. 34).
+ </p></div2>
+ 
+<div2 id="crossunguentum" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Unguentum">Unguentum</head>
+
+ <p> (<foreign lang="greek">ἔλαιον, μύρον, σμῆγμα, σμῆμα</foreign>). An ointment or perfume, both being extensively used by the ancients. The earliest and most common of unguents was olive-oil (see <ref type="cross" target="crossoliva">Oliva</ref>, <ref type="cross" target="crossoleum">Oleum</ref>), used after the bath and in the preparation of the person for athletic contests. Other oils, more expensive and used partly for the skin and partly for the hair, are enumerated by Pliny ( <bibl n="Plin. Nat. 13. 4" default="NO" valid="yes">Pliny <title>H. N.</title>xiii. 4</bibl>-18). They are usually named from the substance with which they were perfumed, as <seg lang="la">irinum</seg> (iris), <seg lang="la">rosaceum</seg> (rose), <seg lang="la">narcissinum</seg> (narcissus), <seg lang="la">sesaminum</seg> (sesame), <seg lang="la">cardamomum</seg> (cardamum), <seg lang="la">cinnamomum</seg> (cinnamon), <seg lang="la">crocinum</seg> (saffron), etc. Scented powders (<foreign lang="greek">διαπάσματα</foreign>) were also popular (Theophr. <title>Odor.</title> 8). Luxurious persons carried oils and essences to the bath in little boxes (<seg lang="la">narthecia</seg>) or in scent-bottles (see <ref type="cross" target="crossalabastrum">Alabastrum</ref>). Perfumers were called <foreign lang="greek">μυρεψοί, μυροπῶλαι</foreign>, <seg lang="la">unguentarii</seg>, and did a thriving business. In the effeminate city of Capua a whole street or square (the Seplasia) was given up to them ( <title>In Pis.</title> ii. 24). See Boettiger, <title>Sabina</title>, last ed. rev. by Fischer <bibl default="NO">(Munich, 1878)</bibl>; and for cosmetics the articles <ref type="cross" target="crossfucus">Fucus</ref>; Melinum. For soaps and powders see <ref type="cross" target="crossfullo">Fullo</ref>; <ref type="cross" target="crosssapo">Sapo</ref>; <ref type="cross" target="crossspuma">Spuma</ref>.
+ </p></div2>
+ 
+<div2 id="crossunio" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Unio">Unio</head>
+
+ <p> (<foreign lang="greek">οἴνη</foreign>). (1) The one-spot on dice. See <ref type="cross" target="crosstalus">Talus</ref>.</p>
+ <p>(2) A solitaire pearl ( <bibl n="Mart.  8. 81" default="NO" valid="yes">Mart.viii. 81</bibl><bibl n="Mart.  4" default="NO" valid="yes">Mart., 4</bibl>).
+ </p></div2>
+ 
+<div2 id="crossuniversities" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Universities">Universities</head>
+
+ <p> See <ref type="cross" target="crossalexandrian-school">Alexandrian School</ref>; <ref type="cross" target="crosseducation">Education</ref>.
+ </p></div2>
+ 
+<div2 id="crossunlucky-days" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Unlucky Days">Unlucky Days</head>
+
+ <p> See <ref type="cross" target="crossdies">Dies</ref>.
+ </p></div2>
+ 
+<div2 id="crossupis" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Upis">Upis</head>
+
+ <p> (<foreign lang="greek">Οὖπις</foreign>). (1) A surname of Artemis as the goddess assisting women in childbirth.</p>
+ <p>(2) The name of a mythical being, who is said to have reared Artemis, and who is mentioned by Vergil 
+<pb n="1629" /><cb />
+ as one of the nymphs in her train ( <bibl n="Verg. A. 11. 532" default="NO" valid="yes"> <title>Aen.</title>xi. 532</bibl>). The masculine Upis is mentioned by Cicero as the father of Artemis.
+ </p></div2>
+ 
+<div2 id="crossur" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Ur">Ur</head>
+
+ <p> See <ref type="cross" target="crossedessa">Edessa</ref>.
+ </p></div2>
+ 
+<div2 id="crossurania" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Urania">Urania</head>
+
+ <p> (<foreign lang="greek">Οὐρανία</foreign>). (1) One of the Muses, a daughter of Zeus by Mnemosyné. The ancient bard Linus is called her son by Apollo, and Hymenaeus also is said to have been a son of Urania. She was regarded, as her name indicates, as the Muse of Astronomy, and was represented with a celestial globe, to which she points with a small staff.</p>
+ <p>(2) Daughter of Oceanus and Tethys, who also occurs as a nymph in the train of Persephoné.</p>
+ <p>(3) A surname of Aphrodité, describing her as “the heavenly,” or spiritual, to distinguish her from Aphrodité Pandemos. Plato represents her as a daughter of Uranus, begotten without a mother. Wine was not used in the libations offered to her. See <ref type="cross" target="crossaphrodite">Aphrodité</ref>.
+ </p></div2>
+ 
+<div2 id="crossuranus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Urănus">Uranus</head>
+
+ <p> (<foreign lang="greek">Οὐρανός</foreign>). Sometimes called a son and sometimes the husband of Gaea (Earth). By Gaea, Uranus became the father of Oceanus, Coeus, Crius, Hyperion, Iapetus, Thia, Rhea, Themis, Mnemosyné, Phoebe, Tethys, Cronos; of the Cyclopes —Brontes, Steropes, Arges; and of the Hecatoncheires—Cottus, Briareus, and Gyes. According to Cicero, Uranus was also the father of Mercury by Dia and of Venus by Hemera ( <bibl n="Cic. N.D. 3. 22" default="NO" valid="yes">Cic. <title>N. D.</title>iii. 22</bibl><bibl n="Cic. N.D. 55" default="NO" valid="yes">Cic. N. D., 55</bibl>-58). Uranus hated his children, and immediately after their birth he confined them in Tartarus, in consequence of which he was castrated and dethroned by Cronos at the instigation of Gaea. Out of the drops of his blood sprang the Gigantes, the Melian nymphs, and, according to some, Silenus; and from the foam gathering around his limbs in the sea sprang Aphrodité ( <bibl n="Hes. Th. 126" default="NO" valid="yes">Hes. <title>Th.</title>126</bibl>- 193; <bibl n="Apollod.  1. 1" default="NO" valid="yes">Apollod.i. 1</bibl>).
+ </p></div2>
+ 
+<div2 id="crossurbigenus-pagus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Urbigēnus Pagus">Urbigenus Pagus</head>
+
+ <p> See <ref type="cross" target="crosshelvetii">Helvetii</ref>.
+ </p></div2>
+ 
+<div2 id="crossurbinum" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Urbīnum">Urbinum</head>
+
+ <p> (1) <hi rend="SmallCaps">Hortensé</hi>. Now Urbino; a town in Umbria and a municipium.</p>
+ <p>(2) <hi rend="SmallCaps">Metaurensé</hi>. Now Urbania; a town in Umbria on the river Metaurus, and not far from its source.
+ </p></div2>
+ 
+<div2 id="crossurceus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Urceus">Urceus</head>
+
+ <p> dim. <hi rend="bold">Urceŏlus</hi> (<foreign lang="greek">πρόχοος</foreign>). A one-handled jug used especially for pouring liquids from one vessel into another ( <bibl n="Mart.  11. 56" default="NO" valid="yes">Mart.xi. 56</bibl>). It was a vessel in common use at the sacrifices. Its general shape was that shown in the illustration given under <ref type="cross" target="crossoenochoe">Oenochoë</ref>.
+ </p></div2>
+ 
+<div2 id="crossurcinium" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Urcinium">Urcinium</head>
+
+ <p> Now Ajaccio; a town on the western coast of Corsica.
+ </p></div2>
+ 
+<div2 id="crossuria" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Uria">Uria</head>
+
+ <p> Called <ref type="cross" target="crosshyria">Hyria</ref> by Herodotus; a town in Calabria, on the road from Brundusium to Tarentum, was the ancient capital of Iapygia, and is said to have been founded by the Cretans under Minos ( <bibl n="Hdt.  7. 170" default="NO" valid="yes">Herod.vii. 170</bibl>). It is now Oria.
+ </p></div2>
+ 
+<div2 id="crossurinator" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Urinātor">Urinator</head>
+
+ <p> (<foreign lang="greek">ἀρνευτήρ, κολυμβητής</foreign>). A trained diver (Livy , xliv. 10).
+ </p></div2>
+ 
+<div2 id="crossurine" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Urine">Urine</head>
+
+ <p> as a detergent. See <ref type="cross" target="crossfullo">Fullo</ref>. <figure id="fig.01629">
+<head orig="Urna.">Urna.</head>
+</figure>
+ </p></div2>
+ 
+<div2 id="crossurium" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Urium">Urium</head>
+
+ <p> A small town in Apulia, from which the Sinus Urius took its name, being the bay on the northern side of Mount Garganus opposite the Diomedean Islands.
+ </p></div2>
+ 
+<div2 id="crossurna" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Urna">Urna</head>
+
+ <p> (<foreign lang="greek">κάλπις</foreign>). (1) A Roman water-vessel of the shape shown in the accompanying illustration from an original.</p>
+ <p>(2) A <cb /> vessel of similar shape used for the ashes of the dead.</p>
+ <p>(3) A vessel used for drawing lots at the Comitia, and as a ballot-box. See <ref type="cross" target="crosscomitia">Comitia</ref>.
+ </p></div2>
+ 
+<div2 id="crossursus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Ursus">Ursus</head>
+
+ <p> A contemporary of the emperor Domitian, whom he dissuaded from killing his wife Domitia. Statius addressed to him a poem of consolation on the death of a favourite slave ( <bibl n="Stat. Silv. 2. 6" default="NO" valid="yes"> <title>Silv.</title>ii. 6</bibl>), and he also mentions him in the preface to the second book of his <title>Silvae.</title>
+ </p></div2>
+ 
+<div2 id="crossurvum" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Urvum">Urvum</head>
+
+ <p> or <hi rend="bold">Urbum.</hi> The plough-tail, also called <seg lang="la">bura.</seg> See <ref type="cross" target="crossaratrum">Aratrum</ref>.
+ </p></div2>
+ 
+<div2 id="crossusipetes" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Usipĕtes">Usipetes</head>
+
+ <p> or <hi rend="bold">Usipii.</hi> A German people who, in the time of Caesar, took up their abode on the Lippe. At a later time they became lost under the general name of Alemanni ( <title>B. G.</title> iv. 4;  <bibl n="Tac. Ann. 1. 50" default="NO" valid="yes">Tac. <title>Ann.</title>i. 50</bibl>; xiii. 54).
+ </p></div2>
+ 
+<div2 id="crossustica" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Ustīca">Ustica</head>
+
+ <p> A valley near the Sabine villa of Horace.
+ </p></div2>
+ 
+<div2 id="crossustor" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Ustor">Ustor</head>
+
+ <p> (<foreign lang="greek">νεκροκαύστης</foreign>). The person who assisted the undertaker (<seg lang="la">pollinctor, libitinarius</seg>) in laying out a corpse upon the pyre for burning ( <bibl n="Mart.  3. 93" default="NO" valid="yes">Mart.iii. 93</bibl>). The occupation was regarded as a low and somewhat degraded one (Lucan, viii. 731). See <ref type="cross" target="crossfunus">Funus</ref>.
+ </p></div2>
+ 
+<div2 id="crossusucapio" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Usucapio">Usucapio</head>
+
+ <p> A term of Roman law signifying the acquisition of full and complete ownership (“Quiritary”) through undisputed possession for a prescribed period of time (<title>Dig.</title> xli. 3, 3). Only persons having <seg lang="la">commercium</seg> (q. v.) could exercise this right, and it did not, of course, apply to stolen property (<seg lang="la">res furtivae</seg>), and certain other things were exempted by law from acquisition through usucapio—e. g. property belonging to minors under guardianship, property belonging to towns, etc. (See also <ref type="cross" target="crosspignus">Pignus</ref>.) So sweeping, however, was the right of usucapio that if a man took possession of a piece of land or other property belonging to an inheritance, even though he knew that he had no title to it, and held it unchallenged for a year, it became his in full legal ownership (<bibl n="Gaius  2. 54" default="NO" valid="yes">Gaius, ii. 54</bibl>). See <bibl default="NO">Schirmer, <title>Grundidee der Usucapion</title> (1855)</bibl>; Puchta, <title>Institutionen</title>. 239, 240; and the article <ref type="cross" target="crossdominium">Dominium</ref>.
+ </p></div2>
+ 
+<div2 id="crossusura" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Usūra">Usura</head>
+
+ <p> See <ref type="cross" target="crossfenus">Fenus</ref>.
+ </p></div2>
+ 
+<div2 id="crossususfructus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Ususfructus">Ususfructus</head>
+
+ <p> The so-called “real” right of using and taking the fruits of property, whether movable or immovable, whose use does not diminish its substance and value. It was one of the “servitudes,” as to which see <ref type="cross" target="crossservitutes">Servitutes</ref>.
+ </p></div2>
+ 
+<div2 id="crossuter" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Uter">Uter</head>
+
+ <p> (<foreign lang="greek">ἀσκός</foreign>). A bag made of the skin of an animal (an ox, pig, or goat), carefully stitched at the sides, and made tight by the application of pitch or wax. It was thus used (1) as a wine-skin (<seg lang="la">uter vinarius</seg>) chiefly for the transportation of wine from place to place (see <ref type="cross" target="crossvinum">Vinum</ref>); and</p>
+ <p>(2) as a means of sport for the rustics, as shown in the article <hi rend="SmallCaps">Ascoliasmus</hi> (q. v.) ( <bibl n="Verg. G. 2. 384" default="NO" valid="yes"> <title>Georg.</title>ii. 384</bibl>). Water was also carried in skin-bags by armies on the march. The persons in charge of the watersupply were therefore called <ref type="cross" target="crossutrarii">utrarii</ref> (Livy , xliv. 33).
+ </p></div2>
+ 
+<div2 id="crossutica" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Utĭca">Utica</head>
+
+ <p> (<foreign lang="greek">Οὐτίκη</foreign> and <foreign lang="greek">Ἰτυκή</foreign>). Now Bon-Shater; the greatest city of ancient Africa next to Carthage. It was a Phoenician colony, much older, according to the ancient chronologists, than Carthage. Like others of the very ancient Phoenician colonies in the territory of Carthage, Utica maintained a comparative independence, even during the height of 
+<pb n="1630" /><cb />
+ the Punic power, and was rather the ally of Carthage than her subject. It stood on the shore of the northern part of the Carthaginian Gulf, a little west of the mouth of the Bagradas, and twentyseven Roman miles northwest of Carthage; but its site is now inland, in consequence of the changes effected by the Bagradas in the coast-line. In the Third Punic War, Utica took part with the Romans against Carthage, and was rewarded with the greatest part of the Carthaginian territory. It afterwards became renowned to all future time as the scene of the last stand made by the Pompeian party against Caesar, and of the self-sacrifice of the younger Cato , who is, in consequence, usually styled Cato Uticensis. See <ref type="cross" target="crosscato">Cato</ref>.
+ </p></div2>
+ 
+<div2 id="crossutrarii" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Utrarii">Utrarii</head>
+
+ <p> Water-carriers who supplied the soldiers on the march with water from skins (<hi rend="italic">utres</hi>) (Livy , xliv. 33.) <cb />
+ </p></div2>
+ 
+<div2 id="crossuxantis" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Uxantis">Uxantis</head>
+
+ <p> Now Ushant; an island off the western coast of Gaul.
+ </p></div2>
+ 
+<div2 id="crossuxellodunum" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Uxellodūnum">Uxellodunum</head>
+
+ <p> A town of the Cadurci in Gallia Aquitanica. It is now Issolu. It was besieged and taken by Iulius Caesar (<title>B. G.</title> viii. 32-44).
+ </p></div2>
+ 
+<div2 id="crossuxentum" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Uxentum">Uxentum</head>
+
+ <p> Now Ugento; a town in Calabria, northwest of the Iapygian promontory.
+ </p></div2>
+ 
+<div2 id="crossuxii" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Uxii">Uxii</head>
+
+ <p> (<foreign lang="greek">Οὔξιοι</foreign>). A warlike people, of predatory habits, who had their strongholds in Mount Parachoathras, on the northern border of Persis, in the district called Uxia, but who also occupied a considerable tract of country in Media.
+ </p></div2>
+ 
+<div2 id="crossuxor" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Uxor">Uxor</head>
+
+ <p> See <ref type="cross" target="crossmatrimonium">Matrimonium</ref>.
+ 
+ <cb /></p></div2>
+ </div1>
+<div1 type="notes">
+
+<pb n="nts"/>
+<note id="ref1" target="n1">* The original name for these abbreviations seems to have been litterae singulares or singulariae (cf.  Gell.xvii.9.1). At a later period notae became the more common term (cf. Festus, p. 184: Nota nunc significat signum at in pecoribus, tabulis, libris, litterae singulae vel binae). Valerius Probus wrote an elaborate work De Notis, only a part of which has been preserved. In the Digests of Justinian nota is displaced by the term sigla. The word is of doubtful origin. Most scholars regard it as a syncopated form of sigillum; others derive it from singuli; Mommsen thinks it a mere corruption from singulares.</note>
+<note id="ref2" target="n2">* Balnea is, however, used in the singular to designate a private bath in an inscription quoted by Reinesius (Inscr. xi. 115).</note>
+<note id="ref3" target="n3">The power of the quaestors to fine is disputed by Mommsen. But even curatores could fine. (See Karlowa, Rechtsgeschichte, p. 171.)</note>
+<note id="ref4" target="n4">* Very little is known of the architectural character of the early basilicas about the Forum.</note>
+<note id="ref5" target="n5">* It is stated that there were but 136 gentes in existence when the Republic was established, and that the Senate was brought up to its normal strength (300) by the free selection of the balance. It is also stated that all, or at least a portion, of the senators thus selected were plebeians; but this seems merely an inference from the other statement, and is, of course, in no sense a necessary inference. Among modern writers the dispute turns largely on the interpretation of the phrase patres conscripti. Many hold that the patres were patricians, the conscripti plebeians. Others assert that the patres were those who sat as representatives of the gentes, and that the rest, whether patricians or plebeians, were conscripti. Others again deny that there was any distinction between patres and conscripti, and translate the phrase, “enrolled senators.”</note>
+
+ 
+</div1>
+</body>
+</text>
+</tei.2>

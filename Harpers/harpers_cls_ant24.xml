@@ -1,0 +1,344 @@
+<tei.2>
+
+  <teiHeader type="text" status="new">
+   <fileDesc>
+    <titleStmt>
+ 	<title>Harpers Dictionary of Classical Antiquities (1898)</title>
+ 	<author>Harry Thurston Peck</author>
+ 	<sponsor>Perseus Project, Tufts University</sponsor>
+ 		<principal>Gregory Crane</principal>
+ 		<respStmt>
+ 		<resp>Prepared under the supervision of</resp>
+ 		<name>Lisa Cerrato</name>
+ 		<name>William Merrill</name>
+ 		<name>Elli Mylonas</name>
+ 		<name>David Smith</name>
+ 		</respStmt>
+ <funder n="org:NEH">The National Endowment for the Humanities</funder>
+    </titleStmt>
+    <publicationStmt>
+ 		<publisher>Trustees of Tufts University</publisher>
+ 		<pubPlace>Medford, MA</pubPlace>
+ 		<authority>Perseus Project</authority>
+ 		</publicationStmt>
+       <sourceDesc default="NO">
+ 	<biblStruct default="NO">
+ 	 <monogr>
+ 	  <author>Harry Thurston Peck</author>
+ 	  <title>Harpers Dictionary of Classical Antiquities</title>
+ 	  <imprint>
+ 	   <pubPlace>New York</pubPlace>
+ 	   <publisher>Harper and Brothers</publisher>
+ 	   <date>1898</date>
+ 	  </imprint>
+ 	 </monogr>
+ 	</biblStruct>
+    </sourceDesc>
+   </fileDesc>
+ 
+   <encodingDesc>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="id" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state n="chunk" unit="entry" />
+    </refsDecl>
+    <refsDecl doctype="TEI.2">
+ 	<state unit="alphabetic letter" />
+ 	<state unit="entry" />
+    </refsDecl>
+   </encodingDesc>
+ 
+   <profileDesc>
+    <langUsage default="NO">
+ 	<language id="en">English
+ 	</language><language id="greek">Greek
+     </language><language id="la">Latin
+ 	</language><language id="fr">French
+ 	</language><language id="it">Italian
+ 	</language><language id="es">Spanish
+ 	</language><language id="de">German
+ 	</language><language id="oe">Old English
+ 	</language><language id="sanskrit">Sanskrit, Harvard-Kyoto code
+ 	</language><language id="gothic">Gothic
+ 	</language><language id="pie">Indo-European
+ 	</language><language id="xhebrew">transliterated Hebrew
+    </language></langUsage>
+   </profileDesc>
+  </teiHeader>
+<text>
+<body>
+<div1 type="alphabetic letter" n="X" org="uniform" sample="complete">
+<head orig="X">X</head>
+
+ 
+<div2 id="crossx2" type="entry" org="uniform" sample="complete">
+ 
+<head orig="X">X</head>
+
+ <p> as a symbol.</p>
+ <p><hi rend="SmallCaps">In Greek</hi>.—<foreign lang="greek">Ξ</foreign>=<foreign lang="greek">ξένοι</foreign> on Attic ephebic inscriptions. As a numeral=14 (old system). <foreign lang="greek">ξ'</foreign>=60; <foreign lang="greek">ξ</foreign>=60,000.</p>
+ <p><hi rend="SmallCaps">In Latin</hi>.—X=10. See <ref type="cross" target="crossnumerus">Numerus</ref>.
+ </p></div2>
+ 
+<div2 id="crossxanthippe" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xanthippé">Xanthippe</head>
+
+ <p> (<foreign lang="greek">Ξανθίππη</foreign>). The wife of the Athenian philosopher Socrates. Many anecdotes have come down in the pages of ancient writers regarding this famous woman, whose name has become proverbial in all languages as that of a typical shrew. It is likely, however, that many of these are apocryphal, and that, on the other hand, there was much in the unpractical ways of Socrates to provoke even a good-tempered woman who loved order and a reasonable degree of conventionality. It is fair to remember, also, that Socrates himself, in a conversation with his son Lamprocles ( <bibl n="Xen. Mem. 2. 2" default="NO" valid="yes">Xen. <title>Mem.</title>ii. 2</bibl>), ascribes to Xanthippé numerous domestic virtues; while it is recorded that she showed great affection and solicitude for her husband during his imprisonment. See <ref type="cross" target="crosssocrates">Socrates</ref>.
+ </p></div2>
+ 
+<div2 id="crossxanthippus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xanthippus">Xanthippus</head>
+
+ <p> (<foreign lang="greek">Ξάνθιππος</foreign>). (1) The son of Ariphron and father of Pericles. He succeeded Themistocles as commander of the Athenian fleet in B.C. 479, and commanded the Athenians at the decisive battle of Mycalé.</p>
+ <p>(2) A Lacedaemonian, who commanded the Carthaginians against Regulus. See <ref type="cross" target="crossregulus">Regulus</ref>.
+ </p></div2>
+ 
+<div2 id="crossxanthus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xanthus">Xanthus</head>
+
+ <p> (<foreign lang="greek">Ξάνθος</foreign>). (1) See <ref type="cross" target="crossscamander">Scamander</ref>.</p>
+ <p>(2) Now the Echen Chai; the chief river of Lycia, rises in Mount Taurus, and flows south through Lycia, between Mount Cragus and Mount Massicytus, falling at last into the Mediterranean Sea a little west of Patara. It is navigable for a considerable part of its course.
+ </p></div2>
+ 
+<div2 id="crossxanthus2" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xanthus">Xanthus</head>
+
+ <p> (<foreign lang="greek">Ξάνθος</foreign>). Now Gunik; the most famous city of Lycia, standing on the west bank of the river of the same name, sixty stadia from its mouth. Twice in the course of its history it sustained sieges, which terminated in the self-destruction of the inhabitants with their property, first against the Persians under Harpagus, and long afterwards against the Romans under Brutus. The city was never restored after its destruction on the latter occasion. Xanthus was rich in temples and tombs, and other monuments of a most interesting character, and several important remains of its works of art are now exhibited in the British Museum.
+ </p></div2>
+ 
+<div2 id="crossxanthus3" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xanthus">Xanthus</head>
+
+ <p> (<foreign lang="greek">Ξάνθος</foreign>). A Greek historian. See <ref type="cross" target="crosslogographi">Logographi</ref>.
+ </p></div2>
+ 
+<div2 id="crossxenagus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xenāgus">Xenagus</head>
+
+ <p> (<foreign lang="greek">ξεναγός</foreign>). The Spartan commander of the several contingents in the Peloponnesian League ( <bibl n="Thuc.  2. 75" default="NO" valid="yes">Thuc.ii. 75</bibl>; <title>Hellen.</title> iv. 2, 19).
+ </p></div2>
+ 
+<div2 id="crossxenarchus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xenarchus">Xenarchus</head>
+
+ <p> (<foreign lang="greek">Ξέναρχος</foreign>). (1) The son of Sophron, and, like his father, a celebrated writer of mimes. He lived during the Rhegian War (B.C. 399-389), at the court of Dionysius ( <title>Poët.</title> 2).</p>
+ <p>(2) An Athenian comic poet of the Middle Comedy, who <cb /> lived as late as the time of Alexander the Great ( <hi rend="italic">Suid. s. v.</hi>). Several fragments of his writings are collected in Meineke's <title>Fragm. Com. Graec.</title>
+ </p></div2>
+ 
+<div2 id="crossxenelasia" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xenelasia">Xenelasia</head>
+
+ <p> (<foreign lang="greek">ξενηλασία</foreign>). The right possessed and exercised by the Lacedaemonian magistrates of expelling from Sparta any stranger whose presence was injurious to the public order or morals. This was an enactment of Lycurgus himself, and was intended to preserve the native character of the Spartans from any taint of foreign influence ( <title>De Rep. Lac.</title> 14, 4). See Schömann, <title>Antiq. of Greece</title>, Eng. trans. p. 278.
+ </p></div2>
+ 
+<div2 id="crossxeni" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xeni">Xeni</head>
+
+ <p> (<foreign lang="greek">ξένοι</foreign>). See <ref type="cross" target="crossmercenarii">Mercenarii</ref>.
+ </p></div2>
+ 
+<div2 id="crossxenia" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xenia">Xenia</head>
+
+ <p> (<foreign lang="greek">ξενία</foreign>). See <ref type="cross" target="crosshospitium">Hospitium</ref> in the Appendix.
+ </p></div2>
+ 
+<div2 id="crossxenia2" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xenia">Xenia</head>
+
+ <p> (<foreign lang="greek">ξένια</foreign>). (1) Presents that it was customary among the Greeks and Romans for a host to give or send to his guests, as a mark of hospitality and friendship (Pliny , <title>Epist.</title> vi. 31, 14), consisting, for the most part, of delicacies for the table; as may be collected from the thirteenth book of Martial, which is inscribed with the title <title>Xenia</title>, and relates chiefly to articles of food.
+ </p>
+ <p>(2) Pictures of still-life, such as dead game, poultry, fish, fruit, vegetables, etc. (Vitruv. vi. 7, 4; Philostrat. <title>Imag.</title> i. 31, ii. 25); so termed because they represented such objects as a host sent in presents to his guests. Many pictures of this kind have been found among the paintings of Pompeii, one of which is given under <ref type="cross" target="crosspictura">Pictura</ref>.
+ </p></div2>
+ 
+<div2 id="crossxenias-graphe" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xenias Graphé">Xenias Graphe</head>
+
+ <p> (<foreign lang="greek">ξενίας γραφή</foreign>). An action brought at Athens against any one who unlawfully exercised the rights of citizenship. If convicted, such a person was sold as a slave and his property was forfeited to the State.
+ </p></div2>
+ 
+<div2 id="crossxenocles" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xenŏcles">Xenocles</head>
+
+ <p> (<foreign lang="greek">Ξενοκλῆς</foreign>). An Athenian tragic poet, ridiculed by Aristophanes, and yet the conqueror of Euripides on one occasion (B.C. 415). He was of dwarfish stature, and son of the tragic poet Carcinus. In the <title>Peace</title>, Aristophanes applies the term <foreign lang="greek">μηχανοδίφας</foreign> to the family. From the scholiast it appears that Xenocles was celebrated for introducing stage machinery and spectacular effects, especially in the ascent or descent of his gods.
+ </p></div2>
+ 
+<div2 id="crossxenocrates" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xenocrătes">Xenocrates</head>
+
+ <p> (<foreign lang="greek">Ξενοκράτης</foreign>). A philosopher, born at Chalcedon in B.C. 400. He first attached himself to Æschines, but afterwards became a disciple of Plato, who took much pains in cultivating his genius, which was naturally heavy. Plato, comparing him with Aristotle, who was also one of his pupils, called the former a dull ass who needed the spur, and the latter a mettlesome horse who required the curb. His temper was gloomy, his aspect stern, and his manners little tinctured with urbanity. These material defects his master took great pains to correct, frequently advising him to sacrifice to the Graces; and the pupil, patient of instruction, knew how to value the kindness of his preceptor. He compared himself to a vessel with 
+<pb n="1672" /><cb />
+ a narrow orifice, which receives with difficulty, but firmly retains whatever is put into it. So attached was Xenocrates to his master that when Dionysius, in a violent fit of anger, threatened to find one who should cut off his head, he said, “Not before he has cut off this,” pointing to his own. As long as Plato lived, Xenocrates was one of his most esteemed disciples; after his death he closely adhered to his doctrine; and in B.C. 339 he took the chair in the Academy as the successor of Speusippus. Aristotle, who, about this time, returned from Macedonia, in expectation, as it should seem, of filling the chair, was greatly disappointed and chagrined at this nomination, and immediately instituted a school in the Lyceum, in opposition to that of the Academy where Xenocrates continued to preside till his death. Xenocrates was celebrated among the Athenians, not only for his wisdom, but also for his virtues (Val. Max. ii. 10; <title>Ad Att.</title> ii. 16; <bibl n="Diog.  4. 7" default="NO">Diog. Laert.iv. 7</bibl>).</p>
+ <p>So eminent was his reputation for integrity that when he was called upon to give evidence in a judicial transaction, in which an oath was usually required, the judges unanimously agreed that his simple asseveration should be taken, as a public testimony to his merit. Even Philip of Macedon found it impossible to corrupt him. When he was sent, with several others, upon an embassy to that king, he declined all private intercourse with him, that he might escape the temptations of a bribe. Philip afterwards said that of all those who had come to him on embassies from foreign States, Xenocrates was the only one whose friendship he had not been able to purchase ( <bibl n="Diog.  4. 8" default="NO">Diog. Laert.iv. 8</bibl>). During the time of the Lamiac War, being sent an ambassador to the court of Antipater for the redemption of several Athenian captives, he was invited by the prince to sit down with him at supper, but declined the invitation in the words of Odysseus to Circé (<title>Odyss.</title> x. 383). This pertinent and ingenious application of a passage in Homer, or, rather, the generous and patriotic spirit which it expressed, was so pleasing to Antipater that he immediately released the prisoners. It may be mentioned as another example of moderation in Xenocrates, that when Alexander, to mortify Aristotle, against whom he had an accidental pique, sent Xenocrates a magnificent present of fifty talents, he accepted only thirty minae, returning the rest to Alexander with this message: that the large sum which Alexander had sent was more than he should have been able to spend during his whole life. So abstemious was he with respect to food that his provision was frequently spoiled before it was consumed. His chastity was invincible, and Laïs, a celebrated Athenian courtesan, attempted, without success, to seduce him. He was an admirer of the mathematical sciences, and was so fully convinced of their utility that when a young man who was unacquainted with geometry and astronomy desired admission, he refused his request, saying that he was not yet possessed of the handles of philosophy. In fine, Xenocrates was eminent both for the purity of his morals and for his acquaintance with science, and supported the credit of the Platonic School by his lectures, his writings, and his conduct. He lived until B.C. 316, when he lost his life by accidentally falling, in the dark, into a reservoir of water.</p>
+ <p>The philosophical tenets of Xenocrates were truly Platonic, but in his method of teaching he <cb /> made use of the language of the Pythagoreans. He made Unity and Diversity principles in nature, or gods; the former of whom he represented as the father, and the latter as the mother, of the universe. He taught that the heavens are divine, and the stars gods; and that, besides these divinities, there are terrestrial demons of a middle order, between the gods and man, which partake of the nature both of mind and body, and are therefore, like human beings, capable of passions and liable to diversity of character.
+ </p>
+ <p>(2) A Greek physician of Aphrodisias, a work of whose is still remaining, on the food afforded by fishes. It is edited by Coray <bibl default="NO">(Paris, 1814)</bibl>.
+ </p></div2>
+ 
+<div2 id="crossxenophanes" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xenophănes">Xenophanes</head>
+
+ <p> (<foreign lang="greek">Ξενοφάνης</foreign>). The founder of the Eleatic school of philosophy was a native of Colophon, and born about B.C. 556. Xenophanes early left his own country and took refuge in Sicily, where he supported himself by reciting, at the court of Hiero, elegiac and iambic verses, which he had written in criticism of the Theogonies of Hesiod and Homer. From Sicily he passed over into Magna Graecia, where he took up the profession of philosophy, and became a celebrated preceptor in the Pythagorean school. Indulging, however, a greater freedom of thought than was usual among the disciples of Pythagoras, he ventured to introduce new opinions of his own, and in many particulars to oppose the doctrines of Epimenides, Thales, and Pythagoras. He held the Pythagorean chair of philosophy for about seventy years, and lived to the extreme age of a hundred. In metaphysics, Xenophanes taught that if there had ever been a time when nothing existed, nothing could ever have existed; that whatever is, always has been from eternity, without deriving its existence from any prior principles; that nature is one and without limit; that what is one is similar in all its parts, else it would be many; that the one infinite, eternal, and homogeneous universe is immutable and incapable of change; that God is one incorporeal eternal being, and, like the universe, spherical in form; that he is of the same nature with the universe, comprehending all things within himself; is intelligent, and pervades all things, but bears no resemblance to human nature either in body or mind. See V. Cousin, <title>Xénophane, Fondateur de l'École d'Élée</title>, in his <bibl default="NO"><title>Nouveaux Fragments Philos.</title> (Paris, 1828)</bibl>; Bergk, <bibl default="NO"><title>Commentatio de Arist. Libello de Xenophane, Zenone, et Gorgia</title> (Marburg, 1843)</bibl>; Reinhold, <bibl default="NO"><title>De Genuina Xenophanis Disciplina</title> (Jena, 1847)</bibl>; Kern, <bibl default="NO"><title>Quaestionum Xenophanearum Capita Duo</title> (Naumburg, 1864)</bibl>; Rüffer, <bibl default="NO"><title>De Philosoph. Xenophanis Coloph. Parte Morali</title> (Leipzig, 1868)</bibl>; and Ueberweg's <title>Hist. of Philos.</title> i. pp. 49-54 <bibl default="NO">(Eng. trans. N. Y. 1872)</bibl>. The fragments of his writings are collected in Karsten's <title>Philosophorum Graecorum Veterum Operum Reliquiae</title>, vol. i. <bibl default="NO">(Amsterdam, 1835)</bibl>, and in <bibl default="NO">Schneidewin's <title>Elegiaci Graeci</title> (1838)</bibl>.
+ </p></div2>
+ 
+<div2 id="crossxenophon" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xenŏphon">Xenophon</head>
+
+ <p> (<foreign lang="greek">Ξενοφῶν</foreign>). (1) An Athenian, the son of one Gryllus, born about B.C. 444. In his early life he was a pupil of Socrates; but the turningpoint in his career came when he decided to serve in the Greek contingent raised by Cyrus against Artaxerxes in 401. Xenophon himself mentions ( <bibl n="Xen. Anab. 3. 1" default="NO" valid="yes"> <title>Anab.</title>iii. 1</bibl>) the circumstances under which he joined this army. Proxenus, a friend of Xenophon, was already with Cyrus, and he invited Xenophon to come to Sardis, and promised to introduce him 
+<pb n="1673" /><cb />
+ to the Persian prince. Xenophon consulted his master, Socrates, who advised him to consult the oracle of Delphi, as it was a hazardous matter for him to enter the service of Cyrus, who was considered to be the friend of the Lacedaemonians and the enemy of Athens. Xenophon went to Delphi, but he did not ask the god whether he should go or not: he probably had made up his mind. He merely inquired to what gods he should sacrifice in order that he might be successful in his intended enterprise. Socrates was not satisfied with his pupil's mode of consulting the oracle, but as he had got an answer, he told him to go; and Xenophon went to Sardis, which Cyrus was just about to leave. He accompanied Cyrus into Upper Asia. In the battle of Cunaxa (B.C. 401) Cyrus lost his life, his barbarian troops were dispersed, and the Greeks were left alone on the wide plains between the Tigris and the Euphrates. (See <ref type="cross" target="crosscyrus">Cyrus</ref>.) It was after the treacherous massacre of Clearchus and others of the Greek commanders by the Persian satrap <ref type="cross" target="crosstissaphernes">Tissaphernes</ref> (q.v.) that Xenophon came forward. He had held no command in the army of Cyrus, nor had he, in fact, served as a soldier, yet he was elected one of the generals, and took the principal part in conducting the Greeks in their memorable retreat along the Tigris over the high table-lands of Armenia to Trapezus (Trebizond) on the Black Sea. From Trapezus the troops were conducted to Chrysopolis, which is opposite to Byzantium. The Greeks were in great distress, and some of them under Xenophon entered the service of Seuthes, king of Thrace. As the Lacedaemonians under Thimbron, or Thibron, were now at war with Tissaphernes and Pharnabazus, Xenophon and his troops were invited to join the army of Thimbron, and Xenophon led them back out of Asia to join Thimbron (399). Xenophon, who was very poor, made an expedition into the plain of the Caïcus with his troops before they joined Thimbron, to plunder the house and property of a Persian named Asidates. The Persian, with his women, children, and all his movables, was seized, and Xenophon, by this robbery, replenished his empty pockets ( <bibl n="Xen. Anab. 7. 8" default="NO" valid="yes"> <title>Anab.</title>vii. 8</bibl><bibl n="Xen. Anab. 23" default="NO" valid="yes"> Anab., 23</bibl>). He tells the story himself, and is evidently not at all ashamed of it. In other ways also he showed himself the prototype of an adventurous leader of <hi rend="italic">condottieri</hi>, with no ties of country or preference of nationality. He formed a scheme for establishing a town with the Ten Thousand on the shores of the Euxine; but it fell through. He joined the Spartans, as has been seen, and he continued in their service even when they were at war with Athens. Agesilaüs, the Spartan, was commanding the Lacedaemonian forces in Asia against the Persians in 396, and Xenophon was with him at least during part of the campaign. When Agesilaüs was recalled (394), Xenophon accompanied him, and he was on the side of the Lacedaemonians in the battle which they fought at Coronea (394) against the Athenians. As a natural consequence a decree of exile was passed against him at Athens. It seems that he went to Sparta with Agesilaüs after the battle of Coronea, and soon after he settled at Scillus in Elis, not far from Olympia, a spot of which he has given a description in the <title>Anabasis</title> (v. 3, 7). Here he was joined by his wife, Philesia, and his children. His children were educated in Sparta.</p>
+ <p>Xenophon was now a Lacedaemonian so far as <cb /> he could become one. His time during his long residence at Scillus was employed in hunting, writing, and entertaining his friends; and perhaps the <title>Anabasis</title> and part of the <title>Hellenica</title> were composed here. The treatise on hunting and that on the horse were probably also written during this time, when amusement and exercise of this kind formed part of his occupation. On the downfall of the Spartan supremacy, at Leuctra in 371, Xenophon was at last expelled from his quiet retreat at Scillus by the Eleans, after remaining there about twenty years. The sentence of banishment from Athens was repealed on the motion of Eubulus, but it is uncertain in what year. There is no evidence that Xenophon ever returned to Athens. He is said to have retired to Corinth after his expulsion from Scillus, and as we know nothing more, we assume that he died there. In the battle of Mantinea (B.C. 362) the Spartans and the Athenians were opposed to the Thebans, and Xenophon's two sons, Gryllus and Diodorus, fought on the side of the allies. Gryllus fell in the same battle in which Epaminondas lost his life. The events alluded to in the epilogue to the <title>Cyropaedia</title> (viii. 8, 4) show that the epilogue at least was written after 362. The time of his death, for reasons given above, seems to have been later than 357.</p>
+ <p>The following is a list of Xenophon's works: (1) The <title>Anabasis</title> (<foreign lang="greek">Ἀνάβασις</foreign>), a history of the expedition of the Younger Cyrus, and of the retreat of the Greeks who formed part of his army. It is divided into seven books. As regards the title it will be noticed that under the name “The March <title>Up</title>” (<foreign lang="greek">ἀνά</foreign>, i. e. inland from the coast of Cunaxa) is included also the much longer account of the return march <hi rend="italic">down</hi> to the Euxine. This work has immortalized Xenophon's name. It is a clear and fascinating narrative, written in a simple style, free from affectation, and giving a great deal of curious information on the country which was traversed by the retreating Greeks, and on the manners of the people. It was the first work which made the Greeks acquainted with some portions of the Persian Empire, and it showed the weakness of that extensive monarchy. The skirmishes of the retreating Greeks with their enemies, and the battles with some of the barbarian tribes, are not such events as elevate the work to the character of a military history, nor can it as such be compared with Caesar's <title>Commentarii.</title> There is no weight whatever in the argument that, because Xenophon (<title>Hellen.</title> iii. 1, 2) speaks of the expedition of Cyrus as having been related by Themistogenes, the <title>Anabasis</title> is therefore not Xenophon's work. The statement can be explained either on the theory that Xenophon speaks of his own work under a fictitious name (which was possibly the case also with the <title>Oeconomicus</title>), or, more simply, by supposing that another account was actually written by Themistogenes. It is known that a separate account was written by Sophaenetus, and there may have been others. If the latter theory be correct, it would be a natural inference that Xenophon's <title>Anabasis</title> was written after the third book of the <title>Hellenica.</title></p>
+ <p>(2) The <title>Hellenica</title> (<foreign lang="greek">Ἑλληνικά</foreign>) of Xenophon is divided into seven books, and covers the forty-eight years from the time when the History of Thucydides ends (see <ref type="cross" target="crossthucydides">Thucydides</ref>) to the battle of Mantinea (B.C. 362). The <title>Hellenica</title> is generally a dry narrative of events, and there is 
+<pb n="1674" /><cb />
+ nothing in the treatment of them which gives a special interest to the work. Some events of importance are briefly treated, but a few striking incidents are presented with some particularity. The <title>Hellenica</title> was not written at one time. Differences are traced between the first two and the later books as regards the arrangement, which in the earlier books is year by year, while, in the later, events growing out of one another are grouped together; and, as regards political sentiment, in the diminished admiration for Sparta which appears in the last three books. It is clear that book vi. was written after 357, since it mentions the death of Alexander of Pherae (vi. 4, 35); but the first four books were probably written a good deal earlier.</p>
+ <p>(3) The <title>Cyropaedia</title> (<foreign lang="greek">Κυροπαιδεία</foreign>), in eight books, is a kind of political romance, the basis of which is the history of the Elder Cyrus, the founder of the Persian monarchy. It shows how citizens are to be made virtuous and brave; and Cyrus is the model of a wise and good ruler. As a history it has no authority at all. Xenophon adopted the current stories as to Cyrus and the chief events of his reign, without any intention of subjecting them to a critical examination; nor have we any reason to suppose that his picture of Persian morals and Persian discipline is anything more than a fiction. Xenophon's object was to represent what a State might be, and he placed the scene of his fiction far enough off to give it the colour of possibility. His own philosophical notions and the usages of Sparta were the real materials out of which he constructed his political system. The <title>Cyropaedia</title> is evidence enough that Xenophon did not like the political constitution of his own country, and that a wellordered monarchy or kingdom appeared to him preferable to a democracy like Athens.</p>
+ <p>(4) The <title>Agesilaüs</title> (<foreign lang="greek">Ἀγησίλαος</foreign>) is a panegyric on Agesilaüs II., king of Sparta, the friend of Xenophon. The genuineness is disputed, not without reason, and a recent critic holds it to be the work of a young rhetorician of the school of Isocrates.</p>
+ <p>(5) The <title>Hipparchicus</title> (<foreign lang="greek">Ἱππαρχικός</foreign>) is a treatise on the duties of a commander of cavalry, and it contains many military precepts.</p>
+ <p>(6) The <title>De Re Equestri</title>, a treatise on the horse (<foreign lang="greek">Ἱππική</foreign>), was written after the <title>Hipparchicus</title>, to which treatise he refers at the end of the treatise on the horse. This essay is not limited to horsemanship as regards the rider: it shows how a man is to avoid being cheated in buying a horse, how a horse is to be trained, and the like.</p>
+ <p>(7) The <title>Cynegeticus</title> (<foreign lang="greek">Κυνηγετικός</foreign>) is a treatise on hunting; and on the dog, and the breeding and training of dogs; on the various kinds of game, and the mode of taking them. It is a treatise written by a genuine sportsman who loved the exercise and excitement of the chase, and it may be read with pleasure by a sportsman of the present day. (8, 9) The <title>Respublica Lacedaemoniorum</title> and <title>Respublica Atheniensium</title>, the two treatises on the Spartan and Athenian States (<foreign lang="greek">Λακεδαιμονίων Πολιτεία</foreign> and <foreign lang="greek">Ἀθηναίων Πολιτεία</foreign>), were both ascribed to Xenophon, but the <title>Respublica Atheniensium</title> is certainly not by his hand. It was written by some one of the oligarchical party, and possibly it is right to date it as early as 420, and therefore to regard it as the earliest Attic prose work. On the other hand, a modern critic of Xenophon (Hartmann) believes it to be by a later writer compiling from Xenophon, Aristophanes, and other <cb /> sources of information. The same critic denies the genuineness of the <title>Resp. Laced.</title>, which is more generally accepted.</p>
+ <p>(10) The <title>De Vectigalibus</title>, a treatise on the Revenues of Athens (<foreign lang="greek">Πόροι ἢ περὶ Προσόδων</foreign>), is designed to show how the public revenue of Athens may be improved.</p>
+ <p>(11) The <title>Memorabilia of Socrates</title>, in four books (<foreign lang="greek">Ἀπομνημονεύματα Σωκράτους</foreign>), was written by Xenophon to defend the memory of his master against the charge of irreligion and of corrupting the Athenian youth. Socrates is represented as holding a series of conversations, in which he develops and inculcates his moral doctrines. It is entirely a practical work, such as we might expect from the practical nature of Xenophon's mind, and it professes to exhibit Socrates as he taught. It is true that it may exhibit only one side of the Socratic argumentation, and that it does not deal in subtleties of philosophy. Xenophon was a hearer of Socrates, an admirer of his master, and anxious to defend his memory. The charges against Socrates for which he suffered were, that “Socrates was guilty of not believing in the gods which the State believed in, and introducing other new daemons (<foreign lang="greek">δαιμόνια</foreign>): he was also guilty of corrupting the youth.” Xenophon replies to these two charges specifically, and he then goes on to show what Socrates' mode of life was. The whole treatise is intended to be an answer to the charge for which Socrates was executed, and it is therefore, in its nature, not intended to be a complete exhibition of Socrates. That it is a genuine picture of the man is indisputable, and its value therefore is very great.</p>
+ <p>(12) The <title>Apology of Socrates</title> (<foreign lang="greek">Ἀπολογία Σωκράτους πρὸς τοὺς Δικαστάς</foreign>) is a short speech, containing the reasons which induced Socrates to prefer death to life. It is not one of the author's best works, and was possibly a rhetorical exercise much later than Xenophon.</p>
+ <p>(13) The <title>Symposium</title> (<foreign lang="greek">Συμπόσιον</foreign>), or Banquet of Philosophers, in which Xenophon delineates the character of Socrates. The speakers are supposed to meet at the house of Callias, a rich Athenian, at the celebration of the Great Panathenaea. Socrates and others are the speakers. The piece is interesting as a picture of an Athenian drinking-party, and of the amusement and conversation with which it was diversified. The nature of love and friendship is discussed. It is probable that Plato wrote his <title>Symposium</title> later, to some extent as a corrective.</p>
+ <p>(14) The  <title>Hiero</title> (<foreign lang="greek">Ἱέρων ἢ Τυραννικός</foreign>) is a dialogue between King Hiero and Simonides, in which the king speaks of the dangers and difficulties incident to an exalted station, and the superior happiness of a private man. The poet, on the other hand, enumerates the advantages which the possession of power gives, and the means which it offers of obliging and doing services.</p>
+ <p>(15) The <title>Oeconomicus</title> (<foreign lang="greek">Οἰκονομικός</foreign>) is an excellent treatise in the form of a dialogue between Socrates and Critobulus, in which Socrates gives instruction in the art called economic, which relates to the administration of a household and of a man's property.</p>
+ <p>In language as well as in politics, Xenophon was a cosmopolitan. His long residence in other lands resulted in his losing or abandoning pure Attic: he admits words from all dialects; hence he cannot be adduced as an authority for strict Attic usage, and it has been well shown by abundant instances that his diction is in many respects an anticipation of the common dialect of the Macedonian period. 
+<pb n="1675" /><cb /></p>
+ <p>Of each of Xenophon's treatises there are from thirty to forty manuscripts. Of the <title>Anabasis</title>, the best is a Codex Parisinus <bibl default="NO">(No. 1640)</bibl>, and dating from the fourteenth century. Of the <title>Cyropaedia</title>, the most esteemed is also in Paris <bibl default="NO">(No. 1635)</bibl>, of the fifteenth century, though a copy at Wolfenbüttel (Codex Guelferbytanus) of about the twelfth century is also valuable. Of the twenty-one manuscripts of the <title>Hellenica</title>, the best are two Codices Parisini <bibl default="NO">(Nos. 1642 and 1738)</bibl> of the fourteenth and fifteenth centuries.</p>
+ <p>Editions of the whole of Xenophon are those of Dindorf, 5 vols. <bibl default="NO">(1875)</bibl>, Henning <bibl default="NO">(1863)</bibl>, and Sauppe <bibl default="NO">(1867)</bibl>. The <seg lang="la">editio princeps</seg> was by Boninus, printed by P. Giunta at Florence in 1516. Good separate editions, with notes, are the following: of the <title>Anabasis</title> by Macmichael <bibl default="NO">(1883)</bibl>, Cobet <bibl default="NO">(1873)</bibl>, bks. i.-iv. by Goodwin and White <bibl default="NO">(1886)</bibl>, Stone <bibl default="NO">(1890)</bibl>; of the <title>Cyropaedia</title> by Holden <bibl default="NO">(1887)</bibl>; of the <title>Hellenica</title> by Breitenbach <bibl default="NO">(1873)</bibl>; Keller <bibl default="NO">(1890)</bibl>; bks. i.-iv. by Manath <bibl default="NO">(1888)</bibl>, bks. i.-ii. by Dowdall <bibl default="NO">(1890)</bibl>; of the <title>Memorabilia</title> by Winans <bibl default="NO">(1878)</bibl>, and Marshall <bibl default="NO">(1891)</bibl>; of the  <title>Hiero</title>by Holden <bibl default="NO">(1885)</bibl>; of the <title>Oeconomicus</title> by Holden <bibl default="NO">(1888)</bibl>; of the <title>De Re Equestri</title> by Morgan <bibl default="NO">(1893)</bibl>; of the <title>Agesilaüs</title> by Güthling <bibl default="NO">(1887)</bibl>; of the <title>Symposium</title> by Hug <bibl default="NO">(1880)</bibl>. There is a good English translation of Xenophon by Dakyns, 2 vols. <bibl default="NO">(New York, 1890-93)</bibl>. There is a good lexicon to Xenophon by Sturz <bibl default="NO">(1801)</bibl>, and <bibl default="NO">Sauppe's <title>Lexilogus Xenophonteus</title> (1865)</bibl> is also recommended. There is a special <title>Wörterbuch zur Xenophon's Anabasis</title> by Vollbrecht <bibl default="NO">(1876)</bibl>. See also <bibl default="NO">Taylor's <title>Syntax to the Anabasis</title> (1880)</bibl>; and on Xenophon the studies by Roquette <bibl default="NO">(1884)</bibl> and Croiset <bibl default="NO">(1873)</bibl>.
+ </p>
+ <p>(2) Of Ephesus, a writer of prose fiction, as to whose date and personality nothing is known. His remaining work is entitled <title>Ephesiaca, or the Loves of Anthia and Abrocomas</title> (<foreign lang="greek">Ἐφεσιακὰ, τὰ κατὰ Ἀνθίαν καὶ Ἀβροκόμην</foreign>). The style of the work is simple, and the story is conducted without confusion, notwithstanding the number of personages introduced; but the adventures are of a very improbable kind. Xenophon was possibly the oldest of the Greek romance writers. Editions of his work are those by Peerlkamp <bibl default="NO">(Haarlem, 1818)</bibl>; and by Passow <bibl default="NO">(Leipzig, 1833)</bibl>. See <ref type="cross" target="crossnovels-and-romances">Novels and Romances</ref>.
+ </p></div2>
+ 
+<div2 id="crossxerxes" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xerxes">Xerxes</head>
+
+ <p> (<foreign lang="greek">Ξέρξης</foreign>). (1) A king of Persia from B.C. 485 to 465. He was the son of Darius Hystaspis and Atossa. By the influence of Atossa, who was a daughter of Cyrus, Artabazanes, the son of Darius by his former wife, was set aside from the succession and Xerxes made him heir. Xerxes succeeded to the throne in B.C. 485, Darius having died in the midst of his warlike preparations against Greece, which had been delayed by a revolt of the Egyptians. Bred up in the luxury of the Persian court, among slaves and women, a mark for their flattery and intrigues, Xerxes had none of the experience which Darius had gained in early life. He was probably inferior to his father in ability; but the difference between them in fortune and education seems to have left more traces in their history than any disparity of nature. Ambition was not the prominent feature in the character of Xerxes; and, had he followed his unbiassed inclination, he would, perhaps, have been content to turn the preparations of Darius against the revolted Egyptians, and have abandoned the expedition against Greece, to which he was not urged on by any personal motives. But he was <cb /> surrounded by men who were led by various passions and interests to desire that he should prosecute his father's plans of conquest and revenge. Mardonius was eager to renew an enterprise in which he had been foiled through unavoidable mischance, and not through his own incapacity. He had a reputation to retrieve, and might look forward to the possession of a great European satrapy, at such a distance from the court as would make him almost an absolute sovereign. He was warmly seconded by those Greeks who had been drawn to Susa by the report of the approaching invasion of their country, and who wanted foreign aid to accomplish their designs. The Thessalian house of the Aleuadae, either because they thought their power insecure, or expected to increase it by becoming vassals of the Persian king, sent their emissaries to invite him to the conquest of Greece. The exiled Pisistratidae had no other chance for the recovery of Athens. They had brought a man named Onomacritus with them to court, who was one of the first among the Greeks to practise the art of forging prophecies and oracles. While their family ruled at Athens he had been detected in fabricating verses, which he had interpolated in a work ascribed to the ancient seer Musaeus, and Hipparchus, previously his patron, had banished him from the city. But the exiles saw the use they might make of his talents, and had taken him into their service. They now recommended him to Xerxes as a man who possessed a treasure of prophetical knowledge, and the young king listened with unsuspecting confidence to the encouraging predictions which Onomacritus drew from his inexhaustible stores. These various devices at length prevailed. The imagination of Xerxes was inflamed with the prospect of rivalling or surpassing the achievements of his glorious predecessors, and of extending his dominion to the ends of the earth ( <bibl n="Hdt.  7. 8" default="NO" valid="yes">Herod.vii. 8</bibl>). He resolved on the invasion of Greece. First, however, in the second year of his reign, he led an army against Egypt, and brought it again under the Persian yoke, which was purposely made more burdensome and galling than before. He intrusted this conquest to the care of his brother Achaemenes, and then returned to Persia, and bent all his thoughts towards the West. Only one of his counsellors, his uncle Artabanus, is said to have been wise and honest enough to endeavour to divert him from the enterprise, and especially to dissuade him from risking his own person in it. If any reliance could be placed on the story told by Herodotus about the deliberations held on this question in the Persian cabinet, we might suspect that the influence and arts of the Magian priesthood, which we find in this reign rising in credit, had been set at work by the adversaries of Artabanus to counteract his influence over the mind of his nephew, and to confirm Xerxes in his martial mood. The vast preparations were continued with redoubled activity, to raise an armament worthy of the presence of the king. His aim was not merely to collect a force sufficient to insure the success of his undertaking and to scare away all opposition, but also, and perhaps principally, to set his whole enormous power in magnificent array, that he might enjoy the sight of it himself, and display it to the admiration of the world.</p>
+ <p>For four years longer Asia was still kept in restless turmoil; no less time was needed to provide 
+<pb n="1676" /><cb />
+ the means of subsistence for the countless host that was about to be poured out upon Europe. Besides the stores that were to be carried in the fleet which was to accompany the army, it was necessary that magazines should be formed along the whole line of march as far as the confines of Greece. But, in addition to these prudent precautions, two works were begun, which scarcely served any other purpose than that of showing the power and majesty of Xerxes, and proving that he would suffer no obstacles to bar his progress. It would have been easy to transport his troops in ships over the Hellespont; but it was better suited to the dignity of the monarch, who was about to unite both continents under his dominion, to join them by a bridge laid upon the subject channel, and to march across as along a royal road. The storm that had destroyed the fleet which accompanied Mardonius in his unfortunate expedition had made the coast of Athos terrible to the Persians. The simplest mode of avoiding this formidable cape would have been to draw their ships over the narrow, low neck that connects the mountain with the mainland. But Xerxes preferred to leave a monument of his greatness and of his enterprise in a canal cut through the isthmus, a distance of about a mile and a half. This work employed a multitude of men for three years. The construction of the two bridges which were thrown across the Hellespont was intrusted to the skill of the Phoenicians and Egyptians.</p>
+ <p>When these preparations were drawing to a close, Xerxes set forth for Sardis, where he designed to spend the following winter, and to receive the reinforcements which he had appointed there to join the main army (B.C. 481). During his stay at Sardis the Phoenician and Egyptian engineers completed their bridges on the Hellespont; but the work was not strong enough to resist a violent storm, which broke it to pieces soon after it was finished. How far this disaster was owing to defects in its construction, which might have been avoided by ordinary skill and foresight, does not appear; but Xerxes is said to have been so much angered by the accident that he put the architects to death. Such a burst of passion would be credible enough in itself, and is only rendered doubtful by the extravagant fables that gained credit on the subject among the Greeks, who, in the bridging of the sacred Hellespont, saw the beginning of a long career of audacious impiety, and gradually transformed the fastenings with which the passage was finally secured into fetters and scourges with which the barbarian, in his madness, had thought to chastise the aggression of the rebellious stream. The construction of new bridges was committed to other engineers, perhaps to Greeks; but their names have not come down, like that of Mandrocles. By their skill two broad causeways were made to stretch from the neighbourhood of Abydus to a projecting point on the opposite shore of the Chersonesus, resting each on a row of ships, which were stayed against the strong current that bore upon them from the north by anchors and by cables fastened to both sides of the channel. The length was not far short of a mile. When all was in readiness the mighty armament was set in motion.</p>
+ <p>Early in the spring (B.C. 480) Xerxes began his march from Sardis, in all the pomp of a royal progress. The baggage led the way: it was followed by the first division of the armed crowd that had been brought together from the tributary nations; <cb /> a motley throng, including many strange varieties of complexion, dress, and language, commanded by Thessalian generals, but retaining each tribe its national armour and mode of fighting. An interval was then left, after which came 1000 picked Persian cavalry, followed by an equal number of spearsmen, whose lances, which they carried with the points turned downward, ended in knobs of gold. Next, ten sacred horses, of the Nisaean breed, were led in gorgeous trappings, preceding the chariot of the Persian Zeus, drawn by eight white horses, the driver following on foot. Then came the royal chariot, also drawn by Nisaean horses, in which Xerxes sat in state; but from time to time he exchanged it for an easier carriage, which sheltered him from the sun and changes of the weather. He was followed by two bands of horse and foot, like those which went immediately before him, and by a body of 10,000 Persian infantry, the flower of the whole army, who were called the Immortals, because their number was kept constantly full. A thousand of them, who occupied the outer ranks, bore lances tipped with gold; those of the rest were similarly ornamented with silver. They were followed by an equal number of Persian cavalry. The remainder of the host brought up the rear. In this order the army reached Abydus, and Xerxes, from a lofty throne, surveyed the crowded sides and bosom of the Hellespont, and a sort of mimic sea-fight; a spectacle which Herodotus might well think sufficient to have moved him with a touch of human sympathy. The passage did not begin before the king had prayed to the rising sun, and had tried to propitiate the Hellespont itself by libations, and by casting into it golden vessels and a sword. After the bridges had been strewed with myrtle and purified with incense, the ten thousand Immortals, crowned with chaplets, led the way. The army crossed by one bridge, the baggage by the other; yet the living tide flowed without intermission for seven days and seven nights before the last man, as Herodotus heard, the king himself, the tallest and most majestic person in the host, had arrived on the European shore. In the great plain of Doriscus, on the banks of Hebrus, an attempt was made to number the land force. A space was enclosed large enough to contain 10,000 men; into this the myriads were successively poured and discharged, till the whole mass had been rudely counted. They were then drawn up according to their natural divisions, and Xerxes rode in his chariot along the ranks, while the royal scribes recorded the names, and most likely the equipments, of the different races. The real military strength of the armament was almost lost among the undisciplined hordes who could only impede its movements as well as consume its stores. The Persians were the core of both the land and the sea force; none of the other troops are said to have equalled them in discipline or in courage; and the 24,000 men who guarded the royal person were the flower of the whole nation. Yet these were much better fitted for show than for action; and of the rest, we hear that they were distinguished from the mass of the army, not only by their superior order and valour, but also by the abundance of gold they displayed, by the train of carriages, women, and servants that followed them, and by the provisions set apart for their use.</p>
+ <p>Marching through Thrace and Macedonia, Xerxes met no resistance 
+<pb n="1677" /><cb /> until he reached the Pass of Thermopylae between Mount Oeta and the sea. This the Spartan king Leonidas, with about 7000 men, had occupied. For two days they beat back the huge masses of Persians who assailed the pass, but whose very numbers proved an impediment to their success. Even the Immortals were unsuccessful, and Xerxes, who was watching the battle, leaped thrice from his throne in his rage. Presently, however, by the treachery of a Malian named Ephialtes, a body of Persian troops was led by a secret path to the rear of the Greeks. Leonidas at once dismissed all his men except his immediate guard of 300 Spartans and a body of Thespians, and with these advanced into the plain and perished after an heroic struggle (B.C. 480). Meantime a storm had wrecked 400 of the Persian ships of war, and an indecisive naval battle had been fought off Artemisium. Xerxes occupied Athens, pillaged the Acropolis, but suffered a great naval defeat at Salamis, where 200 of his ships were sunk.</p>
+ <p>After this disastrous defeat at Salamis, Xerxes felt desirous of escaping from a state of things which was now becoming troublesome and dangerous, and Mardonius saw that he would gladly listen to any proposal that would facilitate his return. He was aware that, without a fleet, the war might probably be tedious, in which case the immense bulk of the present army would be only an encumbrance, from the difficulty of subsisting it. Besides, the ambition of Mardonius was flattered with the idea of his becoming the conqueror of Greece, while he feared that, if he now returned, he might be made answerable for the ill success of the expedition which he had advised. He therefore proposed to Xerxes to return into Asia with the body of the army, leaving himself, with 300,000 of the best troops, to complete the conquest of Greece. Xerxes assented, and, the army having retired into Boeotia, Mardonius made his selection, and then, accompanying the king into Thessaly, there parted from him, leaving him to pursue his march towards Asia, while he himself prepared to winter in Thessaly and Macedonia.</p>
+ <p>Widely different from the appearance of the glittering host, which a few months before had advanced over the plains of Macedonia and Thrace to the conquest of Greece, was the aspect of the crowd which was now hurrying back along the same road. The splendour, the pomp, the luxury, the waste, were exchanged for disaster and distress, want and disease. The magazines had been emptied by the careless profusion or peculation of those who had the charge of them; the granaries of the countries traversed by the retreating multitude were unable to supply its demands; ordinary food was often not to be found; and it was compelled to draw a scanty and unwholesome nourishment from the herbage of the plains, the bark and leaves of the trees. Sickness soon began to spread its ravages among them, and Xerxes was compelled to consign numbers to the care of the cities that lay on his road, already impoverished by the cost of his first visit, in the hope that they would tend their guests, and would not sell them into slavery if they recovered. The passage of the Strymon is said to have been peculiarly disastrous. The river had been frozen in the night hard enough to bear those who arrived first. But the ice suddenly gave way under the heat of the morning sun, and numbers perished in the waters. It is a <cb /> little surprising that Herodotus, when he is describing the miseries of the retreat, does not notice this disaster, which is so prominent in the narrative of the Persian messenger in Aeschylus. There can, however, be no doubt as to the fact; and perhaps it may furnish a useful warning not to lay too much stress on the silence of Herodotus, as a ground for rejecting even important and interesting facts which are only mentioned by later writers, though such as he must have heard of, and might have been expected to relate. It seems possible that the story he mentions of Xerxes embarking at Eïon (viii. 118) may have arisen out of the tragical passage of the Strymon.</p>
+ <p>In forty-five days after he had left Mardonius in Thessaly, he reached the Hellespont; the bridges had been broken up by foul weather, but the fleet was there to carry the army over to Abydus. Here it rested from its fatigues, and found plentiful quarters; but intemperate indulgence rendered the sudden change from scarcity to abundance almost as deadly as the previous famine. The remnant that Xerxes brought back to Sardis was a wreck, a fragment, rather than a part of his huge host.</p>
+ <p>The history of Xerxes, after the termination of his Grecian campaign, may be comprised in a brief compass. He gave himself up to a life of dissolute pleasure, and was slain by Artabanus, a captain of the royal guards, B.C. 464.
+ </p>
+ <p>(2) A son of Artaxerxes Mnemon, who succeeded his father, but was slain, after a reign of fortyfive days, by his brother Sogdianus.
+ </p></div2>
+ 
+<div2 id="crossxestes" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xestes">Xestes</head>
+
+ <p> (<foreign lang="greek">ξέστης</foreign>). The same as the Latin <seg lang="la">sextarius</seg>, from which the word is derived. See <ref type="cross" target="crosssextarius">Sextarius</ref>.
+ </p></div2>
+ 
+<div2 id="crossxiphilinus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xiphilīnus">Xiphilinus</head>
+
+ <p> (<foreign lang="greek">Ξιφιλῖνος</foreign>). A native of Trapezus, who was a monk at Constantinople, and made an abridgment of Dio Cassius, from the thirty-sixth to the eightieth book, at the command of the emperor Michael VII. Ducas <bibl default="NO">(A.D. 1071 to 1078)</bibl>. The work is executed with carelessness, and is of value only as preserving the main facts of the original, the greater part of which is lost. It is printed in most of the editions of <ref type="cross" target="crosscassius">Cassius</ref> (q.v.).
+ </p></div2>
+ 
+<div2 id="crossxiphos" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xiphos">Xiphos</head>
+
+ <p> (<foreign lang="greek">ξίφος</foreign>). The straight, two-edged sword of the Greeks. See <ref type="cross" target="crossarma">Arma</ref>; <ref type="cross" target="crossgladius">Gladius</ref>.
+ </p></div2>
+ 
+<div2 id="crossxoana" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xoăna">Xoana</head>
+
+ <p> See <ref type="cross" target="crossstatuaria-ars">Statuaria Ars</ref>.
+ </p></div2>
+ 
+<div2 id="crossxois" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xoïs">Xois</head>
+
+ <p> (<foreign lang="greek">Ξόϊς</foreign>) or <hi rend="bold">Choïs</hi> (<foreign lang="greek">Χόϊς</foreign>). An ancient city of Lower Egypt, north of Leontopolis, on an island of the Nile, in the Nomos Sebennyticus, the seat, at one time, of a dynasty of Egyptian kings. Its site is very doubtful.
+ </p></div2>
+ 
+<div2 id="crossxuthus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xuthus">Xuthus</head>
+
+ <p> (<foreign lang="greek">Ξοῦθος</foreign>). Son of Hellen by the nymph Orseïs, and a brother of Dorus and Aeolus. He was king of Peloponnesus, and the husband of Creüsa, the daughter of Erechtheus, by whom he became the father of Achaeus and <ref type="cross" target="crossion">Ion</ref> (q.v.). Others state that after the death of his father, Hellen, Xuthus was expelled from Thessaly by his brothers, and went to Athens, where he married the daughter of Erechtheus. After the death of Erechtheus, Xuthus, being chosen arbitrator, adjudged the kingdom to his eldest brother-in-law, Cecrops, in consequence of which he was expelled by the other sons of Erechtheus, and settled in Aegialus, in the Peloponnesus.
+ </p></div2>
+ 
+<div2 id="crossxyele" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xyēlé">Xyele</head>
+
+ <p> (<foreign lang="greek">ξυήλη</foreign>). The short, slightly curved, oneedged sword of the Spartans.
+ </p></div2>
+ 
+<div2 id="crossxypete" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xypĕté">Xypete</head>
+
+ <p> (<foreign lang="greek">Ξυπέτη</foreign>). A deme of Attica belonging to the tribe Cecropis, to the west of Athens. 
+<pb n="1678" /><cb />
+ </p></div2>
+ 
+<div2 id="crossxystarcha" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xystarcha">Xystarcha</head>
+
+ <p> or <hi rend="bold">Xystarches</hi> (<foreign lang="greek">ξυστάρχης</foreign>). An officer who superintended the exercise of the <seg lang="la">xystus</seg> ( <bibl n="Ammian.  21. 1" default="NO">Ammian.xxi. 1</bibl>).
+ </p></div2>
+ 
+<div2 id="crossxysticus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xystĭcus">Xysticus</head>
+
+ <p> (<foreign lang="greek">ξυστικός</foreign>). An athlete who practised his exercise in a covered corridor or <seg lang="la">xystus</seg> ( <bibl n="Suet. Aug. 45" default="NO" valid="yes">Suet. <title>Aug.</title>45</bibl>; <bibl n="Plut. Galb. 15" default="NO" valid="yes"> <title>Galb.</title>15</bibl>). <cb />
+ </p></div2>
+ 
+<div2 id="crossxystus" type="entry" org="uniform" sample="complete">
+ 
+<head orig="Xystus">Xystus</head>
+
+ <p> or <hi rend="bold">Xystum</hi> (<foreign lang="greek">ξυστός</foreign>). (1) Among the Greeks, a covered corridor in the <ref type="cross" target="crossgymnasium">gymnasium</ref> (q.v.), where the athletes exercised in winter (Vitruv. v. 11, 4; vi. 7, 5).</p>
+ <p>(2) Among the Romans, an open walk or terrace in a garden, amidst flower-beds edged with box ( <bibl n="Suet. Aug. 72" default="NO" valid="yes">Suet. <title>Aug.</title>72</bibl>; Phaedr. ii. 5). See <ref type="cross" target="crosshortus">Hortus</ref>.
+ 
+ <cb /></p></div2>
+ </div1>
+<div1 type="notes">
+
+<pb n="nts"/>
+<note id="ref1" target="n1">* The original name for these abbreviations seems to have been litterae singulares or singulariae (cf.  Gell.xvii.9.1). At a later period notae became the more common term (cf. Festus, p. 184: Nota nunc significat signum at in pecoribus, tabulis, libris, litterae singulae vel binae). Valerius Probus wrote an elaborate work De Notis, only a part of which has been preserved. In the Digests of Justinian nota is displaced by the term sigla. The word is of doubtful origin. Most scholars regard it as a syncopated form of sigillum; others derive it from singuli; Mommsen thinks it a mere corruption from singulares.</note>
+<note id="ref2" target="n2">* Balnea is, however, used in the singular to designate a private bath in an inscription quoted by Reinesius (Inscr. xi. 115).</note>
+<note id="ref3" target="n3">The power of the quaestors to fine is disputed by Mommsen. But even curatores could fine. (See Karlowa, Rechtsgeschichte, p. 171.)</note>
+<note id="ref4" target="n4">* Very little is known of the architectural character of the early basilicas about the Forum.</note>
+<note id="ref5" target="n5">* It is stated that there were but 136 gentes in existence when the Republic was established, and that the Senate was brought up to its normal strength (300) by the free selection of the balance. It is also stated that all, or at least a portion, of the senators thus selected were plebeians; but this seems merely an inference from the other statement, and is, of course, in no sense a necessary inference. Among modern writers the dispute turns largely on the interpretation of the phrase patres conscripti. Many hold that the patres were patricians, the conscripti plebeians. Others assert that the patres were those who sat as representatives of the gentes, and that the rest, whether patricians or plebeians, were conscripti. Others again deny that there was any distinction between patres and conscripti, and translate the phrase, “enrolled senators.”</note>
+
+ 
+</div1>
+</body>
+</text>
+</tei.2>
